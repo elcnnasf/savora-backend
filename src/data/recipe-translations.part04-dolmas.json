@@ -1,0 +1,427 @@
+[
+  {
+    "title": "Yarpaq Dolması",
+    "translations": {
+      "en": {
+        "title": "Yarpaq Dolması (Stuffed Grape Leaves)",
+        "description": "Tender grape leaves wrapped around a fragrant filling of minced lamb, rice and herbs, then simmered until silky. These little parcels are a cornerstone of Azerbaijani hospitality, served with garlic yogurt.",
+        "ingredients": [
+          { "name": "Grape leaves, brined", "amount": "40 leaves" },
+          { "name": "Minced lamb", "amount": "400 g" },
+          { "name": "Rice, rinsed", "amount": "100 g" },
+          { "name": "Onion, finely chopped", "amount": "2 medium" },
+          { "name": "Mint, dill and coriander", "amount": "1 bunch each" },
+          { "name": "Garlic yogurt to serve", "amount": "200 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Blanch the grape leaves briefly to soften, then trim the stems.", "duration": 8 },
+          { "step": 2, "instruction": "Mix the lamb, rice, chopped onion, herbs, salt and pepper into a filling.", "duration": 8 },
+          { "step": 3, "instruction": "Place a teaspoon of filling on each leaf, fold the sides in and roll tightly into a small cigar.", "duration": 35 },
+          { "step": 4, "instruction": "Line the pot base with extra leaves and pack the rolls seam-side down in tight layers.", "duration": 8 },
+          { "step": 5, "instruction": "Weigh down with a plate, add water to barely cover and simmer gently for 50 minutes.", "duration": 50 },
+          { "step": 6, "instruction": "Rest for 10 minutes and serve warm with garlic yogurt.", "duration": 10 }
+        ]
+      },
+      "az": {
+        "title": "Yarpaq Dolması",
+        "description": "Üzüm yarpaqlarına çəkilmiş ət, düyü və göyərtidən ibarət ətirli iç bükülüb ipək kimi yumşalana qədər bişirilir. Bu kiçik bağlamalar Azərbaycan qonaqpərvərliyinin əsasıdır, sarımsaqlı qatıqla verilir.",
+        "ingredients": [
+          { "name": "Duzlu üzüm yarpağı", "amount": "40 ədəd" },
+          { "name": "Çəkilmiş quzu əti", "amount": "400 q" },
+          { "name": "Yuyulmuş düyü", "amount": "100 q" },
+          { "name": "Soğan, incə doğranmış", "amount": "2 ədəd" },
+          { "name": "Nanə, şüyüd və keşniş", "amount": "hər biri 1 dəstə" },
+          { "name": "Sarımsaqlı qatıq", "amount": "200 q" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Üzüm yarpaqlarını yumşalmaq üçün haşlayıb saplaqlarını kəsin.", "duration": 8 },
+          { "step": 2, "instruction": "Əti, düyünü, soğanı, göyərtini, duz və istiotu qarışdırın.", "duration": 8 },
+          { "step": 3, "instruction": "Hər yarpağa bir çay qaşığı iç qoyub kənarlarını qatlayıb möhkəm bükün.", "duration": 35 },
+          { "step": 4, "instruction": "Qazanın dibini yarpaqla döşəyib dolmaları sıx şəkildə düzün.", "duration": 8 },
+          { "step": 5, "instruction": "Üstünə boşqab qoyub su əlavə edin və zəif odda 50 dəqiqə bişirin.", "duration": 50 },
+          { "step": 6, "instruction": "10 dəqiqə dincəldib sarımsaqlı qatıqla isti təqdim edin.", "duration": 10 }
+        ]
+      },
+      "ru": {
+        "title": "Ярпаг долмасы (долма в виноградных листьях)",
+        "description": "Нежные виноградные листья с ароматной начинкой из баранины, риса и зелени томятся до шелковистости. Эти маленькие свёртки — основа азербайджанского гостеприимства, подаются с чесночным йогуртом.",
+        "ingredients": [
+          { "name": "Виноградные листья, солёные", "amount": "40 шт" },
+          { "name": "Бараний фарш", "amount": "400 г" },
+          { "name": "Рис промытый", "amount": "100 г" },
+          { "name": "Лук, мелко нарезанный", "amount": "2 шт" },
+          { "name": "Мята, укроп и кинза", "amount": "по 1 пучку" },
+          { "name": "Чесночный йогурт для подачи", "amount": "200 г" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Бланшируйте виноградные листья, затем срежьте черешки.", "duration": 8 },
+          { "step": 2, "instruction": "Смешайте фарш, рис, лук, зелень, соль и перец в начинку.", "duration": 8 },
+          { "step": 3, "instruction": "Положите по чайной ложке начинки, заверните бока и сверните плотной сигарой.", "duration": 35 },
+          { "step": 4, "instruction": "Выстелите дно кастрюли листьями и уложите рулетики плотными слоями швом вниз.", "duration": 8 },
+          { "step": 5, "instruction": "Прижмите тарелкой, залейте водой почти вровень и томите 50 минут.", "duration": 50 },
+          { "step": 6, "instruction": "Дайте постоять 10 минут и подавайте тёплыми с чесночным йогуртом.", "duration": 10 }
+        ]
+      },
+      "tr": {
+        "title": "Yaprak Sarma",
+        "description": "Asma yaprakları, kıyma, pirinç ve otlardan oluşan aromatik bir harçla sarılıp ipeksi olana dek pişirilir. Bu küçük sarmalar Azerbaycan misafirperverliğinin temel taşıdır ve sarımsaklı yoğurtla servis edilir.",
+        "ingredients": [
+          { "name": "Salamura asma yaprağı", "amount": "40 adet" },
+          { "name": "Kuzu kıyma", "amount": "400 g" },
+          { "name": "Yıkanmış pirinç", "amount": "100 g" },
+          { "name": "Soğan, ince doğranmış", "amount": "2 adet" },
+          { "name": "Nane, dereotu ve kişniş", "amount": "her biri 1 demet" },
+          { "name": "Servis için sarımsaklı yoğurt", "amount": "200 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Asma yapraklarını yumuşaması için haşlayıp saplarını kesin.", "duration": 8 },
+          { "step": 2, "instruction": "Kıyma, pirinç, soğan, otlar, tuz ve biberi harç olacak şekilde karıştırın.", "duration": 8 },
+          { "step": 3, "instruction": "Her yaprağa bir çay kaşığı harç koyup kenarları katlayıp sıkıca sarın.", "duration": 35 },
+          { "step": 4, "instruction": "Tencerenin tabanını yaprakla kaplayıp sarmaları sıkıca dizin.", "duration": 8 },
+          { "step": 5, "instruction": "Üzerine tabak koyup su ekleyin ve kısık ateşte 50 dakika pişirin.", "duration": 50 },
+          { "step": 6, "instruction": "10 dakika dinlendirip sarımsaklı yoğurtla ılık servis edin.", "duration": 10 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Badımcan Dolması",
+    "translations": {
+      "en": {
+        "title": "Badımcan Dolması (Stuffed Eggplant)",
+        "description": "Hollowed eggplants filled with spiced minced lamb and herbs, then braised in a light tomato sauce until meltingly soft. Often served as part of the famous 'three brothers' trio with peppers and tomatoes.",
+        "ingredients": [
+          { "name": "Small eggplants", "amount": "6 pieces" },
+          { "name": "Minced lamb", "amount": "400 g" },
+          { "name": "Rice", "amount": "60 g" },
+          { "name": "Onion and herbs", "amount": "2 / 1 bunch" },
+          { "name": "Tomatoes, grated", "amount": "3 medium" },
+          { "name": "Butter and salt", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Cut a lid off each eggplant and scoop out the flesh to make a shell.", "duration": 12 },
+          { "step": 2, "instruction": "Soak the shells in salted water for 15 minutes to remove bitterness.", "duration": 15 },
+          { "step": 3, "instruction": "Mix lamb, rice, chopped onion, herbs and spices into a filling.", "duration": 8 },
+          { "step": 4, "instruction": "Stuff each eggplant loosely to allow the rice to swell and cap with the lid.", "duration": 15 },
+          { "step": 5, "instruction": "Arrange upright in a pot, pour over grated tomato and a little water, and braise for 45 minutes.", "duration": 45 },
+          { "step": 6, "instruction": "Serve warm with the tomato pan sauce spooned over.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Badımcan Dolması",
+        "description": "Oyulmuş badımcanlar ədviyyatlı ət və göyərti ilə doldurulub yüngül pomidor sousunda yumşalana qədər bişirilir. Çox vaxt bibər və pomidorla məşhur 'üç bacı' dəstəsində verilir.",
+        "ingredients": [
+          { "name": "Kiçik badımcan", "amount": "6 ədəd" },
+          { "name": "Çəkilmiş quzu əti", "amount": "400 q" },
+          { "name": "Düyü", "amount": "60 q" },
+          { "name": "Soğan və göyərti", "amount": "2 / 1 dəstə" },
+          { "name": "Pomidor, rəndələnmiş", "amount": "3 ədəd" },
+          { "name": "Kərə yağı və duz", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Hər badımcanın qapağını kəsib içini oyun.", "duration": 12 },
+          { "step": 2, "instruction": "Qabıqları acılığı getsin deyə duzlu suda 15 dəqiqə isladın.", "duration": 15 },
+          { "step": 3, "instruction": "Ət, düyü, soğan, göyərti və ədviyyatı qarışdırın.", "duration": 8 },
+          { "step": 4, "instruction": "Hər badımcanı boş şəkildə doldurub qapağı qoyun.", "duration": 15 },
+          { "step": 5, "instruction": "Qazana dik düzüb rəndələnmiş pomidor və su töküb 45 dəqiqə bişirin.", "duration": 45 },
+          { "step": 6, "instruction": "Pomidor sousu ilə isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Бадымджан долмасы (фаршированные баклажаны)",
+        "description": "Баклажаны, наполненные пряным бараньим фаршем с зеленью, тушатся в лёгком томатном соусе до мягкости. Часто подаются в составе знаменитого трио «три брата» с перцем и помидорами.",
+        "ingredients": [
+          { "name": "Мелкие баклажаны", "amount": "6 шт" },
+          { "name": "Бараний фарш", "amount": "400 г" },
+          { "name": "Рис", "amount": "60 г" },
+          { "name": "Лук и зелень", "amount": "2 / 1 пучок" },
+          { "name": "Помидоры, тёртые", "amount": "3 шт" },
+          { "name": "Масло и соль", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Срежьте крышечку с каждого баклажана и выньте мякоть.", "duration": 12 },
+          { "step": 2, "instruction": "Замочите оболочки в подсолённой воде 15 минут, чтобы убрать горечь.", "duration": 15 },
+          { "step": 3, "instruction": "Смешайте фарш, рис, лук, зелень и специи.", "duration": 8 },
+          { "step": 4, "instruction": "Неплотно наполните баклажаны и закройте крышечкой.", "duration": 15 },
+          { "step": 5, "instruction": "Поставьте вертикально, залейте тёртым помидором с водой и тушите 45 минут.", "duration": 45 },
+          { "step": 6, "instruction": "Подавайте тёплыми с томатным соусом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Patlıcan Dolması",
+        "description": "İçi oyulmuş patlıcanlar baharatlı kıyma ve otlarla doldurulup hafif bir domates sosunda yumuşayana dek pişirilir. Çoğunlukla biber ve domatesle ünlü 'üç kardeş' üçlüsünde servis edilir.",
+        "ingredients": [
+          { "name": "Küçük patlıcan", "amount": "6 adet" },
+          { "name": "Kuzu kıyma", "amount": "400 g" },
+          { "name": "Pirinç", "amount": "60 g" },
+          { "name": "Soğan ve otlar", "amount": "2 / 1 demet" },
+          { "name": "Domates, rendelenmiş", "amount": "3 adet" },
+          { "name": "Tereyağı ve tuz", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Her patlıcanın kapağını kesip içini oyun.", "duration": 12 },
+          { "step": 2, "instruction": "Kabukları acılığı gitsin diye tuzlu suda 15 dakika bekletin.", "duration": 15 },
+          { "step": 3, "instruction": "Kıyma, pirinç, soğan, otlar ve baharatları karıştırın.", "duration": 8 },
+          { "step": 4, "instruction": "Patlıcanları gevşekçe doldurup kapağını kapatın.", "duration": 15 },
+          { "step": 5, "instruction": "Tencereye dik dizip rendelenmiş domates ve su ekleyip 45 dakika pişirin.", "duration": 45 },
+          { "step": 6, "instruction": "Domates sosuyla ılık servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Biber Dolması",
+    "translations": {
+      "en": {
+        "title": "Biber Dolması (Stuffed Peppers)",
+        "description": "Sweet bell peppers packed with a juicy mix of minced lamb, rice and herbs, gently braised in a tomato broth. A colourful, comforting staple of the Azerbaijani table.",
+        "ingredients": [
+          { "name": "Bell peppers", "amount": "6 pieces" },
+          { "name": "Minced lamb", "amount": "400 g" },
+          { "name": "Rice", "amount": "80 g" },
+          { "name": "Onion and herbs", "amount": "2 / 1 bunch" },
+          { "name": "Tomato paste", "amount": "2 tbsp" },
+          { "name": "Butter and salt", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Cut the tops off the peppers and remove the seeds and membranes.", "duration": 8 },
+          { "step": 2, "instruction": "Mix lamb, rice, chopped onion, herbs and spices into a filling.", "duration": 8 },
+          { "step": 3, "instruction": "Fill each pepper about three-quarters full to leave room for the rice to expand.", "duration": 12 },
+          { "step": 4, "instruction": "Stand the peppers upright in a pot and cap with their tops.", "duration": 5 },
+          { "step": 5, "instruction": "Add tomato paste dissolved in water and braise covered for 45 minutes until tender.", "duration": 45 },
+          { "step": 6, "instruction": "Serve warm with the tomato broth and a dollop of yogurt.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Bibər Dolması",
+        "description": "Şirin bibərlər sulu ət, düyü və göyərti qarışığı ilə doldurulub pomidor bulyonunda bişirilir. Azərbaycan süfrəsinin rəngarəng, rahatladıcı yeməyidir.",
+        "ingredients": [
+          { "name": "Bolqar bibəri", "amount": "6 ədəd" },
+          { "name": "Çəkilmiş quzu əti", "amount": "400 q" },
+          { "name": "Düyü", "amount": "80 q" },
+          { "name": "Soğan və göyərti", "amount": "2 / 1 dəstə" },
+          { "name": "Pomidor pastası", "amount": "2 x.q." },
+          { "name": "Kərə yağı və duz", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Bibərlərin başını kəsib toxum və pərdələrini təmizləyin.", "duration": 8 },
+          { "step": 2, "instruction": "Ət, düyü, soğan, göyərti və ədviyyatı qarışdırın.", "duration": 8 },
+          { "step": 3, "instruction": "Hər bibəri dörddə üç doldurun ki, düyü genişlənsin.", "duration": 12 },
+          { "step": 4, "instruction": "Bibərləri qazana dik düzüb başlarını qoyun.", "duration": 5 },
+          { "step": 5, "instruction": "Suda həll olunmuş pomidor pastası əlavə edib örtülü 45 dəqiqə bişirin.", "duration": 45 },
+          { "step": 6, "instruction": "Pomidor bulyonu və qatıqla isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Бибер долмасы (фаршированный перец)",
+        "description": "Сладкий болгарский перец наполняется сочной смесью бараньего фарша, риса и зелени и тушится в томатном бульоне. Яркое и уютное блюдо азербайджанского стола.",
+        "ingredients": [
+          { "name": "Болгарский перец", "amount": "6 шт" },
+          { "name": "Бараний фарш", "amount": "400 г" },
+          { "name": "Рис", "amount": "80 г" },
+          { "name": "Лук и зелень", "amount": "2 / 1 пучок" },
+          { "name": "Томатная паста", "amount": "2 ст.л." },
+          { "name": "Масло и соль", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Срежьте верхушки перцев и удалите семена и перегородки.", "duration": 8 },
+          { "step": 2, "instruction": "Смешайте фарш, рис, лук, зелень и специи.", "duration": 8 },
+          { "step": 3, "instruction": "Наполните каждый перец на три четверти, чтобы рис мог разбухнуть.", "duration": 12 },
+          { "step": 4, "instruction": "Поставьте перцы вертикально и накройте верхушками.", "duration": 5 },
+          { "step": 5, "instruction": "Добавьте томатную пасту с водой и тушите под крышкой 45 минут.", "duration": 45 },
+          { "step": 6, "instruction": "Подавайте тёплыми с томатным бульоном и йогуртом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Biber Dolması",
+        "description": "Tatlı dolmalık biberler kıyma, pirinç ve ot karışımıyla doldurulup domates suyunda pişirilir. Azerbaycan sofrasının renkli ve doyurucu bir klasiğidir.",
+        "ingredients": [
+          { "name": "Dolmalık biber", "amount": "6 adet" },
+          { "name": "Kuzu kıyma", "amount": "400 g" },
+          { "name": "Pirinç", "amount": "80 g" },
+          { "name": "Soğan ve otlar", "amount": "2 / 1 demet" },
+          { "name": "Domates salçası", "amount": "2 yemek kaşığı" },
+          { "name": "Tereyağı ve tuz", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Biberlerin başlarını kesip çekirdek ve zarlarını temizleyin.", "duration": 8 },
+          { "step": 2, "instruction": "Kıyma, pirinç, soğan, otlar ve baharatları karıştırın.", "duration": 8 },
+          { "step": 3, "instruction": "Her biberi dörtte üç doldurup pirincin şişmesine yer bırakın.", "duration": 12 },
+          { "step": 4, "instruction": "Biberleri tencereye dik dizip başlarını kapatın.", "duration": 5 },
+          { "step": 5, "instruction": "Suda eritilmiş salçayı ekleyip kapalı 45 dakika pişirin.", "duration": 45 },
+          { "step": 6, "instruction": "Domates suyu ve yoğurtla ılık servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Kalam Dolması",
+    "translations": {
+      "en": {
+        "title": "Kalam Dolması (Stuffed Cabbage)",
+        "description": "Softened cabbage leaves wrapped around minced lamb and rice, braised slowly in a tangy tomato and pomegranate sauce. A hearty cold-weather favourite.",
+        "ingredients": [
+          { "name": "Cabbage, whole head", "amount": "1 large" },
+          { "name": "Minced lamb", "amount": "450 g" },
+          { "name": "Rice", "amount": "100 g" },
+          { "name": "Onion and herbs", "amount": "2 / 1 bunch" },
+          { "name": "Tomato paste and pomegranate paste", "amount": "2 tbsp / 1 tbsp" },
+          { "name": "Butter and salt", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Boil the whole cabbage for 8-10 minutes, peeling off softened leaves as they loosen.", "duration": 12 },
+          { "step": 2, "instruction": "Trim the thick central rib from each leaf so it rolls easily.", "duration": 8 },
+          { "step": 3, "instruction": "Mix lamb, rice, onion, herbs and spices into a filling.", "duration": 8 },
+          { "step": 4, "instruction": "Roll a spoon of filling in each leaf into snug parcels.", "duration": 30 },
+          { "step": 5, "instruction": "Pack into a pot, pour over tomato and pomegranate sauce, and braise for 60 minutes.", "duration": 60 },
+          { "step": 6, "instruction": "Serve warm with the rich sauce and yogurt.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Kələm Dolması",
+        "description": "Yumşaldılmış kələm yarpaqları ət və düyü ilə bükülüb turş pomidor və nar sousunda yavaş bişirilir. Soyuq havaların doyumlu sevimli yeməyidir.",
+        "ingredients": [
+          { "name": "Bütöv kələm başı", "amount": "1 böyük" },
+          { "name": "Çəkilmiş quzu əti", "amount": "450 q" },
+          { "name": "Düyü", "amount": "100 q" },
+          { "name": "Soğan və göyərti", "amount": "2 / 1 dəstə" },
+          { "name": "Pomidor və nar pastası", "amount": "2 x.q. / 1 x.q." },
+          { "name": "Kərə yağı və duz", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Bütöv kələmi 8-10 dəqiqə qaynadıb yumşalan yarpaqları ayırın.", "duration": 12 },
+          { "step": 2, "instruction": "Hər yarpağın qalın damarını kəsib asan bükülən edin.", "duration": 8 },
+          { "step": 3, "instruction": "Ət, düyü, soğan, göyərti və ədviyyatı qarışdırın.", "duration": 8 },
+          { "step": 4, "instruction": "Hər yarpağa bir qaşıq iç qoyub möhkəm bükün.", "duration": 30 },
+          { "step": 5, "instruction": "Qazana yığıb pomidor və nar sousu töküb 60 dəqiqə bişirin.", "duration": 60 },
+          { "step": 6, "instruction": "Zəngin sous və qatıqla isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Калам долмасы (голубцы)",
+        "description": "Размягчённые капустные листья заворачиваются вокруг бараньего фарша с рисом и медленно тушатся в кисловатом томатно-гранатовом соусе. Сытное любимое блюдо холодного сезона.",
+        "ingredients": [
+          { "name": "Капуста, целый кочан", "amount": "1 большой" },
+          { "name": "Бараний фарш", "amount": "450 г" },
+          { "name": "Рис", "amount": "100 г" },
+          { "name": "Лук и зелень", "amount": "2 / 1 пучок" },
+          { "name": "Томатная и гранатовая паста", "amount": "2 ст.л. / 1 ст.л." },
+          { "name": "Масло и соль", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Отварите кочан 8-10 минут, снимая размягчённые листья.", "duration": 12 },
+          { "step": 2, "instruction": "Срежьте толстую центральную жилку с каждого листа.", "duration": 8 },
+          { "step": 3, "instruction": "Смешайте фарш, рис, лук, зелень и специи.", "duration": 8 },
+          { "step": 4, "instruction": "Заверните по ложке начинки в каждый лист плотными свёртками.", "duration": 30 },
+          { "step": 5, "instruction": "Уложите в кастрюлю, залейте томатно-гранатовым соусом и тушите 60 минут.", "duration": 60 },
+          { "step": 6, "instruction": "Подавайте тёплыми с насыщенным соусом и йогуртом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Lahana Dolması",
+        "description": "Yumuşatılmış lahana yaprakları kıyma ve pirinçle sarılıp ekşi domates ve nar soslu bir karışımda ağır ateşte pişirilir. Soğuk havaların doyurucu bir favorisidir.",
+        "ingredients": [
+          { "name": "Lahana, bütün baş", "amount": "1 büyük" },
+          { "name": "Kuzu kıyma", "amount": "450 g" },
+          { "name": "Pirinç", "amount": "100 g" },
+          { "name": "Soğan ve otlar", "amount": "2 / 1 demet" },
+          { "name": "Domates ve nar ekşisi", "amount": "2 yemek kaşığı / 1 yemek kaşığı" },
+          { "name": "Tereyağı ve tuz", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Bütün lahanayı 8-10 dakika haşlayıp yumuşayan yaprakları ayırın.", "duration": 12 },
+          { "step": 2, "instruction": "Her yaprağın kalın orta damarını kesip kolay sarılır hale getirin.", "duration": 8 },
+          { "step": 3, "instruction": "Kıyma, pirinç, soğan, otlar ve baharatları karıştırın.", "duration": 8 },
+          { "step": 4, "instruction": "Her yaprağa bir kaşık harç koyup sıkıca sarın.", "duration": 30 },
+          { "step": 5, "instruction": "Tencereye dizip domates ve nar sosu döküp 60 dakika pişirin.", "duration": 60 },
+          { "step": 6, "instruction": "Yoğun sos ve yoğurtla ılık servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Mixed Dolma",
+    "translations": {
+      "en": {
+        "title": "Mixed Dolma (Üç Bacı)",
+        "description": "The celebrated 'three sisters' platter of stuffed eggplant, pepper and tomato sharing one fragrant lamb-and-rice filling, braised together in a single pot. A festive showpiece of summer vegetables.",
+        "ingredients": [
+          { "name": "Small eggplant, pepper, tomato", "amount": "3 of each" },
+          { "name": "Minced lamb", "amount": "500 g" },
+          { "name": "Rice", "amount": "100 g" },
+          { "name": "Onion and mixed herbs", "amount": "2 / 2 bunches" },
+          { "name": "Tomato paste", "amount": "2 tbsp" },
+          { "name": "Butter and salt", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Hollow out the eggplants, peppers and tomatoes, reserving the tomato pulp.", "duration": 15 },
+          { "step": 2, "instruction": "Mix lamb, rice, onion, herbs, reserved tomato pulp and spices into a filling.", "duration": 8 },
+          { "step": 3, "instruction": "Stuff each vegetable about three-quarters full and cap with its lid.", "duration": 18 },
+          { "step": 4, "instruction": "Arrange them snugly upright in a wide pot so they support each other.", "duration": 6 },
+          { "step": 5, "instruction": "Add tomato paste in water and braise gently for 50 minutes until all are tender.", "duration": 50 },
+          { "step": 6, "instruction": "Serve a trio per plate with the pan juices and garlic yogurt.", "duration": 4 }
+        ]
+      },
+      "az": {
+        "title": "Qarışıq Dolma (Üç Bacı)",
+        "description": "Doldurulmuş badımcan, bibər və pomidorun eyni ətirli ət-düyü içini paylaşdığı, bir qazanda birlikdə bişirilən məşhur 'üç bacı' yeməyi. Yay tərəvəzlərinin bayram nümayişidir.",
+        "ingredients": [
+          { "name": "Kiçik badımcan, bibər, pomidor", "amount": "hər birindən 3" },
+          { "name": "Çəkilmiş quzu əti", "amount": "500 q" },
+          { "name": "Düyü", "amount": "100 q" },
+          { "name": "Soğan və qarışıq göyərti", "amount": "2 / 2 dəstə" },
+          { "name": "Pomidor pastası", "amount": "2 x.q." },
+          { "name": "Kərə yağı və duz", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Badımcan, bibər və pomidorları oyun, pomidor içini saxlayın.", "duration": 15 },
+          { "step": 2, "instruction": "Ət, düyü, soğan, göyərti, pomidor içi və ədviyyatı qarışdırın.", "duration": 8 },
+          { "step": 3, "instruction": "Hər tərəvəzi dörddə üç doldurub qapağını qoyun.", "duration": 18 },
+          { "step": 4, "instruction": "Geniş qazana dik və sıx düzün ki, bir-birini saxlasın.", "duration": 6 },
+          { "step": 5, "instruction": "Suda pomidor pastası əlavə edib 50 dəqiqə zəif odda bişirin.", "duration": 50 },
+          { "step": 6, "instruction": "Hər boşqaba üçlük, sous və sarımsaqlı qatıqla təqdim edin.", "duration": 4 }
+        ]
+      },
+      "ru": {
+        "title": "Смешанная долма (Уч баджи)",
+        "description": "Знаменитое блюдо «три сестры» из фаршированных баклажана, перца и помидора с общей ароматной начинкой из баранины и риса, тушёных в одной кастрюле. Праздничная витрина летних овощей.",
+        "ingredients": [
+          { "name": "Мелкий баклажан, перец, помидор", "amount": "по 3 шт" },
+          { "name": "Бараний фарш", "amount": "500 г" },
+          { "name": "Рис", "amount": "100 г" },
+          { "name": "Лук и зелень", "amount": "2 / 2 пучка" },
+          { "name": "Томатная паста", "amount": "2 ст.л." },
+          { "name": "Масло и соль", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Выньте мякоть из баклажанов, перцев и помидоров, сохранив томатную мякоть.", "duration": 15 },
+          { "step": 2, "instruction": "Смешайте фарш, рис, лук, зелень, томатную мякоть и специи.", "duration": 8 },
+          { "step": 3, "instruction": "Наполните каждый овощ на три четверти и накройте крышечкой.", "duration": 18 },
+          { "step": 4, "instruction": "Поставьте их плотно вертикально в широкую кастрюлю.", "duration": 6 },
+          { "step": 5, "instruction": "Добавьте томатную пасту с водой и тушите 50 минут до мягкости.", "duration": 50 },
+          { "step": 6, "instruction": "Подавайте по три на тарелку с соусом и чесночным йогуртом.", "duration": 4 }
+        ]
+      },
+      "tr": {
+        "title": "Karışık Dolma (Üç Kardeş)",
+        "description": "Doldurulmuş patlıcan, biber ve domatesin aynı aromatik kıyma-pirinç harcını paylaştığı, tek tencerede birlikte pişen ünlü 'üç kardeş' yemeğidir. Yaz sebzelerinin bayramlık bir sunumudur.",
+        "ingredients": [
+          { "name": "Küçük patlıcan, biber, domates", "amount": "her birinden 3" },
+          { "name": "Kuzu kıyma", "amount": "500 g" },
+          { "name": "Pirinç", "amount": "100 g" },
+          { "name": "Soğan ve karışık ot", "amount": "2 / 2 demet" },
+          { "name": "Domates salçası", "amount": "2 yemek kaşığı" },
+          { "name": "Tereyağı ve tuz", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Patlıcan, biber ve domatesleri oyup domates içini ayırın.", "duration": 15 },
+          { "step": 2, "instruction": "Kıyma, pirinç, soğan, otlar, domates içi ve baharatları karıştırın.", "duration": 8 },
+          { "step": 3, "instruction": "Her sebzeyi dörtte üç doldurup kapağını kapatın.", "duration": 18 },
+          { "step": 4, "instruction": "Geniş tencereye dik ve sıkı dizin ki birbirini desteklesin.", "duration": 6 },
+          { "step": 5, "instruction": "Suda salça ekleyip 50 dakika kısık ateşte pişirin.", "duration": 50 },
+          { "step": 6, "instruction": "Her tabağa üçlü, sos ve sarımsaklı yoğurtla servis edin.", "duration": 4 }
+        ]
+      }
+    }
+  }
+]

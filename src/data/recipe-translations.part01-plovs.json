@@ -1,0 +1,641 @@
+[
+  {
+    "title": "Shah Plov (Şah Plov)",
+    "translations": {
+      "en": {
+        "title": "Shah Plov (Crown Pilaf)",
+        "description": "The crown jewel of Azerbaijani cuisine, Shah Plov is saffron rice wrapped in a golden crust of lavash and baked until crisp. Studded with lamb, dried fruits and chestnuts, it is presented at the table and cut open like a royal crown.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "500 g" },
+          { "name": "Lamb shoulder, cubed", "amount": "600 g" },
+          { "name": "Thin lavash bread", "amount": "3 sheets" },
+          { "name": "Butter, melted", "amount": "150 g" },
+          { "name": "Dried apricots and raisins", "amount": "150 g" },
+          { "name": "Chestnuts, peeled", "amount": "100 g" },
+          { "name": "Saffron, soaked in warm water", "amount": "1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Rinse the rice until the water runs clear, then soak in salted water for 30 minutes while you prepare the filling.", "duration": 35 },
+          { "step": 2, "instruction": "Brown the lamb cubes in butter over medium-high heat until deeply golden on all sides, about 10 minutes, then add the dried fruit and chestnuts and simmer until the meat is tender.", "duration": 40 },
+          { "step": 3, "instruction": "Parboil the drained rice in plenty of salted boiling water for 6-7 minutes until the grains are soft outside but still firm in the centre, then drain.", "duration": 10 },
+          { "step": 4, "instruction": "Brush a deep pot generously with melted butter and line the base and sides with overlapping lavash sheets, letting the edges hang over the rim.", "duration": 5 },
+          { "step": 5, "instruction": "Layer the parboiled rice and the lamb filling inside the lavash crust, drizzle with saffron water and remaining butter, then fold the overhanging lavash over the top to seal.", "duration": 8 },
+          { "step": 6, "instruction": "Cover and cook on low heat for 50-60 minutes until the lavash turns deep golden-brown and crisp; a fragrant toasted aroma signals it is ready.", "duration": 60 },
+          { "step": 7, "instruction": "Invert onto a platter so the crisp crust forms a crown, then cut open at the table to reveal the steaming saffron rice inside.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Şah Plov",
+        "description": "Azərbaycan mətbəxinin tacı sayılan Şah Plov zəfəranlı düyünün lavaş qazmağına bükülüb qızarana qədər bişirilməsidir. Quzu əti, qurudulmuş meyvələr və şabalıdla bəzədilir və süfrəyə tac kimi təqdim olunur.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "500 q" },
+          { "name": "Quzu kürəyi, doğranmış", "amount": "600 q" },
+          { "name": "Nazik lavaş", "amount": "3 vərəq" },
+          { "name": "Əridilmiş kərə yağı", "amount": "150 q" },
+          { "name": "Qaysı və kişmiş", "amount": "150 q" },
+          { "name": "Təmizlənmiş şabalıd", "amount": "100 q" },
+          { "name": "İsti suda həll olunmuş zəfəran", "amount": "1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Düyünü suyu durulaşana qədər yuyun, sonra duzlu suda 30 dəqiqə isladın.", "duration": 35 },
+          { "step": 2, "instruction": "Quzu ətini kərə yağında hər tərəfdən qızarana qədər, təxminən 10 dəqiqə qovurun, sonra quru meyvə və şabalıdı əlavə edib ət yumşalana qədər bişirin.", "duration": 40 },
+          { "step": 3, "instruction": "Süzülmüş düyünü çoxlu duzlu qaynar suda 6-7 dəqiqə yarımhazır vəziyyətə qədər bişirib süzün.", "duration": 10 },
+          { "step": 4, "instruction": "Dərin qazanı bol yağla yağlayıb dibini və divarlarını lavaşla örtün, kənarlarını qazanın ağzından sallayın.", "duration": 5 },
+          { "step": 5, "instruction": "Düyü və ət qarışığını lavaşın içinə qatladıyın, zəfəran suyu və qalan yağı əlavə edin, sonra lavaşın kənarlarını üstə qatlayıb bağlayın.", "duration": 8 },
+          { "step": 6, "instruction": "Üstünü örtüb zəif odda 50-60 dəqiqə lavaş tünd qızılı və xırtıldayan olana qədər bişirin.", "duration": 60 },
+          { "step": 7, "instruction": "Boşqaba çevirib tac formasını alın və süfrədə kəsib içindəki buğlanan zəfəranlı düyünü açın.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Шах-плов",
+        "description": "Жемчужина азербайджанской кухни, шах-плов — это шафрановый рис, завёрнутый в золотистую корочку из лаваша и запечённый до хруста. С бараниной, сухофруктами и каштанами он подаётся к столу и разрезается, как царская корона.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "500 г" },
+          { "name": "Баранья лопатка, кубиками", "amount": "600 г" },
+          { "name": "Тонкий лаваш", "amount": "3 листа" },
+          { "name": "Топлёное сливочное масло", "amount": "150 г" },
+          { "name": "Курага и изюм", "amount": "150 г" },
+          { "name": "Очищенные каштаны", "amount": "100 г" },
+          { "name": "Шафран, замоченный в тёплой воде", "amount": "1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Промойте рис до прозрачной воды и замочите в подсолённой воде на 30 минут.", "duration": 35 },
+          { "step": 2, "instruction": "Обжарьте кубики баранины на масле до золотистой корочки около 10 минут, добавьте сухофрукты и каштаны и тушите до мягкости мяса.", "duration": 40 },
+          { "step": 3, "instruction": "Отварите откинутый рис в подсолённой кипящей воде 6-7 минут до полуготовности и слейте воду.", "duration": 10 },
+          { "step": 4, "instruction": "Обильно смажьте глубокую кастрюлю маслом и выложите дно и стенки лавашем, оставив края свисать.", "duration": 5 },
+          { "step": 5, "instruction": "Выложите рис и мясную начинку внутрь лаваша, полейте шафрановой водой и маслом, заверните свисающие края наверх.", "duration": 8 },
+          { "step": 6, "instruction": "Накройте и готовьте на слабом огне 50-60 минут, пока лаваш не станет золотисто-хрустящим.", "duration": 60 },
+          { "step": 7, "instruction": "Переверните на блюдо короной и разрежьте у стола, открывая ароматный шафрановый рис.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Şah Pilavı",
+        "description": "Azerbaycan mutfağının tacı sayılan Şah Pilavı, safranlı pirincin lavaşa sarılıp altın rengi kıtır bir kabuk olana dek pişirilmesiyle yapılır. Kuzu eti, kuru meyveler ve kestane ile süslenir ve sofraya bir taç gibi sunulur.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "500 g" },
+          { "name": "Kuzu kürek, kuşbaşı", "amount": "600 g" },
+          { "name": "İnce lavaş", "amount": "3 yaprak" },
+          { "name": "Eritilmiş tereyağı", "amount": "150 g" },
+          { "name": "Kuru kayısı ve kuru üzüm", "amount": "150 g" },
+          { "name": "Ayıklanmış kestane", "amount": "100 g" },
+          { "name": "Ilık suda çözülmüş safran", "amount": "1 tatlı kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Pirinci suyu berraklaşana dek yıkayın ve tuzlu suda 30 dakika bekletin.", "duration": 35 },
+          { "step": 2, "instruction": "Kuzu kuşbaşılarını tereyağında her tarafı kızarana dek yaklaşık 10 dakika kavurun, kuru meyve ve kestaneyi ekleyip et yumuşayana dek pişirin.", "duration": 40 },
+          { "step": 3, "instruction": "Süzülmüş pirinci bol tuzlu kaynar suda 6-7 dakika yarı pişene dek haşlayıp süzün.", "duration": 10 },
+          { "step": 4, "instruction": "Derin tencereyi bolca yağlayıp tabanını ve kenarlarını lavaşla kaplayın, kenarları dışarı sarkıtın.", "duration": 5 },
+          { "step": 5, "instruction": "Pirinç ve et harcını lavaşın içine koyun, safran suyu ve kalan yağı gezdirin, sarkan lavaşı üstte kapatın.", "duration": 8 },
+          { "step": 6, "instruction": "Kapağını kapatıp kısık ateşte 50-60 dakika lavaş altın rengi ve çıtır olana dek pişirin.", "duration": 60 },
+          { "step": 7, "instruction": "Tabağa taç gibi ters çevirip sofrada kesin ve içindeki safranlı pirinci ortaya çıkarın.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Levengi Plov",
+    "translations": {
+      "en": {
+        "title": "Levengi Plov",
+        "description": "A Talysh-style pilaf served with chicken or fish stuffed with a tangy walnut and onion paste known as levengi. The sour-sweet filling, sharpened with pomegranate paste, contrasts beautifully with buttery saffron rice.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "500 g" },
+          { "name": "Chicken, whole or pieces", "amount": "1.2 kg" },
+          { "name": "Walnuts, ground", "amount": "250 g" },
+          { "name": "Onions, finely grated", "amount": "3 large" },
+          { "name": "Pomegranate paste (narsharab)", "amount": "3 tbsp" },
+          { "name": "Butter", "amount": "120 g" },
+          { "name": "Saffron water", "amount": "3 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Soak the rinsed rice in salted water for 30 minutes while making the filling.", "duration": 30 },
+          { "step": 2, "instruction": "Fry the grated onion in butter until soft and golden, about 8 minutes, then stir in ground walnuts and pomegranate paste to form a thick dark paste.", "duration": 15 },
+          { "step": 3, "instruction": "Stuff the chicken cavity with the walnut levengi paste and secure the opening with toothpicks.", "duration": 10 },
+          { "step": 4, "instruction": "Roast the stuffed chicken at 190°C for 60-70 minutes, basting with saffron butter, until the skin is crisp and juices run clear.", "duration": 70 },
+          { "step": 5, "instruction": "Parboil the drained rice in salted boiling water for 6-7 minutes, then drain.", "duration": 10 },
+          { "step": 6, "instruction": "Steam the rice in a buttered pot on low heat for 30 minutes until fluffy, drizzling saffron water over the top.", "duration": 30 },
+          { "step": 7, "instruction": "Carve the levengi chicken and serve over the mounded saffron rice.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Ləvəngi Plov",
+        "description": "Talış üslubunda plov olub, qoz və soğanla doldurulmuş toyuq və ya balıqla verilir. Nar turşusu ilə kəskinləşdirilmiş turş-şirin iç yağlı zəfəranlı düyü ilə gözəl uyğunlaşır.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "500 q" },
+          { "name": "Toyuq, bütöv və ya hissə", "amount": "1.2 kq" },
+          { "name": "Üyüdülmüş qoz", "amount": "250 q" },
+          { "name": "İncə rəndələnmiş soğan", "amount": "3 ədəd" },
+          { "name": "Narşərab", "amount": "3 x.q." },
+          { "name": "Kərə yağı", "amount": "120 q" },
+          { "name": "Zəfəran suyu", "amount": "3 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yuyulmuş düyünü duzlu suda 30 dəqiqə isladın.", "duration": 30 },
+          { "step": 2, "instruction": "Rəndələnmiş soğanı yağda 8 dəqiqə qızardın, sonra qoz və narşərabı qatıb qatı tünd iç hazırlayın.", "duration": 15 },
+          { "step": 3, "instruction": "Toyuğun içini ləvəngi qarışığı ilə doldurub ağzını bağlayın.", "duration": 10 },
+          { "step": 4, "instruction": "Doldurulmuş toyuğu 190°C-də 60-70 dəqiqə, zəfəranlı yağla yağlayaraq, dərisi xırtıldayana qədər bişirin.", "duration": 70 },
+          { "step": 5, "instruction": "Süzülmüş düyünü duzlu qaynar suda 6-7 dəqiqə yarımhazır bişirib süzün.", "duration": 10 },
+          { "step": 6, "instruction": "Düyünü yağlı qazanda zəif odda 30 dəqiqə dəmləyin, üstünə zəfəran suyu tökün.", "duration": 30 },
+          { "step": 7, "instruction": "Ləvəngi toyuğu doğrayıb zəfəranlı düyünün üstündə təqdim edin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Левенги плов",
+        "description": "Плов в талышском стиле, который подаётся с курицей или рыбой, начинённой кисло-сладкой пастой из грецких орехов и лука — левенги. Кислинка гранатовой пасты прекрасно оттеняет маслянистый шафрановый рис.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "500 г" },
+          { "name": "Курица, целая или кусочками", "amount": "1.2 кг" },
+          { "name": "Молотые грецкие орехи", "amount": "250 г" },
+          { "name": "Лук, мелко натёртый", "amount": "3 шт" },
+          { "name": "Гранатовая паста (наршараб)", "amount": "3 ст.л." },
+          { "name": "Сливочное масло", "amount": "120 г" },
+          { "name": "Шафрановая вода", "amount": "3 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замочите промытый рис в подсолённой воде на 30 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Обжарьте натёртый лук на масле 8 минут, вмешайте орехи и гранатовую пасту до густой тёмной массы.", "duration": 15 },
+          { "step": 3, "instruction": "Начините курицу ореховой пастой левенги и закрепите отверстие.", "duration": 10 },
+          { "step": 4, "instruction": "Запекайте фаршированную курицу при 190°C 60-70 минут, поливая шафрановым маслом, до хрустящей корочки.", "duration": 70 },
+          { "step": 5, "instruction": "Отварите рис в подсолённой воде 6-7 минут до полуготовности и слейте.", "duration": 10 },
+          { "step": 6, "instruction": "Доведите рис в смазанной маслом кастрюле на слабом огне 30 минут, полив шафрановой водой.", "duration": 30 },
+          { "step": 7, "instruction": "Разделайте курицу левенги и подайте на горке шафранового риса.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Levengi Pilavı",
+        "description": "Talış usulü bir pilav olup, ceviz ve soğandan yapılan ekşi-tatlı levengi harcıyla doldurulmuş tavuk veya balıkla servis edilir. Nar ekşisiyle keskinleşen iç, tereyağlı safranlı pilavla mükemmel uyum sağlar.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "500 g" },
+          { "name": "Tavuk, bütün veya parça", "amount": "1.2 kg" },
+          { "name": "Çekilmiş ceviz", "amount": "250 g" },
+          { "name": "İnce rendelenmiş soğan", "amount": "3 adet" },
+          { "name": "Nar ekşisi (narşarab)", "amount": "3 yemek kaşığı" },
+          { "name": "Tereyağı", "amount": "120 g" },
+          { "name": "Safran suyu", "amount": "3 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yıkanmış pirinci tuzlu suda 30 dakika bekletin.", "duration": 30 },
+          { "step": 2, "instruction": "Rendelenmiş soğanı yağda 8 dakika kavurun, ceviz ve nar ekşisini ekleyip koyu bir harç yapın.", "duration": 15 },
+          { "step": 3, "instruction": "Tavuğun içini levengi harcıyla doldurup ağzını kapatın.", "duration": 10 },
+          { "step": 4, "instruction": "Doldurulmuş tavuğu 190°C'de 60-70 dakika, safranlı yağla yağlayarak, derisi çıtır olana dek pişirin.", "duration": 70 },
+          { "step": 5, "instruction": "Süzülmüş pirinci tuzlu kaynar suda 6-7 dakika yarı pişene dek haşlayıp süzün.", "duration": 10 },
+          { "step": 6, "instruction": "Pirinci yağlı tencerede kısık ateşte 30 dakika demleyin, üzerine safran suyu gezdirin.", "duration": 30 },
+          { "step": 7, "instruction": "Levengi tavuğu doğrayıp safranlı pilavın üzerinde servis edin.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Qovurma Plov",
+    "translations": {
+      "en": {
+        "title": "Qovurma Plov (Braised Lamb Pilaf)",
+        "description": "A classic everyday Azerbaijani pilaf of fluffy saffron rice served with slow-braised lamb and onions. The tender qovurma stew is spooned over the rice, often with a side of chestnuts and dried fruit.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "500 g" },
+          { "name": "Lamb, cut into chunks", "amount": "700 g" },
+          { "name": "Onions, sliced", "amount": "3 medium" },
+          { "name": "Butter", "amount": "120 g" },
+          { "name": "Saffron water", "amount": "3 tbsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Dried plums (optional)", "amount": "100 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Soak the rinsed rice in salted water for 30 minutes.", "duration": 30 },
+          { "step": 2, "instruction": "Sear the lamb chunks in butter over high heat until browned, about 8 minutes.", "duration": 8 },
+          { "step": 3, "instruction": "Add the sliced onions, season, cover and braise on low heat for 60 minutes until the lamb is fork-tender, adding dried plums in the last 15 minutes.", "duration": 60 },
+          { "step": 4, "instruction": "Parboil the drained rice in salted boiling water for 6-7 minutes, then drain.", "duration": 10 },
+          { "step": 5, "instruction": "Layer the rice in a buttered pot, drizzle with saffron water, cover with a cloth-wrapped lid and steam on low for 30 minutes.", "duration": 30 },
+          { "step": 6, "instruction": "Fluff the rice gently with a spoon so the grains separate and turn golden at the base.", "duration": 3 },
+          { "step": 7, "instruction": "Mound the rice on a platter and top with the braised lamb qovurma.", "duration": 4 }
+        ]
+      },
+      "az": {
+        "title": "Qovurma Plov",
+        "description": "Azərbaycanın gündəlik klassik plovu olub, lopa kimi zəfəranlı düyü ilə yavaş bişirilmiş quzu və soğanla verilir. Yumşaq qovurma düyünün üstünə tökülür, çox vaxt şabalıd və quru meyvə ilə.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "500 q" },
+          { "name": "Quzu əti, doğranmış", "amount": "700 q" },
+          { "name": "Soğan, dilimlənmiş", "amount": "3 ədəd" },
+          { "name": "Kərə yağı", "amount": "120 q" },
+          { "name": "Zəfəran suyu", "amount": "3 x.q." },
+          { "name": "Duz və qara istiot", "amount": "dadına görə" },
+          { "name": "Quru gavalı (istəyə görə)", "amount": "100 q" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yuyulmuş düyünü duzlu suda 30 dəqiqə isladın.", "duration": 30 },
+          { "step": 2, "instruction": "Quzu ətini yağda güclü odda 8 dəqiqə qızardın.", "duration": 8 },
+          { "step": 3, "instruction": "Soğanı əlavə edin, ədviyyat vurub örtülü halda zəif odda 60 dəqiqə bişirin, son 15 dəqiqədə quru gavalı qatın.", "duration": 60 },
+          { "step": 4, "instruction": "Süzülmüş düyünü duzlu qaynar suda 6-7 dəqiqə yarımhazır bişirib süzün.", "duration": 10 },
+          { "step": 5, "instruction": "Düyünü yağlı qazana qatlayın, zəfəran suyu töküb dəsmalla bağlanmış qapaqla zəif odda 30 dəqiqə dəmləyin.", "duration": 30 },
+          { "step": 6, "instruction": "Düyünü qaşıqla yüngülcə qarışdırıb dənələri ayırın.", "duration": 3 },
+          { "step": 7, "instruction": "Düyünü boşqaba yığıb üstünə qovurmanı tökün.", "duration": 4 }
+        ]
+      },
+      "ru": {
+        "title": "Говурма плов",
+        "description": "Классический повседневный азербайджанский плов из рассыпчатого шафранового риса с томлёной бараниной и луком. Нежная говурма выкладывается поверх риса, часто с каштанами и сухофруктами.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "500 г" },
+          { "name": "Баранина кусочками", "amount": "700 г" },
+          { "name": "Лук, нарезанный", "amount": "3 шт" },
+          { "name": "Сливочное масло", "amount": "120 г" },
+          { "name": "Шафрановая вода", "amount": "3 ст.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Чернослив (по желанию)", "amount": "100 г" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замочите промытый рис в подсолённой воде на 30 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Обжарьте куски баранины на масле на сильном огне 8 минут.", "duration": 8 },
+          { "step": 3, "instruction": "Добавьте лук, приправьте и тушите под крышкой на слабом огне 60 минут, добавив чернослив за 15 минут до конца.", "duration": 60 },
+          { "step": 4, "instruction": "Отварите рис в подсолённой воде 6-7 минут до полуготовности и слейте.", "duration": 10 },
+          { "step": 5, "instruction": "Выложите рис в смазанную маслом кастрюлю, полейте шафрановой водой и томите под полотенцем 30 минут.", "duration": 30 },
+          { "step": 6, "instruction": "Аккуратно разрыхлите рис ложкой, чтобы зёрна отделились.", "duration": 3 },
+          { "step": 7, "instruction": "Выложите рис горкой и сверху положите тушёную баранину говурма.", "duration": 4 }
+        ]
+      },
+      "tr": {
+        "title": "Kavurma Pilavı",
+        "description": "Azerbaycan'ın klasik günlük pilavı olup, tane tane safranlı pirinçle ağır ateşte pişmiş kuzu ve soğanla servis edilir. Yumuşacık kavurma pirincin üzerine konur, çoğu zaman kestane ve kuru meyve ile.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "500 g" },
+          { "name": "Kuzu eti, parçalanmış", "amount": "700 g" },
+          { "name": "Soğan, dilimlenmiş", "amount": "3 adet" },
+          { "name": "Tereyağı", "amount": "120 g" },
+          { "name": "Safran suyu", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "damak zevkine göre" },
+          { "name": "Kuru erik (isteğe bağlı)", "amount": "100 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yıkanmış pirinci tuzlu suda 30 dakika bekletin.", "duration": 30 },
+          { "step": 2, "instruction": "Kuzu parçalarını yağda yüksek ateşte 8 dakika mühürleyin.", "duration": 8 },
+          { "step": 3, "instruction": "Soğanı ekleyip baharatlayın ve kapalı şekilde kısık ateşte 60 dakika pişirin, son 15 dakikada kuru erik ekleyin.", "duration": 60 },
+          { "step": 4, "instruction": "Süzülmüş pirinci tuzlu kaynar suda 6-7 dakika yarı pişene dek haşlayıp süzün.", "duration": 10 },
+          { "step": 5, "instruction": "Pirinci yağlı tencereye dizip safran suyu gezdirin ve bez sarılı kapakla 30 dakika demleyin.", "duration": 30 },
+          { "step": 6, "instruction": "Pirinci kaşıkla hafifçe karıştırıp tanelerin ayrılmasını sağlayın.", "duration": 3 },
+          { "step": 7, "instruction": "Pirinci tabağa yığıp üzerine kavurmayı koyun.", "duration": 4 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Noxudlu Plov",
+    "translations": {
+      "en": {
+        "title": "Noxudlu Plov (Chickpea Pilaf)",
+        "description": "A hearty pilaf where saffron rice meets tender lamb and creamy chickpeas slow-cooked with onions and dried fruit. It is a warming winter favourite across Azerbaijan.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "500 g" },
+          { "name": "Lamb, cubed", "amount": "600 g" },
+          { "name": "Chickpeas, soaked overnight", "amount": "200 g" },
+          { "name": "Onions, sliced", "amount": "2 medium" },
+          { "name": "Dried apricots", "amount": "100 g" },
+          { "name": "Butter", "amount": "120 g" },
+          { "name": "Saffron water", "amount": "3 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Soak the rinsed rice in salted water for 30 minutes; the chickpeas should have soaked overnight.", "duration": 30 },
+          { "step": 2, "instruction": "Simmer the soaked chickpeas in fresh water for 40 minutes until just tender, then drain.", "duration": 40 },
+          { "step": 3, "instruction": "Brown the lamb in butter for 8 minutes, add onions and cook until soft.", "duration": 15 },
+          { "step": 4, "instruction": "Add the chickpeas and dried apricots to the lamb and braise together for 30 minutes until everything is tender.", "duration": 30 },
+          { "step": 5, "instruction": "Parboil the drained rice in salted boiling water for 6-7 minutes, then drain.", "duration": 10 },
+          { "step": 6, "instruction": "Steam the rice in a buttered pot with saffron water on low heat for 30 minutes until fluffy.", "duration": 30 },
+          { "step": 7, "instruction": "Serve the saffron rice topped with the lamb and chickpea qovurma.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Noxudlu Plov",
+        "description": "Zəfəranlı düyünün yumşaq quzu əti və noxudla birləşdiyi doyumlu plovdur. Soğan və quru meyvə ilə yavaş bişirilir və qış aylarının sevimli yeməyidir.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "500 q" },
+          { "name": "Quzu əti, doğranmış", "amount": "600 q" },
+          { "name": "Bir gecə isladılmış noxud", "amount": "200 q" },
+          { "name": "Soğan, dilimlənmiş", "amount": "2 ədəd" },
+          { "name": "Qaysı", "amount": "100 q" },
+          { "name": "Kərə yağı", "amount": "120 q" },
+          { "name": "Zəfəran suyu", "amount": "3 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yuyulmuş düyünü duzlu suda 30 dəqiqə isladın; noxud bir gecə isladılmalıdır.", "duration": 30 },
+          { "step": 2, "instruction": "İsladılmış noxudu təzə suda 40 dəqiqə yumşalana qədər bişirib süzün.", "duration": 40 },
+          { "step": 3, "instruction": "Quzu ətini yağda 8 dəqiqə qızardın, soğan əlavə edib yumşalana qədər bişirin.", "duration": 15 },
+          { "step": 4, "instruction": "Noxud və qaysını ətə qatıb 30 dəqiqə birlikdə bişirin.", "duration": 30 },
+          { "step": 5, "instruction": "Süzülmüş düyünü duzlu qaynar suda 6-7 dəqiqə yarımhazır bişirib süzün.", "duration": 10 },
+          { "step": 6, "instruction": "Düyünü yağlı qazanda zəfəran suyu ilə zəif odda 30 dəqiqə dəmləyin.", "duration": 30 },
+          { "step": 7, "instruction": "Zəfəranlı düyünü noxudlu qovurma ilə təqdim edin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Нохудлу плов (плов с нутом)",
+        "description": "Сытный плов, где шафрановый рис соединяется с нежной бараниной и кремовым нутом, томлёными с луком и сухофруктами. Любимое согревающее блюдо зимой по всему Азербайджану.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "500 г" },
+          { "name": "Баранина кубиками", "amount": "600 г" },
+          { "name": "Нут, замоченный на ночь", "amount": "200 г" },
+          { "name": "Лук, нарезанный", "amount": "2 шт" },
+          { "name": "Курага", "amount": "100 г" },
+          { "name": "Сливочное масло", "amount": "120 г" },
+          { "name": "Шафрановая вода", "amount": "3 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замочите рис в подсолённой воде на 30 минут; нут должен быть замочен на ночь.", "duration": 30 },
+          { "step": 2, "instruction": "Отварите нут в свежей воде 40 минут до мягкости и слейте.", "duration": 40 },
+          { "step": 3, "instruction": "Обжарьте баранину на масле 8 минут, добавьте лук и доведите до мягкости.", "duration": 15 },
+          { "step": 4, "instruction": "Добавьте нут и курагу к мясу и тушите вместе 30 минут.", "duration": 30 },
+          { "step": 5, "instruction": "Отварите рис в подсолённой воде 6-7 минут до полуготовности и слейте.", "duration": 10 },
+          { "step": 6, "instruction": "Томите рис в смазанной маслом кастрюле с шафрановой водой 30 минут.", "duration": 30 },
+          { "step": 7, "instruction": "Подайте шафрановый рис с говурмой из баранины и нута.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Nohutlu Pilav",
+        "description": "Safranlı pirincin yumuşacık kuzu eti ve kremamsı nohutla buluştuğu doyurucu bir pilavdır. Soğan ve kuru meyveyle ağır ateşte pişer ve kışın sevilen bir yemektir.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "500 g" },
+          { "name": "Kuzu eti, kuşbaşı", "amount": "600 g" },
+          { "name": "Bir gece ıslatılmış nohut", "amount": "200 g" },
+          { "name": "Soğan, dilimlenmiş", "amount": "2 adet" },
+          { "name": "Kuru kayısı", "amount": "100 g" },
+          { "name": "Tereyağı", "amount": "120 g" },
+          { "name": "Safran suyu", "amount": "3 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yıkanmış pirinci tuzlu suda 30 dakika bekletin; nohut bir gece ıslatılmalı.", "duration": 30 },
+          { "step": 2, "instruction": "Islatılmış nohutu taze suda 40 dakika yumuşayana dek haşlayıp süzün.", "duration": 40 },
+          { "step": 3, "instruction": "Kuzu etini yağda 8 dakika kavurun, soğanı ekleyip yumuşatın.", "duration": 15 },
+          { "step": 4, "instruction": "Nohut ve kuru kayısıyı ete ekleyip 30 dakika birlikte pişirin.", "duration": 30 },
+          { "step": 5, "instruction": "Süzülmüş pirinci tuzlu kaynar suda 6-7 dakika yarı pişene dek haşlayıp süzün.", "duration": 10 },
+          { "step": 6, "instruction": "Pirinci yağlı tencerede safran suyuyla 30 dakika demleyin.", "duration": 30 },
+          { "step": 7, "instruction": "Safranlı pilavı nohutlu kavurmayla servis edin.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Şüyüd Plov",
+    "translations": {
+      "en": {
+        "title": "Şüyüd Plov (Dill Pilaf)",
+        "description": "A fragrant green pilaf perfumed generously with fresh dill and steamed with butter and saffron. It is traditionally paired with lamb or fish and a spoonful of garlicky yogurt.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "500 g" },
+          { "name": "Fresh dill, chopped", "amount": "2 large bunches" },
+          { "name": "Butter", "amount": "130 g" },
+          { "name": "Saffron water", "amount": "3 tbsp" },
+          { "name": "Lamb pieces (optional)", "amount": "500 g" },
+          { "name": "Salt", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Soak the rinsed rice in salted water for 30 minutes.", "duration": 30 },
+          { "step": 2, "instruction": "Wash and finely chop the dill, discarding thick stalks.", "duration": 8 },
+          { "step": 3, "instruction": "Parboil the drained rice in salted boiling water for 5 minutes, then in the last minute stir through the chopped dill and drain together.", "duration": 7 },
+          { "step": 4, "instruction": "Melt butter in the pot base, layer the dill-flecked rice into a mound and drizzle with saffron water.", "duration": 5 },
+          { "step": 5, "instruction": "Wrap the lid in a cloth and steam on low heat for 30 minutes until fluffy and a golden crust forms at the base.", "duration": 30 },
+          { "step": 6, "instruction": "Optionally braise the lamb separately until tender and serve alongside.", "duration": 60 },
+          { "step": 7, "instruction": "Fluff the green pilaf and serve hot with yogurt.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Şüyüd Plov",
+        "description": "Bol təzə şüyüdlə ətirləndirilmiş, kərə yağı və zəfəranla dəmlənmiş yaşıl plovdur. Ənənəvi olaraq quzu və ya balıq, bir də sarımsaqlı qatıqla verilir.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "500 q" },
+          { "name": "Təzə şüyüd, doğranmış", "amount": "2 böyük dəstə" },
+          { "name": "Kərə yağı", "amount": "130 q" },
+          { "name": "Zəfəran suyu", "amount": "3 x.q." },
+          { "name": "Quzu əti (istəyə görə)", "amount": "500 q" },
+          { "name": "Duz", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yuyulmuş düyünü duzlu suda 30 dəqiqə isladın.", "duration": 30 },
+          { "step": 2, "instruction": "Şüyüdü yuyub incə doğrayın, qalın saplaqları atın.", "duration": 8 },
+          { "step": 3, "instruction": "Süzülmüş düyünü duzlu qaynar suda 5 dəqiqə bişirin, son dəqiqədə şüyüdü qatıb birlikdə süzün.", "duration": 7 },
+          { "step": 4, "instruction": "Qazanın dibində yağı əridin, şüyüdlü düyünü yığıb zəfəran suyu tökün.", "duration": 5 },
+          { "step": 5, "instruction": "Qapağı dəsmalla bağlayıb zəif odda 30 dəqiqə dəmləyin.", "duration": 30 },
+          { "step": 6, "instruction": "İstəyə görə quzu ətini ayrıca yumşalana qədər bişirib yanında verin.", "duration": 60 },
+          { "step": 7, "instruction": "Yaşıl plovu qarışdırıb qatıqla isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Шуюд плов (плов с укропом)",
+        "description": "Ароматный зелёный плов, обильно сдобренный свежим укропом и приготовленный на пару с маслом и шафраном. Традиционно подаётся с бараниной или рыбой и чесночным йогуртом.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "500 г" },
+          { "name": "Свежий укроп, нарезанный", "amount": "2 больших пучка" },
+          { "name": "Сливочное масло", "amount": "130 г" },
+          { "name": "Шафрановая вода", "amount": "3 ст.л." },
+          { "name": "Баранина (по желанию)", "amount": "500 г" },
+          { "name": "Соль", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замочите рис в подсолённой воде на 30 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Промойте и мелко нарежьте укроп, удалив толстые стебли.", "duration": 8 },
+          { "step": 3, "instruction": "Отварите рис в подсолённой воде 5 минут, в последнюю минуту вмешайте укроп и слейте вместе.", "duration": 7 },
+          { "step": 4, "instruction": "Растопите масло на дне кастрюли, выложите рис с укропом горкой и полейте шафрановой водой.", "duration": 5 },
+          { "step": 5, "instruction": "Оберните крышку полотенцем и томите на слабом огне 30 минут до образования золотистой корочки.", "duration": 30 },
+          { "step": 6, "instruction": "По желанию отдельно потушите баранину до мягкости и подайте рядом.", "duration": 60 },
+          { "step": 7, "instruction": "Разрыхлите зелёный плов и подайте горячим с йогуртом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Dereotlu Pilav",
+        "description": "Bol taze dereotuyla kokulandırılmış, tereyağı ve safranla demlenmiş yeşil bir pilavdır. Geleneksel olarak kuzu veya balık ve sarımsaklı yoğurtla servis edilir.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "500 g" },
+          { "name": "Taze dereotu, kıyılmış", "amount": "2 büyük demet" },
+          { "name": "Tereyağı", "amount": "130 g" },
+          { "name": "Safran suyu", "amount": "3 yemek kaşığı" },
+          { "name": "Kuzu eti (isteğe bağlı)", "amount": "500 g" },
+          { "name": "Tuz", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yıkanmış pirinci tuzlu suda 30 dakika bekletin.", "duration": 30 },
+          { "step": 2, "instruction": "Dereotunu yıkayıp ince kıyın, kalın sapları atın.", "duration": 8 },
+          { "step": 3, "instruction": "Süzülmüş pirinci tuzlu kaynar suda 5 dakika haşlayın, son dakikada dereotunu ekleyip birlikte süzün.", "duration": 7 },
+          { "step": 4, "instruction": "Tencerenin dibinde yağı eritin, dereotlu pirinci yığıp safran suyu gezdirin.", "duration": 5 },
+          { "step": 5, "instruction": "Kapağı bezle sarıp kısık ateşte 30 dakika demleyin.", "duration": 30 },
+          { "step": 6, "instruction": "İsteğe göre kuzu etini ayrıca yumuşayana dek pişirip yanında verin.", "duration": 60 },
+          { "step": 7, "instruction": "Yeşil pilavı karıştırıp yoğurtla sıcak servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Düyü Plov",
+    "translations": {
+      "en": {
+        "title": "Düyü Plov (Plain Saffron Rice)",
+        "description": "The foundation of every Azerbaijani feast: long-grain rice steamed to fluffy perfection with butter and saffron, crowned with a crisp golden gazmag crust. Simple, elegant and the canvas for countless toppings.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "500 g" },
+          { "name": "Butter", "amount": "150 g" },
+          { "name": "Saffron water", "amount": "3 tbsp" },
+          { "name": "Thin lavash for crust", "amount": "1 sheet" },
+          { "name": "Salt", "amount": "2 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Rinse the rice repeatedly until the water runs clear, then soak in salted water for 30 minutes.", "duration": 30 },
+          { "step": 2, "instruction": "Bring a large pot of salted water to a rolling boil and parboil the drained rice for 6-7 minutes until soft outside, firm inside.", "duration": 8 },
+          { "step": 3, "instruction": "Drain the rice in a colander and rinse briefly with warm water.", "duration": 3 },
+          { "step": 4, "instruction": "Melt butter in the pot and lay a sheet of lavash on the base to form the gazmag crust.", "duration": 4 },
+          { "step": 5, "instruction": "Mound the rice over the lavash in a pyramid, poke a few steam holes, and drizzle with saffron water and remaining butter.", "duration": 5 },
+          { "step": 6, "instruction": "Wrap the lid in a clean cloth and steam on the lowest heat for 35-40 minutes until fluffy and the base is crisp.", "duration": 40 },
+          { "step": 7, "instruction": "Serve the saffron rice with the golden gazmag broken over the top.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Düyü Plov",
+        "description": "Hər Azərbaycan süfrəsinin əsası: kərə yağı və zəfəranla lopa kimi dəmlənmiş düyü, üzərində xırtıldayan qızılı qazmaq. Sadə, zərif və saysız əlavələr üçün əsasdır.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "500 q" },
+          { "name": "Kərə yağı", "amount": "150 q" },
+          { "name": "Zəfəran suyu", "amount": "3 x.q." },
+          { "name": "Qazmaq üçün nazik lavaş", "amount": "1 vərəq" },
+          { "name": "Duz", "amount": "2 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Düyünü suyu durulaşana qədər yuyub duzlu suda 30 dəqiqə isladın.", "duration": 30 },
+          { "step": 2, "instruction": "Böyük qazanda duzlu suyu qaynadın və süzülmüş düyünü 6-7 dəqiqə yarımhazır bişirin.", "duration": 8 },
+          { "step": 3, "instruction": "Düyünü süzgəcə töküb isti su ilə yuyun.", "duration": 3 },
+          { "step": 4, "instruction": "Qazanda yağı əridin və dibinə lavaş döşəyib qazmaq düzəldin.", "duration": 4 },
+          { "step": 5, "instruction": "Düyünü lavaşın üstünə piramida şəklində yığın, buğ üçün dəliklər açın, zəfəran suyu və yağ tökün.", "duration": 5 },
+          { "step": 6, "instruction": "Qapağı dəsmalla bağlayıb ən zəif odda 35-40 dəqiqə dəmləyin.", "duration": 40 },
+          { "step": 7, "instruction": "Zəfəranlı düyünü qızılı qazmaqla təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Дюйю плов (простой шафрановый рис)",
+        "description": "Основа любого азербайджанского застолья: длиннозёрный рис, доведённый на пару до рассыпчатого совершенства с маслом и шафраном, увенчанный хрустящей золотистой корочкой газмаг. Простой, изящный холст для множества начинок.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "500 г" },
+          { "name": "Сливочное масло", "amount": "150 г" },
+          { "name": "Шафрановая вода", "amount": "3 ст.л." },
+          { "name": "Тонкий лаваш для корочки", "amount": "1 лист" },
+          { "name": "Соль", "amount": "2 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Промойте рис до прозрачной воды и замочите в подсолённой воде на 30 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Доведите большую кастрюлю подсолённой воды до кипения и отварите рис 6-7 минут до полуготовности.", "duration": 8 },
+          { "step": 3, "instruction": "Откиньте рис на дуршлаг и сполосните тёплой водой.", "duration": 3 },
+          { "step": 4, "instruction": "Растопите масло в кастрюле и выложите на дно лаваш для корочки газмаг.", "duration": 4 },
+          { "step": 5, "instruction": "Выложите рис горкой на лаваш, сделайте отверстия для пара, полейте шафрановой водой и маслом.", "duration": 5 },
+          { "step": 6, "instruction": "Оберните крышку полотенцем и томите на самом слабом огне 35-40 минут.", "duration": 40 },
+          { "step": 7, "instruction": "Подайте шафрановый рис с золотистой корочкой газмаг сверху.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Sade Safranlı Pilav",
+        "description": "Her Azerbaycan sofrasının temeli: uzun taneli pirincin tereyağı ve safranla tane tane pişirilmesi ve üzerinin çıtır altın rengi kazmak ile taçlandırılması. Sade, zarif ve sayısız sosun tuvali.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "500 g" },
+          { "name": "Tereyağı", "amount": "150 g" },
+          { "name": "Safran suyu", "amount": "3 yemek kaşığı" },
+          { "name": "Kazmak için ince lavaş", "amount": "1 yaprak" },
+          { "name": "Tuz", "amount": "2 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Pirinci suyu berraklaşana dek yıkayıp tuzlu suda 30 dakika bekletin.", "duration": 30 },
+          { "step": 2, "instruction": "Büyük tencerede tuzlu suyu kaynatıp süzülmüş pirinci 6-7 dakika yarı pişene dek haşlayın.", "duration": 8 },
+          { "step": 3, "instruction": "Pirinci süzgece alıp ılık suyla durulayın.", "duration": 3 },
+          { "step": 4, "instruction": "Tencerede yağı eritin ve tabanına lavaş serip kazmak hazırlayın.", "duration": 4 },
+          { "step": 5, "instruction": "Pirinci lavaşın üzerine piramit gibi yığın, buhar delikleri açın, safran suyu ve yağ gezdirin.", "duration": 5 },
+          { "step": 6, "instruction": "Kapağı bezle sarıp en kısık ateşte 35-40 dakika demleyin.", "duration": 40 },
+          { "step": 7, "instruction": "Safranlı pilavı altın rengi kazmakla servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Parça Plov",
+    "translations": {
+      "en": {
+        "title": "Parça Plov (Pilaf with Lamb Pieces)",
+        "description": "A celebratory pilaf of saffron rice served with large, bone-in pieces of slow-braised lamb and a sweet-savoury garnish of dried fruits. The generous 'parça' (pieces) of meat make it a feast centrepiece.",
+        "ingredients": [
+          { "name": "Basmati rice", "amount": "600 g" },
+          { "name": "Lamb on the bone, large pieces", "amount": "1 kg" },
+          { "name": "Onions, sliced", "amount": "2 medium" },
+          { "name": "Dried apricots, raisins, prunes", "amount": "200 g" },
+          { "name": "Butter", "amount": "150 g" },
+          { "name": "Saffron water", "amount": "4 tbsp" },
+          { "name": "Chestnuts", "amount": "150 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Soak the rinsed rice in salted water for 30 minutes.", "duration": 30 },
+          { "step": 2, "instruction": "Brown the large lamb pieces in butter on all sides for 10 minutes.", "duration": 10 },
+          { "step": 3, "instruction": "Add onions and a little water, cover and braise on low heat for 75 minutes until the meat falls off the bone.", "duration": 75 },
+          { "step": 4, "instruction": "Sauté the dried fruits and chestnuts in butter until plump and glossy, about 8 minutes.", "duration": 8 },
+          { "step": 5, "instruction": "Parboil the drained rice in salted boiling water for 6-7 minutes, then drain.", "duration": 8 },
+          { "step": 6, "instruction": "Steam the rice in a buttered pot with saffron water on low heat for 35 minutes until fluffy.", "duration": 35 },
+          { "step": 7, "instruction": "Plate the saffron rice with the lamb pieces and scatter the glazed dried fruit over the top.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Parça Plov",
+        "description": "Zəfəranlı düyü ilə sümüklü iri quzu parçaları və quru meyvə bəzəyi ilə verilən bayram plovudur. Səxavətli ət parçaları onu süfrənin baş yeməyinə çevirir.",
+        "ingredients": [
+          { "name": "Basmati düyüsü", "amount": "600 q" },
+          { "name": "Sümüklü quzu, iri parçalar", "amount": "1 kq" },
+          { "name": "Soğan, dilimlənmiş", "amount": "2 ədəd" },
+          { "name": "Qaysı, kişmiş, gavalı", "amount": "200 q" },
+          { "name": "Kərə yağı", "amount": "150 q" },
+          { "name": "Zəfəran suyu", "amount": "4 x.q." },
+          { "name": "Şabalıd", "amount": "150 q" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yuyulmuş düyünü duzlu suda 30 dəqiqə isladın.", "duration": 30 },
+          { "step": 2, "instruction": "İri quzu parçalarını yağda hər tərəfdən 10 dəqiqə qızardın.", "duration": 10 },
+          { "step": 3, "instruction": "Soğan və bir az su əlavə edib örtülü halda zəif odda 75 dəqiqə ət sümükdən ayrılana qədər bişirin.", "duration": 75 },
+          { "step": 4, "instruction": "Quru meyvə və şabalıdı yağda 8 dəqiqə qızardın.", "duration": 8 },
+          { "step": 5, "instruction": "Süzülmüş düyünü duzlu qaynar suda 6-7 dəqiqə yarımhazır bişirib süzün.", "duration": 8 },
+          { "step": 6, "instruction": "Düyünü yağlı qazanda zəfəran suyu ilə zəif odda 35 dəqiqə dəmləyin.", "duration": 35 },
+          { "step": 7, "instruction": "Zəfəranlı düyünü quzu parçaları və quru meyvə ilə bəzəyib təqdim edin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Парча плов (плов с кусками баранины)",
+        "description": "Праздничный плов из шафранового риса с крупными кусками баранины на кости, томлёной до мягкости, и сладко-пряным гарниром из сухофруктов. Щедрые куски мяса делают его центром застолья.",
+        "ingredients": [
+          { "name": "Рис басмати", "amount": "600 г" },
+          { "name": "Баранина на кости, крупные куски", "amount": "1 кг" },
+          { "name": "Лук, нарезанный", "amount": "2 шт" },
+          { "name": "Курага, изюм, чернослив", "amount": "200 г" },
+          { "name": "Сливочное масло", "amount": "150 г" },
+          { "name": "Шафрановая вода", "amount": "4 ст.л." },
+          { "name": "Каштаны", "amount": "150 г" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замочите рис в подсолённой воде на 30 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Обжарьте крупные куски баранины на масле со всех сторон 10 минут.", "duration": 10 },
+          { "step": 3, "instruction": "Добавьте лук и немного воды, тушите под крышкой на слабом огне 75 минут, пока мясо не отойдёт от кости.", "duration": 75 },
+          { "step": 4, "instruction": "Обжарьте сухофрукты и каштаны на масле 8 минут до глянца.", "duration": 8 },
+          { "step": 5, "instruction": "Отварите рис в подсолённой воде 6-7 минут до полуготовности и слейте.", "duration": 8 },
+          { "step": 6, "instruction": "Томите рис в смазанной маслом кастрюле с шафрановой водой 35 минут.", "duration": 35 },
+          { "step": 7, "instruction": "Выложите шафрановый рис с кусками баранины и посыпьте глазированными сухофруктами.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Parça Pilav (Kuzu Parçalı Pilav)",
+        "description": "Safranlı pirinçle, kemikli iri kuzu parçaları ve kuru meyve süsüyle servis edilen bir bayram pilavıdır. Cömert et parçaları onu sofranın baş tacı yapar.",
+        "ingredients": [
+          { "name": "Basmati pirinç", "amount": "600 g" },
+          { "name": "Kemikli kuzu, iri parçalar", "amount": "1 kg" },
+          { "name": "Soğan, dilimlenmiş", "amount": "2 adet" },
+          { "name": "Kuru kayısı, üzüm, erik", "amount": "200 g" },
+          { "name": "Tereyağı", "amount": "150 g" },
+          { "name": "Safran suyu", "amount": "4 yemek kaşığı" },
+          { "name": "Kestane", "amount": "150 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yıkanmış pirinci tuzlu suda 30 dakika bekletin.", "duration": 30 },
+          { "step": 2, "instruction": "İri kuzu parçalarını yağda her tarafı 10 dakika kızartın.", "duration": 10 },
+          { "step": 3, "instruction": "Soğan ve biraz su ekleyip kapalı kısık ateşte 75 dakika et kemikten ayrılana dek pişirin.", "duration": 75 },
+          { "step": 4, "instruction": "Kuru meyve ve kestaneyi yağda 8 dakika parlayana dek kavurun.", "duration": 8 },
+          { "step": 5, "instruction": "Süzülmüş pirinci tuzlu kaynar suda 6-7 dakika yarı pişene dek haşlayıp süzün.", "duration": 8 },
+          { "step": 6, "instruction": "Pirinci yağlı tencerede safran suyuyla 35 dakika demleyin.", "duration": 35 },
+          { "step": 7, "instruction": "Safranlı pilavı kuzu parçaları ve kuru meyveyle servis edin.", "duration": 5 }
+        ]
+      }
+    }
+  }
+]

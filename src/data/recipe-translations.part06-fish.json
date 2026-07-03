@@ -1,0 +1,458 @@
+[
+  {
+    "title": "Balıq Kabab",
+    "translations": {
+      "en": {
+        "title": "Balıq Kabab (Grilled Fish Kebab)",
+        "description": "Chunks of firm Caspian sturgeon or salmon marinated in lemon juice, olive oil and fresh herbs, then threaded onto skewers and grilled over charcoal. A finishing glaze of narsharab pomegranate sauce gives the fish a signature sweet-tart tang. The smoky char and tender flaky interior make this one of Azerbaijan's finest grilled fish dishes.",
+        "ingredients": [
+          { "name": "Sturgeon or firm salmon fillet, cubed", "amount": "700 g" },
+          { "name": "Lemon juice", "amount": "4 tbsp" },
+          { "name": "Olive oil", "amount": "3 tbsp" },
+          { "name": "Garlic, minced", "amount": "3 cloves" },
+          { "name": "Fresh dill and parsley, chopped", "amount": "0.5 cup" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Narsharab pomegranate sauce", "amount": "3 tbsp" },
+          { "name": "Onion wedges for threading", "amount": "2 medium" },
+          { "name": "Lemon wedges to serve", "amount": "1 lemon" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Cut the fish into 4-5 cm cubes, removing any skin and bones. Pat dry thoroughly with paper towels so the marinade adheres well.", "duration": 8 },
+          { "step": 2, "instruction": "Whisk together the lemon juice, olive oil, minced garlic, chopped dill and parsley, salt and pepper in a bowl to make the marinade.", "duration": 4 },
+          { "step": 3, "instruction": "Add the fish cubes to the marinade and toss gently to coat. Cover and refrigerate for 20-30 minutes — do not marinate longer or the acid will begin to cook the fish.", "duration": 25 },
+          { "step": 4, "instruction": "Light charcoal and allow it to burn until covered with a white ash, indicating even medium-high heat. This takes about 20-25 minutes.", "duration": 25 },
+          { "step": 5, "instruction": "Thread the fish cubes alternately with onion wedges onto flat or wide metal skewers, leaving a small gap between each piece so heat circulates evenly.", "duration": 8 },
+          { "step": 6, "instruction": "Place the skewers over the hot coals and grill for 3-4 minutes without touching, until the fish releases naturally from the grate and shows golden grill marks.", "duration": 4 },
+          { "step": 7, "instruction": "Turn the skewers carefully using tongs and grill the other side for another 3-4 minutes. The fish is done when it turns opaque throughout and flakes easily when pressed.", "duration": 4 },
+          { "step": 8, "instruction": "In the final minute of grilling, brush generously with narsharab pomegranate sauce on both sides to create a glossy, caramelized glaze.", "duration": 2 },
+          { "step": 9, "instruction": "Remove from the heat and rest the skewers for 2 minutes before serving so the juices redistribute within the fish.", "duration": 2 },
+          { "step": 10, "instruction": "Slide the fish off the skewers onto a platter, scatter with fresh herbs and serve immediately with lemon wedges, grilled tomatoes and warm lavash.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Balıq Kabab",
+        "description": "Limon suyu, zeytun yağı və təzə otlarla marinad edilmiş möhkəm kütüm və ya qızıl balıq parçaları şişlərə düzülüb kömürdə bişirilir. Narşərab turşusu ilə son qatı xüsusi şirin-turş bir dad verir. Tüstülü ətir və nazik, yumşaq ət Azərbaycanın ən gözəl balıq yemeklərindən birini yaradır.",
+        "ingredients": [
+          { "name": "Nərə balığı və ya qızıl balıq, doğranmış", "amount": "700 q" },
+          { "name": "Limon suyu", "amount": "4 x.q." },
+          { "name": "Zeytun yağı", "amount": "3 x.q." },
+          { "name": "Sarımsaq, doğranmış", "amount": "3 diş" },
+          { "name": "Təzə şüyüd və cəfəri, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Narşərab sousu", "amount": "3 x.q." },
+          { "name": "Soğan (dilimlənmiş)", "amount": "2 ədəd" },
+          { "name": "Limon (süfrəyə)", "amount": "1 ədəd" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balığı 4-5 sm ölçüdə kublara kəsin, dərisini və sümüklərini çıxarın. Marinadın yaxşı yapışması üçün kağız dəsmalla qurudun.", "duration": 8 },
+          { "step": 2, "instruction": "Limon suyu, zeytun yağı, sarımsaq, şüyüd, cəfəri, duz və biberi qab da qarışdırıb marinad hazırlayın.", "duration": 4 },
+          { "step": 3, "instruction": "Balıq parçalarını marinadla örtün, üstünü bağlayıb soyuducuya qoyun — 20-30 dəqiqə saxlayın, daha uzun saxlamayın ki turşu balığı bişirməsin.", "duration": 25 },
+          { "step": 4, "instruction": "Kömürü yandırın, üstü ağ küllə örtülənə qədər gözləyin — bu orta-yüksək istilik deməkdir, 20-25 dəqiqə çəkir.", "duration": 25 },
+          { "step": 5, "instruction": "Balıq parçalarını soğan dilimləri ilə növbə ilə şişlərə düzün, aralarında az boşluq buraxın.", "duration": 8 },
+          { "step": 6, "instruction": "Şişləri kömürün üzərinə qoyun, 3-4 dəqiqə toxunmadan bişirin — balıq özü-özünə ayrılır və qızılı xətlər əmələ gəlir.", "duration": 4 },
+          { "step": 7, "instruction": "Şişləri ehtiyatla çevirin və digər tərəfi 3-4 dəqiqə bişirin. Balıq tamamilə ağaranda və asanlıqla qırılanda hazırdır.", "duration": 4 },
+          { "step": 8, "instruction": "Son dəqiqədə her iki tərəfə narşərab sousu çəkin — parlaq karamel örtük əmələ gəlir.", "duration": 2 },
+          { "step": 9, "instruction": "Oddan götürün, 2 dəqiqə istirahət etdirin ki şirəsi balıqda paylaşsın.", "duration": 2 },
+          { "step": 10, "instruction": "Şişlərdən boşqaba keçirin, üzərinə təzə otlar səpin, limon, qızardılmış pomidor və isti lavaşla süfrəyə verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Балыг Кабаб (Рыбный Кебаб)",
+        "description": "Кусочки плотной каспийской осётрины или лосося маринуются в лимонном соке, оливковом масле и свежей зелени, затем нанизываются на шампуры и жарятся на углях. Финальная глазурь из нарщарабского гранатового соуса придаёт рыбе фирменный кисло-сладкий вкус. Дымный аромат и нежная слоистая мякоть делают это блюдо одним из лучших рыбных кебабов Азербайджана.",
+        "ingredients": [
+          { "name": "Осётрина или плотное филе лосося, кубиками", "amount": "700 г" },
+          { "name": "Лимонный сок", "amount": "4 ст.л." },
+          { "name": "Оливковое масло", "amount": "3 ст.л." },
+          { "name": "Чеснок, измельчённый", "amount": "3 зубчика" },
+          { "name": "Свежий укроп и петрушка, нарубленные", "amount": "0,5 стакана" },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Нарщараб (гранатовый соус)", "amount": "3 ст.л." },
+          { "name": "Репчатый лук дольками для нанизывания", "amount": "2 средних" },
+          { "name": "Дольки лимона для подачи", "amount": "1 лимон" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Нарежьте рыбу кубиками 4-5 см, удалите кожу и кости. Тщательно обсушите бумажными полотенцами, чтобы маринад лучше прилипал.", "duration": 8 },
+          { "step": 2, "instruction": "В миске смешайте лимонный сок, оливковое масло, чеснок, укроп, петрушку, соль и перец — это маринад.", "duration": 4 },
+          { "step": 3, "instruction": "Опустите кусочки рыбы в маринад и аккуратно перемешайте. Накройте и уберите в холодильник на 20-30 минут — дольше не держите, иначе кислота начнёт «готовить» рыбу.", "duration": 25 },
+          { "step": 4, "instruction": "Разожгите угли и дождитесь, пока они покроются белым пеплом — это признак ровного среднего жара (20-25 минут).", "duration": 25 },
+          { "step": 5, "instruction": "Нанижите кусочки рыбы поочерёдно с дольками лука на широкие металлические шампуры, оставляя небольшие зазоры.", "duration": 8 },
+          { "step": 6, "instruction": "Положите шампуры на угли и жарьте 3-4 минуты, не трогая, пока рыба не отлипнет сама и не появятся золотистые полоски.", "duration": 4 },
+          { "step": 7, "instruction": "Осторожно переверните и жарьте ещё 3-4 минуты. Рыба готова, когда она стала непрозрачной и легко расслаивается при нажатии.", "duration": 4 },
+          { "step": 8, "instruction": "В последнюю минуту щедро смажьте нарщарабом с обеих сторон — образуется блестящая карамелизованная глазурь.", "duration": 2 },
+          { "step": 9, "instruction": "Снимите с огня и дайте отдохнуть 2 минуты, чтобы соки равномерно распределились.", "duration": 2 },
+          { "step": 10, "instruction": "Снимите рыбу с шампуров на блюдо, посыпьте свежей зеленью и сразу подавайте с дольками лимона, жареными помидорами и лавашом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Balık Kebabı",
+        "description": "Sağlam Hazar mersin balığı veya somon dilimlerini limon suyu, zeytinyağı ve taze otlarla marine edip şişe geçirerek mangalda pişirilen bu lezzet, narşarab nar sosuyla son kat sürülerek tatlı-ekşi bir sır kazanır. Dumanlı koku ve yumuşak, pul pul eten dokusu bu yemeği Azerbaycan'ın en güzel balık yemeklerinden biri yapar.",
+        "ingredients": [
+          { "name": "Mersin balığı veya sağlam somon, küp doğranmış", "amount": "700 g" },
+          { "name": "Limon suyu", "amount": "4 yemek kaşığı" },
+          { "name": "Zeytinyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Sarımsak, kıyılmış", "amount": "3 diş" },
+          { "name": "Taze dereotu ve maydanoz, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Narşarab (nar sosu)", "amount": "3 yemek kaşığı" },
+          { "name": "Şişe geçirmek için soğan halkaları", "amount": "2 adet" },
+          { "name": "Servis için limon dilimleri", "amount": "1 adet" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balığı 4-5 cm küpler halinde kesin, deri ve kılçıkları temizleyin. Marinatın iyi yapışması için kağıt havluyla iyice kurulayın.", "duration": 8 },
+          { "step": 2, "instruction": "Limon suyu, zeytinyağı, sarımsak, dereotu, maydanoz, tuz ve biberi kasede karıştırarak marinatı hazırlayın.", "duration": 4 },
+          { "step": 3, "instruction": "Balık parçalarını marinata bulayın, üzerini kapatıp buzdolabına koyun — 20-30 dakika bekletin, daha uzun bırakmayın çünkü asit balığı pişirmeye başlar.", "duration": 25 },
+          { "step": 4, "instruction": "Kömürleri yakın ve üzerlerinin beyaz külle kaplanmasını bekleyin — bu eşit orta-yüksek ısıya işaret eder (20-25 dakika sürer).", "duration": 25 },
+          { "step": 5, "instruction": "Balık parçalarını soğan dilimleriyle dönüşümlü olarak geniş metal şişlere geçirin, parçalar arasında küçük boşluklar bırakın.", "duration": 8 },
+          { "step": 6, "instruction": "Şişleri köz üzerine yerleştirin, dokunmadan 3-4 dakika pişirin — balık kendiliğinden ayrılır ve altın ızgara çizgileri oluşur.", "duration": 4 },
+          { "step": 7, "instruction": "Şişleri dikkatlice çevirin ve 3-4 dakika daha pişirin. Balık tamamen mat görünür ve kolayca pullanırsa hazırdır.", "duration": 4 },
+          { "step": 8, "instruction": "Son dakikada her iki tarafa bol narşarab sürün — parlak karamelleşmiş bir sır oluşur.", "duration": 2 },
+          { "step": 9, "instruction": "Ateşten alın, 2 dakika dinlendirin ki sular balık içinde eşit dağılsın.", "duration": 2 },
+          { "step": 10, "instruction": "Balıkları şişlerden çekerek tabağa alın, taze otlar serpin; limon dilimleri, ızgara domates ve sıcak lavaşla hemen servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Qızardılmış Balıq",
+    "translations": {
+      "en": {
+        "title": "Qızardılmış Balıq (Azerbaijani Fried Fish)",
+        "description": "Fresh fish fillets — typically sturgeon, carp, or kutum from the Caspian Sea — seasoned and lightly dredged in flour, then pan-fried in hot oil until crisp and golden on the outside while remaining moist and flaky within. Finished with fresh garlic and herbs, and traditionally served with narsharab pomegranate sauce for dipping. A simple yet magnificent weekday dish across Azerbaijan.",
+        "ingredients": [
+          { "name": "Fish fillets (sturgeon, carp or kutum), skin-on", "amount": "700 g" },
+          { "name": "All-purpose flour for dredging", "amount": "0.5 cup" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Turmeric", "amount": "0.5 tsp" },
+          { "name": "Sunflower or vegetable oil for frying", "amount": "5 tbsp" },
+          { "name": "Garlic, sliced", "amount": "4 cloves" },
+          { "name": "Fresh dill and cilantro", "amount": "0.5 cup" },
+          { "name": "Narsharab pomegranate sauce to serve", "amount": "3 tbsp" },
+          { "name": "Lemon wedges to serve", "amount": "1 lemon" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Pat the fish fillets dry on both sides with paper towels. Dryness is crucial — any moisture will cause dangerous oil splatter and prevents a crisp crust.", "duration": 5 },
+          { "step": 2, "instruction": "Score the skin of each fillet with 2-3 shallow diagonal cuts so it doesn't curl during frying. Season both sides generously with salt, pepper and turmeric.", "duration": 5 },
+          { "step": 3, "instruction": "Spread the flour in a shallow dish. Dredge each fillet lightly in flour, shaking off any excess — a thin, even coat is all that's needed for a crisp finish.", "duration": 5 },
+          { "step": 4, "instruction": "Heat the oil in a heavy skillet (cast iron is ideal) over medium-high heat until shimmering and a pinch of flour dropped in sizzles immediately.", "duration": 4 },
+          { "step": 5, "instruction": "Place the fillets skin-side down in the hot oil, pressing gently with a spatula for the first 30 seconds to prevent curling. Do not crowd the pan — fry in batches if needed.", "duration": 1 },
+          { "step": 6, "instruction": "Fry undisturbed for 4-5 minutes until the skin is deep golden and releases naturally from the pan. Resist the urge to move the fish before it is ready.", "duration": 5 },
+          { "step": 7, "instruction": "Flip the fillets carefully and fry the flesh side for 3-4 minutes until golden. The fish is done when it turns opaque throughout and flakes easily at the thickest point.", "duration": 4 },
+          { "step": 8, "instruction": "Tilt the pan and add the sliced garlic to the hot oil in the last 60 seconds. Let the garlic turn golden and fragrant, then spoon the garlic-oil over the fish.", "duration": 2 },
+          { "step": 9, "instruction": "Transfer the fish to a plate lined with paper towels to absorb any excess oil. Rest for 1-2 minutes before serving.", "duration": 2 },
+          { "step": 10, "instruction": "Arrange on a serving platter, scatter fresh dill and cilantro over the top and serve immediately with narsharab pomegranate sauce and lemon wedges.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Qızardılmış Balıq",
+        "description": "Xəzər dənizindən gətirilən nərə, sazan və ya kutum balığının filesi duzlanıb, unlanıb qızmar yağda qızılı qabıqlı olana qədər qızardılır. İçi isə nəm və yumşaq qalır. Sarımsaq və otlarla tamamlanaraq narşərab sosuyla verilir. Azərbaycanda sevimli həftəiçi yeməkdir.",
+        "ingredients": [
+          { "name": "Balıq filesi (nərə, sazan, kutum)", "amount": "700 q" },
+          { "name": "Buğda unu (unlamaq üçün)", "amount": "0,5 stəkan" },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Sarı kök (turmerik)", "amount": "0,5 ç.q." },
+          { "name": "Günəbaxan yağı (qızartmaq üçün)", "amount": "5 x.q." },
+          { "name": "Sarımsaq, dilimlənmiş", "amount": "4 diş" },
+          { "name": "Təzə şüyüd və kişniş", "amount": "0,5 stəkan" },
+          { "name": "Narşərab sousu (süfrəyə)", "amount": "3 x.q." },
+          { "name": "Limon dilimlər (süfrəyə)", "amount": "1 ədəd" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balıq filelərini hər iki tərəfdən kağız dəsmalla tamamilə qurudun — yaşlıq xırtıldayan qabığın əmələ gəlməsinə mane olur.", "duration": 5 },
+          { "step": 2, "instruction": "Dərini qovrulan zaman buruşmaması üçün 2-3 dayaz çərtik edin. Hər iki tərəfi duz, biber və turmerikle bol ədviyyelendirin.", "duration": 5 },
+          { "step": 3, "instruction": "Unu düz qaba tökün. Hər fileni azca unlayın, artığını silkin — nazik, bərabər qat kifayətdir.", "duration": 5 },
+          { "step": 4, "instruction": "Ağır tavada (tökmə dəmir ideal) yağı orta-yüksək istilikdə qızdırın — un damcısı atanda dərhal cızıldamalıdır.", "duration": 4 },
+          { "step": 5, "instruction": "Fileləri dəri tərəfi aşağı olaraq qızmış yağa qoyun, ilk 30 saniyədə spatula ilə yüngülcə basın ki buruşmasın.", "duration": 1 },
+          { "step": 6, "instruction": "Dəri tünd qızılı rəng alana qədər 4-5 dəqiqə toxunmadan qızardın — balıq hazır olmadan çevirmək olmaz.", "duration": 5 },
+          { "step": 7, "instruction": "Fileləri ehtiyatla çevirin, ət tərəfini 3-4 dəqiqə qızardın. Balıq tamamilə ağaranda və ən qalın yerdə asanlıqla qırılanda hazırdır.", "duration": 4 },
+          { "step": 8, "instruction": "Son 60 saniyədə tavaya sarımsaq dilimləri əlavə edin, qızılı rəng alana qədər qızdırın, sarımsaqlı yağı balığın üzərinə tökün.", "duration": 2 },
+          { "step": 9, "instruction": "Balığı kağız dəsmal üzərindəki boşqaba köçürün, artıq yağı sorbun. 1-2 dəqiqə istirahət etdirin.", "duration": 2 },
+          { "step": 10, "instruction": "Servis boşqabına düzün, üzərinə təzə şüyüd və kişniş səpin, narşərab sousu və limon dilimleri ilə dərhal süfrəyə verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Кызардылмыш Балыг (Жареная Рыба по-Азербайджански)",
+        "description": "Свежее рыбное филе — обычно осётрины, карпа или кутума из Каспийского моря — приправляется, обваливается в муке и обжаривается на горячем масле до хрустящей золотистой корочки снаружи, оставаясь сочным и слоистым внутри. Подаётся с чесноком, свежей зеленью и нарщарабским гранатовым соусом. Популярное будничное блюдо по всему Азербайджану.",
+        "ingredients": [
+          { "name": "Рыбное филе (осётрина, карп или кутум), с кожей", "amount": "700 г" },
+          { "name": "Мука для панировки", "amount": "0,5 стакана" },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Куркума", "amount": "0,5 ч.л." },
+          { "name": "Подсолнечное масло для жарки", "amount": "5 ст.л." },
+          { "name": "Чеснок, нарезанный", "amount": "4 зубчика" },
+          { "name": "Свежий укроп и кинза", "amount": "0,5 стакана" },
+          { "name": "Нарщараб для подачи", "amount": "3 ст.л." },
+          { "name": "Дольки лимона для подачи", "amount": "1 лимон" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Обсушите филе с обеих сторон бумажными полотенцами — влага препятствует образованию хрустящей корочки.", "duration": 5 },
+          { "step": 2, "instruction": "Сделайте 2-3 неглубоких надреза на коже по диагонали, чтобы она не скручивалась. Обильно посолите, поперчите и добавьте куркуму с обеих сторон.", "duration": 5 },
+          { "step": 3, "instruction": "Насыпьте муку в плоскую тарелку. Обваляйте каждое филе в муке, стряхивая излишки — нужен тонкий равномерный слой.", "duration": 5 },
+          { "step": 4, "instruction": "Разогрейте масло в тяжёлой сковороде (чугунная — идеально) на среднем огне до появления рябы. Щепотка муки должна шипеть сразу.", "duration": 4 },
+          { "step": 5, "instruction": "Положите филе кожей вниз в горячее масло, прижмите лопаткой на 30 секунд, чтобы не скручивалось. Не переполняйте сковороду.", "duration": 1 },
+          { "step": 6, "instruction": "Жарьте 4-5 минут, не трогая, пока кожа не станет тёмно-золотистой и не начнёт сама отставать от сковороды.", "duration": 5 },
+          { "step": 7, "instruction": "Аккуратно переверните и жарьте со стороны мяса 3-4 минуты. Рыба готова, когда стала непрозрачной и легко расслаивается.", "duration": 4 },
+          { "step": 8, "instruction": "В последние 60 секунд добавьте чеснок в масло, дайте подрумяниться, затем полейте чесночным маслом рыбу.", "duration": 2 },
+          { "step": 9, "instruction": "Переложите рыбу на тарелку с бумажными полотенцами, дайте полежать 1-2 минуты.", "duration": 2 },
+          { "step": 10, "instruction": "Выложите на сервировочное блюдо, посыпьте укропом и кинзой, немедленно подавайте с нарщарабом и дольками лимона.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Kızartılmış Balık (Azerbaycan Usulü)",
+        "description": "Hazar Denizi'nden gelen taze balık filesi — mersin, sazan ya da kutum — hafifçe unlanarak kızgın yağda altın rengi ve çıtır bir kabuk oluşana dek kızartılır, içi ise nemli ve pul pul kalır. Sarımsak ve taze otlarla tamamlanır, narşarab nar sosuyla servis edilir. Azerbaycan'da sevilen, sık pişirilen bir hafta içi yemeğidir.",
+        "ingredients": [
+          { "name": "Balık filesi (mersin, sazan veya kutum), derili", "amount": "700 g" },
+          { "name": "Un (bulamak için)", "amount": "0,5 su bardağı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Zerdeçal", "amount": "0,5 çay kaşığı" },
+          { "name": "Ayçiçeği yağı (kızartmak için)", "amount": "5 yemek kaşığı" },
+          { "name": "Sarımsak, dilimlenmiş", "amount": "4 diş" },
+          { "name": "Taze dereotu ve kişniş", "amount": "0,5 su bardağı" },
+          { "name": "Narşarab sosu (servis için)", "amount": "3 yemek kaşığı" },
+          { "name": "Limon dilimleri (servis için)", "amount": "1 adet" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balık filelelerini her iki yüzünden kağıt havluyla iyice kurulayın — nem, çıtır kabuk oluşmasını engeller.", "duration": 5 },
+          { "step": 2, "instruction": "Derisine 2-3 sığ çapraz çentik atın ki kızartırken kıvrılmasın. Her iki tarafa tuz, karabiber ve zerdeçal serpin.", "duration": 5 },
+          { "step": 3, "instruction": "Unu yassı bir kaba dökün. Her fileyi hafifçe unlayın, fazlasını silkin — ince düzgün bir kat yeterlidir.", "duration": 5 },
+          { "step": 4, "instruction": "Ağır bir tavada (dökme demir ideal) yağı orta-yüksek ateşte kızdırın; bir tutam un düşürünce hemen cızırdamalıdır.", "duration": 4 },
+          { "step": 5, "instruction": "Fileleri deri yüzü aşağı olacak şekilde kızgın yağa koyun, ilk 30 saniyede spatulayla hafifçe bastırın ki kıvrılmasın.", "duration": 1 },
+          { "step": 6, "instruction": "Deri koyu altın rengi alıp kendiliğinden tavadan ayrılana dek 4-5 dakika dokunmadan kızartın.", "duration": 5 },
+          { "step": 7, "instruction": "Dikkatlice çevirin, et tarafını 3-4 dakika kızartın. Balık tamamen mat görünüp en kalın noktada kolayca pullandığında hazırdır.", "duration": 4 },
+          { "step": 8, "instruction": "Son 60 saniyede tavaya sarımsak dilimlerini ekleyin, altın rengi alınca üzerine sarımsaklı yağı gezdirin.", "duration": 2 },
+          { "step": 9, "instruction": "Balığı kağıt havlu kaplı tabağa alın, fazla yağı çektirin; 1-2 dakika dinlendirin.", "duration": 2 },
+          { "step": 10, "instruction": "Servis tabağına alın, taze dereotu ve kişniş serpin; narşarab sosu ve limon dilimleriyle hemen servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Levengi Balıq",
+    "translations": {
+      "en": {
+        "title": "Levengi Balıq (Walnut-Stuffed Baked Fish)",
+        "description": "A prized Caspian coast specialty from the Talysh and Lankaran regions of Azerbaijan, where a whole carp, kutum or sturgeon is stuffed with a fragrant filling of ground walnuts, caramelized onions, dried sour plums (tkemali or gəzvinə) and fresh cilantro, then baked until the skin is burnished and the flesh flakes away from the bone. The stuffing absorbs the fish's natural juices during baking, creating a rich, tangy, nutty filling that perfectly complements the delicate fish.",
+        "ingredients": [
+          { "name": "Whole fish (carp, kutum or small sturgeon), cleaned", "amount": "1.2 kg" },
+          { "name": "Ground walnuts", "amount": "1.5 cups" },
+          { "name": "Onions, finely chopped", "amount": "2 large" },
+          { "name": "Sour plum paste (tkemali) or dried sour plums", "amount": "3 tbsp" },
+          { "name": "Fresh cilantro, finely chopped", "amount": "0.5 cup" },
+          { "name": "Butter", "amount": "3 tbsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Turmeric", "amount": "0.5 tsp" },
+          { "name": "Saffron, dissolved in 2 tbsp warm water", "amount": "0.25 tsp" },
+          { "name": "Lemon, sliced", "amount": "1" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Clean and gut the fish, removing scales, gills and internal organs. Rinse thoroughly inside and out under cold water, then pat completely dry with paper towels.", "duration": 10 },
+          { "step": 2, "instruction": "Score both sides of the fish with 3-4 diagonal cuts reaching to the bone. This allows the heat to penetrate evenly and prevents the skin from bursting during baking.", "duration": 4 },
+          { "step": 3, "instruction": "Season the fish inside the cavity and all over the outside with salt, black pepper and turmeric. Place lemon slices inside the cavity for additional fragrance.", "duration": 5 },
+          { "step": 4, "instruction": "Heat 2 tablespoons of butter in a pan over medium heat. Add the finely chopped onions and cook, stirring often, for 12-15 minutes until deeply golden and caramelized — this sweetness is essential to the filling.", "duration": 15 },
+          { "step": 5, "instruction": "Remove the pan from the heat and add the ground walnuts, sour plum paste and chopped cilantro to the caramelized onions. Mix well and season generously with salt and pepper. The filling should be dense and fragrant.", "duration": 5 },
+          { "step": 6, "instruction": "Spoon the walnut filling into the fish cavity, packing it firmly. Do not overfill — leave a 1 cm gap at the opening. Secure the belly closed with kitchen twine or wooden toothpicks.", "duration": 8 },
+          { "step": 7, "instruction": "Preheat the oven to 190°C (375°F). Grease a baking dish and place the fish in the center. Dot the remaining butter over the fish and brush with the saffron water.", "duration": 10 },
+          { "step": 8, "instruction": "Bake in the preheated oven for 35-45 minutes, depending on the thickness of the fish. After 20 minutes, baste the fish with the pan juices to keep it moist.", "duration": 40 },
+          { "step": 9, "instruction": "The fish is done when the skin has turned deep golden-brown, the scores have opened up showing white flesh inside, and a skewer inserted into the thickest part meets no resistance.", "duration": 5 },
+          { "step": 10, "instruction": "Remove from the oven and rest for 5 minutes. Carefully transfer to a serving platter, garnish with fresh cilantro and lemon slices, and serve with saffron rice or lavash.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Levengi Balıq",
+        "description": "Azərbaycanın Talış və Lənkəran bölgəsindən gələn bu dəyərli Xəzər sahili yeməyinde bütöv sazan, kutum və ya nərə balığı üyüdülmüş qoz, karamelləşdirilmiş soğan, turş gavalı (tkəmali və ya gəzvinə) və kişniş qarışığı ilə doldurulub bütün tərəfləri qızarana qədər sobada bişirilir. Doldurma bişmə zamanı balığın təbii şirəsini udur, zəngin, turşlu, qozlu bir doldurma yaradır.",
+        "ingredients": [
+          { "name": "Bütöv balıq (sazan, kutum, kiçik nərə), təmizlənmiş", "amount": "1,2 kq" },
+          { "name": "Üyüdülmüş qoz", "amount": "1,5 stəkan" },
+          { "name": "Soğan, xırda doğranmış", "amount": "2 iri" },
+          { "name": "Turş gavalı pastası (tkəmali) və ya qurudulmuş turş gavalı", "amount": "3 x.q." },
+          { "name": "Təzə kişniş, xırda doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Kərə yağı", "amount": "3 x.q." },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Sarıkök (turmerik)", "amount": "0,5 ç.q." },
+          { "name": "Zəfəran (2 x.q. isti suda həll olunmuş)", "amount": "0,25 ç.q." },
+          { "name": "Limon, dilimlənmiş", "amount": "1 ədəd" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balığı təmizləyin: pulları, qəlsəmələri, daxili orqanları çıxarın. Soyuq su ilə içindən və çölündən yaxşıca yuyun, sonra tamamilə qurudun.", "duration": 10 },
+          { "step": 2, "instruction": "Balığın hər iki tərəfinə sümüyə qədər 3-4 çərtik vurun — bu istilik bərabər yayılmasına kömək edir, dəri qabarmır.", "duration": 4 },
+          { "step": 3, "instruction": "Balığı içindən və çölündən duz, qara biber və sarıkökle ədviyyeyin. Limon dilimlerini ətir üçün içinə qoyun.", "duration": 5 },
+          { "step": 4, "instruction": "2 x.q. yağı ortabir istilikdə qızdırın. Soğanı tez-tez qarışdıraraq 12-15 dəqiqə qızılı karamelə çevrilənə qədər qovurun — bu şirinlik doldurmaq üçün vacibdir.", "duration": 15 },
+          { "step": 5, "instruction": "Tavayı oddan götürün. Qoz, tkəmali pastası və kişniş əlavə edin, yaxşı qarışdırın, duz-biber vurun. Doldurma yoğun və ətirli olmalıdır.", "duration": 5 },
+          { "step": 6, "instruction": "Qoz doldurmayı balığın içinə möhkəm basın. Çox doldurmayın — açılışda 1 sm boşluq buraxın. Qarın hissəsini ip və ya diş çöpü ilə bağlayın.", "duration": 8 },
+          { "step": 7, "instruction": "Sobanı 190°C qızdırın. Yağlanmış soba qabına balığı yerləşdirin, üzərinə qalan yağı qoyun, zəfəran suyu ilə sürtün.", "duration": 10 },
+          { "step": 8, "instruction": "Qızdırılmış sobada 35-45 dəqiqə bişirin. 20 dəqiqədən sonra qurumasın deyə qabdakı şirəni üzərinə çiləyin.", "duration": 40 },
+          { "step": 9, "instruction": "Dəri tünd qızılı rəng alanda, çərtiklər açılıb içindəki ağ ət görünəndə, şiş ən qalın yerə sürtünmə hiss etmədən girəndə balıq hazırdır.", "duration": 5 },
+          { "step": 10, "instruction": "Sobadan çıxarın, 5 dəqiqə dincəldin. Servis boşqabına köçürün, kişniş və limon dilimlerile bəzəyin, zəfəranlı plov və ya lavaşla süfrəyə verin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Левенги Балыг (Рыба, Фаршированная Ореховой Пастой)",
+        "description": "Ценное блюдо каспийского побережья из Талышского и Ленкоранского регионов Азербайджана: целый карп, кутум или осётрина фаршируется ароматной смесью молотых грецких орехов, карамелизованного лука, кислой сливы (ткемали или гезвине) и кинзы, затем запекается до румяной корочки. Начинка впитывает соки рыбы и становится богатой, кисловатой, ореховой — идеально сочетается с нежным мясом рыбы.",
+        "ingredients": [
+          { "name": "Целая рыба (карп, кутум или небольшая осётрина), выпотрошенная", "amount": "1,2 кг" },
+          { "name": "Молотые грецкие орехи", "amount": "1,5 стакана" },
+          { "name": "Лук, мелко нарезанный", "amount": "2 крупных" },
+          { "name": "Ткемали или кислая слива сушёная", "amount": "3 ст.л." },
+          { "name": "Кинза свежая, нарубленная", "amount": "0,5 стакана" },
+          { "name": "Сливочное масло", "amount": "3 ст.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Куркума", "amount": "0,5 ч.л." },
+          { "name": "Шафран (растворённый в 2 ст.л. тёплой воды)", "amount": "0,25 ч.л." },
+          { "name": "Лимон, нарезанный", "amount": "1 шт." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Почистите рыбу: удалите чешую, жабры и внутренности. Тщательно промойте снаружи и внутри холодной водой, затем полностью обсушите.", "duration": 10 },
+          { "step": 2, "instruction": "Сделайте 3-4 диагональных надреза до кости с обеих сторон — это обеспечит равномерный прогрев и предотвратит трескание кожи.", "duration": 4 },
+          { "step": 3, "instruction": "Натрите рыбу солью, чёрным перцем и куркумой снаружи и внутри. Положите ломтики лимона в брюшную полость для аромата.", "duration": 5 },
+          { "step": 4, "instruction": "Разогрейте 2 ст.л. масла на среднем огне, обжарьте лук, помешивая, 12-15 минут до глубокой золотистой карамелизации.", "duration": 15 },
+          { "step": 5, "instruction": "Снимите с огня, добавьте орехи, ткемали и кинзу, хорошо перемешайте, посолите и поперчите. Начинка должна быть плотной и ароматной.", "duration": 5 },
+          { "step": 6, "instruction": "Плотно набейте ореховую начинку в брюшко рыбы. Не переполняйте — оставьте 1 см у края. Зашейте или закрепите зубочистками.", "duration": 8 },
+          { "step": 7, "instruction": "Разогрейте духовку до 190°C. Смажьте форму, уложите рыбу, распределите оставшееся масло поверх и смажьте шафрановой водой.", "duration": 10 },
+          { "step": 8, "instruction": "Запекайте 35-45 минут. Через 20 минут полейте рыбу соками со дна формы, чтобы она оставалась сочной.", "duration": 40 },
+          { "step": 9, "instruction": "Рыба готова, когда кожа стала тёмно-золотистой, надрезы раскрылись, мясо внутри белое, а шпажка входит в самое толстое место без сопротивления.", "duration": 5 },
+          { "step": 10, "instruction": "Достаньте из духовки, дайте отдохнуть 5 минут. Переложите на блюдо, украсьте кинзой и лимоном, подайте с шафрановым рисом или лавашом.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Levengi Balığı (Ceviz Dolgulu Fırın Balık)",
+        "description": "Azerbaycan'ın Talış ve Lenkoran bölgelerine özgü bu değerli Hazar kıyısı yemeğinde bütün sazan, kutum veya mersin balığı; öğütülmüş ceviz, karamelize soğan, ekşi erik ezmesi (tkemali veya gəzvinə) ve taze kişniş ile doldurulur, sonra derisi altın rengi kızarana ve eti kılçıktan kolayca ayrılana dek fırında pişirilir. Dolma, pişme sırasında balığın suyunu emerek zengin, ekşili, cevizli bir iç harca dönüşür.",
+        "ingredients": [
+          { "name": "Bütün balık (sazan, kutum veya küçük mersin), temizlenmiş", "amount": "1,2 kg" },
+          { "name": "Çekilmiş ceviz", "amount": "1,5 su bardağı" },
+          { "name": "Soğan, ince kıyılmış", "amount": "2 büyük" },
+          { "name": "Ekşi erik ezmesi (tkemali) veya kuru ekşi erik", "amount": "3 yemek kaşığı" },
+          { "name": "Taze kişniş, ince kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Tereyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Zerdeçal", "amount": "0,5 çay kaşığı" },
+          { "name": "Safran (2 yemek kaşığı sıcak suda eritilmiş)", "amount": "0,25 çay kaşığı" },
+          { "name": "Limon, dilimlenmiş", "amount": "1 adet" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balığı temizleyin: pulları, solungaçları ve iç organları çıkarın. İçini ve dışını soğuk suyla iyice yıkayın, ardından tamamen kurulayın.", "duration": 10 },
+          { "step": 2, "instruction": "Her iki yanına kılçığa kadar 3-4 çapraz çentik atın — bu, ısının eşit yayılmasını sağlar ve derisinin çatlamasını önler.", "duration": 4 },
+          { "step": 3, "instruction": "Balığı içinden ve dışından tuz, karabiber ve zerdeçalle ovun. Kokusu için karın boşluğuna limon dilimleri koyun.", "duration": 5 },
+          { "step": 4, "instruction": "2 yemek kaşığı tereyağını orta ateşte kızdırın. Soğanı sık sık karıştırarak 12-15 dakika derin altın karamel rengine ulaşana dek kavurun — bu tatlılık dolma için vazgeçilmezdir.", "duration": 15 },
+          { "step": 5, "instruction": "Tavayı ateşten alın. Ceviz, tkemali ve kişniş ekleyin, iyice karıştırın, tuz ve karabiber katın. Harç yoğun ve kokulu olmalıdır.", "duration": 5 },
+          { "step": 6, "instruction": "Cevizli harcı balığın içine sıkıca doldurun. Fazla doldurmayın — kenarda 1 cm boşluk bırakın. Karın bölümünü ip veya kürdan ile kapatın.", "duration": 8 },
+          { "step": 7, "instruction": "Fırını 190°C'ye ısıtın. Yağlanmış fırın kabına balığı yerleştirin, kalan tereyağını üzerine yayın ve safran suyuyla fırçalayın.", "duration": 10 },
+          { "step": 8, "instruction": "Önceden ısıtılmış fırında 35-45 dakika pişirin. 20 dakika sonra kuruyup kalmamsı için kaptaki suyunu üzerine gezdirin.", "duration": 40 },
+          { "step": 9, "instruction": "Deri koyu altın rengi aldığında, çentikler açılıp içi beyazlaştığında ve şiş en kalın yere dirençsizce girdiğinde balık hazırdır.", "duration": 5 },
+          { "step": 10, "instruction": "Fırından çıkarın, 5 dakika dinlendirin. Servis tabağına aktarın, taze kişniş ve limon dilimleriyle süsleyin; safranlı pilav veya lavaşla servis yapın.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Balıq Shashlik",
+    "translations": {
+      "en": {
+        "title": "Balıq Shashlik (Grilled Fish Skewers)",
+        "description": "Chunks of firm fish — sturgeon, swordfish or salmon — alternated with onion and tomato wedges on skewers, marinated briefly in lemon, olive oil and herbs, then grilled over glowing coals until the edges are smoky and lightly charred. Unlike the more elaborate Balıq Kabab with its pomegranate glaze, shashlik keeps the flavor simple: smoke, lemon and the natural sweetness of the fish shine through. A beloved summer dish along the Caspian coast.",
+        "ingredients": [
+          { "name": "Firm fish fillet (sturgeon, swordfish or salmon), cubed", "amount": "700 g" },
+          { "name": "Medium onions, cut into wedges", "amount": "2" },
+          { "name": "Tomatoes, cut into wedges", "amount": "2" },
+          { "name": "Lemon juice", "amount": "4 tbsp" },
+          { "name": "Olive oil", "amount": "3 tbsp" },
+          { "name": "Fresh parsley and dill", "amount": "0.5 cup" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Lemon wedges for serving", "amount": "1 lemon" },
+          { "name": "Sumac", "amount": "1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Cut the fish into generous 4-5 cm cubes. Rinse briefly, pat very dry with paper towels and set aside in a bowl.", "duration": 6 },
+          { "step": 2, "instruction": "Whisk together the lemon juice, olive oil, chopped parsley, dill, salt and pepper to form a simple marinade.", "duration": 3 },
+          { "step": 3, "instruction": "Add the fish cubes to the marinade and toss gently to coat on all sides. Marinate at room temperature for 15-20 minutes — no longer, to avoid the lemon breaking down the fish texture.", "duration": 20 },
+          { "step": 4, "instruction": "Cut the onions into thick wedges (keeping the layers intact so they hold on the skewer) and the tomatoes into quarters.", "duration": 5 },
+          { "step": 5, "instruction": "Light charcoal and wait until it burns to an even grey-white ash with glowing orange embers underneath — this is medium heat, ideal for fish.", "duration": 20 },
+          { "step": 6, "instruction": "Thread the fish, onion wedges and tomato quarters alternately onto wide metal skewers, starting and ending with a piece of fish to help the skewer balance.", "duration": 8 },
+          { "step": 7, "instruction": "Grill the skewers over the coals for 4 minutes on the first side without moving them, allowing proper caramelization to form.", "duration": 4 },
+          { "step": 8, "instruction": "Turn the skewers using tongs and grill the opposite side for 3-4 minutes. Fish is done when it turns opaque and the edges show light charring. It should flake easily at the thickest point.", "duration": 4 },
+          { "step": 9, "instruction": "Turn once more for an additional 1-2 minutes if the fish needs further cooking, basting with any remaining marinade to keep it moist.", "duration": 2 },
+          { "step": 10, "instruction": "Rest the skewers for 2 minutes, then serve immediately with lemon wedges, a sprinkle of sumac and fresh herbs. Warm lavash or saffron rice make perfect accompaniments.", "duration": 2 }
+        ]
+      },
+      "az": {
+        "title": "Balıq Şaşlıq",
+        "description": "Möhkəm balıq — nərə, qılıncbalığı və ya qızıl balıq — soğan və pomidor dilimlerile dönüşümlü şişlərə keçirilir, limon, zeytun yağı və otlarla qısaca marinad edilib kömür közündə hafif yanıq izleri əmələ gələnə qədər qızardılır. Nar sousu glazurlu Balıq Kababından fərqli olaraq, şaşlıqda tüstü, limon və balığın özünün dadı önə çıxır. Xəzər sahilindəki yay şəlalarlında sevimli bir yemekdir.",
+        "ingredients": [
+          { "name": "Möhkəm balıq filesi (nərə, qılınc, qızıl balıq), kublar", "amount": "700 q" },
+          { "name": "Soğan, dilimlər", "amount": "2 ədəd" },
+          { "name": "Pomidor, dilimlər", "amount": "2 ədəd" },
+          { "name": "Limon suyu", "amount": "4 x.q." },
+          { "name": "Zeytun yağı", "amount": "3 x.q." },
+          { "name": "Təzə cəfəri və şüyüd", "amount": "0,5 stəkan" },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Limon dilimleri (süfrəyə)", "amount": "1 ədəd" },
+          { "name": "Sumaq", "amount": "1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balığı 4-5 sm ölçüdə kublar kəsin. Yuyun, kağız dəsmalla tamamilə qurudun, qaba qoyun.", "duration": 6 },
+          { "step": 2, "instruction": "Limon suyu, zeytun yağı, doğranmış cəfəri, şüyüd, duz və biberi qarışdırıb marinad hazırlayın.", "duration": 3 },
+          { "step": 3, "instruction": "Balıq parçalarını marinadla örtün. Otaq temperaturunda 15-20 dəqiqə marinad edin — daha uzun saxlamayın ki limon dokunumu pozmasın.", "duration": 20 },
+          { "step": 4, "instruction": "Soğanı qalın dilimlərə (qatlar birlikdə qalmalıdır), pomidorları dörddə birə kəsin.", "duration": 5 },
+          { "step": 5, "instruction": "Kömürü yandırın, boz-ağ kül örtüyü əmələ gələnə qədər gözləyin — bu balıq üçün ideal orta istilikdir.", "duration": 20 },
+          { "step": 6, "instruction": "Balıq, soğan dilimi, pomidor parçasını dönüşümlü olaraq geniş metal şişlərə keçirin, şişi balıq ilə başlayıb bitirin.", "duration": 8 },
+          { "step": 7, "instruction": "Şişləri közün üzərinə qoyun, karamelizasiya əmələ gəlsin deyə 4 dəqiqə toxunmadan bişirin.", "duration": 4 },
+          { "step": 8, "instruction": "Şişləri çevirin, digər tərəfi 3-4 dəqiqə bişirin. Balıq ağaranda və kənarlarda hafif yanıq izi əmələ gəlndə hazırdır.", "duration": 4 },
+          { "step": 9, "instruction": "Daha bir dəfə çevirin, lazım olarsa 1-2 dəqiqə daha bişirin, qalan marinadla üzərinə çiləyin.", "duration": 2 },
+          { "step": 10, "instruction": "2 dəqiqə istirahət etdirin, sonra limon dilimleri, sumaq və təzə otlarla dərhal süfrəyə verin. İsti lavaş və ya zəfəranlı plov yanına əla gedir.", "duration": 2 }
+        ]
+      },
+      "ru": {
+        "title": "Балыг Шашлык (Рыбный Шашлык)",
+        "description": "Кусочки плотной рыбы — осётрины, меч-рыбы или лосося — нанизываются на шампуры вперемешку с луком и помидорами, кратко маринуются в лимоне и оливковом масле, затем жарятся на углях до лёгкого дымного подпала. В отличие от Балыг Кабаб с гранатовой глазурью, здесь вкус остаётся простым: дым, лимон и природная сладость рыбы. Любимое летнее блюдо на каспийском побережье.",
+        "ingredients": [
+          { "name": "Плотное рыбное филе (осётрина, меч-рыба или лосось), кубиками", "amount": "700 г" },
+          { "name": "Лук, дольками", "amount": "2 средних" },
+          { "name": "Помидоры, дольками", "amount": "2 шт." },
+          { "name": "Лимонный сок", "amount": "4 ст.л." },
+          { "name": "Оливковое масло", "amount": "3 ст.л." },
+          { "name": "Свежая петрушка и укроп", "amount": "0,5 стакана" },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Дольки лимона для подачи", "amount": "1 лимон" },
+          { "name": "Сумах", "amount": "1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Нарежьте рыбу кубиками 4-5 см, ополосните, тщательно обсушите бумажными полотенцами и уложите в миску.", "duration": 6 },
+          { "step": 2, "instruction": "Взбейте лимонный сок, масло, рубленую петрушку, укроп, соль и перец — маринад готов.", "duration": 3 },
+          { "step": 3, "instruction": "Опустите рыбу в маринад, перемешайте. Маринуйте при комнатной температуре 15-20 минут — не дольше, чтобы кислота не разрушила структуру.", "duration": 20 },
+          { "step": 4, "instruction": "Нарежьте лук толстыми дольками (слои должны держаться), помидоры — четвертинками.", "duration": 5 },
+          { "step": 5, "instruction": "Разожгите угли и дождитесь серо-белого пепла с оранжевыми углями внутри — это средний жар, идеальный для рыбы.", "duration": 20 },
+          { "step": 6, "instruction": "Нанижите рыбу, лук и помидоры по очереди на широкие шампуры, начиная и заканчивая рыбой.", "duration": 8 },
+          { "step": 7, "instruction": "Положите шампуры на угли и жарьте 4 минуты, не трогая, чтобы образовалась карамелизация.", "duration": 4 },
+          { "step": 8, "instruction": "Переверните и жарьте ещё 3-4 минуты. Рыба готова, когда стала непрозрачной и края слегка подгорели.", "duration": 4 },
+          { "step": 9, "instruction": "При необходимости ещё раз переверните на 1-2 минуты, поливая остатками маринада.", "duration": 2 },
+          { "step": 10, "instruction": "Дайте отдохнуть 2 минуты, затем сразу подавайте с дольками лимона, сумахом и зеленью. Отлично сочетается с лавашом или шафрановым рисом.", "duration": 2 }
+        ]
+      },
+      "tr": {
+        "title": "Balık Şiş (Şaşlik)",
+        "description": "Sağlam balık — mersin, kılıç balığı veya somon — soğan ve domates dilimleriyle şişe geçirilir, limon, zeytinyağı ve otlarla kısa süre marine edildikten sonra közlenmiş kömür üzerinde hafif yanık izleri oluşana dek ızgaralanır. Nar sosuyla kaplanan Balıq Kababın aksine, şişlikte lezzet sade kalır: duman, limon ve balığın doğal tatlılığı öne çıkar. Hazar kıyısında sevilen yaz yemeğidir.",
+        "ingredients": [
+          { "name": "Sağlam balık filesi (mersin, kılıç veya somon), küp doğranmış", "amount": "700 g" },
+          { "name": "Soğan, kama dilimler", "amount": "2 adet" },
+          { "name": "Domates, kama dilimler", "amount": "2 adet" },
+          { "name": "Limon suyu", "amount": "4 yemek kaşığı" },
+          { "name": "Zeytinyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Taze maydanoz ve dereotu", "amount": "0,5 su bardağı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Limon dilimleri (servis için)", "amount": "1 adet" },
+          { "name": "Sumak", "amount": "1 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Balığı 4-5 cm küpler halinde kesin. Yıkayın, kağıt havluyla iyice kurulayın ve bir kaseye alın.", "duration": 6 },
+          { "step": 2, "instruction": "Limon suyu, zeytinyağı, kıyılmış maydanoz, dereotu, tuz ve biberi karıştırarak marinatı hazırlayın.", "duration": 3 },
+          { "step": 3, "instruction": "Balık parçalarını marinata katın, iyice karıştırın. Oda sıcaklığında 15-20 dakika marine edin — daha uzun bırakmayın, limon balığın dokusunu bozar.", "duration": 20 },
+          { "step": 4, "instruction": "Soğanı kalın kama dilimlerine (katmanlar bütün kalsın), domatesi dörde bölün.", "duration": 5 },
+          { "step": 5, "instruction": "Kömürleri yakın, üzerleri gri-beyaz külle kaplanana dek bekleyin — bu balık için ideal orta ısıdır.", "duration": 20 },
+          { "step": 6, "instruction": "Balık, soğan ve domates parçalarını geniş metal şişlere dönüşümlü olarak geçirin; şişi balıkla başlatıp bitirin.", "duration": 8 },
+          { "step": 7, "instruction": "Şişleri köz üzerine yerleştirin, karamelizasyon oluşsun diye 4 dakika dokunmadan pişirin.", "duration": 4 },
+          { "step": 8, "instruction": "Çevirin ve 3-4 dakika daha pişirin. Balık matlaşıp kenarlarda hafif yanık izleri belirdiğinde hazırdır.", "duration": 4 },
+          { "step": 9, "instruction": "Gerekirse bir kez daha çevirin, 1-2 dakika daha pişirin; kalan marinatı üzerine gezdirin.", "duration": 2 },
+          { "step": 10, "instruction": "2 dakika dinlendirin, ardından limon dilimleri, sumak ve taze otlarla hemen servis yapın. Sıcak lavaş veya safranlı pilav mükemmel tamamlar.", "duration": 2 }
+        ]
+      }
+    }
+  }
+]

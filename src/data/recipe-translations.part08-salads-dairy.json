@@ -1,0 +1,479 @@
+[
+  {
+    "title": "Çoban Salatı",
+    "translations": {
+      "en": {
+        "title": "Çoban Salatı (Shepherd's Salad)",
+        "description": "A refreshing, vibrant salad of finely diced ripe tomatoes, crisp cucumber, red onion and fresh herbs, dressed simply with lemon juice and a drizzle of good olive oil. Çoban salatı (shepherd's salad) is the universal accompaniment to almost every grilled dish in Azerbaijan, its bright acidity and crunch cutting through rich meats and stews. Best made just before eating so the vegetables stay crisp.",
+        "ingredients": [
+          { "name": "Ripe tomatoes", "amount": "3 medium" },
+          { "name": "Cucumber", "amount": "2 medium" },
+          { "name": "Red onion", "amount": "1 small" },
+          { "name": "Fresh parsley and cilantro, chopped", "amount": "0.5 cup" },
+          { "name": "Fresh mint leaves", "amount": "0.25 cup" },
+          { "name": "Lemon juice", "amount": "2 tbsp" },
+          { "name": "Olive oil", "amount": "2 tbsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Dice the tomatoes into small, even cubes of about 1 cm. Place in a large bowl and season with a pinch of salt — this draws out excess water.", "duration": 5 },
+          { "step": 2, "instruction": "Dice the cucumber into similar-sized cubes. If the cucumber skin is bitter or tough, peel it first, but keep the seeds for crunch.", "duration": 4 },
+          { "step": 3, "instruction": "Halve the red onion and slice it very thinly into half-moons. If the onion is very pungent, soak the slices in cold water for 5 minutes, then drain and pat dry.", "duration": 5 },
+          { "step": 4, "instruction": "Finely chop the parsley, cilantro and mint leaves.", "duration": 4 },
+          { "step": 5, "instruction": "Combine the tomatoes, cucumber, onion and herbs in the bowl. Toss gently.", "duration": 2 },
+          { "step": 6, "instruction": "Drizzle with lemon juice and olive oil. Season with salt and pepper to taste.", "duration": 2 },
+          { "step": 7, "instruction": "Toss everything together gently and serve immediately — the salad does not sit well and must be eaten fresh.", "duration": 1 }
+        ]
+      },
+      "az": {
+        "title": "Çoban Salatı",
+        "description": "Xırda dilimlənmiş yetişkin pomidor, xırtıldayan xiyar, qırmızı soğan və otların limon suyu və zeytun yağı ilə sadəcə geydirilmiş canlı salat. Çoban salatı Azərbaycanda demək olar ki bütün ızgara yemeklərinin yanında verilir — onun turşuluğu və xırtıltısı zəngin ətlər və güveçlərle mükemmel uyum içindedir. Ən yaxşısı yemekden hemen əvvəl hazırlanır.",
+        "ingredients": [
+          { "name": "Yetişkin pomidor", "amount": "3 orta" },
+          { "name": "Xiyar", "amount": "2 orta" },
+          { "name": "Qırmızı soğan", "amount": "1 kiçik" },
+          { "name": "Cəfəri və kişniş, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Nanə yarpaqları", "amount": "0,25 stəkan" },
+          { "name": "Limon suyu", "amount": "2 x.q." },
+          { "name": "Zeytun yağı", "amount": "2 x.q." },
+          { "name": "Duz və qara biber", "amount": "dada görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Pomidorları 1 sm ölçüdə xırda, bərabər kublar şəklinde doğrayın, böyük qaba qoyun, bir az duzlayın — artıq suyu çıxar.", "duration": 5 },
+          { "step": 2, "instruction": "Xiyarı eyni ölçüdə kublar kəsin. Qabığı acı və ya sərt olarsa soydun, toxumları saxlayın.", "duration": 4 },
+          { "step": 3, "instruction": "Qırmızı soğanı çox nazik yarım-ay dilimlərə kəsin. Soğan çox acı olarsa 5 dəqiqə soyuq suda saxlayın, süzün, qurudun.", "duration": 5 },
+          { "step": 4, "instruction": "Cəfəri, kişniş və nanəni xırda doğrayın.", "duration": 4 },
+          { "step": 5, "instruction": "Pomidor, xiyar, soğan və otları qabda birləşdirin. Yüngülcə qarışdırın.", "duration": 2 },
+          { "step": 6, "instruction": "Limon suyu və zeytun yağı ilə sürtün. Duz, biber vurun.", "duration": 2 },
+          { "step": 7, "instruction": "Yüngülcə qarışdırın, dərhal verin — bu salat dayanmaz, təzəykən yeyilməlidir.", "duration": 1 }
+        ]
+      },
+      "ru": {
+        "title": "Чобан Салаты (Пастуший Салат)",
+        "description": "Освежающий, яркий салат из мелко нарезанных спелых помидоров, хрустящего огурца, красного лука и свежей зелени, заправленный лимонным соком и оливковым маслом. Чобан саллатысы — универсальный гарнир почти ко всем блюдам на гриле в Азербайджане. Его кислота и хруст идеально балансируют сытные мясные блюда. Лучше готовить прямо перед подачей.",
+        "ingredients": [
+          { "name": "Спелые помидоры", "amount": "3 средних" },
+          { "name": "Огурцы", "amount": "2 средних" },
+          { "name": "Красный лук", "amount": "1 маленький" },
+          { "name": "Петрушка и кинза, нарубленные", "amount": "0,5 стакана" },
+          { "name": "Свежая мята", "amount": "0,25 стакана" },
+          { "name": "Лимонный сок", "amount": "2 ст.л." },
+          { "name": "Оливковое масло", "amount": "2 ст.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Нарежьте помидоры мелкими кубиками около 1 см, положите в миску, посолите — лишняя жидкость уйдёт.", "duration": 5 },
+          { "step": 2, "instruction": "Нарежьте огурцы кубиками того же размера. При необходимости снимите кожуру.", "duration": 4 },
+          { "step": 3, "instruction": "Тонко нарежьте красный лук полукольцами. Если лук острый, замочите в холодной воде на 5 минут, слейте и обсушите.", "duration": 5 },
+          { "step": 4, "instruction": "Мелко нарубите петрушку, кинзу и мяту.", "duration": 4 },
+          { "step": 5, "instruction": "Соедините помидоры, огурцы, лук и зелень в миске. Аккуратно перемешайте.", "duration": 2 },
+          { "step": 6, "instruction": "Полейте лимонным соком и оливковым маслом. Посолите и поперчите по вкусу.", "duration": 2 },
+          { "step": 7, "instruction": "Аккуратно перемешайте и сразу подавайте — салат не стоит, его нужно есть свежим.", "duration": 1 }
+        ]
+      },
+      "tr": {
+        "title": "Çoban Salatası",
+        "description": "İnce doğranmış olgun domates, çıtır salatalık, kırmızı soğan ve taze otların limon suyu ve zeytinyağıyla sadeçe tatlandırıldığı ferahlatıcı bir salata. Çoban salatası Azerbaycan'da hemen her ızgara yemeğinin yanında servis edilir; keskinliği ve çıtırtısı zengin etlerin ve yahnilerin tam karşısında durur. En iyisi yemekten hemen önce hazırlanır.",
+        "ingredients": [
+          { "name": "Olgun domates", "amount": "3 orta" },
+          { "name": "Salatalık", "amount": "2 orta" },
+          { "name": "Kırmızı soğan", "amount": "1 küçük" },
+          { "name": "Taze maydanoz ve kişniş, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Taze nane yaprakları", "amount": "0,25 su bardağı" },
+          { "name": "Limon suyu", "amount": "2 yemek kaşığı" },
+          { "name": "Zeytinyağı", "amount": "2 yemek kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Domatesleri yaklaşık 1 cm boyutunda küçük eşit küpler hâlinde doğrayın; geniş kaseye alın, biraz tuz serpin — fazla su çıkar.", "duration": 5 },
+          { "step": 2, "instruction": "Salatalıkları aynı boyutta küpler hâlinde kesin. Kabuğu acıysa soyun ama tohumları bırakın.", "duration": 4 },
+          { "step": 3, "instruction": "Kırmızı soğanı çok ince yarım ay dilimlerine kesin. Soğan çok keskinse 5 dakika soğuk suda bekletin, süzün, kurulayın.", "duration": 5 },
+          { "step": 4, "instruction": "Maydanoz, kişniş ve naneyi ince kıyın.", "duration": 4 },
+          { "step": 5, "instruction": "Domates, salatalık, soğan ve otları kasede birleştirin. Nazikçe karıştırın.", "duration": 2 },
+          { "step": 6, "instruction": "Limon suyu ve zeytinyağı gezdirin. Tuz ve karabiberle tatlandırın.", "duration": 2 },
+          { "step": 7, "instruction": "Nazikçe karıştırın ve hemen servis yapın — bu salata beklemez, taze yenilmeli.", "duration": 1 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Kükü",
+    "translations": {
+      "en": {
+        "title": "Kükü (Azerbaijani Herb Frittata)",
+        "description": "A thick, vibrant green frittata packed with an abundance of fresh herbs — dill, cilantro, spring onion and sometimes fenugreek leaves — bound with eggs and pan-fried until set and fragrant. Kükü is the Azerbaijani cousin of Persian kuku sabzi, and bursting with freshness. It can be served hot or cold, as a main dish or side, and keeps well for a day, making it ideal for picnics.",
+        "ingredients": [
+          { "name": "Eggs", "amount": "6 large" },
+          { "name": "Fresh dill, roughly chopped", "amount": "1 cup" },
+          { "name": "Fresh cilantro, roughly chopped", "amount": "0.5 cup" },
+          { "name": "Spring onions (scallions), sliced", "amount": "0.5 cup" },
+          { "name": "Fresh parsley, roughly chopped", "amount": "0.25 cup" },
+          { "name": "All-purpose flour", "amount": "1 tbsp" },
+          { "name": "Butter", "amount": "3 tbsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Turmeric", "amount": "0.25 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Finely chop all the herbs together — dill, cilantro, spring onion and parsley. They should be finely minced, not roughly torn, so they distribute evenly through the egg mixture.", "duration": 8 },
+          { "step": 2, "instruction": "Break the eggs into a large bowl. Add the flour, salt, pepper and turmeric. Beat well with a fork until thoroughly combined and slightly frothy.", "duration": 4 },
+          { "step": 3, "instruction": "Stir the chopped herbs into the egg mixture, mixing well so the herbs are evenly distributed. The mixture should look very green.", "duration": 2 },
+          { "step": 4, "instruction": "Heat the butter in a 24-26 cm non-stick or cast iron pan over medium-low heat until it melts and coats the base evenly.", "duration": 3 },
+          { "step": 5, "instruction": "Pour the egg-herb mixture into the pan and spread it out evenly with a spatula to create a level surface.", "duration": 2 },
+          { "step": 6, "instruction": "Cover the pan and cook on low heat for 8-10 minutes without disturbing, until the edges are set and starting to pull away from the sides, and the centre is mostly set but still slightly moist on top.", "duration": 10 },
+          { "step": 7, "instruction": "To flip: place a large flat plate over the pan, invert the frittata onto the plate, then slide it back into the pan cooked-side up. Alternatively, place the pan under a grill for 3-4 minutes to set the top without flipping.", "duration": 5 },
+          { "step": 8, "instruction": "Cook the second side for 3-4 minutes until golden and cooked through. The kükü should feel firm when pressed in the centre.", "duration": 4 },
+          { "step": 9, "instruction": "Slide onto a cutting board, cut into wedges and serve hot or at room temperature with plain yogurt and warm bread.", "duration": 2 }
+        ]
+      },
+      "az": {
+        "title": "Kükü",
+        "description": "Bol şüyüd, kişniş, göy soğan və cəfəri qarışımıyla hazırlanan, yumurtayla bağlanan qalın, canlı yaşıl kükü qızarana qədər tavada bişirilir. Azərbaycan mətbəxinin ən yaşıl, ən parlaq yeməklerindən biri olan kükü isti ya da soyuq verilib həm əsas, həm yan yemek ola bilər.",
+        "ingredients": [
+          { "name": "Yumurta", "amount": "6 iri" },
+          { "name": "Şüyüd, xırda doğranmış", "amount": "1 stəkan" },
+          { "name": "Kişniş, xırda doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Göy soğan, dilimlənmiş", "amount": "0,5 stəkan" },
+          { "name": "Cəfəri, xırda doğranmış", "amount": "0,25 stəkan" },
+          { "name": "Un", "amount": "1 x.q." },
+          { "name": "Kərə yağı", "amount": "3 x.q." },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Sarıkök", "amount": "0,25 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Bütün otları — şüyüd, kişniş, göy soğan, cəfərini — birlikdə xırda doğrayın; bərabər paylaşsın deyə narın olmalıdır.", "duration": 8 },
+          { "step": 2, "instruction": "Yumurtaları böyük qaba qırın. Un, duz, biber, sarıköy əlavə edin. Yaxşıca çırpın.", "duration": 4 },
+          { "step": 3, "instruction": "Doğranmış otları yumurta qarışımına əlavə edin, yaxşıca qarışdırın — qarışım çox yaşıl görünməlidir.", "duration": 2 },
+          { "step": 4, "instruction": "24-26 sm yapışmaz ya da tökmə dəmir tavada kərə yağını orta-aşağı istilikdə əridin.", "duration": 3 },
+          { "step": 5, "instruction": "Yumurta-ot qarışımını tavaya tökün, spatula ilə bərabər yayın.", "duration": 2 },
+          { "step": 6, "instruction": "Qapağı örtün, aşağı istilikdə 8-10 dəqiqə bişirin — kənarlar bərkisin, ortası hələ nəmli olabilir.", "duration": 10 },
+          { "step": 7, "instruction": "Çevirmek üçün: büyük düz tabağı tavanın üstüne koyun, kükü tabağa çevirin, sonra tavaya geri kaydırın. Ya da qapaqsız qrill altında 3-4 dəqiqə üstünü bişirin.", "duration": 5 },
+          { "step": 8, "instruction": "İkinci tərəfi 3-4 dəqiqə qızılı olana qədər bişirin. Ortaya basanda möhkəm olmalıdır.", "duration": 4 },
+          { "step": 9, "instruction": "Kəsmə taxtasına sürüşdürün, dilimlərə kəsin, sadə qatıq və isti çörəklə isti ya da otaq temperaturunda verin.", "duration": 2 }
+        ]
+      },
+      "ru": {
+        "title": "Кюкю (Азербайджанская Травяная Фриттата)",
+        "description": "Густая, ярко-зелёная фриттата, щедро набитая свежей зеленью — укропом, кинзой, зелёным луком и петрушкой, — скреплённая яйцами и обжаренная до готовности. Кюкю — азербайджанский родственник персидского кюку сабзи: яркое, освежающее блюдо, которое подают горячим или холодным как самостоятельное или гарнирное блюдо.",
+        "ingredients": [
+          { "name": "Яйца", "amount": "6 крупных" },
+          { "name": "Укроп свежий, нарубленный", "amount": "1 стакан" },
+          { "name": "Кинза свежая, нарубленная", "amount": "0,5 стакана" },
+          { "name": "Зелёный лук, нарезанный", "amount": "0,5 стакана" },
+          { "name": "Петрушка свежая, нарубленная", "amount": "0,25 стакана" },
+          { "name": "Мука", "amount": "1 ст.л." },
+          { "name": "Сливочное масло", "amount": "3 ст.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Куркума", "amount": "0,25 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Мелко нарубите всю зелень — укроп, кинзу, зелёный лук, петрушку. Она должна быть мелкой, чтобы равномерно распределиться.", "duration": 8 },
+          { "step": 2, "instruction": "Разбейте яйца в большую миску. Добавьте муку, соль, перец и куркуму. Тщательно взбейте вилкой.", "duration": 4 },
+          { "step": 3, "instruction": "Вмешайте зелень в яичную смесь — должна получиться насыщенно-зелёная масса.", "duration": 2 },
+          { "step": 4, "instruction": "Растопите масло в сковороде диаметром 24-26 см на среднем огне.", "duration": 3 },
+          { "step": 5, "instruction": "Влейте яично-травяную смесь и разровняйте лопаткой.", "duration": 2 },
+          { "step": 6, "instruction": "Накройте и готовьте на слабом огне 8-10 минут до схватывания краёв; центр может быть чуть влажным.", "duration": 10 },
+          { "step": 7, "instruction": "Чтобы перевернуть: накройте сковороду плоской тарелкой, переверните кюкю на тарелку, затем соскользните обратно в сковороду. Или допеките верх под грилем 3-4 минуты.", "duration": 5 },
+          { "step": 8, "instruction": "Готовьте вторую сторону 3-4 минуты до золотистости. При нажатии центр должен быть упругим.", "duration": 4 },
+          { "step": 9, "instruction": "Переложите на доску, нарежьте клиньями, подавайте горячим или при комнатной температуре с йогуртом и хлебом.", "duration": 2 }
+        ]
+      },
+      "tr": {
+        "title": "Kükü (Azerbaycan Otlu Frittata)",
+        "description": "Bol dereotu, kişniş, taze soğan ve maydanozla dolu, yumurtayla bağlanan kalın, canlı yeşil bir frittata olan kükü, pişip güzel renk alana dek tavada kızartılır. Farslı kuku sabzinin Azerbaycan versiyonu olan kükü, tazelik dolu bir yemektir. Sıcak veya soğuk, ana yemek ya da garnitür olarak servis edilebilir.",
+        "ingredients": [
+          { "name": "Yumurta", "amount": "6 büyük" },
+          { "name": "Taze dereotu, kıyılmış", "amount": "1 su bardağı" },
+          { "name": "Taze kişniş, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Taze soğan (yeşil soğan), dilimlenmiş", "amount": "0,5 su bardağı" },
+          { "name": "Taze maydanoz, kıyılmış", "amount": "0,25 su bardağı" },
+          { "name": "Un", "amount": "1 yemek kaşığı" },
+          { "name": "Tereyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Zerdeçal", "amount": "0,25 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Tüm otları — dereotu, kişniş, yeşil soğan ve maydanozu — ince kıyın; eşit dağılsın diye ince olması şart.", "duration": 8 },
+          { "step": 2, "instruction": "Yumurtaları geniş kaseye kırın. Un, tuz, karabiber ve zerdeçal ekleyin. Çatalla iyice çırpın.", "duration": 4 },
+          { "step": 3, "instruction": "Kıyılmış otları yumurta karışımına ekleyin, iyice karıştırın — karışım çok yeşil görünmeli.", "duration": 2 },
+          { "step": 4, "instruction": "24-26 cm yapışmaz ya da dökme demir tavada orta-kısık ateşte tereyağını eritin, tabanı eşit kaplayın.", "duration": 3 },
+          { "step": 5, "instruction": "Yumurta-ot karışımını dökün, spatulayla düzeltin.", "duration": 2 },
+          { "step": 6, "instruction": "Kapağı kapatın, kısık ateşte 8-10 dakika pişirin — kenarlar tutunmalı, orta hafif nemli olabilir.", "duration": 10 },
+          { "step": 7, "instruction": "Ters çevirmek için: geniş düz tabağı tavanın üzerine koyun, kükü tabağa aktarın, sonra tavaya kaydırın. Ya da üstünü kapaksız ızgara altında 3-4 dakika pişirin.", "duration": 5 },
+          { "step": 8, "instruction": "İkinci yüzü 3-4 dakika altın rengi alana dek pişirin. Ortaya bastığında sertçe hissedilmeli.", "duration": 4 },
+          { "step": 9, "instruction": "Kesme tahtasına kaydırın, dilimlere bölün; sade yoğurt ve sıcak ekmekle sıcak ya da oda sıcaklığında servis yapın.", "duration": 2 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Süzmə",
+    "translations": {
+      "en": {
+        "title": "Süzmə (Strained Yogurt Cheese)",
+        "description": "Whole-fat yogurt slowly drained through cheesecloth until it thickens into a dense, tangy cream cheese-like spread. Süzmə is the everyday fresh cheese of Azerbaijan, seasoned with garlic, dried mint or fresh herbs and spread generously on bread, served alongside kebabs or used as a cooling dip. The longer it strains, the thicker and more concentrated the flavor becomes.",
+        "ingredients": [
+          { "name": "Full-fat plain yogurt", "amount": "1 kg" },
+          { "name": "Salt", "amount": "1 tsp" },
+          { "name": "Garlic, crushed", "amount": "2 cloves" },
+          { "name": "Dried mint", "amount": "1 tsp" },
+          { "name": "Fresh dill or parsley, chopped (optional)", "amount": "2 tbsp" },
+          { "name": "Olive oil to drizzle", "amount": "1 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Stir the salt thoroughly into the yogurt to distribute it evenly. Taste — the yogurt should be pleasantly seasoned, as the flavor will concentrate as it drains.", "duration": 3 },
+          { "step": 2, "instruction": "Line a large sieve or colander with a double layer of cheesecloth, muslin or a clean thin cotton cloth. Place the sieve over a deep bowl to catch the whey.", "duration": 5 },
+          { "step": 3, "instruction": "Pour the salted yogurt into the cheesecloth and gather the edges of the cloth up and over the yogurt, twisting to secure.", "duration": 3 },
+          { "step": 4, "instruction": "Place in the refrigerator to drain. For a soft, spreadable süzmə, drain for 4-6 hours. For a firmer, cream cheese consistency, drain for 12-24 hours.", "duration": 5 },
+          { "step": 5, "instruction": "Remove the süzmə from the cloth and transfer to a bowl. It will have reduced significantly in volume — 1 kg yogurt yields about 400-500 g süzmə.", "duration": 3 },
+          { "step": 6, "instruction": "Stir in the crushed garlic and dried mint. If using, fold in the fresh herbs.", "duration": 3 },
+          { "step": 7, "instruction": "Transfer to a serving plate, smooth the surface and make decorative swirls with the back of a spoon. Drizzle with olive oil.", "duration": 3 },
+          { "step": 8, "instruction": "Serve chilled with warm bread, alongside grilled meats, or as part of a mezze spread. Keeps refrigerated for 3-4 days.", "duration": 2 }
+        ]
+      },
+      "az": {
+        "title": "Süzmə",
+        "description": "Tam yağlı qatıq tülbentdən yavaş-yavaş süzülərək yoğun, turşlu bir krem pendirinə çevrilir. Süzmə Azərbaycanda gündəlik təzə pendir kimi istifadə edilir — sarımsaq, qurudulmuş nanə ya da otlarla ədviyyeləndirilir, çörəklə yeyilir, kebabın yanına verilir ya da soyuducu sous kimi istifadə olunur. Nə qədər uzun süzülərsə, bir o qədər qalın və konsentrat olur.",
+        "ingredients": [
+          { "name": "Tam yağlı qatıq", "amount": "1 kq" },
+          { "name": "Duz", "amount": "1 ç.q." },
+          { "name": "Sarımsaq, əzilmiş", "amount": "2 diş" },
+          { "name": "Qurudulmuş nanə", "amount": "1 ç.q." },
+          { "name": "Şüyüd ya da cəfəri, doğranmış (isteğe bağlı)", "amount": "2 x.q." },
+          { "name": "Zeytun yağı (üzərinə)", "amount": "1 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Duzu qatığa yaxşıca qarışdırın. Dadına baxın — ağız dadına uyğun olmalıdır, süzüldükcə daha konsentrat olacaq.", "duration": 3 },
+          { "step": 2, "instruction": "Böyük elekten (süzgec) üzərinə iki qat tülbənd ya da incə pambıq parçası sərin. Altına zərdab tutmaq üçün dərin qab qoyun.", "duration": 5 },
+          { "step": 3, "instruction": "Duzlanmış qatığı tülbəndə tökün, kənarlarını toplayıb bürün.", "duration": 3 },
+          { "step": 4, "instruction": "Soyuducuya qoyun. Yumşaq, yayıla bilən süzmə üçün 4-6 saat, möhkəm, krem pendiri kıvamında üçün 12-24 saat süzün.", "duration": 5 },
+          { "step": 5, "instruction": "Süzmə tülbənddən çıxarın, qaba köçürün. 1 kq qatıqdan təxminən 400-500 q süzmə alınır.", "duration": 3 },
+          { "step": 6, "instruction": "Sarımsaq və qurudulmuş nanəni qarışdırın. İstəsəniz otları əlavə edin.", "duration": 3 },
+          { "step": 7, "instruction": "Servis qabına keçirin, üzəyini hamarla, qaşığın arxa tərəfi ilə dekorativ dairələr çəkin. Zeytun yağı ilə süzün.", "duration": 3 },
+          { "step": 8, "instruction": "İsti çörəklə, ızgara ətlər yanında ya da mezze düzümünün bir parçası kimi soyuq verin. Soyuducuda 3-4 gün saxlanır.", "duration": 2 }
+        ]
+      },
+      "ru": {
+        "title": "Сюзмя (Цедженый Йогурт)",
+        "description": "Цельножирный йогурт медленно сцеживается через марлю, превращаясь в густой кисловатый творожный сыр. Сюзмя — повседневный свежий сыр Азербайджана: его приправляют чесноком, сухой мятой или свежей зеленью, намазывают на хлеб, подают к кебабам или используют как охлаждающий соус. Чем дольше сцеживается — тем гуще и насыщеннее вкус.",
+        "ingredients": [
+          { "name": "Цельножирный йогурт", "amount": "1 кг" },
+          { "name": "Соль", "amount": "1 ч.л." },
+          { "name": "Чеснок, измельчённый", "amount": "2 зубчика" },
+          { "name": "Сухая мята", "amount": "1 ч.л." },
+          { "name": "Укроп или петрушка, нарубленные (по желанию)", "amount": "2 ст.л." },
+          { "name": "Оливковое масло для подачи", "amount": "1 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Тщательно вмешайте соль в йогурт. Попробуйте — он должен быть хорошо приправлен, вкус сконцентрируется при сцеживании.", "duration": 3 },
+          { "step": 2, "instruction": "Выстелите дуршлаг двойным слоем марли или тонкой хлопчатобумажной ткани. Поставьте дуршлаг над глубокой миской для сбора сыворотки.", "duration": 5 },
+          { "step": 3, "instruction": "Выложите йогурт в марлю, соберите края и скрутите.", "duration": 3 },
+          { "step": 4, "instruction": "Поставьте в холодильник. Для мягкой, намазывающейся сюзмя — сцеживайте 4-6 часов; для более плотной, как сливочный сыр, — 12-24 часа.", "duration": 5 },
+          { "step": 5, "instruction": "Достаньте сюзмя из марли и переложите в миску. Из 1 кг йогурта получается около 400-500 г сюзмя.", "duration": 3 },
+          { "step": 6, "instruction": "Вмешайте чеснок и сухую мяту. При желании добавьте свежую зелень.", "duration": 3 },
+          { "step": 7, "instruction": "Выложите на тарелку, разровняйте, сделайте декоративные завитки ложкой. Полейте оливковым маслом.", "duration": 3 },
+          { "step": 8, "instruction": "Подавайте охлаждённой с тёплым хлебом, к жареному мясу или как часть мезе. Хранится в холодильнике 3-4 дня.", "duration": 2 }
+        ]
+      },
+      "tr": {
+        "title": "Süzme (Süzülmüş Yoğurt Peyniri)",
+        "description": "Tam yağlı yoğurt tülbentten yavaşça süzülerek yoğun, ekşili bir krem peynir kıvamına gelir. Süzme, Azerbaycan'ın günlük taze peyniridir: sarımsak, kuru nane veya taze otlarla tatlandırılır, ekmeğe sürülür, kebabın yanında servis edilir ya da soğutucu bir sos olarak kullanılır. Ne kadar uzun süzülürse, o kadar yoğun ve lezzetli olur.",
+        "ingredients": [
+          { "name": "Tam yağlı sade yoğurt", "amount": "1 kg" },
+          { "name": "Tuz", "amount": "1 çay kaşığı" },
+          { "name": "Sarımsak, ezilmiş", "amount": "2 diş" },
+          { "name": "Kuru nane", "amount": "1 çay kaşığı" },
+          { "name": "Taze dereotu veya maydanoz, kıyılmış (isteğe bağlı)", "amount": "2 yemek kaşığı" },
+          { "name": "Zeytinyağı (servis için)", "amount": "1 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Tuzu yoğurda iyice karıştırın. Tadına bakın — süzüldükçe lezzet yoğunlaşacak, bu yüzden iyi tatlandırılmış olmalı.", "duration": 3 },
+          { "step": 2, "instruction": "Büyük bir süzgeç veya süzek üzerine çift katlı tülbent ya da ince pamuklu bez serin. Altına peynir altı suyunu tutmak için derin kase koyun.", "duration": 5 },
+          { "step": 3, "instruction": "Tuzlanmış yoğurdu tülbende dökün, kenarları toplayın ve bükün.", "duration": 3 },
+          { "step": 4, "instruction": "Buzdolabına koyun. Yumuşak, yayılabilir bir süzme için 4-6 saat; sert, krem peynir kıvamı için 12-24 saat süzün.", "duration": 5 },
+          { "step": 5, "instruction": "Süzmeyi tülbentten çıkarın ve kaseye aktarın. 1 kg yoğurttan yaklaşık 400-500 g süzme elde edilir.", "duration": 3 },
+          { "step": 6, "instruction": "Sarımsak ve kuru naneyi karıştırın. İsteğe bağlı taze otları da ekleyin.", "duration": 3 },
+          { "step": 7, "instruction": "Servis tabağına aktarın, yüzeyi düzeltin, kaşığın arka yüzüyle dekoratif kıvrımlar oluşturun. Zeytinyağı gezdirin.", "duration": 3 },
+          { "step": 8, "instruction": "Sıcak ekmekle, ızgara etlerin yanında ya da meze tabağının bir parçası olarak soğuk servis yapın. Buzdolabında 3-4 gün dayanır.", "duration": 2 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Qatıq",
+    "translations": {
+      "en": {
+        "title": "Qatıq (Homemade Azerbaijani Yogurt)",
+        "description": "Homemade Azerbaijani yogurt cultured from fresh whole milk using a small amount of live yogurt as a starter. Thicker and more robustly sour than commercial yogurt, qatıq is the cornerstone dairy product of Azerbaijani cooking — it is the base for dovğa soup, ovdux cold soup, süzmə and ayran, and is served as a condiment alongside rice dishes, kebabs and dolmas.",
+        "ingredients": [
+          { "name": "Whole milk, full-fat", "amount": "1.5 liters" },
+          { "name": "Live plain yogurt (starter)", "amount": "3 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Pour the milk into a heavy-bottomed pot and heat over medium heat, stirring regularly to prevent scorching on the base. Heat until the milk just begins to rise and foam — this is the point just before boiling, about 85-90°C.", "duration": 12 },
+          { "step": 2, "instruction": "Remove from the heat and let the milk cool to lukewarm — approximately 42-46°C. You should be able to hold your finger in the milk for 10 seconds comfortably. Too hot will kill the cultures; too cool will prevent them from activating.", "duration": 20 },
+          { "step": 3, "instruction": "Place the live yogurt starter in a small bowl. Add 3-4 tablespoons of the warm milk to the starter and whisk until completely smooth, eliminating any lumps.", "duration": 3 },
+          { "step": 4, "instruction": "Pour the thinned starter into the pot of warm milk and whisk gently to distribute the cultures evenly throughout.", "duration": 2 },
+          { "step": 5, "instruction": "Pour into a wide ceramic or glass container. Cover with a clean cloth or lid.", "duration": 2 },
+          { "step": 6, "instruction": "Wrap the container in blankets or towels to keep it warm, or place in an oven with just the light on (about 40°C). Leave undisturbed to culture for 6-8 hours or overnight.", "duration": 5 },
+          { "step": 7, "instruction": "After culturing, the yogurt should be set and thickened. Gently tilt the container — it should wobble as a whole mass, not slosh like liquid.", "duration": 2 },
+          { "step": 8, "instruction": "Refrigerate the qatıq for at least 2 hours before serving to fully set and develop its characteristic tangy flavor. It will keep refrigerated for up to 7 days, becoming more sour as it ages.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Qatıq",
+        "description": "Canlı qatıq mayasıyla tam yağlı təzə süddən hazırlanan ev qatığı. Fabrik qatığından daha qalın, daha turş olan qatıq Azərbaycan süd məhsullarının əsasıdır — dovğa şorbasının, ovduxun, süzmənin, ayranın əsasıdır; plov, kabab, dolma yanında da verilir.",
+        "ingredients": [
+          { "name": "Tam yağlı süd", "amount": "1,5 litr" },
+          { "name": "Canlı sadə qatıq (maya)", "amount": "3 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Südü ağır dibli qazana tökün, orta istilikdə tez-tez qarışdıraraq qızdırın. Köpüklənib qalxmağa başlayana qədər qızdırın — 85-90°C.", "duration": 12 },
+          { "step": 2, "instruction": "Oddan götürün, ılılaşana qədər soyudun — 42-46°C. Barmağınızı 10 saniyə tutabilməlisiniz. Çox isti mayaları öldürür, çox soyuq aktivləşdirmir.", "duration": 20 },
+          { "step": 3, "instruction": "Canlı qatığı kiçik qabda, 3-4 x.q. isti süd əlavə edərək hamarsalaşana qədər çırpın.", "duration": 3 },
+          { "step": 4, "instruction": "Mayalanmış qatığı süd qazanına tökün, mayaları bərabər paylaşdırmak üçün yüngülcə qarışdırın.", "duration": 2 },
+          { "step": 5, "instruction": "Geniş saxsı ya da şüşə qaba tökün. Üzərinə təmiz parça ya da qapaq qoyun.", "duration": 2 },
+          { "step": 6, "instruction": "Qabı yorğan ya da dəsmal ilə bürün, ya da sadece lambası yanan sobaya qoyun (≈40°C). 6-8 saat ya da gecə boyu toxunmadan saxlayın.", "duration": 5 },
+          { "step": 7, "instruction": "Mayalandıqdan sonra qatıq bərkiyib qatılaşmalıdır. Yüngülcə əyinn — bütöv kütlə kimi titrəməlidir, maye kimi yox.", "duration": 2 },
+          { "step": 8, "instruction": "Vurmazdan əvvəl ən az 2 saat soyuducuda saxlayın. 7 günə qədər dayanır, yaşdıqca daha turş olur.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Катык (Домашний Азербайджанский Йогурт)",
+        "description": "Домашний азербайджанский йогурт, сквашенный из цельного молока с небольшим количеством живого йогурта в качестве закваски. Гуще и кислее покупного, катык — основа азербайджанской молочной кухни: он является основой довги, овдуха, сюзмя и айрана, а также подаётся как соус к рису, кебабам и долме.",
+        "ingredients": [
+          { "name": "Цельное молоко жирное", "amount": "1,5 литра" },
+          { "name": "Живой натуральный йогурт (закваска)", "amount": "3 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Налейте молоко в кастрюлю с толстым дном, нагревайте на среднем огне, помешивая. Доведите до появления пены и подъёма — 85-90°C.", "duration": 12 },
+          { "step": 2, "instruction": "Снимите с огня и охладите до тёплого состояния — 42-46°C. Вы должны держать палец в молоке 10 секунд. Слишком горячее убьёт культуры, слишком холодное не активирует их.", "duration": 20 },
+          { "step": 3, "instruction": "В небольшой миске смешайте закваску с 3-4 ложками тёплого молока и взбейте до однородности.", "duration": 3 },
+          { "step": 4, "instruction": "Влейте разведённую закваску в кастрюлю и мягко перемешайте для равномерного распределения культур.", "duration": 2 },
+          { "step": 5, "instruction": "Перелейте в широкую керамическую или стеклянную ёмкость. Накройте чистой тканью или крышкой.", "duration": 2 },
+          { "step": 6, "instruction": "Укутайте одеялами или полотенцами, или поставьте в духовку с включённой лампочкой (~40°C). Не трогайте 6-8 часов или всю ночь.", "duration": 5 },
+          { "step": 7, "instruction": "После сквашивания йогурт должен загустеть. Осторожно наклоните ёмкость — он должен колыхаться цельной массой, а не плескаться как жидкость.", "duration": 2 },
+          { "step": 8, "instruction": "Уберите в холодильник минимум на 2 часа перед подачей. Хранится до 7 дней, со временем становясь кислее.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Katık (Ev Yapımı Azerbaycan Yoğurdu)",
+        "description": "Canlı yoğurt mayası kullanılarak tam yağlı taze sütten yapılan ev yoğurdu. Fabrika yoğurdundan daha yoğun ve daha ekşi olan katık, Azerbaycan süt ürünlerinin temel taşıdır — dovga çorbası, ovduh soğuk çorbası, süzme ve ayranın temelidir; pilav, kebap ve dolmanın yanında da servis edilir.",
+        "ingredients": [
+          { "name": "Tam yağlı süt", "amount": "1,5 litre" },
+          { "name": "Canlı sade yoğurt (maya)", "amount": "3 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Sütü kalın dipli tencereye dökün, orta ateşte sık sık karıştırarak ısıtın. Süt kabarıp köpüklenmeye başlayana dek ısıtın — 85-90°C.", "duration": 12 },
+          { "step": 2, "instruction": "Ateşten alın, ılık olana dek soğutun — 42-46°C. Parmağınızı 10 saniye tutabilmelisiniz. Çok sıcak kültürleri öldürür; çok soğuk aktive etmez.", "duration": 20 },
+          { "step": 3, "instruction": "Canlı yoğurdu küçük kasede 3-4 yemek kaşığı ılık sütle topaklık kalmayacak şekilde iyice çırpın.", "duration": 3 },
+          { "step": 4, "instruction": "Sulandırılmış mayayı tencereye dökün, kültürlerin eşit dağılması için nazikçe karıştırın.", "duration": 2 },
+          { "step": 5, "instruction": "Geniş seramik veya cam kaba dökün. Temiz bir bez veya kapakla örtün.", "duration": 2 },
+          { "step": 6, "instruction": "Kabı battaniye veya havlulara sarın ya da sadece lambası açık fırına koyun (~40°C). 6-8 saat veya gece boyunca dokunmadan bekletin.", "duration": 5 },
+          { "step": 7, "instruction": "Mayalanma sonunda yoğurt koyulaşmalıdır. Kabı nazikçe eğin — bütün bir kütle olarak titremeli, sıvı gibi çalkalamamalı.", "duration": 2 },
+          { "step": 8, "instruction": "Servis yapmadan önce en az 2 saat buzdolabında bekletin. 7 güne kadar dayanır, zamanla daha ekşi olur.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Ovdux",
+    "translations": {
+      "en": {
+        "title": "Ovdux (Cold Yogurt Soup with Cucumber)",
+        "description": "A refreshing, chilled summer soup of plain yogurt thinned with cold water and loaded with finely diced cucumber, fresh dill, cilantro and crushed garlic. Ovdux is the Azerbaijani cold soup — the perfect antidote to a scorching summer day on the Caspian. Sometimes served with shredded cooked chicken or hard-boiled eggs for a more substantial meal. No cooking required — just assemble, chill and serve.",
+        "ingredients": [
+          { "name": "Plain full-fat yogurt", "amount": "3 cups" },
+          { "name": "Cold water or cold sparkling water", "amount": "1 cup" },
+          { "name": "Cucumbers, finely diced", "amount": "2 medium" },
+          { "name": "Garlic, finely grated or crushed", "amount": "2 cloves" },
+          { "name": "Fresh dill, chopped", "amount": "0.5 cup" },
+          { "name": "Fresh cilantro, chopped", "amount": "0.25 cup" },
+          { "name": "Salt", "amount": "to taste" },
+          { "name": "Ice cubes to serve", "amount": "as needed" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Whisk the yogurt in a large bowl until smooth and creamy, removing any lumps.", "duration": 3 },
+          { "step": 2, "instruction": "Gradually whisk in the cold water, a little at a time, until the soup reaches a thin, pourable consistency — similar to buttermilk. Use sparkling water for a lighter texture.", "duration": 3 },
+          { "step": 3, "instruction": "Finely dice the cucumbers into 5mm cubes. If using large cucumbers with watery seeds, cut those out first.", "duration": 5 },
+          { "step": 4, "instruction": "Crush or finely grate the garlic and add it to the yogurt base. Stir well.", "duration": 3 },
+          { "step": 5, "instruction": "Add the diced cucumber, chopped dill and cilantro to the yogurt soup. Stir to combine.", "duration": 3 },
+          { "step": 6, "instruction": "Season with salt to taste. The soup should be pleasantly tangy from the yogurt and fragrant with herbs and garlic.", "duration": 2 },
+          { "step": 7, "instruction": "Cover and refrigerate for at least 30 minutes for the flavors to meld and the soup to chill thoroughly.", "duration": 30 },
+          { "step": 8, "instruction": "Taste and adjust seasoning. Serve in chilled bowls with ice cubes, additional fresh dill and warm or toasted bread on the side.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Ovdux",
+        "description": "Soyuq su ilə seyreldilmiş sadə qatıq, xırda doğranmış xiyar, şüyüd, kişniş ve əzilmiş sarımsaqla hazırlanan soyuducu yay şorbası. Ovdux Azərbaycanın soyuq şorbasıdır — Xəzər kənarında yay istisinin əlacıdır. Bəzən pişmiş toyuq dəftisi ya da haşlanmış yumurta da əlavə olunur. Bişirmək lazım deyil — sadəcə yığın, soyudun, verin.",
+        "ingredients": [
+          { "name": "Tam yağlı sadə qatıq", "amount": "3 stəkan" },
+          { "name": "Soyuq su ya da soyuq köpüklü su", "amount": "1 stəkan" },
+          { "name": "Xiyar, xırda doğranmış", "amount": "2 orta" },
+          { "name": "Sarımsaq, rəndələnmiş ya da əzilmiş", "amount": "2 diş" },
+          { "name": "Şüyüd, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Kişniş, doğranmış", "amount": "0,25 stəkan" },
+          { "name": "Duz", "amount": "dada görə" },
+          { "name": "Buz (verilişe)", "amount": "lazım olan qədər" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Qatığı böyük qabda hamarsalaşana qədər çırpın.", "duration": 3 },
+          { "step": 2, "instruction": "Soyuq suyu tədricən əlavə edərək şorbaya bənzər konsistensiya alın — ayran kimidir. Köpüklü su daha yüngül toxuma verir.", "duration": 3 },
+          { "step": 3, "instruction": "Xiyarları 5 mm kublar halinde doğrayın. İri, sulu toxumlu xiyar olsa, əvvəlcə toxumlarını çıxarın.", "duration": 5 },
+          { "step": 4, "instruction": "Sarımsağı əzin ya da rəndəleyin, qatığa əlavə edin, yaxşıca qarışdırın.", "duration": 3 },
+          { "step": 5, "instruction": "Xiyar, şüyüd, kişniş əlavə edin, qarışdırın.", "duration": 3 },
+          { "step": 6, "instruction": "Dada görə duz vurun. Şorba qatıqdan turş, otlar və sarımsaqdan ətirli olmalıdır.", "duration": 2 },
+          { "step": 7, "instruction": "Örtün, ən az 30 dəqiqə soyuducuya qoyun — dadlar birleşsin, yaxşıca soyusun.", "duration": 30 },
+          { "step": 8, "instruction": "Dadına baxın, çeşni tənzimləyin. Soyuq qablara buz, əlavə şüyüd ilə verin, yanına çörək qoyun.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Овдух (Холодный Суп с Йогуртом и Огурцом)",
+        "description": "Освежающий охлаждённый летний суп из йогурта, разбавленного холодной водой, с мелко нарезанным огурцом, укропом, кинзой и толчёным чесноком. Овдух — азербайджанский холодный суп, идеальный для жарких летних дней на Каспии. Иногда подаётся с варёной курицей или яйцами. Готовится без термической обработки.",
+        "ingredients": [
+          { "name": "Натуральный жирный йогурт", "amount": "3 стакана" },
+          { "name": "Холодная вода или холодная газированная вода", "amount": "1 стакан" },
+          { "name": "Огурцы, мелко нарезанные", "amount": "2 средних" },
+          { "name": "Чеснок, тёртый или толчёный", "amount": "2 зубчика" },
+          { "name": "Укроп свежий, нарубленный", "amount": "0,5 стакана" },
+          { "name": "Кинза свежая, нарубленная", "amount": "0,25 стакана" },
+          { "name": "Соль", "amount": "по вкусу" },
+          { "name": "Лёд для подачи", "amount": "по необходимости" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Взбейте йогурт в большой миске до однородной кремовой массы.", "duration": 3 },
+          { "step": 2, "instruction": "Постепенно вливайте холодную воду, помешивая, до жидкой наливаемой консистенции — как пахта. Газированная вода придаст лёгкость.", "duration": 3 },
+          { "step": 3, "instruction": "Мелко нарежьте огурцы кубиками 5 мм. Если огурцы водянистые, удалите семена.", "duration": 5 },
+          { "step": 4, "instruction": "Измельчите чеснок и добавьте в йогуртовую основу, хорошо перемешайте.", "duration": 3 },
+          { "step": 5, "instruction": "Добавьте огурцы, укроп и кинзу, перемешайте.", "duration": 3 },
+          { "step": 6, "instruction": "Посолите по вкусу. Суп должен быть приятно кислым от йогурта и ароматным от трав и чеснока.", "duration": 2 },
+          { "step": 7, "instruction": "Накройте и уберите в холодильник минимум на 30 минут, чтобы вкусы слились.", "duration": 30 },
+          { "step": 8, "instruction": "Откорректируйте вкус. Подавайте в охлаждённых тарелках со льдом, дополнительным укропом и хлебом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Ovdux (Soğuk Yoğurtlu Salatalık Çorbası)",
+        "description": "Soğuk suyla seyreltilmiş sade yoğurdun ince doğranmış salatalık, taze dereotu, kişniş ve ezilmiş sarımsak ile hazırlandığı ferahlatıcı yaz çorbası. Ovdux, Azerbaycan'ın soğuk çorbasıdır — Hazar kıyısındaki kavurucu yaz günlerinin en iyi çaresidir. Bazen pişmiş tavuk ya da haşlanmış yumurtayla daha doyurucu hale getirilir. Pişirme gerekmez.",
+        "ingredients": [
+          { "name": "Tam yağlı sade yoğurt", "amount": "3 su bardağı" },
+          { "name": "Soğuk su veya soğuk köpüklü su", "amount": "1 su bardağı" },
+          { "name": "Salatalık, ince doğranmış", "amount": "2 orta" },
+          { "name": "Sarımsak, rendelenmiş ya da ezilmiş", "amount": "2 diş" },
+          { "name": "Taze dereotu, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Taze kişniş, kıyılmış", "amount": "0,25 su bardağı" },
+          { "name": "Tuz", "amount": "tadına göre" },
+          { "name": "Buz (servis için)", "amount": "gerektiği kadar" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Geniş kasede yoğurdu topaksız ve kremsi olana dek çırpın.", "duration": 3 },
+          { "step": 2, "instruction": "Soğuk suyu yavaşça ekleyin, ince akışkan bir kıvam oluşana dek karıştırın — ayran kıvamı gibi. Köpüklü su daha hafif bir doku verir.", "duration": 3 },
+          { "step": 3, "instruction": "Salatalıkları 5 mm küpler hâlinde ince doğrayın. Büyük ve sulu ise tohumlarını çıkarın.", "duration": 5 },
+          { "step": 4, "instruction": "Sarımsağı ezin veya rendeleyin, yoğurt tabanına ekleyip iyice karıştırın.", "duration": 3 },
+          { "step": 5, "instruction": "Salatalık, dereotu ve kişniş ekleyin, karıştırın.", "duration": 3 },
+          { "step": 6, "instruction": "Tuzla tatlandırın. Çorba yoğurttan güzelce ekşi, otlar ve sarımsaktan kokulu olmalı.", "duration": 2 },
+          { "step": 7, "instruction": "Örtün, tatların birleşmesi için en az 30 dakika buzdolabında bekletin.", "duration": 30 },
+          { "step": 8, "instruction": "Tadına bakın, çeşniyi ayarlayın. Soğutulmuş kâselere buz, ilave dereotu ile servis yapın; yanında ekmek sunun.", "duration": 3 }
+        ]
+      }
+    }
+  }
+]

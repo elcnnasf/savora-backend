@@ -1,0 +1,708 @@
+[
+  {
+    "title": "Reşta",
+    "translations": {
+      "en": {
+        "title": "Reşta (Azerbaijani Noodle and Bean Soup)",
+        "description": "A wholesome, hearty soup of homemade noodles simmered with kidney beans, caramelised onions and fragrant fried herbs — dill, cilantro and fenugreek — in a light broth. Reşta is one of the oldest dishes in Azerbaijani cuisine, named after the Persian word for 'thread', referring to the thin, hand-cut noodles. The crisp fried herb topping is added at the end and is essential to the flavour.",
+        "ingredients": [
+          { "name": "All-purpose flour (for noodles)", "amount": "2 cups" },
+          { "name": "Egg", "amount": "1" },
+          { "name": "Water (for noodle dough)", "amount": "0.25 cup" },
+          { "name": "Salt", "amount": "1 tsp + to taste" },
+          { "name": "Dried kidney beans, soaked overnight and drained", "amount": "1.5 cups" },
+          { "name": "Onion, finely sliced", "amount": "2 large" },
+          { "name": "Butter or oil", "amount": "4 tbsp" },
+          { "name": "Fresh dill, chopped", "amount": "0.5 cup" },
+          { "name": "Fresh cilantro, chopped", "amount": "0.25 cup" },
+          { "name": "Dried fenugreek leaves (çemen)", "amount": "1 tbsp" },
+          { "name": "Turmeric", "amount": "0.5 tsp" },
+          { "name": "Black pepper", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Sift the flour and 1 tsp salt into a bowl. Make a well in the centre, add the egg and water, and mix into a firm dough. Knead for 8-10 minutes until smooth and elastic. Cover and rest for 20 minutes.", "duration": 30 },
+          { "step": 2, "instruction": "Roll the dough out very thin — about 1-2 mm — on a lightly floured surface. Dust generously with flour to prevent sticking, then roll the dough into a loose cylinder. Slice across into thin strips about 3-4 mm wide. Unroll the strips and leave to dry slightly on a floured surface.", "duration": 20 },
+          { "step": 3, "instruction": "Place the soaked kidney beans in a pot, cover generously with fresh water and bring to a boil. Reduce to a simmer and cook for 45-60 minutes until completely tender. Drain, reserving the cooking liquid as broth.", "duration": 60 },
+          { "step": 4, "instruction": "In a large pan, heat 2 tbsp of butter or oil over medium heat. Add the onions with a pinch of salt and cook slowly, stirring occasionally, for 20-25 minutes until deeply golden and caramelised.", "duration": 25 },
+          { "step": 5, "instruction": "Push the onions to one side of the pan. Add a little more butter, then add the chopped dill, cilantro and fenugreek leaves. Fry the herbs for 2-3 minutes, stirring, until fragrant and slightly darkened — this is the key flavour step.", "duration": 5 },
+          { "step": 6, "instruction": "Add the turmeric to the herb-onion mixture and stir for 1 minute.", "duration": 2 },
+          { "step": 7, "instruction": "Pour the bean cooking liquid (about 4 cups) into the pan. Add the cooked beans. Season with salt and pepper. Bring to a simmer.", "duration": 5 },
+          { "step": 8, "instruction": "Add the dried noodles to the simmering broth. Cook for 5-7 minutes, stirring occasionally, until the noodles are cooked through but still have a little bite.", "duration": 7 },
+          { "step": 9, "instruction": "Taste and adjust seasoning. The soup should be savoury, herbaceous and slightly nutty from the caramelised onions. Serve hot in bowls.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Reşta",
+        "description": "Əl ilə kəsilmiş ev ərişte ilə qırmızı lobya, karamelleşmiş soğan ve qızardılmış otların — şüyüd, kişniş, çəməni — yüngül şorbada bişirildiyi doyumlü, qədim Azərbaycan yemeyi. Reşta adı farsca 'ip' sözündən gəlir, nazik ərişteye işarədir.",
+        "ingredients": [
+          { "name": "Un (ərişte üçün)", "amount": "2 stəkan" },
+          { "name": "Yumurta", "amount": "1 ədəd" },
+          { "name": "Su (xəmir üçün)", "amount": "0,25 stəkan" },
+          { "name": "Duz", "amount": "1 ç.q. + dada görə" },
+          { "name": "Quru qırmızı lobya, gecədən isladılmış", "amount": "1,5 stəkan" },
+          { "name": "Soğan, nazik dilimlənmiş", "amount": "2 iri" },
+          { "name": "Kərə yağı ya da bitki yağı", "amount": "4 x.q." },
+          { "name": "Şüyüd, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Kişniş, doğranmış", "amount": "0,25 stəkan" },
+          { "name": "Quru çəmən otu", "amount": "1 x.q." },
+          { "name": "Sarıkök", "amount": "0,5 ç.q." },
+          { "name": "Qara biber", "amount": "dada görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un + duz qaba ələyin, mərkəzinə yumurta ve su əlavə edib möhkəm xəmir yoğurun. 8-10 dəqiqə yoğurun, hamar olsun. Örtün, 20 dəqiqə dincəldin.", "duration": 30 },
+          { "step": 2, "instruction": "Xəmiri nazik (1-2 mm) açın, bol unla tozlayın, rulon edin. 3-4 mm eninde dilimler doğrayın. Aça-aça unlanmış səthdə qurudun.", "duration": 20 },
+          { "step": 3, "instruction": "İsladılmış lobyanı bol suda qaynada qoyun, 45-60 dəqiqə tam yumşayana qədər bişirin. Süzün, suyu saxlayın.", "duration": 60 },
+          { "step": 4, "instruction": "Böyük qazanda 2 x.q. yağı orta istilikdə qızdırın. Soğanı bir az duzla əlavə edin, tez-tez qarışdırararaq 20-25 dəqiqə dərin qızılı-karamel rəngini alana qədər bişirin.", "duration": 25 },
+          { "step": 5, "instruction": "Soğanı bir tərəfə çəkin, bir az yağ əlavə edin, şüyüd, kişniş, çəməni qovurun. 2-3 dəqiqə ətirli və bir az tündleşənə qədər qızardın.", "duration": 5 },
+          { "step": 6, "instruction": "Sarıkök əlavə edin, 1 dəqiqə qarışdırın.", "duration": 2 },
+          { "step": 7, "instruction": "Lobya suyunu (≈4 stəkan) qazana tökün, bişirilmiş lobyanı əlavə edin. Duzlayın, biberlayın. Qaynaya qoyun.", "duration": 5 },
+          { "step": 8, "instruction": "Qurudulmuş ərişteyi qaynayan şorbaya atın. 5-7 dəqiqə — bişsin amma bərk qalsın.", "duration": 7 },
+          { "step": 9, "instruction": "Dadına baxın, çeşni tənzimləyin. İsti, qablarda verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Решта (Суп с Лапшой и Фасолью)",
+        "description": "Сытный суп из домашней лапши с красной фасолью, карамелизованным луком и обжаренной зеленью — укропом, кинзой и пажитником — в лёгком бульоне. Решта — одно из древнейших блюд азербайджанской кухни; название происходит от персидского слова 'нить' — намёк на тонкую лапшу.",
+        "ingredients": [
+          { "name": "Мука (для лапши)", "amount": "2 стакана" },
+          { "name": "Яйцо", "amount": "1 шт." },
+          { "name": "Вода (для теста)", "amount": "0,25 стакана" },
+          { "name": "Соль", "amount": "1 ч.л. + по вкусу" },
+          { "name": "Красная фасоль сухая, замоченная на ночь", "amount": "1,5 стакана" },
+          { "name": "Лук, тонко нарезанный", "amount": "2 крупных" },
+          { "name": "Масло сливочное или растительное", "amount": "4 ст.л." },
+          { "name": "Укроп свежий, нарубленный", "amount": "0,5 стакана" },
+          { "name": "Кинза свежая, нарубленная", "amount": "0,25 стакана" },
+          { "name": "Листья пажитника сухие (чэмэн)", "amount": "1 ст.л." },
+          { "name": "Куркума", "amount": "0,5 ч.л." },
+          { "name": "Чёрный перец", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Просейте муку с солью, сделайте лунку, добавьте яйцо и воду. Замесите крутое тесто, вымешивайте 8-10 минут. Накройте, оставьте на 20 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Тонко раскатайте тесто (1-2 мм), щедро посыпьте мукой, сверните рулетом. Нарежьте полосками 3-4 мм. Разверните и подсушите на посыпанной мукой поверхности.", "duration": 20 },
+          { "step": 3, "instruction": "Залейте замоченную фасоль водой, варите 45-60 минут до мягкости. Слейте, бульон сохраните.", "duration": 60 },
+          { "step": 4, "instruction": "В казане нагрейте 2 ст.л. масла, добавьте лук с солью и жарьте 20-25 минут до глубокого золотистого цвета.", "duration": 25 },
+          { "step": 5, "instruction": "Отодвиньте лук, добавьте зелень и пажитник, обжарьте 2-3 минуты до аромата.", "duration": 5 },
+          { "step": 6, "instruction": "Добавьте куркуму, помешивайте 1 минуту.", "duration": 2 },
+          { "step": 7, "instruction": "Влейте отвар фасоли (≈4 стакана), добавьте фасоль. Посолите, поперчите. Доведите до кипения.", "duration": 5 },
+          { "step": 8, "instruction": "Добавьте лапшу. Варите 5-7 минут до готовности al dente.", "duration": 7 },
+          { "step": 9, "instruction": "Откорректируйте вкус. Подавайте горячим.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Reşta (Azerbaycan Erişte ve Fasulye Çorbası)",
+        "description": "El yapımı eriştenin kırmızı fasulye, karamelleşmiş soğan ve kızartılmış otlar — dereotu, kişniş, çemen otu — ile yüngül bir suda pişirildiği doyurucu, köklü bir Azerbaycan yemeği. Reşta adı Farsça 'iplik' anlamına gelir.",
+        "ingredients": [
+          { "name": "Un (erişte için)", "amount": "2 su bardağı" },
+          { "name": "Yumurta", "amount": "1 adet" },
+          { "name": "Su (hamur için)", "amount": "0,25 su bardağı" },
+          { "name": "Tuz", "amount": "1 çay kaşığı + tadına göre" },
+          { "name": "Kuru kırmızı fasulye, bir gecede ıslatılmış", "amount": "1,5 su bardağı" },
+          { "name": "Soğan, ince dilimlenmiş", "amount": "2 büyük" },
+          { "name": "Tereyağı veya sıvıyağ", "amount": "4 yemek kaşığı" },
+          { "name": "Taze dereotu, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Taze kişniş, kıyılmış", "amount": "0,25 su bardağı" },
+          { "name": "Kuru çemen yaprağı", "amount": "1 yemek kaşığı" },
+          { "name": "Zerdeçal", "amount": "0,5 çay kaşığı" },
+          { "name": "Karabiber", "amount": "tadına göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Unu tuzla eleyip kasıya alın; ortasına yumurta ve su ekleyip sert hamur yoğurun. 8-10 dakika yoğurun, pürüzsüz olsun. Örtün, 20 dakika dinlendirin.", "duration": 30 },
+          { "step": 2, "instruction": "Hamuru ince (1-2 mm) açın, bol unla pudra yapın, rulo edin. 3-4 mm genişliğinde dilimler kesin. Açıp unlanmış yüzeyde hafifçe kurutun.", "duration": 20 },
+          { "step": 3, "instruction": "Islatılmış fasulyeyi taze suyla kaynatın, 45-60 dakika tamamen yumuşayana dek pişirin. Süzün, pişirme suyunu saklayın.", "duration": 60 },
+          { "step": 4, "instruction": "Büyük tencerede 2 yemek kaşığı yağı orta ateşte ısıtın. Soğanı tuzla ekleyin, 20-25 dakika derin altın rengi alana dek kavurun.", "duration": 25 },
+          { "step": 5, "instruction": "Soğanı bir yana itin, biraz yağ ekleyin, dereotu, kişniş ve çemen yapraklarını 2-3 dakika kokulu ve hafif kararana dek kavurun.", "duration": 5 },
+          { "step": 6, "instruction": "Zerdeçal ekleyin, 1 dakika karıştırın.", "duration": 2 },
+          { "step": 7, "instruction": "Fasulye suyunu (≈4 bardak) ekleyin, pişmiş fasulyeyi de katın. Tuzlayın, biberleyin. Kaynamaya bırakın.", "duration": 5 },
+          { "step": 8, "instruction": "Eriştenleri kaynayan çorbaya atın. 5-7 dakika pişirin.", "duration": 7 },
+          { "step": 9, "instruction": "Tadına bakın, çeşniyi ayarlayın. Sıcak servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Mutəccən",
+    "translations": {
+      "en": {
+        "title": "Mutəccən (Candied Lamb with Dried Fruits and Nuts)",
+        "description": "A celebratory Azerbaijani dish of lamb pieces braised until tender, then coated in a sweet-savory glaze of caramelised sugar and saffron and combined with dried apricots, raisins and chestnuts. Mutəccən exemplifies the Persian-influenced sweet-savory tradition that runs through Azerbaijani festive cooking — the name comes from the Arabic 'mujjan', meaning 'to glaze or candy'. It is traditionally served at weddings and Novruz over saffron rice.",
+        "ingredients": [
+          { "name": "Lamb, cut into 4-5 cm cubes", "amount": "700 g" },
+          { "name": "Onion, finely diced", "amount": "2 medium" },
+          { "name": "Butter or oil", "amount": "3 tbsp" },
+          { "name": "Sugar", "amount": "3 tbsp" },
+          { "name": "Saffron, bloomed in 3 tbsp hot water", "amount": "0.5 tsp" },
+          { "name": "Dried apricots", "amount": "1 cup" },
+          { "name": "Raisins", "amount": "0.5 cup" },
+          { "name": "Chestnuts, cooked and peeled", "amount": "1 cup" },
+          { "name": "Cinnamon stick", "amount": "1" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Pomegranate seeds (to garnish)", "amount": "0.5 cup" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Season the lamb cubes with salt and pepper. Heat 2 tbsp butter or oil in a large, heavy-bottomed pan over high heat and sear the lamb in batches until deeply browned on all sides — do not crowd the pan. Set the browned meat aside.", "duration": 15 },
+          { "step": 2, "instruction": "Reduce the heat to medium. Add the remaining butter and sauté the onions for 10-12 minutes until soft and golden.", "duration": 12 },
+          { "step": 3, "instruction": "Return the lamb to the pan with the onions. Add the cinnamon stick and pour in enough water to barely cover the meat (about 1.5 cups). Bring to a boil, skimming any foam.", "duration": 5 },
+          { "step": 4, "instruction": "Reduce to a low simmer, cover, and braise the lamb for 45-55 minutes until very tender and nearly falling off the bone.", "duration": 55 },
+          { "step": 5, "instruction": "Add the dried apricots, raisins and chestnuts to the braising pot. Stir gently and continue simmering uncovered for 10 minutes to plump the fruit.", "duration": 10 },
+          { "step": 6, "instruction": "In a small saucepan, melt the sugar over medium heat without stirring, until it forms a deep amber caramel. Carefully add the saffron water — it will splutter — and stir to combine into a saffron caramel.", "duration": 5 },
+          { "step": 7, "instruction": "Pour the saffron caramel over the lamb and fruit mixture. Stir gently to coat everything in the glossy glaze.", "duration": 3 },
+          { "step": 8, "instruction": "Simmer uncovered for a further 10-15 minutes, stirring occasionally, until the sauce thickens to a glossy, syrupy consistency that clings to the meat and fruit.", "duration": 15 },
+          { "step": 9, "instruction": "Taste and adjust seasoning. The mutəccən should taste sweet-savory with depth from the caramel and brightness from the fruit. Serve over saffron rice, garnished with pomegranate seeds.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Mutəccən",
+        "description": "Yumşayana qədər braizlənmiş, sonra karamelleşmiş şəkər ve zəfəranlı sırlı ilə örtülmüş, quru ərik, kişmiş ve şabalıdla birləşdirilmiş bayramlıq Azərbaycan yemeyi. Toy ve Novruzu üçün zəfəranlı plov üzərində verilir.",
+        "ingredients": [
+          { "name": "Quzu əti, 4-5 sm kublar", "amount": "700 q" },
+          { "name": "Soğan, xırda doğranmış", "amount": "2 orta" },
+          { "name": "Kərə yağı ya da bitki yağı", "amount": "3 x.q." },
+          { "name": "Şəkər", "amount": "3 x.q." },
+          { "name": "Zəfəran (3 x.q. isti suda həll edilmiş)", "amount": "0,5 ç.q." },
+          { "name": "Quru ərik", "amount": "1 stəkan" },
+          { "name": "Kişmiş", "amount": "0,5 stəkan" },
+          { "name": "Şabalıd, bişirilmiş, soyulmuş", "amount": "1 stəkan" },
+          { "name": "Darçın çubuğu", "amount": "1 ədəd" },
+          { "name": "Duz ve qara biber", "amount": "dada görə" },
+          { "name": "Nar dəni (bəzək üçün)", "amount": "0,5 stəkan" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzunu duzlayın, biberlayın. Böyük ağır tavada 2 x.q. yağı güclü istilikdə qızdırın, əti hissə-hissə hər tərəfindən dərin qəhvəyi rəngə qədər qızardın. Kənara çəkin.", "duration": 15 },
+          { "step": 2, "instruction": "İstiliyi orta endirin, qalan yağ və soğanları əlavə edin, 10-12 dəqiqə yumşaq, qızılı rəngə qədər bişirin.", "duration": 12 },
+          { "step": 3, "instruction": "Əti soğanlarla birləşdirin. Darçın çubuğu əlavə edin, əti yenicə örtəcəq qədər su tökün. Qaynada gətirin, köpüğü alın.", "duration": 5 },
+          { "step": 4, "instruction": "Aşağı istilikdə örtülü şəkildə 45-55 dəqiqə tam yumşayana qədər braizləyin.", "duration": 55 },
+          { "step": 5, "instruction": "Quru ərik, kişmiş, şabalıd əlavə edin. Qapaqsız 10 dəqiqə meyvalar şişənə qədər dəmləyin.", "duration": 10 },
+          { "step": 6, "instruction": "Kiçik qazanda şəkəri qarışdırmadan əridərək dərin amber karamel alın. Diqqətlə zəfəran suyu əlavə edin, qaşıqla karışdırın.", "duration": 5 },
+          { "step": 7, "instruction": "Zəfəranlı karameli ət-meyvə qarışımının üzərinə tökün, yüngülcə qarışdırın.", "duration": 3 },
+          { "step": 8, "instruction": "Qapaqsız daha 10-15 dəqiqə — sos qalınlaşıb parlaq, siropvari hala gəlsin.", "duration": 15 },
+          { "step": 9, "instruction": "Dadına baxın. Zəfəranlı plov üzərinə verin, nar dəni ilə bəzəyin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Мутадджан (Глазированная Баранина с Сухофруктами)",
+        "description": "Праздничное азербайджанское блюдо: баранина, тушёная до мягкости, а затем покрытая сладко-солёной глазурью из карамелизованного сахара и шафрана, с курагой, изюмом и каштанами. Подаётся на свадьбах и Новрузе с шафрановым рисом.",
+        "ingredients": [
+          { "name": "Баранина, кубиками 4-5 см", "amount": "700 г" },
+          { "name": "Лук, мелко нарезанный", "amount": "2 средних" },
+          { "name": "Сливочное или растительное масло", "amount": "3 ст.л." },
+          { "name": "Сахар", "amount": "3 ст.л." },
+          { "name": "Шафран (настоянный на 3 ст.л. горячей воды)", "amount": "0,5 ч.л." },
+          { "name": "Курага", "amount": "1 стакан" },
+          { "name": "Изюм", "amount": "0,5 стакана" },
+          { "name": "Каштаны, варёные и очищенные", "amount": "1 стакан" },
+          { "name": "Палочка корицы", "amount": "1" },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Зёрна граната (для подачи)", "amount": "0,5 стакана" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Приправьте баранину. Обжарьте на сильном огне партиями до тёмно-коричневого цвета. Отложите.", "duration": 15 },
+          { "step": 2, "instruction": "Убавьте огонь, обжарьте лук 10-12 минут до мягкости и золотистости.", "duration": 12 },
+          { "step": 3, "instruction": "Верните мясо в кастрюлю. Добавьте корицу и воду до уровня мяса. Доведите до кипения, снимая пену.", "duration": 5 },
+          { "step": 4, "instruction": "Накройте и тушите на слабом огне 45-55 минут до полной мягкости.", "duration": 55 },
+          { "step": 5, "instruction": "Добавьте курагу, изюм и каштаны. Тушите без крышки 10 минут.", "duration": 10 },
+          { "step": 6, "instruction": "В отдельной сковороде расплавьте сахар до тёмной карамели. Осторожно добавьте шафранную воду, перемешайте.", "duration": 5 },
+          { "step": 7, "instruction": "Полейте шафрановой карамелью мясо с фруктами. Аккуратно перемешайте.", "duration": 3 },
+          { "step": 8, "instruction": "Тушите без крышки ещё 10-15 минут до образования густого блестящего соуса.", "duration": 15 },
+          { "step": 9, "instruction": "Откорректируйте вкус. Подавайте на шафрановом рисе, украсив зёрнами граната.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Muteccan (Kuru Meyveli Şekerlenmiş Kuzu)",
+        "description": "Kuzu etinin yumşayana kadar bräize edilip ardından karamelize şeker ve safranın parlak sırsıyla kaplanan, kuru kayısı, kuru üzüm ve kestaneyle tamamlanan bayramlık bir Azerbaycan yemeği. Düğünlerde ve Nevruz'da safran pilav üzerinde servis edilir.",
+        "ingredients": [
+          { "name": "Kuzu eti, 4-5 cm küpler", "amount": "700 g" },
+          { "name": "Soğan, ince doğranmış", "amount": "2 orta" },
+          { "name": "Tereyağı veya sıvıyağ", "amount": "3 yemek kaşığı" },
+          { "name": "Şeker", "amount": "3 yemek kaşığı" },
+          { "name": "Safran (3 yemek kaşığı sıcak suda bekletilmiş)", "amount": "0,5 çay kaşığı" },
+          { "name": "Kuru kayısı", "amount": "1 su bardağı" },
+          { "name": "Kuru üzüm", "amount": "0,5 su bardağı" },
+          { "name": "Kestane, haşlanmış ve soyulmuş", "amount": "1 su bardağı" },
+          { "name": "Tarçın çubuğu", "amount": "1 adet" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Nar tanesi (süsleme)", "amount": "0,5 su bardağı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzuyu tuzlayın, biberlayın. Büyük tencerede 2 yemek kaşığı yağı yüksek ateşte ısıtın, eti partiler hâlinde her tarafından derin kahverengi renk alana dek mühürleyin. Kenara alın.", "duration": 15 },
+          { "step": 2, "instruction": "Ateşi orta kısın, kalan yağ ve soğanları ekleyin, 10-12 dakika yumuşak ve altın rengi alana dek kavurun.", "duration": 12 },
+          { "step": 3, "instruction": "Eti soğanlarla birleştirin. Tarçın çubuğu ekleyin, eti örtecek kadar su dökün. Köpükleri alarak kaynatın.", "duration": 5 },
+          { "step": 4, "instruction": "Kapağı kapatın, kısık ateşte 45-55 dakika tamamen yumuşayana dek pişirin.", "duration": 55 },
+          { "step": 5, "instruction": "Kuru kayısı, kuru üzüm ve kestaneleri ekleyin. Kapaksız 10 dakika meyvalar şişene dek pişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Ayrı küçük tencerede şekeri karıştırmadan eritip derin amber karamel yapın. Dikkatle safran suyunu ekleyin, karıştırın.", "duration": 5 },
+          { "step": 7, "instruction": "Safran karamelini et-meyve karışımının üzerine dökün, hafifçe karıştırın.", "duration": 3 },
+          { "step": 8, "instruction": "Kapaksız 10-15 dakika daha, sos parlak ve şurup kıvamına gelene dek pişirin.", "duration": 15 },
+          { "step": 9, "instruction": "Tadına bakın. Safran pilavın üzerine nar taneleri ile servis yapın.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Göyərti Salatı",
+    "translations": {
+      "en": {
+        "title": "Göyərti Salatı (Fresh Herb Platter)",
+        "description": "A generous, vibrant platter of fresh whole herbs and greens — tarragon, basil, watercress, spring onion and radish — served as a tableside condiment to be eaten alongside main dishes. Göyərti salatı is less a salad in the Western sense and more an aromatic living garnish: each diner tears herbs by hand and wraps them around bites of meat or bread. The combination of anise-sweet tarragon and peppery cress cleanses the palate between rich bites.",
+        "ingredients": [
+          { "name": "Fresh tarragon", "amount": "1 bunch" },
+          { "name": "Fresh basil", "amount": "1 bunch" },
+          { "name": "Watercress or garden cress", "amount": "1 bunch" },
+          { "name": "Spring onions (scallions)", "amount": "4-6" },
+          { "name": "Radishes", "amount": "6-8" },
+          { "name": "Fresh flat-leaf parsley", "amount": "0.5 bunch" },
+          { "name": "Fresh mint", "amount": "0.25 bunch" },
+          { "name": "Lemon wedges (optional)", "amount": "to serve" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Wash all the herbs and greens thoroughly in several changes of cold water. This is the most important step — sand and grit must be completely removed.", "duration": 8 },
+          { "step": 2, "instruction": "Shake or spin away the excess water. Pat gently with a clean towel or spin in a salad spinner until well dried — damp herbs wilt quickly.", "duration": 5 },
+          { "step": 3, "instruction": "Trim the tough or yellowed stems from the tarragon, basil, parsley and mint, leaving the leaves on their softer stems.", "duration": 5 },
+          { "step": 4, "instruction": "Trim the root ends off the spring onions, remove any limp outer layers and cut them to a uniform length of about 12-15 cm.", "duration": 3 },
+          { "step": 5, "instruction": "Scrub the radishes, trim the tails and remove any wilted leaves. Leave any fresh leaves on for colour.", "duration": 3 },
+          { "step": 6, "instruction": "Arrange all the herbs in attractive bunches on a large flat platter, keeping each type together but interleaving them for colour — the deep green tarragon next to purple basil, the white-tipped radishes along the edge.", "duration": 5 },
+          { "step": 7, "instruction": "Scatter the spring onions over the platter and nestle the radishes around the edge. Serve immediately alongside the main dish with lemon wedges if desired.", "duration": 2 }
+        ]
+      },
+      "az": {
+        "title": "Göyərti Salatı",
+        "description": "Tərxun, reyhan, şabalıd yarpağı, göy soğan ve turpdan ibarət geniş, canlı ot nimçəsi — əsas yemeklərin yanında verilən ətirli canlı garnitür. Hər kəs öz isteğine görə otları ət ya da çörəklə birlikdə yeyir. Anisli tərxun ve biberlı şabalıd yarpağı zengin ləzzətlər arasında damağı təmizləyir.",
+        "ingredients": [
+          { "name": "Tərxun", "amount": "1 dəst" },
+          { "name": "Reyhan", "amount": "1 dəst" },
+          { "name": "Şabalıd yarpağı ya da bağ kəlvəri", "amount": "1 dəst" },
+          { "name": "Göy soğan", "amount": "4-6 ədəd" },
+          { "name": "Turp", "amount": "6-8 ədəd" },
+          { "name": "Cəfəri", "amount": "0,5 dəst" },
+          { "name": "Nanə", "amount": "0,25 dəst" },
+          { "name": "Limon dilimləri (isteğe bağlı)", "amount": "dada görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Bütün otları soyuq suda dəfələrlə yaxşıca yuyun. Qum və torpaq tam çıxmalıdır.", "duration": 8 },
+          { "step": 2, "instruction": "Artıq suyu silkin ya da salat süzgəcindən keçirin — nəm otlar tez solur.", "duration": 5 },
+          { "step": 3, "instruction": "Tərxun, reyhan, cəfəri, nanənin sərt, saralmış saplaqlarını kəsin.", "duration": 5 },
+          { "step": 4, "instruction": "Göy soğanların köklərini kəsin, limp xarici qatları çıxarın, 12-15 sm boyuna bərabərləşdirin.", "duration": 3 },
+          { "step": 5, "instruction": "Turpları fırçalayın, quyruqlarını kəsin, solmuş yarpaqları götürün.", "duration": 3 },
+          { "step": 6, "instruction": "Bütün otları böyük düz nimçədə növ-növ gözəl şəkildə düzün — hər növ bir arada, amma rəng üçün birbirine toxuşsun.", "duration": 5 },
+          { "step": 7, "instruction": "Göy soğanları nimçəyə səpin, turpları kənar boyunca yerləşdirin. Dərhal əsas yeməyin yanında verin.", "duration": 2 }
+        ]
+      },
+      "ru": {
+        "title": "Гёйярти Салаты (Блюдо Свежей Зелени)",
+        "description": "Щедрое блюдо свежих цельных трав и зелени — эстрагона, базилика, кресс-салата, зелёного лука и редиски — подаётся как ароматный сопровождающий гарнир к основным блюдам. Каждый отрывает травы руками и заворачивает в них кусочки мяса или хлеба.",
+        "ingredients": [
+          { "name": "Свежий эстрагон", "amount": "1 пучок" },
+          { "name": "Свежий базилик", "amount": "1 пучок" },
+          { "name": "Кресс-салат или садовый кресс", "amount": "1 пучок" },
+          { "name": "Зелёный лук", "amount": "4-6 шт." },
+          { "name": "Редис", "amount": "6-8 шт." },
+          { "name": "Свежая петрушка листовая", "amount": "0,5 пучка" },
+          { "name": "Свежая мята", "amount": "0,25 пучка" },
+          { "name": "Дольки лимона (по желанию)", "amount": "для подачи" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Тщательно промойте зелень в нескольких водах. Песок должен быть полностью удалён.", "duration": 8 },
+          { "step": 2, "instruction": "Встряхните или отцентрифугируйте лишнюю влагу.", "duration": 5 },
+          { "step": 3, "instruction": "Срежьте жёсткие или пожелтевшие стебли.", "duration": 5 },
+          { "step": 4, "instruction": "Обрежьте корни у лука, удалите вялые слои, выровняйте по длине 12-15 см.", "duration": 3 },
+          { "step": 5, "instruction": "Помойте редис, обрежьте хвостики и вялые листья.", "duration": 3 },
+          { "step": 6, "instruction": "Красиво разложите зелень на большом блюде, группируя по видам для цветового контраста.", "duration": 5 },
+          { "step": 7, "instruction": "Разложите лук и редис по краям. Сразу подавайте к основному блюду.", "duration": 2 }
+        ]
+      },
+      "tr": {
+        "title": "Göyerti Salatası (Taze Ot Tabağı)",
+        "description": "Taze tarhun, fesleğen, su teresi, taze soğan ve turptan oluşan geniş, canlı bir ot tabağı; ana yemeklerin yanında aromatik canlı garnitür olarak servis edilir. Her biri etle ya da ekmekle birlikte el ile koparılarak yenir.",
+        "ingredients": [
+          { "name": "Taze tarhun", "amount": "1 demet" },
+          { "name": "Taze fesleğen", "amount": "1 demet" },
+          { "name": "Su teresi veya bahçe teresi", "amount": "1 demet" },
+          { "name": "Taze soğan (yeşil soğan)", "amount": "4-6 adet" },
+          { "name": "Turp", "amount": "6-8 adet" },
+          { "name": "Taze yapraklı maydanoz", "amount": "0,5 demet" },
+          { "name": "Taze nane", "amount": "0,25 demet" },
+          { "name": "Limon dilimleri (isteğe bağlı)", "amount": "servis için" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Tüm otları soğuk suda birkaç kez iyice yıkayın. Kum ve toprak tamamen gitmeli.", "duration": 8 },
+          { "step": 2, "instruction": "Fazla suyu sallayarak ya da salata santrifüjüyle giderin — nemli otlar çabuk solar.", "duration": 5 },
+          { "step": 3, "instruction": "Sert veya sararmış sapları kesin.", "duration": 5 },
+          { "step": 4, "instruction": "Taze soğanların köklerini kesin, sarkık dış katları çıkarın, 12-15 cm boyuna eşitleyin.", "duration": 3 },
+          { "step": 5, "instruction": "Turpları fırçalayın, kuyrukları ve solmuş yaprakları çıkarın.", "duration": 3 },
+          { "step": 6, "instruction": "Tüm otları büyük düz tabakta türüne göre güzel şekilde dizin, renk kontrastı için birbiriyle iç içe geçirin.", "duration": 5 },
+          { "step": 7, "instruction": "Yeşil soğanları tabağa serpin, turpları kenarlara yerleştirin. Hemen ana yemeğin yanında servis yapın.", "duration": 2 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Stuffed Cabbage Rolls",
+    "translations": {
+      "en": {
+        "title": "Stuffed Cabbage Rolls (Kalam Dolması)",
+        "description": "Tender cabbage leaves wrapped around a fragrant mixture of ground lamb, short-grain rice, dried fruit and warm spices, then slowly braised in a light tomato and pomegranate broth until meltingly soft. The Azerbaijani version of stuffed cabbage (kalam dolması) is more aromatic and slightly sweet-savory compared to Eastern European variants, reflecting the use of saffron, allspice and sometimes plum jam in the braising liquid.",
+        "ingredients": [
+          { "name": "White cabbage, large head", "amount": "1 (about 1.5 kg)" },
+          { "name": "Ground lamb or beef", "amount": "500 g" },
+          { "name": "Short-grain rice, soaked 20 min", "amount": "0.5 cup" },
+          { "name": "Onion, finely grated", "amount": "1 medium" },
+          { "name": "Fresh dill and parsley, chopped", "amount": "0.5 cup" },
+          { "name": "Tomato paste", "amount": "2 tbsp" },
+          { "name": "Pomegranate molasses", "amount": "2 tbsp" },
+          { "name": "Saffron, bloomed in 2 tbsp hot water", "amount": "0.25 tsp" },
+          { "name": "Allspice, ground", "amount": "0.5 tsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Water or light broth", "amount": "1.5 cups" },
+          { "name": "Butter", "amount": "2 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Bring a large pot of salted water to a boil. Core the cabbage: using a sharp knife, cut out a deep cone around the core at the base. Place the whole cored cabbage into the boiling water.", "duration": 5 },
+          { "step": 2, "instruction": "Blanch the cabbage for 3-4 minutes, then pull away the outer leaves as they loosen. Return the inner cabbage to the water and repeat until you have 12-16 pliable leaves. Pat dry.", "duration": 15 },
+          { "step": 3, "instruction": "Prepare the filling: combine the ground meat, drained soaked rice, grated onion, chopped herbs, half the tomato paste, half the pomegranate molasses, allspice, salt and pepper. Mix thoroughly.", "duration": 8 },
+          { "step": 4, "instruction": "Trim the tough central rib from each cabbage leaf with a knife to make it easier to roll without tearing.", "duration": 6 },
+          { "step": 5, "instruction": "Place 2-3 tablespoons of filling on the lower third of a cabbage leaf. Fold the sides inward, then roll tightly from the bottom up — like a burrito. The roll should be snug to prevent unravelling during cooking.", "duration": 15 },
+          { "step": 6, "instruction": "Butter the base of a heavy pot. Line the base with a few leftover cabbage leaves to prevent sticking. Arrange the rolls in tight layers, seam-side down.", "duration": 5 },
+          { "step": 7, "instruction": "Mix the remaining tomato paste and pomegranate molasses with the saffron water and broth. Season with salt. Pour over the rolls — the liquid should come three-quarters of the way up the rolls.", "duration": 5 },
+          { "step": 8, "instruction": "Dot the top with butter. Place an inverted plate directly on top of the rolls to keep them submerged and prevent unrolling. Cover with the pot lid.", "duration": 3 },
+          { "step": 9, "instruction": "Bring to a boil, then reduce to the lowest simmer. Cook for 50-60 minutes until the cabbage is very tender and the filling is cooked through and fragrant.", "duration": 60 },
+          { "step": 10, "instruction": "Remove the plate. Taste and adjust the braising liquid. Serve the rolls in deep bowls with the cooking juices spooned over, accompanied by plain yogurt.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Kalam Dolması",
+        "description": "Yumşaq kələm yarpaqları qiymə, düyü, quru meyvə ve ədviyyatla doldurulur, yüngül pomidor-nar şirəsi içinde yavaş-yavaş braizlənir. Azərbaycan kalam dolması zəfəran, həqiqi nar ağzı suyu ilə daha ətirli, bir az şirin-duzlu ləzzətidir.",
+        "ingredients": [
+          { "name": "Ağ kələm (iri baş)", "amount": "1 (≈1,5 kq)" },
+          { "name": "Qoyun ya da mal əti qiyməsi", "amount": "500 q" },
+          { "name": "Dəyirmi düyü, 20 dəqiqə isladılmış", "amount": "0,5 stəkan" },
+          { "name": "Soğan, rəndələnmiş", "amount": "1 orta" },
+          { "name": "Şüyüd və cəfəri, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Pomidor pastası", "amount": "2 x.q." },
+          { "name": "Nar ağzısuyunun qatısı", "amount": "2 x.q." },
+          { "name": "Zəfəran (2 x.q. isti suda həll edilmiş)", "amount": "0,25 ç.q." },
+          { "name": "Ədvilikişniş (isgənc), üyüdülmüş", "amount": "0,5 ç.q." },
+          { "name": "Duz ve qara biber", "amount": "dada görə" },
+          { "name": "Su ya da yüngül şorba", "amount": "1,5 stəkan" },
+          { "name": "Kərə yağı", "amount": "2 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Böyük qazanda duzlu su qaynedın. Kələmin dibini iti bıçaqla konus şəklinde oyun. Bütün kələmi qaynayan suya salın.", "duration": 5 },
+          { "step": 2, "instruction": "3-4 dəqiqə bişirin, yumşalan xarici yarpaqları soyun. Qalan hissəni suya qaytarın, 12-16 yumşaq yarpaq alana qədər davam edin. Qurudun.", "duration": 15 },
+          { "step": 3, "instruction": "Doldurmayı hazırlayın: qiyməni, süzülmüş düyünü, rəndələnmiş soğanı, doğranmış otları, pomidor pastasının yarısını, nar qatısının yarısını, ədvilikişnişi, duz-biber qarışdırın.", "duration": 8 },
+          { "step": 4, "instruction": "Hər yarpaqdakı sərt orta saplağı bıçaqla nazikliyin — qırılmadan bükülsün.", "duration": 6 },
+          { "step": 5, "instruction": "Yarpaların alt üçdəbirinə 2-3 x.q. doldurmaq qoyun. Yanlarını içəri qatlayın, altdan sıxca yuxarı sarın. Sarmanı açılmayacaq qədər sıx edin.", "duration": 15 },
+          { "step": 6, "instruction": "Qazanın dibini yağlayın. Yapışmaması üçün dibinə artıq kələm yarpaqları düzün. Sarmaları qat-qat, tikiş aşağı olmaqla yerləşdirin.", "duration": 5 },
+          { "step": 7, "instruction": "Qalan pomidor pastasını, nar qatısını, zəfəran suyunu, şorbanı qarışdırın. Duzlayın. Sarmaların 3/4 hissəsini örtəcəq qədər tökün.", "duration": 5 },
+          { "step": 8, "instruction": "Üzərinə kərə yağı qoyun. Sarmaların üzərinə ters çevrilmiş boşqab qoyun ki açılmasın. Qazanı örtün.", "duration": 3 },
+          { "step": 9, "instruction": "Qaynaya gətirin, sonra ən aşağı istilikdə 50-60 dəqiqə bişirin.", "duration": 60 },
+          { "step": 10, "instruction": "Boşqabı çıxarın. Şorbayı dadın, çeşni tənzimləyin. Dərin qablarda şorba ilə birgə, yanında sadə qatıqla verin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Голубцы по-Азербайджански (Кялам Долмасы)",
+        "description": "Нежные листья капусты, начинённые ароматным фаршем с рисом, сухофруктами и тёплыми специями, медленно тушённые в лёгком томатно-гранатовом бульоне. Азербайджанские голубцы ароматнее европейских — с шафраном, душистым перцем и гранатовым соком.",
+        "ingredients": [
+          { "name": "Белокочанная капуста (крупный кочан)", "amount": "1 (около 1,5 кг)" },
+          { "name": "Фарш из баранины или говядины", "amount": "500 г" },
+          { "name": "Круглый рис, замоченный 20 мин", "amount": "0,5 стакана" },
+          { "name": "Лук, тёртый", "amount": "1 средний" },
+          { "name": "Укроп и петрушка, нарубленные", "amount": "0,5 стакана" },
+          { "name": "Томатная паста", "amount": "2 ст.л." },
+          { "name": "Гранатовая меласса (нарشараб)", "amount": "2 ст.л." },
+          { "name": "Шафран (настоянный на 2 ст.л. горячей воды)", "amount": "0,25 ч.л." },
+          { "name": "Душистый перец молотый", "amount": "0,5 ч.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Вода или бульон", "amount": "1,5 стакана" },
+          { "name": "Сливочное масло", "amount": "2 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Вскипятите подсоленную воду. Вырежьте кочерыжку конусом. Опустите кочан целиком в кипяток.", "duration": 5 },
+          { "step": 2, "instruction": "Бланшируйте 3-4 мин, снимайте размягчившиеся листья. Повторяйте, пока не наберёте 12-16 листьев. Обсушите.", "duration": 15 },
+          { "step": 3, "instruction": "Смешайте фарш, отжатый рис, лук, зелень, половину пасты и граnatowej мелассы, специи, соль и перец.", "duration": 8 },
+          { "step": 4, "instruction": "Подрежьте жёсткий центральный стебель на каждом листе.", "duration": 6 },
+          { "step": 5, "instruction": "Кладите 2-3 ст.л. начинки на нижнюю треть листа. Заверните бока внутрь, туго сверните снизу вверх.", "duration": 15 },
+          { "step": 6, "instruction": "Смажьте дно кастрюли маслом, выстелите листьями. Укладывайте голубцы швом вниз.", "duration": 5 },
+          { "step": 7, "instruction": "Смешайте оставшуюся пасту, мелассу, шафранный настой и бульон. Посолите. Залейте на 3/4 высоты голубцов.", "duration": 5 },
+          { "step": 8, "instruction": "Положите масло сверху, придавите перевёрнутой тарелкой, накройте крышкой.", "duration": 3 },
+          { "step": 9, "instruction": "Доведите до кипения, убавьте до минимума. Тушите 50-60 минут.", "duration": 60 },
+          { "step": 10, "instruction": "Уберите тарелку. Откорректируйте вкус. Подавайте в глубоких тарелках с соусом и йогуртом.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Lahana Dolması (Kalam Dolması)",
+        "description": "Yumuşak lahana yapraklarına sardırılan kıyma, pirinç, kuru meyve ve baharatlardan oluşan aromatik harç, hafif domates-nar suyu içinde yavaşça bräize edilir. Azerbaycan lahana dolması safran, yenibahar ve nar ekşisiyle daha aromatik ve hafifçe tatlı-tuzludur.",
+        "ingredients": [
+          { "name": "Beyaz lahana (büyük baş)", "amount": "1 (yaklaşık 1,5 kg)" },
+          { "name": "Kıyma (kuzu veya dana)", "amount": "500 g" },
+          { "name": "Kısa taneli pirinç, 20 dakika ıslatılmış", "amount": "0,5 su bardağı" },
+          { "name": "Soğan, rendelenmiş", "amount": "1 orta" },
+          { "name": "Taze dereotu ve maydanoz, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Domates salçası", "amount": "2 yemek kaşığı" },
+          { "name": "Nar ekşisi", "amount": "2 yemek kaşığı" },
+          { "name": "Safran (2 yemek kaşığı sıcak suda bekletilmiş)", "amount": "0,25 çay kaşığı" },
+          { "name": "Yenibahar, öğütülmüş", "amount": "0,5 çay kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Su veya hafif et suyu", "amount": "1,5 su bardağı" },
+          { "name": "Tereyağı", "amount": "2 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Büyük tencerede tuzlu su kaynatın. Lahanayı keskin bıçakla koni biçiminde oyun. Bütün lahanayı kaynar suya dalın.", "duration": 5 },
+          { "step": 2, "instruction": "3-4 dakika haşlayın, yumuşayan yaprakları soyun. İşlemi tekrarlayarak 12-16 yaprak alın. Kurulayın.", "duration": 15 },
+          { "step": 3, "instruction": "İçi hazırlayın: kıyma, süzülmüş pirinç, rendelenmiş soğan, kıyılmış otlar, salçanın yarısı, nar ekşisinin yarısı, yenibahar, tuz ve biber karıştırın.", "duration": 8 },
+          { "step": 4, "instruction": "Her yaprağın sert orta sapını bıçakla inceltip dolayı kolaylaştırın.", "duration": 6 },
+          { "step": 5, "instruction": "Yaprağın alt üçtebir kısmına 2-3 yemek kaşığı iç koyun. Yanları içe katlayın, alttan sıkıca üste sarın.", "duration": 15 },
+          { "step": 6, "instruction": "Tencerenin dibini yağlayın, artık yapraklarla döşeyin. Dolmaları dikiş yeri aşağı gelecek şekilde katlar halinde dizin.", "duration": 5 },
+          { "step": 7, "instruction": "Kalan salçayı, nar ekşisini, safran suyunu ve et suyunu karıştırın. Tuzlayın. Dolmaların 3/4'ünü örtecek şekilde dökün.", "duration": 5 },
+          { "step": 8, "instruction": "Üstüne tereyağı koyun, ters çevrilmiş tabakla bastırın, kapağı kapatın.", "duration": 3 },
+          { "step": 9, "instruction": "Kaynatın, ardından kısık ateşe alın. 50-60 dakika pişirin.", "duration": 60 },
+          { "step": 10, "instruction": "Tabağı kaldırın, tadına bakın. Derin kâselerde suyuyla birlikte, yanında sade yoğurtla servis yapın.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Grilled Chicken Salad",
+    "translations": {
+      "en": {
+        "title": "Grilled Chicken Salad with Herbs and Pomegranate",
+        "description": "Juicy saffron and lemon-marinated chicken breasts grilled to perfection and sliced over a bed of crisp mixed greens, cucumber, cherry tomatoes and fresh herbs, dressed with a tangy pomegranate-lemon vinaigrette and scattered with pomegranate seeds. A modern Azerbaijani-influenced salad that marries the traditional flavours of saffron, sumac and narsharab with a fresh, light presentation.",
+        "ingredients": [
+          { "name": "Chicken breasts", "amount": "2 large (about 400 g)" },
+          { "name": "Saffron, bloomed in 2 tbsp hot water", "amount": "0.25 tsp" },
+          { "name": "Lemon juice", "amount": "3 tbsp" },
+          { "name": "Olive oil", "amount": "3 tbsp + 1 tbsp for dressing" },
+          { "name": "Garlic, crushed", "amount": "2 cloves" },
+          { "name": "Mixed salad greens", "amount": "150 g" },
+          { "name": "Cucumber, sliced", "amount": "1 medium" },
+          { "name": "Cherry tomatoes, halved", "amount": "200 g" },
+          { "name": "Fresh mint and parsley", "amount": "0.5 cup" },
+          { "name": "Pomegranate seeds", "amount": "0.5 cup" },
+          { "name": "Narsharab pomegranate sauce", "amount": "2 tbsp" },
+          { "name": "Sumac", "amount": "1 tsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Marinate the chicken: combine the saffron water, 2 tbsp lemon juice, 2 tbsp olive oil, crushed garlic, salt and pepper in a bowl. Add the chicken breasts and turn to coat. Marinate for at least 30 minutes, or up to 4 hours refrigerated.", "duration": 35 },
+          { "step": 2, "instruction": "Prepare all the salad ingredients: wash and dry the greens, halve the cherry tomatoes, slice the cucumber and roughly chop the mint and parsley.", "duration": 10 },
+          { "step": 3, "instruction": "Make the dressing: whisk together the narsharab pomegranate sauce, remaining 1 tbsp lemon juice, 1 tbsp olive oil, sumac and a pinch of salt until emulsified.", "duration": 3 },
+          { "step": 4, "instruction": "Heat a grill pan or outdoor grill to high heat. Remove the chicken from the marinade and pat lightly dry. Brush the grill with a little oil.", "duration": 5 },
+          { "step": 5, "instruction": "Grill the chicken for 5-6 minutes per side, pressing down occasionally, until deeply charred grill marks form and the internal temperature reaches 74°C (165°F). The chicken should feel firm and spring back when pressed.", "duration": 12 },
+          { "step": 6, "instruction": "Transfer the grilled chicken to a cutting board and rest for 5 minutes. This is essential — resting allows the juices to redistribute and keeps the meat moist.", "duration": 5 },
+          { "step": 7, "instruction": "While the chicken rests, toss the salad greens, cucumber, tomatoes, mint and parsley with most of the pomegranate dressing in a large bowl.", "duration": 5 },
+          { "step": 8, "instruction": "Slice the chicken diagonally into 1 cm slices — the meat should be uniformly white throughout with no pink, and the juices should run clear.", "duration": 3 },
+          { "step": 9, "instruction": "Arrange the dressed salad on a serving platter, top with the sliced chicken, drizzle with the remaining dressing, scatter with pomegranate seeds and serve immediately.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Izgara Toyuq Salatı",
+        "description": "Limon-zəfəran marinata yatırılmış toyuq döşü ızgarada bişirilir, dəm-duru göyərti, xiyar, gilas pomidor, otlar üzərine dilimlenilir, nar suyu-limon vinegretilə geydirilir. Müasir Azərbaycan-ilhamlı salat — zəfəran, sumaq, narsharab ənənəvi dadları ilə işıqlı, yüngül qəlibtə.",
+        "ingredients": [
+          { "name": "Toyuq döşü", "amount": "2 iri (≈400 q)" },
+          { "name": "Zəfəran (2 x.q. isti suda həll edilmiş)", "amount": "0,25 ç.q." },
+          { "name": "Limon suyu", "amount": "3 x.q." },
+          { "name": "Zeytun yağı", "amount": "3 x.q. + 1 x.q. (sous üçün)" },
+          { "name": "Sarımsaq, əzilmiş", "amount": "2 diş" },
+          { "name": "Qarışıq salat göyərtisi", "amount": "150 q" },
+          { "name": "Xiyar, dilimlənmiş", "amount": "1 orta" },
+          { "name": "Kiraz pomidor, yarıya kəsilmiş", "amount": "200 q" },
+          { "name": "Nanə və cəfəri", "amount": "0,5 stəkan" },
+          { "name": "Nar dəni", "amount": "0,5 stəkan" },
+          { "name": "Narsharab", "amount": "2 x.q." },
+          { "name": "Sumaq", "amount": "1 ç.q." },
+          { "name": "Duz ve qara biber", "amount": "dada görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Marinada hazırlayın: zəfəran suyu, 2 x.q. limon suyu, 2 x.q. zeytun yağı, sarımsaq, duz, biber. Toyuğu əlavə edin, ən az 30 dəqiqə, maximum 4 saat soyuducuda yatırın.", "duration": 35 },
+          { "step": 2, "instruction": "Salat ingredientlərini hazırlayın: göyərtini yuyub qurudun, kiraz pomidorları ikiyə kəsin, xiyarı dilimlin, nanə ve cəfərini qaba doğrayın.", "duration": 10 },
+          { "step": 3, "instruction": "Sosu hazırlayın: narsharab, qalan 1 x.q. limon suyu, 1 x.q. zeytun yağı, sumaq, bir az duz çırpın.", "duration": 3 },
+          { "step": 4, "instruction": "Izgaranı ya da ızgara tavanı güclü istilikdə qızdırın. Toyuğu marinattan çıxarın, azca qurudun.", "duration": 5 },
+          { "step": 5, "instruction": "Toyuğu hər tərəfindən 5-6 dəqiqə, daxili temperatur 74°C-yə çatana qədər bişirin. Izgara izləri dərin, qaralanmış olmalıdır.", "duration": 12 },
+          { "step": 6, "instruction": "Kəsmə taxtasına köçürün, 5 dəqiqə dincəltdin — şirəler paylaşsın.", "duration": 5 },
+          { "step": 7, "instruction": "Toyuq dincləyərkən göyərtini, xiyarı, pomidorları, otları sosun çox hissəsi ilə böyük qabda qarışdırın.", "duration": 5 },
+          { "step": 8, "instruction": "Toyuğu 1 sm qalınlığında çapraz dilimlərə kəsin — ağ, bişmiş, şirəsi şəffaf olmalıdır.", "duration": 3 },
+          { "step": 9, "instruction": "Salatı nimçəyə düzün, üzərinə toyuq dilimlərini qoyun, qalan sosu süzün, nar dəni səpin, dərhal verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Салат с Курицей Гриль и Гранатом",
+        "description": "Куриные грудки, маринованные в шафране и лимоне, обжаренные на гриле и нарезанные на свежую зелень, огурцы, помидоры черри и зелень с гранатово-лимонной заправкой. Современный азербайджанский салат с шафраном, сумахом и нарширабом.",
+        "ingredients": [
+          { "name": "Куриные грудки", "amount": "2 крупных (~400 г)" },
+          { "name": "Шафран (настоянный на 2 ст.л. горячей воды)", "amount": "0,25 ч.л." },
+          { "name": "Лимонный сок", "amount": "3 ст.л." },
+          { "name": "Оливковое масло", "amount": "3 ст.л. + 1 ст.л. для заправки" },
+          { "name": "Чеснок, давленый", "amount": "2 зубчика" },
+          { "name": "Смесь салатных листьев", "amount": "150 г" },
+          { "name": "Огурец, нарезанный", "amount": "1 средний" },
+          { "name": "Помидоры черри, половинками", "amount": "200 г" },
+          { "name": "Мята и петрушка свежие", "amount": "0,5 стакана" },
+          { "name": "Зёрна граната", "amount": "0,5 стакана" },
+          { "name": "Наршараб", "amount": "2 ст.л." },
+          { "name": "Сумах", "amount": "1 ч.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замаринуйте курицу: смешайте шафранную воду, 2 ст.л. лимонного сока, 2 ст.л. масла, чеснок, соль и перец. Маринуйте от 30 минут до 4 часов.", "duration": 35 },
+          { "step": 2, "instruction": "Подготовьте ингредиенты салата: промойте зелень, нарежьте помидоры и огурец, грубо порубите мяту и петрушку.", "duration": 10 },
+          { "step": 3, "instruction": "Сделайте заправку: взбейте наршараб, 1 ст.л. лимонного сока, 1 ст.л. масла, сумах и соль.", "duration": 3 },
+          { "step": 4, "instruction": "Разогрейте гриль до максимума. Достаньте курицу из маринада, промокните.", "duration": 5 },
+          { "step": 5, "instruction": "Жарьте по 5-6 минут с каждой стороны до 74°C внутри и глубоких следов гриля.", "duration": 12 },
+          { "step": 6, "instruction": "Переложите на доску, оставьте отдыхать 5 минут.", "duration": 5 },
+          { "step": 7, "instruction": "Пока курица отдыхает, перемешайте зелень, огурец, помидоры и зелень с большей частью заправки.", "duration": 5 },
+          { "step": 8, "instruction": "Нарежьте курицу по диагонали ломтиками 1 см — мясо должно быть однородно белым.", "duration": 3 },
+          { "step": 9, "instruction": "Выложите салат на блюдо, сверху — куриные ломтики, полейте оставшейся заправкой, посыпьте зёрнами граната. Подавайте немедленно.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Izgara Tavuk Salatası",
+        "description": "Limon ve safranla marine edilen tavuk göğüsleri ızgarada mükemmel pişirildikten sonra karışık yeşillik, salatalık, kiraz domates ve taze otlar üzerine dilimlenip nar ekşisi-limon vinegret ile tatlandırılır; nar taneleri serpilerek servis edilir.",
+        "ingredients": [
+          { "name": "Tavuk göğsü", "amount": "2 büyük (~400 g)" },
+          { "name": "Safran (2 yemek kaşığı sıcak suda bekletilmiş)", "amount": "0,25 çay kaşığı" },
+          { "name": "Limon suyu", "amount": "3 yemek kaşığı" },
+          { "name": "Zeytinyağı", "amount": "3 yemek kaşığı + 1 yemek kaşığı (sos için)" },
+          { "name": "Sarımsak, ezilmiş", "amount": "2 diş" },
+          { "name": "Karışık salata yaprakları", "amount": "150 g" },
+          { "name": "Salatalık, dilimlenmiş", "amount": "1 orta" },
+          { "name": "Kiraz domates, yarıya bölünmüş", "amount": "200 g" },
+          { "name": "Taze nane ve maydanoz", "amount": "0,5 su bardağı" },
+          { "name": "Nar tanesi", "amount": "0,5 su bardağı" },
+          { "name": "Narşarab (nar ekşisi sosu)", "amount": "2 yemek kaşığı" },
+          { "name": "Sumak", "amount": "1 çay kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Tavuğu marine edin: safran suyu, 2 yemek kaşığı limon suyu, 2 yemek kaşığı zeytinyağı, sarımsak, tuz ve biber karıştırın. Tavuğu ekleyin, en az 30 dakika, maksimum 4 saat bekletin.", "duration": 35 },
+          { "step": 2, "instruction": "Salata malzemelerini hazırlayın: yaprakları yıkayıp kurulayın, domatesleri ve salatalığı kesin, nane ve maydanozu kabaca kıyın.", "duration": 10 },
+          { "step": 3, "instruction": "Sosu hazırlayın: narşarab, 1 yemek kaşığı limon suyu, 1 yemek kaşığı zeytinyağı, sumak ve tuzu çırpın.", "duration": 3 },
+          { "step": 4, "instruction": "Izgara veya ızgara tavasını yüksek ısıda kızdırın. Tavuğu marinetten çıkarın, hafifçe kurulayın.", "duration": 5 },
+          { "step": 5, "instruction": "Her tarafı 5-6 dakika, iç ısı 74°C'ye ulaşana ve derin ızgara izleri oluşana dek pişirin.", "duration": 12 },
+          { "step": 6, "instruction": "Kesme tahtasına alın, 5 dakika dinlendirin — suyun yeniden dağılması için şart.", "duration": 5 },
+          { "step": 7, "instruction": "Tavuk dinlenirken yaprakları, salatalığı, domatesleri ve otları sosun büyük kısmıyla karıştırın.", "duration": 5 },
+          { "step": 8, "instruction": "Tavuğu çapraz, 1 cm kalınlığında dilimleyin — et her yerde beyaz ve pişmiş olmalı.", "duration": 3 },
+          { "step": 9, "instruction": "Salatayı tabağa alın, üstüne tavuk dilimlerini koyun, kalan sosu gezdirin, nar taneleri serpin ve hemen servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Buckwheat Chicken Stir-Fry",
+    "translations": {
+      "en": {
+        "title": "Buckwheat and Chicken Stir-Fry with Vegetables",
+        "description": "A hearty one-pan dish of nutty roasted buckwheat groats cooked until fluffy, then tossed with tender strips of chicken, caramelised onion, carrot, bell pepper and a fragrant blend of garlic and herbs. A wholesome, modern interpretation of karabuğday dishes that reflects the health-forward cooking trend in contemporary Azerbaijani home kitchens — nutritious, simple and full of flavour.",
+        "ingredients": [
+          { "name": "Buckwheat groats (kasha)", "amount": "1.5 cups" },
+          { "name": "Chicken breast or thigh, thinly sliced", "amount": "400 g" },
+          { "name": "Onion, sliced", "amount": "1 large" },
+          { "name": "Carrot, julienned", "amount": "1 large" },
+          { "name": "Bell pepper, sliced", "amount": "1" },
+          { "name": "Garlic, minced", "amount": "3 cloves" },
+          { "name": "Oil", "amount": "3 tbsp" },
+          { "name": "Butter", "amount": "2 tbsp" },
+          { "name": "Water or chicken stock (for buckwheat)", "amount": "3 cups" },
+          { "name": "Fresh dill and parsley, chopped", "amount": "0.5 cup" },
+          { "name": "Soy sauce or salt", "amount": "1 tbsp / to taste" },
+          { "name": "Black pepper", "amount": "to taste" },
+          { "name": "Paprika", "amount": "1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Toast the buckwheat: place the groats in a dry pan over medium heat and stir for 3-5 minutes until they smell nutty and are a shade darker. This step deepens the flavour enormously.", "duration": 5 },
+          { "step": 2, "instruction": "Bring the water or stock to a boil in a saucepan. Add the toasted buckwheat, a pinch of salt and 1 tbsp butter. Cover, reduce to the lowest heat and cook for 15-18 minutes until all liquid is absorbed and the groats are fluffy. Remove from heat and rest 5 minutes, covered.", "duration": 25 },
+          { "step": 3, "instruction": "Season the chicken slices with salt, pepper and paprika. Heat 2 tbsp oil in a large wok or wide pan over high heat. Add the chicken in a single layer and cook without stirring for 2-3 minutes until browned on one side, then toss and cook 2 more minutes until cooked through. Remove and set aside.", "duration": 8 },
+          { "step": 4, "instruction": "In the same pan, add the remaining oil and reduce heat to medium. Add the onion and carrots and cook for 6-8 minutes, stirring occasionally, until softened and beginning to caramelise.", "duration": 8 },
+          { "step": 5, "instruction": "Add the bell pepper and garlic. Stir-fry for 3-4 minutes until the pepper is tender-crisp and the garlic is fragrant.", "duration": 4 },
+          { "step": 6, "instruction": "Return the chicken to the pan with the vegetables. Add soy sauce (or adjust salt) and the remaining butter. Toss everything together over high heat for 1-2 minutes.", "duration": 3 },
+          { "step": 7, "instruction": "Fluff the buckwheat with a fork and add it to the pan. Toss everything together gently over medium heat until the buckwheat is warmed through and has absorbed some of the pan flavours.", "duration": 4 },
+          { "step": 8, "instruction": "Stir in the fresh dill and parsley. Taste and adjust seasoning. Serve hot directly from the pan.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Qarabuğday-Toyuq Qovurması",
+        "description": "Qovurulmuş qarabuğday yarması toyuq zolaqlari, karamelleşmiş soğan, yerkökü, bibər ve sarımsaqla tava içinde bir araya gəlir. Müasir Azərbaycan ev aşbazlığının sağlıqlı, ləzzətli, sadə bir yeməyi.",
+        "ingredients": [
+          { "name": "Qarabuğday yarması", "amount": "1,5 stəkan" },
+          { "name": "Toyuq döşü ya da but əti, nazik zolaqlarda", "amount": "400 q" },
+          { "name": "Soğan, dilimlənmiş", "amount": "1 iri" },
+          { "name": "Yerkökü, julyen", "amount": "1 iri" },
+          { "name": "Şirin bibər, dilimlənmiş", "amount": "1 ədəd" },
+          { "name": "Sarımsaq, xırda doğranmış", "amount": "3 diş" },
+          { "name": "Bitki yağı", "amount": "3 x.q." },
+          { "name": "Kərə yağı", "amount": "2 x.q." },
+          { "name": "Su ya da toyuq suyu (qarabuğday üçün)", "amount": "3 stəkan" },
+          { "name": "Şüyüd və cəfəri, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Soya sosu ya da duz", "amount": "1 x.q. / dada görə" },
+          { "name": "Qara biber", "amount": "dada görə" },
+          { "name": "Paprika", "amount": "1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yaşıl tavada qarabuğdayı 3-5 dəqiqə quru qovurun — qoz qoxusu gəlsinə qədər. Bu addım dadı çox dərinləşdirir.", "duration": 5 },
+          { "step": 2, "instruction": "Suyu ya da toyuq suyunu qaynedın. Qovurulmuş qarabuğdayı, bir az duz, 1 x.q. kərə yağını əlavə edin. Örtün, ən aşağı istilikdə 15-18 dəqiqə — bütün su sorulaçaq, yarmalar qaparlı hala gələcək. Oddan götürün, 5 dəqiqə dincəldin.", "duration": 25 },
+          { "step": 3, "instruction": "Toyuğu duzlayın, biberlayın, paprika vurun. Böyük tavada 2 x.q. yağı güclü istilikdə qızdırın. Toyuğu bir qat halında əlavə edin, 2-3 dəqiqə qarışdırmadan — bir tərəfi qızarsın. Çevirin, daha 2 dəqiqə. Kənara çəkin.", "duration": 8 },
+          { "step": 4, "instruction": "Eyni tavaya qalan yağı əlavə edin, orta istilikdə soğan ve yerkökünü 6-8 dəqiqə yumşaq-karamel rəngini alana qədər qovurun.", "duration": 8 },
+          { "step": 5, "instruction": "Bibər və sarımsaq əlavə edin, 3-4 dəqiqə — bibər həm yumşaq həm xırtıldayan olsun.", "duration": 4 },
+          { "step": 6, "instruction": "Toyuğu tərəvəzlərə qatın. Soya sosu və qalan kərə yağını əlavə edin. Güclü istilikdə 1-2 dəqiqə qovurun.", "duration": 3 },
+          { "step": 7, "instruction": "Qarabuğdayı çəngəllə qopardın, tavaya əlavə edin. Orta istilikdə yüngülcə qarışdıraraq ısınana qədər 4 dəqiqə qovurun.", "duration": 4 },
+          { "step": 8, "instruction": "Şüyüd ve cəfəri əlavə edin, dadına baxın. Dərhal tavadan verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Гречка с Курицей и Овощами",
+        "description": "Сытное блюдо из обжаренной гречки, нежных полосок курицы, карамелизованного лука, моркови, болгарского перца и чеснока, всё тушённое вместе. Современная интерпретация каши в азербайджанском стиле — питательно, просто и вкусно.",
+        "ingredients": [
+          { "name": "Гречневая крупа", "amount": "1,5 стакана" },
+          { "name": "Куриное филе или бедро, тонкими полосками", "amount": "400 г" },
+          { "name": "Лук, нарезанный", "amount": "1 крупный" },
+          { "name": "Морковь, соломкой", "amount": "1 крупная" },
+          { "name": "Болгарский перец, нарезанный", "amount": "1 шт." },
+          { "name": "Чеснок, измельчённый", "amount": "3 зубчика" },
+          { "name": "Растительное масло", "amount": "3 ст.л." },
+          { "name": "Сливочное масло", "amount": "2 ст.л." },
+          { "name": "Вода или куриный бульон (для гречки)", "amount": "3 стакана" },
+          { "name": "Укроп и петрушка, нарубленные", "amount": "0,5 стакана" },
+          { "name": "Соевый соус или соль", "amount": "1 ст.л. / по вкусу" },
+          { "name": "Чёрный перец", "amount": "по вкусу" },
+          { "name": "Паприка", "amount": "1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Обжарьте сухую гречку на сковороде 3-5 минут до орехового аромата — это углубляет вкус.", "duration": 5 },
+          { "step": 2, "instruction": "Доведите воду или бульон до кипения. Добавьте гречку, соль и 1 ст.л. масла. Накройте, варите на минимуме 15-18 минут. Оставьте под крышкой ещё 5 минут.", "duration": 25 },
+          { "step": 3, "instruction": "Приправьте курицу. Обжарьте на сильном огне партиями до румяности. Отложите.", "duration": 8 },
+          { "step": 4, "instruction": "В той же сковороде обжарьте лук и морковь 6-8 минут до мягкости.", "duration": 8 },
+          { "step": 5, "instruction": "Добавьте перец и чеснок, жарьте 3-4 минуты.", "duration": 4 },
+          { "step": 6, "instruction": "Верните курицу. Добавьте соевый соус и масло. Быстро жарьте 1-2 минуты.", "duration": 3 },
+          { "step": 7, "instruction": "Разрыхлите гречку вилкой, добавьте в сковороду, перемешайте на среднем огне.", "duration": 4 },
+          { "step": 8, "instruction": "Добавьте зелень, откорректируйте вкус. Подавайте горячим.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Karabuğday ve Tavuk Kavurması",
+        "description": "Kavrulmuş karabuğday yarmasının ince dilim tavuk, karamelleşmiş soğan, havuç, biber ve sarımsakla tek tavada pişirildiği doyurucu modern bir tabak. Çağdaş Azerbaycan ev mutfağının sağlıklı ve pratik yorumu.",
+        "ingredients": [
+          { "name": "Karabuğday yarması (kasha)", "amount": "1,5 su bardağı" },
+          { "name": "Tavuk göğsü veya but, ince şeritler", "amount": "400 g" },
+          { "name": "Soğan, dilimlenmiş", "amount": "1 büyük" },
+          { "name": "Havuç, ince julyen", "amount": "1 büyük" },
+          { "name": "Dolmalık biber, dilimlenmiş", "amount": "1 adet" },
+          { "name": "Sarımsak, ince kıyılmış", "amount": "3 diş" },
+          { "name": "Sıvıyağ", "amount": "3 yemek kaşığı" },
+          { "name": "Tereyağı", "amount": "2 yemek kaşığı" },
+          { "name": "Su veya tavuk suyu (karabuğday için)", "amount": "3 su bardağı" },
+          { "name": "Taze dereotu ve maydanoz, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Soya sosu veya tuz", "amount": "1 yemek kaşığı / tadına göre" },
+          { "name": "Karabiber", "amount": "tadına göre" },
+          { "name": "Kırmızı biber (paprika)", "amount": "1 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Karabuğdayı kuru tavada 3-5 dakika, fındık kokusu çıkana dek kavurun — bu adım lezzeti derinleştirir.", "duration": 5 },
+          { "step": 2, "instruction": "Su veya tavuk suyunu kaynatın. Kavrulmuş karabuğdayı, tuzu ve 1 yemek kaşığı tereyağını ekleyin. Kapağı kapatın, kısık ateşte 15-18 dakika pişirin. 5 dakika daha dinlendirin.", "duration": 25 },
+          { "step": 3, "instruction": "Tavuğu baharatlandırın. Büyük tavada 2 yemek kaşığı yağı yüksek ateşte kızdırın. Tavuğu tek kat halinde ekleyin, 2-3 dakika kızartın, çevirin, 2 dakika daha pişirin. Kenara alın.", "duration": 8 },
+          { "step": 4, "instruction": "Aynı tavaya kalan yağı ekleyin; soğan ve havucu orta ateşte 6-8 dakika yumuşayana dek kavurun.", "duration": 8 },
+          { "step": 5, "instruction": "Biberi ve sarımsağı ekleyin, 3-4 dakika kavurun.", "duration": 4 },
+          { "step": 6, "instruction": "Tavuğu geri ekleyin. Soya sosu ve tereyağı ekleyin, yüksek ateşte 1-2 dakika kavurun.", "duration": 3 },
+          { "step": 7, "instruction": "Karabuğdayı çatalla gevşetin, tavaya ekleyin. Orta ateşte nazikçe karıştırarak ısınana dek 4 dakika pişirin.", "duration": 4 },
+          { "step": 8, "instruction": "Dereotu ve maydanozu ekleyin, tadına bakın. Sıcak servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,682 @@
+[
+  {
+    "title": "Piti",
+    "translations": {
+      "en": {
+        "title": "Piti (Lamb & Chickpea Crock Soup)",
+        "description": "A signature soup from Sheki, slow-cooked in individual clay crocks with lamb, chickpeas, chestnuts and saffron. It is eaten in two courses: first the broth poured over crumbled bread, then the meat and vegetables.",
+        "ingredients": [
+          { "name": "Lamb on the bone", "amount": "600 g" },
+          { "name": "Chickpeas, soaked overnight", "amount": "150 g" },
+          { "name": "Chestnuts, peeled", "amount": "100 g" },
+          { "name": "Onion, quartered", "amount": "1 large" },
+          { "name": "Lamb tail fat", "amount": "80 g" },
+          { "name": "Saffron and dried plums", "amount": "1 tsp / 4 plums" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Place lamb, soaked chickpeas, onion and tail fat into individual clay crocks.", "duration": 8 },
+          { "step": 2, "instruction": "Cover with cold water and a pinch of salt, leaving room at the top.", "duration": 3 },
+          { "step": 3, "instruction": "Bake or simmer very gently for 2.5-3 hours until the lamb is meltingly tender.", "duration": 180 },
+          { "step": 4, "instruction": "Add chestnuts, dried plums and saffron in the last 30 minutes.", "duration": 30 },
+          { "step": 5, "instruction": "Strain the golden broth into a bowl over crumbled dry lavash for the first course.", "duration": 4 },
+          { "step": 6, "instruction": "Mash the meat, chickpeas and chestnuts with sumac onions for the second course.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Piti",
+        "description": "Şəkinin imza şorbası olub, fərdi gil qablarda quzu, noxud, şabalıd və zəfəranla yavaş bişirilir. İki yemək kimi yeyilir: əvvəlcə çörək üstünə tökülən bulyon, sonra ət və tərəvəz.",
+        "ingredients": [
+          { "name": "Sümüklü quzu əti", "amount": "600 q" },
+          { "name": "Bir gecə isladılmış noxud", "amount": "150 q" },
+          { "name": "Təmizlənmiş şabalıd", "amount": "100 q" },
+          { "name": "Soğan, dördə bölünmüş", "amount": "1 ədəd" },
+          { "name": "Quyruq yağı", "amount": "80 q" },
+          { "name": "Zəfəran və quru gavalı", "amount": "1 ç.q. / 4 ədəd" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu, noxud, soğan və quyruq yağını fərdi gil qablara qoyun.", "duration": 8 },
+          { "step": 2, "instruction": "Üstünə soyuq su və bir çimdik duz əlavə edin.", "duration": 3 },
+          { "step": 3, "instruction": "Çox zəif odda 2.5-3 saat ət yumşalana qədər bişirin.", "duration": 180 },
+          { "step": 4, "instruction": "Son 30 dəqiqədə şabalıd, gavalı və zəfəran əlavə edin.", "duration": 30 },
+          { "step": 5, "instruction": "Qızılı bulyonu birinci yemək üçün doğranmış quru lavaş üstünə süzün.", "duration": 4 },
+          { "step": 6, "instruction": "İkinci yemək üçün əti, noxudu və şabalıdı sumaqlı soğanla əzin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Пити",
+        "description": "Фирменный суп из Шеки, томлёный в индивидуальных глиняных горшочках с бараниной, нутом, каштанами и шафраном. Едят в два захода: сначала бульон на покрошенном хлебе, затем мясо и овощи.",
+        "ingredients": [
+          { "name": "Баранина на кости", "amount": "600 г" },
+          { "name": "Нут, замоченный на ночь", "amount": "150 г" },
+          { "name": "Очищенные каштаны", "amount": "100 г" },
+          { "name": "Лук, четвертинками", "amount": "1 шт" },
+          { "name": "Курдючный жир", "amount": "80 г" },
+          { "name": "Шафран и чернослив", "amount": "1 ч.л. / 4 шт" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Положите баранину, нут, лук и жир в глиняные горшочки.", "duration": 8 },
+          { "step": 2, "instruction": "Залейте холодной водой со щепоткой соли, оставив место сверху.", "duration": 3 },
+          { "step": 3, "instruction": "Томите очень медленно 2.5-3 часа до мягкости баранины.", "duration": 180 },
+          { "step": 4, "instruction": "Добавьте каштаны, чернослив и шафран за 30 минут до конца.", "duration": 30 },
+          { "step": 5, "instruction": "Слейте золотой бульон на покрошенный сухой лаваш для первого блюда.", "duration": 4 },
+          { "step": 6, "instruction": "Разомните мясо, нут и каштаны с луком и сумахом для второго блюда.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Piti",
+        "description": "Şeki'nin imza çorbası olup, bireysel toprak güveçlerde kuzu, nohut, kestane ve safranla ağır pişirilir. İki aşamada yenir: önce ekmek üzerine dökülen et suyu, sonra et ve sebzeler.",
+        "ingredients": [
+          { "name": "Kemikli kuzu eti", "amount": "600 g" },
+          { "name": "Bir gece ıslatılmış nohut", "amount": "150 g" },
+          { "name": "Ayıklanmış kestane", "amount": "100 g" },
+          { "name": "Soğan, dörde bölünmüş", "amount": "1 adet" },
+          { "name": "Kuyruk yağı", "amount": "80 g" },
+          { "name": "Safran ve kuru erik", "amount": "1 tatlı kaşığı / 4 adet" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu, nohut, soğan ve kuyruk yağını toprak güveçlere koyun.", "duration": 8 },
+          { "step": 2, "instruction": "Üzerine soğuk su ve bir tutam tuz ekleyin, üstte boşluk bırakın.", "duration": 3 },
+          { "step": 3, "instruction": "Çok kısık ateşte 2.5-3 saat kuzu yumuşayana dek pişirin.", "duration": 180 },
+          { "step": 4, "instruction": "Son 30 dakikada kestane, erik ve safran ekleyin.", "duration": 30 },
+          { "step": 5, "instruction": "Altın suyu ilk yemek için ufalanmış kuru lavaş üzerine süzün.", "duration": 4 },
+          { "step": 6, "instruction": "İkinci yemek için eti, nohutu ve kestaneyi sumaklı soğanla ezin.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Bozbash",
+    "translations": {
+      "en": {
+        "title": "Bozbash (Lamb & Pea Soup)",
+        "description": "A clear, fragrant lamb broth simmered with chickpeas, potatoes and chestnuts, brightened with sour plums. A comforting classic across the Caucasus.",
+        "ingredients": [
+          { "name": "Lamb on the bone", "amount": "700 g" },
+          { "name": "Chickpeas, soaked", "amount": "150 g" },
+          { "name": "Potatoes, whole small", "amount": "4 pieces" },
+          { "name": "Chestnuts", "amount": "100 g" },
+          { "name": "Sour plums (alça)", "amount": "6 pieces" },
+          { "name": "Onion and saffron", "amount": "1 / pinch" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Cover the lamb with cold water, bring to a boil and skim off the foam carefully.", "duration": 15 },
+          { "step": 2, "instruction": "Add the soaked chickpeas and onion and simmer gently for 60 minutes.", "duration": 60 },
+          { "step": 3, "instruction": "Add whole potatoes and chestnuts and cook for 25 minutes more.", "duration": 25 },
+          { "step": 4, "instruction": "Stir in the sour plums and a pinch of saffron for the last 15 minutes.", "duration": 15 },
+          { "step": 5, "instruction": "Season the clear broth with salt to taste.", "duration": 2 },
+          { "step": 6, "instruction": "Serve hot with fresh herbs and bread.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Bozbaş",
+        "description": "Noxud, kartof və şabalıdla bişirilmiş duru, ətirli quzu bulyonu turş alça ilə canlanır. Qafqazda rahatladıcı klassikdir.",
+        "ingredients": [
+          { "name": "Sümüklü quzu əti", "amount": "700 q" },
+          { "name": "İsladılmış noxud", "amount": "150 q" },
+          { "name": "Bütöv kiçik kartof", "amount": "4 ədəd" },
+          { "name": "Şabalıd", "amount": "100 q" },
+          { "name": "Turş alça", "amount": "6 ədəd" },
+          { "name": "Soğan və zəfəran", "amount": "1 / çimdik" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzunu soyuq su ilə örtüb qaynadın və köpüyü diqqətlə alın.", "duration": 15 },
+          { "step": 2, "instruction": "Noxud və soğanı əlavə edib 60 dəqiqə zəif odda bişirin.", "duration": 60 },
+          { "step": 3, "instruction": "Bütöv kartof və şabalıdı əlavə edib daha 25 dəqiqə bişirin.", "duration": 25 },
+          { "step": 4, "instruction": "Son 15 dəqiqədə alça və zəfəran qatın.", "duration": 15 },
+          { "step": 5, "instruction": "Duru bulyonu duzla dadlandırın.", "duration": 2 },
+          { "step": 6, "instruction": "Göyərti və çörəklə isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Бозбаш",
+        "description": "Прозрачный ароматный бараний бульон с нутом, картофелем и каштанами, оттенённый кислой алычой. Уютная классика Кавказа.",
+        "ingredients": [
+          { "name": "Баранина на кости", "amount": "700 г" },
+          { "name": "Нут, замоченный", "amount": "150 г" },
+          { "name": "Картофель, мелкий целый", "amount": "4 шт" },
+          { "name": "Каштаны", "amount": "100 г" },
+          { "name": "Кислая алыча", "amount": "6 шт" },
+          { "name": "Лук и шафран", "amount": "1 / щепотка" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Залейте баранину холодной водой, доведите до кипения и аккуратно снимите пену.", "duration": 15 },
+          { "step": 2, "instruction": "Добавьте нут и лук и варите на слабом огне 60 минут.", "duration": 60 },
+          { "step": 3, "instruction": "Добавьте целый картофель и каштаны и варите ещё 25 минут.", "duration": 25 },
+          { "step": 4, "instruction": "За 15 минут до конца добавьте алычу и щепотку шафрана.", "duration": 15 },
+          { "step": 5, "instruction": "Посолите прозрачный бульон по вкусу.", "duration": 2 },
+          { "step": 6, "instruction": "Подавайте горячим с зеленью и хлебом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Bozbaş",
+        "description": "Nohut, patates ve kestaneyle pişen berrak, aromatik kuzu suyu ekşi can eriğiyle canlanır. Kafkasya'nın rahatlatıcı bir klasiğidir.",
+        "ingredients": [
+          { "name": "Kemikli kuzu eti", "amount": "700 g" },
+          { "name": "Islatılmış nohut", "amount": "150 g" },
+          { "name": "Bütün küçük patates", "amount": "4 adet" },
+          { "name": "Kestane", "amount": "100 g" },
+          { "name": "Ekşi can eriği", "amount": "6 adet" },
+          { "name": "Soğan ve safran", "amount": "1 / tutam" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzuyu soğuk suyla kaplayıp kaynatın ve köpüğü dikkatlice alın.", "duration": 15 },
+          { "step": 2, "instruction": "Nohut ve soğanı ekleyip 60 dakika kısık ateşte pişirin.", "duration": 60 },
+          { "step": 3, "instruction": "Bütün patates ve kestaneyi ekleyip 25 dakika daha pişirin.", "duration": 25 },
+          { "step": 4, "instruction": "Son 15 dakikada can eriği ve safran ekleyin.", "duration": 15 },
+          { "step": 5, "instruction": "Berrak suyu tuzla tatlandırın.", "duration": 2 },
+          { "step": 6, "instruction": "Yeşillik ve ekmekle sıcak servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Düşbərə",
+    "translations": {
+      "en": {
+        "title": "Düşbərə (Tiny Lamb Dumplings)",
+        "description": "Thumbnail-sized lamb dumplings floated in a clear broth, traditionally so small that a spoon should hold several at once. Served with vinegar, garlic and dried mint.",
+        "ingredients": [
+          { "name": "Flour", "amount": "300 g" },
+          { "name": "Egg", "amount": "1" },
+          { "name": "Minced lamb", "amount": "250 g" },
+          { "name": "Onion, grated", "amount": "1 small" },
+          { "name": "Lamb or chicken broth", "amount": "1.5 L" },
+          { "name": "Vinegar, garlic, dried mint", "amount": "to serve" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead flour, egg, water and salt into a firm dough and rest for 30 minutes.", "duration": 35 },
+          { "step": 2, "instruction": "Mix minced lamb with grated onion, salt and pepper for the filling.", "duration": 5 },
+          { "step": 3, "instruction": "Roll the dough paper-thin and cut into tiny 2 cm squares.", "duration": 20 },
+          { "step": 4, "instruction": "Place a pinhead of filling on each square and pinch into miniature dumplings.", "duration": 40 },
+          { "step": 5, "instruction": "Drop the düşbərə into simmering broth and cook for 6-8 minutes until they float.", "duration": 8 },
+          { "step": 6, "instruction": "Serve in the broth with vinegar, crushed garlic and dried mint.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Düşbərə",
+        "description": "Duru bulyonda üzən dırnaq boyda quzu düşbərələri, ənənəvi olaraq bir qaşığa bir neçəsi sığacaq qədər kiçikdir. Sirkə, sarımsaq və qurudulmuş nanə ilə verilir.",
+        "ingredients": [
+          { "name": "Un", "amount": "300 q" },
+          { "name": "Yumurta", "amount": "1 ədəd" },
+          { "name": "Çəkilmiş quzu əti", "amount": "250 q" },
+          { "name": "Soğan, rəndələnmiş", "amount": "1 kiçik" },
+          { "name": "Quzu və ya toyuq bulyonu", "amount": "1.5 L" },
+          { "name": "Sirkə, sarımsaq, nanə", "amount": "vermək üçün" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, yumurta, su və duzu bərk xəmir kimi yoğurub 30 dəqiqə dincəldin.", "duration": 35 },
+          { "step": 2, "instruction": "Çəkilmiş əti soğan, duz və istiotla qarışdırın.", "duration": 5 },
+          { "step": 3, "instruction": "Xəmiri çox nazik açıb 2 sm kvadratlara kəsin.", "duration": 20 },
+          { "step": 4, "instruction": "Hər kvadrata azca iç qoyub xırda düşbərə bağlayın.", "duration": 40 },
+          { "step": 5, "instruction": "Düşbərələri qaynayan bulyona atıb 6-8 dəqiqə üzənə qədər bişirin.", "duration": 8 },
+          { "step": 6, "instruction": "Bulyonda sirkə, sarımsaq və nanə ilə təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Дюшбара (крошечные пельмени)",
+        "description": "Бараньи пельмешки размером с ноготь, плавающие в прозрачном бульоне, по традиции такие мелкие, что в ложку помещается несколько. Подаются с уксусом, чесноком и сушёной мятой.",
+        "ingredients": [
+          { "name": "Мука", "amount": "300 г" },
+          { "name": "Яйцо", "amount": "1 шт" },
+          { "name": "Бараний фарш", "amount": "250 г" },
+          { "name": "Лук, натёртый", "amount": "1 маленький" },
+          { "name": "Бараний или куриный бульон", "amount": "1.5 л" },
+          { "name": "Уксус, чеснок, сушёная мята", "amount": "для подачи" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите крутое тесто из муки, яйца, воды и соли и дайте отдохнуть 30 минут.", "duration": 35 },
+          { "step": 2, "instruction": "Смешайте фарш с тёртым луком, солью и перцем.", "duration": 5 },
+          { "step": 3, "instruction": "Раскатайте тесто очень тонко и нарежьте на квадратики 2 см.", "duration": 20 },
+          { "step": 4, "instruction": "Положите по чуть-чуть начинки и слепите крошечные пельмени.", "duration": 40 },
+          { "step": 5, "instruction": "Опустите дюшбару в кипящий бульон и варите 6-8 минут до всплытия.", "duration": 8 },
+          { "step": 6, "instruction": "Подавайте в бульоне с уксусом, чесноком и сушёной мятой.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Düşbere (Minik Mantı)",
+        "description": "Berrak et suyunda yüzen tırnak büyüklüğünde kuzu mantıları; geleneksel olarak bir kaşığa birkaç tanesi sığacak kadar küçüktür. Sirke, sarımsak ve kuru nane ile servis edilir.",
+        "ingredients": [
+          { "name": "Un", "amount": "300 g" },
+          { "name": "Yumurta", "amount": "1 adet" },
+          { "name": "Kuzu kıyma", "amount": "250 g" },
+          { "name": "Soğan, rendelenmiş", "amount": "1 küçük" },
+          { "name": "Kuzu veya tavuk suyu", "amount": "1.5 L" },
+          { "name": "Sirke, sarımsak, kuru nane", "amount": "servis için" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, yumurta, su ve tuzu sıkı bir hamur yapıp 30 dakika dinlendirin.", "duration": 35 },
+          { "step": 2, "instruction": "Kıymayı rendelenmiş soğan, tuz ve biberle karıştırın.", "duration": 5 },
+          { "step": 3, "instruction": "Hamuru çok ince açıp 2 cm karelere kesin.", "duration": 20 },
+          { "step": 4, "instruction": "Her kareye azıcık harç koyup minik mantılar kapatın.", "duration": 40 },
+          { "step": 5, "instruction": "Düşbereleri kaynayan suya atıp 6-8 dakika yüzene dek pişirin.", "duration": 8 },
+          { "step": 6, "instruction": "Suyunda sirke, sarımsak ve kuru nane ile servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Dovğa",
+    "translations": {
+      "en": {
+        "title": "Dovğa (Yogurt & Herb Soup)",
+        "description": "A velvety yogurt soup thickened with egg and rice and packed with spinach, coriander and dill. Served hot in winter or chilled in summer, it is prized for its soothing tang.",
+        "ingredients": [
+          { "name": "Plain yogurt", "amount": "1 kg" },
+          { "name": "Egg", "amount": "1" },
+          { "name": "Rice", "amount": "60 g" },
+          { "name": "Mixed herbs (spinach, dill, coriander)", "amount": "300 g" },
+          { "name": "Chickpeas, cooked (optional)", "amount": "100 g" },
+          { "name": "Flour", "amount": "1 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Whisk yogurt, egg and flour until completely smooth to prevent curdling.", "duration": 5 },
+          { "step": 2, "instruction": "Add the rice and cook over low heat, stirring constantly in one direction, for 20 minutes.", "duration": 20 },
+          { "step": 3, "instruction": "Keep stirring so the yogurt never breaks; it should thicken gently.", "duration": 5 },
+          { "step": 4, "instruction": "Stir in the chopped herbs and cooked chickpeas.", "duration": 4 },
+          { "step": 5, "instruction": "Simmer for another 10 minutes until the herbs are soft and fragrant.", "duration": 10 },
+          { "step": 6, "instruction": "Serve hot or chilled, seasoned with salt and dried mint.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Dovğa",
+        "description": "Yumurta və düyü ilə qatılaşdırılmış, ispanaq, keşniş və şüyüdlə dolu məxmər kimi qatıq şorbası. Qışda isti, yayda soyuq verilir və rahatladıcı turşməzə dadına görə sevilir.",
+        "ingredients": [
+          { "name": "Qatıq", "amount": "1 kq" },
+          { "name": "Yumurta", "amount": "1 ədəd" },
+          { "name": "Düyü", "amount": "60 q" },
+          { "name": "Göyərti (ispanaq, şüyüd, keşniş)", "amount": "300 q" },
+          { "name": "Bişmiş noxud (istəyə görə)", "amount": "100 q" },
+          { "name": "Un", "amount": "1 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Qatıq, yumurta və unu kəsilməsin deyə tam hamar olana qədər çalın.", "duration": 5 },
+          { "step": 2, "instruction": "Düyünü əlavə edib zəif odda bir istiqamətdə daim qarışdıraraq 20 dəqiqə bişirin.", "duration": 20 },
+          { "step": 3, "instruction": "Qatıq kəsilməsin deyə qarışdırmağa davam edin.", "duration": 5 },
+          { "step": 4, "instruction": "Doğranmış göyərti və bişmiş noxudu qatın.", "duration": 4 },
+          { "step": 5, "instruction": "Göyərti yumşalana qədər daha 10 dəqiqə bişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Duz və qurudulmuş nanə ilə isti və ya soyuq təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Довга (йогуртовый суп с зеленью)",
+        "description": "Бархатистый йогуртовый суп, загущённый яйцом и рисом, с обилием шпината, кинзы и укропа. Подаётся горячим зимой или холодным летом и ценится за мягкую кислинку.",
+        "ingredients": [
+          { "name": "Натуральный йогурт", "amount": "1 кг" },
+          { "name": "Яйцо", "amount": "1 шт" },
+          { "name": "Рис", "amount": "60 г" },
+          { "name": "Зелень (шпинат, укроп, кинза)", "amount": "300 г" },
+          { "name": "Нут отварной (по желанию)", "amount": "100 г" },
+          { "name": "Мука", "amount": "1 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Взбейте йогурт, яйцо и муку до гладкости, чтобы суп не свернулся.", "duration": 5 },
+          { "step": 2, "instruction": "Добавьте рис и варите на слабом огне, постоянно помешивая в одну сторону, 20 минут.", "duration": 20 },
+          { "step": 3, "instruction": "Продолжайте мешать, чтобы йогурт не свернулся; он должен мягко загустеть.", "duration": 5 },
+          { "step": 4, "instruction": "Вмешайте рубленую зелень и отварной нут.", "duration": 4 },
+          { "step": 5, "instruction": "Варите ещё 10 минут до мягкости зелени.", "duration": 10 },
+          { "step": 6, "instruction": "Подавайте горячим или холодным с солью и сушёной мятой.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Dovga (Yoğurtlu Otlu Çorba)",
+        "description": "Yumurta ve pirinçle koyulaştırılan, ıspanak, kişniş ve dereotuyla dolu kadifemsi bir yoğurt çorbasıdır. Kışın sıcak, yazın soğuk içilir ve yatıştırıcı ekşiliğiyle sevilir.",
+        "ingredients": [
+          { "name": "Sade yoğurt", "amount": "1 kg" },
+          { "name": "Yumurta", "amount": "1 adet" },
+          { "name": "Pirinç", "amount": "60 g" },
+          { "name": "Karışık ot (ıspanak, dereotu, kişniş)", "amount": "300 g" },
+          { "name": "Haşlanmış nohut (isteğe bağlı)", "amount": "100 g" },
+          { "name": "Un", "amount": "1 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yoğurt, yumurta ve unu kesilmemesi için pürüzsüz olana dek çırpın.", "duration": 5 },
+          { "step": 2, "instruction": "Pirinci ekleyip kısık ateşte tek yönde sürekli karıştırarak 20 dakika pişirin.", "duration": 20 },
+          { "step": 3, "instruction": "Yoğurt kesilmesin diye karıştırmaya devam edin.", "duration": 5 },
+          { "step": 4, "instruction": "Kıyılmış otları ve haşlanmış nohutu ekleyin.", "duration": 4 },
+          { "step": 5, "instruction": "Otlar yumuşayana dek 10 dakika daha pişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Tuz ve kuru nane ile sıcak veya soğuk servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Xaş",
+    "translations": {
+      "en": {
+        "title": "Xaş (Trotter Broth)",
+        "description": "A rich, gelatinous broth of slow-boiled cow's trotters and tripe, eaten at dawn in deep winter. It is seasoned at the table with raw garlic, vinegar and dried lavash.",
+        "ingredients": [
+          { "name": "Cow trotters, cleaned", "amount": "2 kg" },
+          { "name": "Tripe (optional)", "amount": "500 g" },
+          { "name": "Garlic, crushed", "amount": "1 head" },
+          { "name": "Salt", "amount": "to taste" },
+          { "name": "Dried lavash", "amount": "to serve" },
+          { "name": "Vinegar and radish", "amount": "to serve" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Soak and scrub the trotters thoroughly, then blanch and discard the first water.", "duration": 30 },
+          { "step": 2, "instruction": "Cover with fresh cold water and bring to a gentle simmer.", "duration": 15 },
+          { "step": 3, "instruction": "Skim diligently and simmer on the lowest heat for 6-8 hours until the broth is milky and rich.", "duration": 420 },
+          { "step": 4, "instruction": "Add salt only near the end; the meat should fall off the bone.", "duration": 5 },
+          { "step": 5, "instruction": "Crush garlic and stir into individual bowls to taste.", "duration": 3 },
+          { "step": 6, "instruction": "Serve piping hot with dried lavash, vinegar and radish.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Xaş",
+        "description": "Yavaş bişirilmiş mal paçası və işkənbədən hazırlanan zəngin, jeleli bulyon, qışın soyuğunda səhər tezdən yeyilir. Süfrədə xam sarımsaq, sirkə və quru lavaşla dadlandırılır.",
+        "ingredients": [
+          { "name": "Mal paçası, təmizlənmiş", "amount": "2 kq" },
+          { "name": "İşkənbə (istəyə görə)", "amount": "500 q" },
+          { "name": "Sarımsaq, əzilmiş", "amount": "1 baş" },
+          { "name": "Duz", "amount": "dadına görə" },
+          { "name": "Quru lavaş", "amount": "vermək üçün" },
+          { "name": "Sirkə və turp", "amount": "vermək üçün" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Paçaları yaxşıca yuyub təmizləyin, sonra haşlayıb birinci suyu tökün.", "duration": 30 },
+          { "step": 2, "instruction": "Təzə soyuq su ilə örtüb yavaşca qaynamağa qoyun.", "duration": 15 },
+          { "step": 3, "instruction": "Köpüyü ardıcıl alıb ən zəif odda 6-8 saat bulyon südlü olana qədər bişirin.", "duration": 420 },
+          { "step": 4, "instruction": "Duzu yalnız sonda əlavə edin; ət sümükdən ayrılmalıdır.", "duration": 5 },
+          { "step": 5, "instruction": "Sarımsağı əzib hər kasaya dada görə qatın.", "duration": 3 },
+          { "step": 6, "instruction": "Quru lavaş, sirkə və turp ilə qaynar təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Хаш (наваристый бульон из ножек)",
+        "description": "Насыщенный желеобразный бульон из долго варёных говяжьих ножек и рубца, который едят на рассвете в разгар зимы. Заправляется за столом сырым чесноком, уксусом и сухим лавашем.",
+        "ingredients": [
+          { "name": "Говяжьи ножки, очищенные", "amount": "2 кг" },
+          { "name": "Рубец (по желанию)", "amount": "500 г" },
+          { "name": "Чеснок, давленый", "amount": "1 головка" },
+          { "name": "Соль", "amount": "по вкусу" },
+          { "name": "Сухой лаваш", "amount": "для подачи" },
+          { "name": "Уксус и редька", "amount": "для подачи" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Тщательно вымочите и выскоблите ножки, бланшируйте и слейте первую воду.", "duration": 30 },
+          { "step": 2, "instruction": "Залейте свежей холодной водой и доведите до лёгкого кипения.", "duration": 15 },
+          { "step": 3, "instruction": "Старательно снимайте пену и варите на самом слабом огне 6-8 часов до молочного бульона.", "duration": 420 },
+          { "step": 4, "instruction": "Солите только в конце; мясо должно отходить от кости.", "duration": 5 },
+          { "step": 5, "instruction": "Раздавите чеснок и добавьте в тарелки по вкусу.", "duration": 3 },
+          { "step": 6, "instruction": "Подавайте очень горячим с сухим лавашем, уксусом и редькой.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Haş (Paça Çorbası)",
+        "description": "Ağır kaynatılmış sığır paçası ve işkembeden yapılan zengin, jelatinli bir suyu, kışın derininde şafakta içilir. Sofrada çiğ sarımsak, sirke ve kuru lavaşla tatlandırılır.",
+        "ingredients": [
+          { "name": "Sığır paçası, temizlenmiş", "amount": "2 kg" },
+          { "name": "İşkembe (isteğe bağlı)", "amount": "500 g" },
+          { "name": "Sarımsak, ezilmiş", "amount": "1 baş" },
+          { "name": "Tuz", "amount": "damak zevkine göre" },
+          { "name": "Kuru lavaş", "amount": "servis için" },
+          { "name": "Sirke ve turp", "amount": "servis için" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Paçaları iyice yıkayıp ovun, haşlayıp ilk suyu dökün.", "duration": 30 },
+          { "step": 2, "instruction": "Taze soğuk suyla kaplayıp yavaşça kaynamaya bırakın.", "duration": 15 },
+          { "step": 3, "instruction": "Köpüğü özenle alıp en kısık ateşte 6-8 saat suyu sütlü olana dek pişirin.", "duration": 420 },
+          { "step": 4, "instruction": "Tuzu yalnızca sona doğru ekleyin; et kemikten ayrılmalı.", "duration": 5 },
+          { "step": 5, "instruction": "Sarımsağı ezip kaselere damak zevkine göre ekleyin.", "duration": 3 },
+          { "step": 6, "instruction": "Kuru lavaş, sirke ve turp ile çok sıcak servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Umac",
+    "translations": {
+      "en": {
+        "title": "Umac (Toasted Flour Soup)",
+        "description": "A humble, nourishing soup made by rubbing flour into tiny crumbs, toasting them in butter and simmering in broth. A traditional remedy fed to those recovering from illness.",
+        "ingredients": [
+          { "name": "Flour", "amount": "200 g" },
+          { "name": "Butter", "amount": "60 g" },
+          { "name": "Water or broth", "amount": "1.5 L" },
+          { "name": "Egg (optional)", "amount": "1" },
+          { "name": "Salt and turmeric", "amount": "to taste" },
+          { "name": "Dried mint", "amount": "1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Sprinkle a little water over the flour and rub between your palms into tiny crumbs.", "duration": 10 },
+          { "step": 2, "instruction": "Toast the flour crumbs in butter over medium heat until golden and nutty.", "duration": 8 },
+          { "step": 3, "instruction": "Pour in hot water or broth gradually while stirring to avoid lumps.", "duration": 5 },
+          { "step": 4, "instruction": "Season with salt and a pinch of turmeric and simmer for 15 minutes.", "duration": 15 },
+          { "step": 5, "instruction": "Optionally whisk in a beaten egg for richness at the end.", "duration": 3 },
+          { "step": 6, "instruction": "Serve hot, sprinkled with dried mint.", "duration": 2 }
+        ]
+      },
+      "az": {
+        "title": "Umac",
+        "description": "Unu xırda qırıntılara ovub yağda qızardaraq bulyonda bişirilən sadə, qidalı şorba. Xəstəlikdən sonra sağalanlara verilən ənənəvi yeməkdir.",
+        "ingredients": [
+          { "name": "Un", "amount": "200 q" },
+          { "name": "Kərə yağı", "amount": "60 q" },
+          { "name": "Su və ya bulyon", "amount": "1.5 L" },
+          { "name": "Yumurta (istəyə görə)", "amount": "1 ədəd" },
+          { "name": "Duz və sarıkök", "amount": "dadına görə" },
+          { "name": "Qurudulmuş nanə", "amount": "1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Unun üstünə bir az su səpib ovucda xırda qırıntı edin.", "duration": 10 },
+          { "step": 2, "instruction": "Un qırıntılarını yağda qızılı olana qədər qovurun.", "duration": 8 },
+          { "step": 3, "instruction": "İsti su və ya bulyonu qarışdıraraq tədricən töküb topa düşməsin.", "duration": 5 },
+          { "step": 4, "instruction": "Duz və azca sarıkök qatıb 15 dəqiqə bişirin.", "duration": 15 },
+          { "step": 5, "instruction": "İstəyə görə sonda çalınmış yumurta qatın.", "duration": 3 },
+          { "step": 6, "instruction": "Qurudulmuş nanə səpib isti təqdim edin.", "duration": 2 }
+        ]
+      },
+      "ru": {
+        "title": "Умач (суп из поджаренной муки)",
+        "description": "Простой питательный суп: муку растирают в мелкую крошку, обжаривают в масле и варят в бульоне. Традиционное блюдо для выздоравливающих после болезни.",
+        "ingredients": [
+          { "name": "Мука", "amount": "200 г" },
+          { "name": "Сливочное масло", "amount": "60 г" },
+          { "name": "Вода или бульон", "amount": "1.5 л" },
+          { "name": "Яйцо (по желанию)", "amount": "1 шт" },
+          { "name": "Соль и куркума", "amount": "по вкусу" },
+          { "name": "Сушёная мята", "amount": "1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Сбрызните муку водой и разотрите ладонями в мелкую крошку.", "duration": 10 },
+          { "step": 2, "instruction": "Обжарьте мучную крошку в масле до золотистого орехового цвета.", "duration": 8 },
+          { "step": 3, "instruction": "Влейте горячую воду или бульон постепенно, помешивая, чтобы не было комков.", "duration": 5 },
+          { "step": 4, "instruction": "Приправьте солью и щепоткой куркумы и варите 15 минут.", "duration": 15 },
+          { "step": 5, "instruction": "По желанию вмешайте взбитое яйцо в конце.", "duration": 3 },
+          { "step": 6, "instruction": "Подавайте горячим, посыпав сушёной мятой.", "duration": 2 }
+        ]
+      },
+      "tr": {
+        "title": "Umaç (Kavrulmuş Un Çorbası)",
+        "description": "Unun küçük kırıntılar halinde ovulup yağda kavrularak et suyunda pişirildiği sade, besleyici bir çorbadır. Hastalıktan sonra iyileşenlere verilen geleneksel bir yemektir.",
+        "ingredients": [
+          { "name": "Un", "amount": "200 g" },
+          { "name": "Tereyağı", "amount": "60 g" },
+          { "name": "Su veya et suyu", "amount": "1.5 L" },
+          { "name": "Yumurta (isteğe bağlı)", "amount": "1 adet" },
+          { "name": "Tuz ve zerdeçal", "amount": "damak zevkine göre" },
+          { "name": "Kuru nane", "amount": "1 tatlı kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Unun üzerine biraz su serpip avuçta küçük kırıntılar yapın.", "duration": 10 },
+          { "step": 2, "instruction": "Un kırıntılarını yağda altın rengi olana dek kavurun.", "duration": 8 },
+          { "step": 3, "instruction": "Sıcak su veya et suyunu karıştırarak yavaşça ekleyip topaklanmayı önleyin.", "duration": 5 },
+          { "step": 4, "instruction": "Tuz ve bir tutam zerdeçalla 15 dakika pişirin.", "duration": 15 },
+          { "step": 5, "instruction": "İsteğe göre sonunda çırpılmış yumurta ekleyin.", "duration": 3 },
+          { "step": 6, "instruction": "Kuru nane serpip sıcak servis edin.", "duration": 2 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Kufta Bozbash",
+    "translations": {
+      "en": {
+        "title": "Kufta Bozbash (Meatball Soup)",
+        "description": "Large lamb meatballs, each hiding a sour plum and dried fruit in its centre, simmered in a saffron broth with chickpeas and potatoes. A celebrated festive soup.",
+        "ingredients": [
+          { "name": "Minced lamb", "amount": "600 g" },
+          { "name": "Rice (for binding)", "amount": "50 g" },
+          { "name": "Sour plums (alça)", "amount": "5 pieces" },
+          { "name": "Chickpeas, soaked", "amount": "150 g" },
+          { "name": "Potatoes", "amount": "3 medium" },
+          { "name": "Onion and saffron", "amount": "2 / pinch" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead the minced lamb with grated onion, rice, salt and pepper until sticky.", "duration": 10 },
+          { "step": 2, "instruction": "Form large balls, pressing a sour plum and a little dried fruit into each centre.", "duration": 15 },
+          { "step": 3, "instruction": "Simmer the soaked chickpeas in broth for 45 minutes until nearly tender.", "duration": 45 },
+          { "step": 4, "instruction": "Gently lower the meatballs into the simmering broth and cook for 30 minutes.", "duration": 30 },
+          { "step": 5, "instruction": "Add the potatoes and saffron and cook 20 minutes more until everything is tender.", "duration": 20 },
+          { "step": 6, "instruction": "Serve one large kufta per bowl with broth and herbs.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Küftə Bozbaş",
+        "description": "Hər birinin içində turş alça və quru meyvə gizlənmiş iri quzu küftələri noxud və kartofla zəfəranlı bulyonda bişirilir. Məşhur bayram şorbasıdır.",
+        "ingredients": [
+          { "name": "Çəkilmiş quzu əti", "amount": "600 q" },
+          { "name": "Düyü (bağlamaq üçün)", "amount": "50 q" },
+          { "name": "Turş alça", "amount": "5 ədəd" },
+          { "name": "İsladılmış noxud", "amount": "150 q" },
+          { "name": "Kartof", "amount": "3 ədəd" },
+          { "name": "Soğan və zəfəran", "amount": "2 / çimdik" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Çəkilmiş əti soğan, düyü, duz və istiotla yapışqan olana qədər yoğurun.", "duration": 10 },
+          { "step": 2, "instruction": "İri kürələr düzəldin, hər birinin ortasına alça və quru meyvə basın.", "duration": 15 },
+          { "step": 3, "instruction": "İsladılmış noxudu bulyonda 45 dəqiqə bişirin.", "duration": 45 },
+          { "step": 4, "instruction": "Küftələri ehmalca qaynayan bulyona salıb 30 dəqiqə bişirin.", "duration": 30 },
+          { "step": 5, "instruction": "Kartof və zəfəran əlavə edib daha 20 dəqiqə bişirin.", "duration": 20 },
+          { "step": 6, "instruction": "Hər kasaya bir iri küftə, bulyon və göyərti ilə təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Кюфта-бозбаш (суп с фрикадельками)",
+        "description": "Крупные бараньи фрикадельки, в центре каждой спрятана кислая алыча и сухофрукты, варятся в шафрановом бульоне с нутом и картофелем. Знаменитый праздничный суп.",
+        "ingredients": [
+          { "name": "Бараний фарш", "amount": "600 г" },
+          { "name": "Рис (для вязкости)", "amount": "50 г" },
+          { "name": "Кислая алыча", "amount": "5 шт" },
+          { "name": "Нут, замоченный", "amount": "150 г" },
+          { "name": "Картофель", "amount": "3 шт" },
+          { "name": "Лук и шафран", "amount": "2 / щепотка" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Вымешайте фарш с тёртым луком, рисом, солью и перцем до вязкости.", "duration": 10 },
+          { "step": 2, "instruction": "Сформуйте крупные шары, вдавив в центр каждого алычу и немного сухофруктов.", "duration": 15 },
+          { "step": 3, "instruction": "Варите замоченный нут в бульоне 45 минут почти до мягкости.", "duration": 45 },
+          { "step": 4, "instruction": "Аккуратно опустите фрикадельки в кипящий бульон и варите 30 минут.", "duration": 30 },
+          { "step": 5, "instruction": "Добавьте картофель и шафран и варите ещё 20 минут.", "duration": 20 },
+          { "step": 6, "instruction": "Подавайте по одной крупной кюфте на тарелку с бульоном и зеленью.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Köfte Bozbaş (Köfteli Çorba)",
+        "description": "Her birinin ortasında ekşi can eriği ve kuru meyve saklı iri kuzu köfteleri, nohut ve patatesle safranlı suda pişirilir. Ünlü bir bayram çorbasıdır.",
+        "ingredients": [
+          { "name": "Kuzu kıyma", "amount": "600 g" },
+          { "name": "Pirinç (bağlamak için)", "amount": "50 g" },
+          { "name": "Ekşi can eriği", "amount": "5 adet" },
+          { "name": "Islatılmış nohut", "amount": "150 g" },
+          { "name": "Patates", "amount": "3 adet" },
+          { "name": "Soğan ve safran", "amount": "2 / tutam" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kıymayı rendelenmiş soğan, pirinç, tuz ve biberle yapışkan olana dek yoğurun.", "duration": 10 },
+          { "step": 2, "instruction": "İri toplar yapıp her birinin ortasına can eriği ve biraz kuru meyve bastırın.", "duration": 15 },
+          { "step": 3, "instruction": "Islatılmış nohutu suda 45 dakika neredeyse yumuşayana dek pişirin.", "duration": 45 },
+          { "step": 4, "instruction": "Köfteleri nazikçe kaynayan suya bırakıp 30 dakika pişirin.", "duration": 30 },
+          { "step": 5, "instruction": "Patates ve safranı ekleyip 20 dakika daha pişirin.", "duration": 20 },
+          { "step": 6, "instruction": "Her kaseye bir iri köfte, su ve yeşillikle servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Parça Bozbash",
+    "translations": {
+      "en": {
+        "title": "Parça Bozbash (Lamb Piece Soup)",
+        "description": "A hearty bozbash made with generous bone-in pieces of lamb rather than meatballs, slow-simmered with chickpeas, chestnuts and sour plums. Rustic and deeply satisfying.",
+        "ingredients": [
+          { "name": "Lamb on the bone, large pieces", "amount": "900 g" },
+          { "name": "Chickpeas, soaked", "amount": "150 g" },
+          { "name": "Chestnuts", "amount": "100 g" },
+          { "name": "Potatoes, whole", "amount": "4 pieces" },
+          { "name": "Sour plums and onion", "amount": "6 / 1" },
+          { "name": "Saffron and salt", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Cover the lamb pieces with cold water, boil and skim the foam thoroughly.", "duration": 15 },
+          { "step": 2, "instruction": "Add the soaked chickpeas and onion and simmer gently for 75 minutes.", "duration": 75 },
+          { "step": 3, "instruction": "Add whole potatoes and chestnuts and cook for 25 minutes.", "duration": 25 },
+          { "step": 4, "instruction": "Stir in sour plums and saffron for the final 15 minutes.", "duration": 15 },
+          { "step": 5, "instruction": "Adjust the salt and let the broth rest briefly off the heat.", "duration": 5 },
+          { "step": 6, "instruction": "Serve large pieces of lamb with the broth, sumac onions and herbs.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Parça Bozbaş",
+        "description": "Küftə əvəzinə iri sümüklü quzu parçaları ilə hazırlanan doyumlu bozbaş, noxud, şabalıd və turş alça ilə yavaş bişirilir. Kənd üslubunda və çox doyumludur.",
+        "ingredients": [
+          { "name": "Sümüklü quzu, iri parçalar", "amount": "900 q" },
+          { "name": "İsladılmış noxud", "amount": "150 q" },
+          { "name": "Şabalıd", "amount": "100 q" },
+          { "name": "Bütöv kartof", "amount": "4 ədəd" },
+          { "name": "Turş alça və soğan", "amount": "6 / 1" },
+          { "name": "Zəfəran və duz", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu parçalarını soyuq su ilə örtüb qaynadın və köpüyü yaxşıca alın.", "duration": 15 },
+          { "step": 2, "instruction": "Noxud və soğanı əlavə edib 75 dəqiqə zəif odda bişirin.", "duration": 75 },
+          { "step": 3, "instruction": "Bütöv kartof və şabalıdı əlavə edib 25 dəqiqə bişirin.", "duration": 25 },
+          { "step": 4, "instruction": "Son 15 dəqiqədə alça və zəfəran qatın.", "duration": 15 },
+          { "step": 5, "instruction": "Duzu nizamlayıb bulyonu bir az dincəldin.", "duration": 5 },
+          { "step": 6, "instruction": "İri quzu parçalarını bulyon, sumaqlı soğan və göyərti ilə təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Парча-бозбаш (суп с кусками баранины)",
+        "description": "Сытный бозбаш с крупными кусками баранины на кости вместо фрикаделек, томлёный с нутом, каштанами и кислой алычой. Деревенский и очень сытный.",
+        "ingredients": [
+          { "name": "Баранина на кости, крупные куски", "amount": "900 г" },
+          { "name": "Нут, замоченный", "amount": "150 г" },
+          { "name": "Каштаны", "amount": "100 г" },
+          { "name": "Картофель целый", "amount": "4 шт" },
+          { "name": "Кислая алыча и лук", "amount": "6 / 1" },
+          { "name": "Шафран и соль", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Залейте куски баранины холодной водой, вскипятите и тщательно снимите пену.", "duration": 15 },
+          { "step": 2, "instruction": "Добавьте нут и лук и варите на слабом огне 75 минут.", "duration": 75 },
+          { "step": 3, "instruction": "Добавьте целый картофель и каштаны и варите 25 минут.", "duration": 25 },
+          { "step": 4, "instruction": "За 15 минут до конца добавьте алычу и шафран.", "duration": 15 },
+          { "step": 5, "instruction": "Отрегулируйте соль и дайте бульону немного постоять.", "duration": 5 },
+          { "step": 6, "instruction": "Подавайте крупные куски баранины с бульоном, луком и зеленью.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Parça Bozbaş (Etli Çorba)",
+        "description": "Köfte yerine iri kemikli kuzu parçalarıyla yapılan doyurucu bir bozbaş; nohut, kestane ve ekşi can eriğiyle ağır ateşte pişer. Köy usulü ve son derece doyurucudur.",
+        "ingredients": [
+          { "name": "Kemikli kuzu, iri parçalar", "amount": "900 g" },
+          { "name": "Islatılmış nohut", "amount": "150 g" },
+          { "name": "Kestane", "amount": "100 g" },
+          { "name": "Bütün patates", "amount": "4 adet" },
+          { "name": "Ekşi can eriği ve soğan", "amount": "6 / 1" },
+          { "name": "Safran ve tuz", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu parçalarını soğuk suyla kaplayıp kaynatın ve köpüğü iyice alın.", "duration": 15 },
+          { "step": 2, "instruction": "Nohut ve soğanı ekleyip 75 dakika kısık ateşte pişirin.", "duration": 75 },
+          { "step": 3, "instruction": "Bütün patates ve kestaneyi ekleyip 25 dakika pişirin.", "duration": 25 },
+          { "step": 4, "instruction": "Son 15 dakikada can eriği ve safran ekleyin.", "duration": 15 },
+          { "step": 5, "instruction": "Tuzu ayarlayıp suyu kısa süre dinlendirin.", "duration": 5 },
+          { "step": 6, "instruction": "İri kuzu parçalarını su, sumaklı soğan ve yeşillikle servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  }
+]

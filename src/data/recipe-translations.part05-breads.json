@@ -1,0 +1,589 @@
+[
+  {
+    "title": "Qutab with Meat (Ətli Qutab)",
+    "translations": {
+      "en": {
+        "title": "Ətli Qutab (Meat Qutab)",
+        "description": "Thin crescent-shaped flatbreads filled with spiced minced lamb and onion, griddled until blistered and brushed with butter. A beloved street food and home staple, eaten with sumac and yogurt.",
+        "ingredients": [
+          { "name": "Flour", "amount": "400 g" },
+          { "name": "Water and salt", "amount": "220 ml / 1 tsp" },
+          { "name": "Minced lamb", "amount": "300 g" },
+          { "name": "Onion, grated", "amount": "1 large" },
+          { "name": "Butter for brushing", "amount": "60 g" },
+          { "name": "Sumac to serve", "amount": "1 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead flour, water and salt into a soft dough and rest for 30 minutes.", "duration": 35 },
+          { "step": 2, "instruction": "Mix the minced lamb with grated onion, salt and pepper.", "duration": 5 },
+          { "step": 3, "instruction": "Roll the dough into thin rounds about 20 cm across.", "duration": 15 },
+          { "step": 4, "instruction": "Spread filling over one half, fold into a crescent and seal the edge firmly.", "duration": 12 },
+          { "step": 5, "instruction": "Cook on a dry hot griddle for 2-3 minutes per side until blistered and the meat is cooked.", "duration": 10 },
+          { "step": 6, "instruction": "Brush hot with butter and serve sprinkled with sumac.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Ətli Qutab",
+        "description": "Ədviyyatlı ət və soğanla doldurulmuş aypara formalı nazik qutablar saca qoyulub qabarana qədər bişirilir və yağ sürtülür. Sevilən küçə yeməyi olub, sumaq və qatıqla yeyilir.",
+        "ingredients": [
+          { "name": "Un", "amount": "400 q" },
+          { "name": "Su və duz", "amount": "220 ml / 1 ç.q." },
+          { "name": "Çəkilmiş quzu əti", "amount": "300 q" },
+          { "name": "Soğan, rəndələnmiş", "amount": "1 böyük" },
+          { "name": "Sürtmək üçün kərə yağı", "amount": "60 q" },
+          { "name": "Sumaq", "amount": "1 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, su və duzu yumşaq xəmir kimi yoğurub 30 dəqiqə dincəldin.", "duration": 35 },
+          { "step": 2, "instruction": "Çəkilmiş əti rəndələnmiş soğan, duz və istiotla qarışdırın.", "duration": 5 },
+          { "step": 3, "instruction": "Xəmiri 20 sm enində nazik yayın.", "duration": 15 },
+          { "step": 4, "instruction": "Bir tərəfə iç yayıb aypara şəklində qatlayıb kənarını möhkəm bağlayın.", "duration": 12 },
+          { "step": 5, "instruction": "Quru qızğın sacda hər tərəfini 2-3 dəqiqə qabarana qədər bişirin.", "duration": 10 },
+          { "step": 6, "instruction": "İsti ikən yağ sürtüb sumaqla təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Этли кутаб (кутаб с мясом)",
+        "description": "Тонкие лепёшки-полумесяцы с начинкой из пряного бараньего фарша и лука, обжаренные на сухой сковороде до пузырьков и смазанные маслом. Любимая уличная еда, подаётся с сумахом и йогуртом.",
+        "ingredients": [
+          { "name": "Мука", "amount": "400 г" },
+          { "name": "Вода и соль", "amount": "220 мл / 1 ч.л." },
+          { "name": "Бараний фарш", "amount": "300 г" },
+          { "name": "Лук, натёртый", "amount": "1 большой" },
+          { "name": "Масло для смазывания", "amount": "60 г" },
+          { "name": "Сумах для подачи", "amount": "1 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите мягкое тесто из муки, воды и соли и дайте отдохнуть 30 минут.", "duration": 35 },
+          { "step": 2, "instruction": "Смешайте фарш с тёртым луком, солью и перцем.", "duration": 5 },
+          { "step": 3, "instruction": "Раскатайте тесто в тонкие круги около 20 см.", "duration": 15 },
+          { "step": 4, "instruction": "Распределите начинку на половину, сложите полумесяцем и плотно защипните край.", "duration": 12 },
+          { "step": 5, "instruction": "Жарьте на сухой горячей сковороде по 2-3 минуты с каждой стороны.", "duration": 10 },
+          { "step": 6, "instruction": "Смажьте горячими маслом и подавайте с сумахом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Etli Kutab",
+        "description": "Baharatlı kıyma ve soğanla doldurulan ince hilal şeklindeki kutablar kuru sacda kabarana dek pişirilip yağla yağlanır. Sevilen bir sokak lezzeti olup sumak ve yoğurtla yenir.",
+        "ingredients": [
+          { "name": "Un", "amount": "400 g" },
+          { "name": "Su ve tuz", "amount": "220 ml / 1 tatlı kaşığı" },
+          { "name": "Kuzu kıyma", "amount": "300 g" },
+          { "name": "Soğan, rendelenmiş", "amount": "1 büyük" },
+          { "name": "Yağlamak için tereyağı", "amount": "60 g" },
+          { "name": "Servis için sumak", "amount": "1 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, su ve tuzu yumuşak bir hamur yapıp 30 dakika dinlendirin.", "duration": 35 },
+          { "step": 2, "instruction": "Kıymayı rendelenmiş soğan, tuz ve biberle karıştırın.", "duration": 5 },
+          { "step": 3, "instruction": "Hamuru 20 cm çapında ince açın.", "duration": 15 },
+          { "step": 4, "instruction": "Yarısına harç yayıp hilal şeklinde katlayıp kenarını sıkıca kapatın.", "duration": 12 },
+          { "step": 5, "instruction": "Kuru kızgın sacda her yüzünü 2-3 dakika kabarana dek pişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Sıcakken yağla yağlayıp sumakla servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Qutab with Herbs (Göyərtili Qutab)",
+    "translations": {
+      "en": {
+        "title": "Göyərtili Qutab (Herb Qutab)",
+        "description": "Crisp, thin crescents filled with a vivid mix of spring greens, herbs and a little tangy cheese, griddled until the green filling steams through. A lighter, vegetarian favourite of Novruz.",
+        "ingredients": [
+          { "name": "Flour", "amount": "400 g" },
+          { "name": "Water and salt", "amount": "220 ml / 1 tsp" },
+          { "name": "Mixed greens (spinach, sorrel, scallion)", "amount": "400 g" },
+          { "name": "Fresh herbs (dill, coriander)", "amount": "2 bunches" },
+          { "name": "Crumbled white cheese (optional)", "amount": "100 g" },
+          { "name": "Butter for brushing", "amount": "60 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead a soft dough from flour, water and salt and rest for 30 minutes.", "duration": 35 },
+          { "step": 2, "instruction": "Finely chop the greens and herbs and toss with salt and optional cheese.", "duration": 10 },
+          { "step": 3, "instruction": "Roll the dough into thin rounds.", "duration": 15 },
+          { "step": 4, "instruction": "Pile the green filling on one half, fold over and seal the edge.", "duration": 12 },
+          { "step": 5, "instruction": "Griddle on a dry hot pan for 2 minutes per side until lightly charred and the greens wilt.", "duration": 8 },
+          { "step": 6, "instruction": "Brush with butter and serve warm.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Göyərtili Qutab",
+        "description": "Yaz göyərtisi, ot və azca turş pendirlə doldurulmuş xırtıldayan nazik qutablar saca qoyulub yaşıl iç buxarlanana qədər bişirilir. Novruzun yüngül vegetarian sevimlisidir.",
+        "ingredients": [
+          { "name": "Un", "amount": "400 q" },
+          { "name": "Su və duz", "amount": "220 ml / 1 ç.q." },
+          { "name": "Qarışıq göyərti (ispanaq, quzuqulağı, göy soğan)", "amount": "400 q" },
+          { "name": "Təzə ot (şüyüd, keşniş)", "amount": "2 dəstə" },
+          { "name": "Ağ pendir (istəyə görə)", "amount": "100 q" },
+          { "name": "Sürtmək üçün kərə yağı", "amount": "60 q" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, su və duzdan yumşaq xəmir yoğurub 30 dəqiqə dincəldin.", "duration": 35 },
+          { "step": 2, "instruction": "Göyərti və otları incə doğrayıb duz və pendirlə qarışdırın.", "duration": 10 },
+          { "step": 3, "instruction": "Xəmiri nazik yayın.", "duration": 15 },
+          { "step": 4, "instruction": "Bir tərəfə yaşıl iç yığıb qatlayıb kənarını bağlayın.", "duration": 12 },
+          { "step": 5, "instruction": "Quru qızğın sacda hər tərəfini 2 dəqiqə bişirin.", "duration": 8 },
+          { "step": 6, "instruction": "Yağ sürtüb isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Гёйярти кутаб (кутаб с зеленью)",
+        "description": "Хрустящие тонкие полумесяцы с яркой начинкой из весенней зелени, трав и чуть кисловатого сыра, обжаренные до пропаривания зелени. Лёгкое вегетарианское блюдо Новруза.",
+        "ingredients": [
+          { "name": "Мука", "amount": "400 г" },
+          { "name": "Вода и соль", "amount": "220 мл / 1 ч.л." },
+          { "name": "Зелень (шпинат, щавель, зелёный лук)", "amount": "400 г" },
+          { "name": "Свежие травы (укроп, кинза)", "amount": "2 пучка" },
+          { "name": "Брынза (по желанию)", "amount": "100 г" },
+          { "name": "Масло для смазывания", "amount": "60 г" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите мягкое тесто из муки, воды и соли и дайте отдохнуть 30 минут.", "duration": 35 },
+          { "step": 2, "instruction": "Мелко нарежьте зелень и травы, смешайте с солью и сыром.", "duration": 10 },
+          { "step": 3, "instruction": "Раскатайте тесто в тонкие круги.", "duration": 15 },
+          { "step": 4, "instruction": "Выложите зелёную начинку на половину, сложите и защипните край.", "duration": 12 },
+          { "step": 5, "instruction": "Жарьте на сухой горячей сковороде по 2 минуты с каждой стороны.", "duration": 8 },
+          { "step": 6, "instruction": "Смажьте маслом и подавайте тёплыми.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Otlu Kutab",
+        "description": "Bahar yeşillikleri, otlar ve biraz ekşi peynirle doldurulan çıtır ince kutablar, yeşil iç buharlanana dek sacda pişirilir. Nevruz'un hafif, vejetaryen bir favorisidir.",
+        "ingredients": [
+          { "name": "Un", "amount": "400 g" },
+          { "name": "Su ve tuz", "amount": "220 ml / 1 tatlı kaşığı" },
+          { "name": "Karışık yeşillik (ıspanak, kuzukulağı, taze soğan)", "amount": "400 g" },
+          { "name": "Taze ot (dereotu, kişniş)", "amount": "2 demet" },
+          { "name": "Beyaz peynir (isteğe bağlı)", "amount": "100 g" },
+          { "name": "Yağlamak için tereyağı", "amount": "60 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, su ve tuzdan yumuşak hamur yoğurup 30 dakika dinlendirin.", "duration": 35 },
+          { "step": 2, "instruction": "Yeşillik ve otları ince kıyıp tuz ve peynirle karıştırın.", "duration": 10 },
+          { "step": 3, "instruction": "Hamuru ince açın.", "duration": 15 },
+          { "step": 4, "instruction": "Yarısına yeşil harç koyup katlayıp kenarını kapatın.", "duration": 12 },
+          { "step": 5, "instruction": "Kuru kızgın sacda her yüzünü 2 dakika pişirin.", "duration": 8 },
+          { "step": 6, "instruction": "Yağla yağlayıp ılık servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Qutab with Pumpkin (Balqabağlı Qutab)",
+    "translations": {
+      "en": {
+        "title": "Balqabağlı Qutab (Pumpkin Qutab)",
+        "description": "Sweet-savoury crescents filled with caramelised pumpkin, onion and a hint of cinnamon. An autumn delicacy that balances the earthy squash with buttery dough.",
+        "ingredients": [
+          { "name": "Flour", "amount": "400 g" },
+          { "name": "Water and salt", "amount": "220 ml / 1 tsp" },
+          { "name": "Pumpkin, grated", "amount": "500 g" },
+          { "name": "Onion, finely chopped", "amount": "1 large" },
+          { "name": "Butter and cinnamon", "amount": "60 g / pinch" },
+          { "name": "Sugar (optional)", "amount": "1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead a soft dough and rest for 30 minutes.", "duration": 35 },
+          { "step": 2, "instruction": "Sauté the grated pumpkin and onion in butter until soft and lightly caramelised, about 12 minutes.", "duration": 12 },
+          { "step": 3, "instruction": "Season the filling with salt, cinnamon and a little sugar and let it cool.", "duration": 8 },
+          { "step": 4, "instruction": "Roll the dough into thin rounds and spread filling on one half.", "duration": 18 },
+          { "step": 5, "instruction": "Fold into crescents, seal, and griddle on a dry pan for 2-3 minutes per side.", "duration": 10 },
+          { "step": 6, "instruction": "Brush with butter and serve warm.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Balqabağlı Qutab",
+        "description": "Karamelləşmiş balqabaq, soğan və azca darçınla doldurulmuş şirin-duzlu qutablar. Payız ləziz yeməyi olub, torpaq dadlı balqabağı yağlı xəmirlə tarazlayır.",
+        "ingredients": [
+          { "name": "Un", "amount": "400 q" },
+          { "name": "Su və duz", "amount": "220 ml / 1 ç.q." },
+          { "name": "Balqabaq, rəndələnmiş", "amount": "500 q" },
+          { "name": "Soğan, incə doğranmış", "amount": "1 böyük" },
+          { "name": "Kərə yağı və darçın", "amount": "60 q / çimdik" },
+          { "name": "Şəkər (istəyə görə)", "amount": "1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yumşaq xəmir yoğurub 30 dəqiqə dincəldin.", "duration": 35 },
+          { "step": 2, "instruction": "Rəndələnmiş balqabaq və soğanı yağda 12 dəqiqə qovurun.", "duration": 12 },
+          { "step": 3, "instruction": "İçi duz, darçın və azca şəkərlə dadlandırıb soyudun.", "duration": 8 },
+          { "step": 4, "instruction": "Xəmiri nazik yayıb bir tərəfə iç yayın.", "duration": 18 },
+          { "step": 5, "instruction": "Aypara qatlayıb bağlayın və sacda hər tərəfini 2-3 dəqiqə bişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Yağ sürtüb isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Балкабаглы кутаб (кутаб с тыквой)",
+        "description": "Сладко-солёные полумесяцы с начинкой из карамелизованной тыквы, лука и щепотки корицы. Осеннее лакомство, уравновешивающее землистую тыкву маслянистым тестом.",
+        "ingredients": [
+          { "name": "Мука", "amount": "400 г" },
+          { "name": "Вода и соль", "amount": "220 мл / 1 ч.л." },
+          { "name": "Тыква, натёртая", "amount": "500 г" },
+          { "name": "Лук, мелко нарезанный", "amount": "1 большой" },
+          { "name": "Масло и корица", "amount": "60 г / щепотка" },
+          { "name": "Сахар (по желанию)", "amount": "1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите мягкое тесто и дайте отдохнуть 30 минут.", "duration": 35 },
+          { "step": 2, "instruction": "Обжарьте тёртую тыкву и лук на масле до мягкости и карамелизации, около 12 минут.", "duration": 12 },
+          { "step": 3, "instruction": "Приправьте начинку солью, корицей и сахаром и остудите.", "duration": 8 },
+          { "step": 4, "instruction": "Раскатайте тесто в тонкие круги и выложите начинку на половину.", "duration": 18 },
+          { "step": 5, "instruction": "Сложите полумесяцем, защипните и жарьте по 2-3 минуты с каждой стороны.", "duration": 10 },
+          { "step": 6, "instruction": "Смажьте маслом и подавайте тёплыми.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Balkabaklı Kutab",
+        "description": "Karamelize bal kabağı, soğan ve bir tutam tarçınla doldurulan tatlı-tuzlu kutablar. Topraksı kabağı tereyağlı hamurla dengeleyen bir sonbahar lezzetidir.",
+        "ingredients": [
+          { "name": "Un", "amount": "400 g" },
+          { "name": "Su ve tuz", "amount": "220 ml / 1 tatlı kaşığı" },
+          { "name": "Bal kabağı, rendelenmiş", "amount": "500 g" },
+          { "name": "Soğan, ince doğranmış", "amount": "1 büyük" },
+          { "name": "Tereyağı ve tarçın", "amount": "60 g / tutam" },
+          { "name": "Şeker (isteğe bağlı)", "amount": "1 tatlı kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yumuşak hamur yoğurup 30 dakika dinlendirin.", "duration": 35 },
+          { "step": 2, "instruction": "Rendelenmiş kabak ve soğanı yağda 12 dakika kavurun.", "duration": 12 },
+          { "step": 3, "instruction": "İçi tuz, tarçın ve biraz şekerle tatlandırıp soğutun.", "duration": 8 },
+          { "step": 4, "instruction": "Hamuru ince açıp yarısına harç yayın.", "duration": 18 },
+          { "step": 5, "instruction": "Hilal katlayıp kapatın ve sacda her yüzünü 2-3 dakika pişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Yağla yağlayıp ılık servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Xəngəl",
+    "translations": {
+      "en": {
+        "title": "Xəngəl (Pasta Squares with Meat)",
+        "description": "Wide squares of hand-rolled pasta tossed with browned minced lamb, topped with garlic yogurt and a sizzle of dried mint butter. A deeply comforting dish of the cold months.",
+        "ingredients": [
+          { "name": "Flour", "amount": "350 g" },
+          { "name": "Egg and water", "amount": "1 / 120 ml" },
+          { "name": "Minced lamb", "amount": "400 g" },
+          { "name": "Onion, chopped", "amount": "2 medium" },
+          { "name": "Garlic yogurt", "amount": "300 g" },
+          { "name": "Butter and dried mint", "amount": "50 g / 1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead a firm dough from flour, egg, water and salt and rest 30 minutes.", "duration": 35 },
+          { "step": 2, "instruction": "Brown the minced lamb with chopped onion until golden and dry, about 15 minutes.", "duration": 15 },
+          { "step": 3, "instruction": "Roll the dough thin and cut into 4-5 cm squares or diamonds.", "duration": 18 },
+          { "step": 4, "instruction": "Boil the pasta squares in salted water for 5-6 minutes until tender, then drain.", "duration": 7 },
+          { "step": 5, "instruction": "Layer the pasta with the meat and spoonfuls of garlic yogurt.", "duration": 5 },
+          { "step": 6, "instruction": "Sizzle butter with dried mint and pour over just before serving.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Xəngəl",
+        "description": "Əldə açılmış geniş xəmir kvadratları qızardılmış ət ilə qarışdırılır, üstünə sarımsaqlı qatıq və nanəli yağ tökülür. Soyuq ayların çox rahatladıcı yeməyidir.",
+        "ingredients": [
+          { "name": "Un", "amount": "350 q" },
+          { "name": "Yumurta və su", "amount": "1 / 120 ml" },
+          { "name": "Çəkilmiş quzu əti", "amount": "400 q" },
+          { "name": "Soğan, doğranmış", "amount": "2 ədəd" },
+          { "name": "Sarımsaqlı qatıq", "amount": "300 q" },
+          { "name": "Kərə yağı və nanə", "amount": "50 q / 1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, yumurta, su və duzdan bərk xəmir yoğurub 30 dəqiqə dincəldin.", "duration": 35 },
+          { "step": 2, "instruction": "Çəkilmiş əti soğanla 15 dəqiqə qızılı və quru olana qədər qovurun.", "duration": 15 },
+          { "step": 3, "instruction": "Xəmiri nazik açıb 4-5 sm kvadratlara kəsin.", "duration": 18 },
+          { "step": 4, "instruction": "Xəmirləri duzlu suda 5-6 dəqiqə bişirib süzün.", "duration": 7 },
+          { "step": 5, "instruction": "Xəmiri ət və sarımsaqlı qatıqla qatlayın.", "duration": 5 },
+          { "step": 6, "instruction": "Yağı nanə ilə qızdırıb verməzdən əvvəl üstünə tökün.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Хангял (квадраты теста с мясом)",
+        "description": "Широкие квадраты раскатанного вручную теста смешиваются с обжаренным бараньим фаршем, поливаются чесночным йогуртом и шкворчащим маслом с сушёной мятой. Очень уютное блюдо холодных месяцев.",
+        "ingredients": [
+          { "name": "Мука", "amount": "350 г" },
+          { "name": "Яйцо и вода", "amount": "1 / 120 мл" },
+          { "name": "Бараний фарш", "amount": "400 г" },
+          { "name": "Лук, нарезанный", "amount": "2 шт" },
+          { "name": "Чесночный йогурт", "amount": "300 г" },
+          { "name": "Масло и сушёная мята", "amount": "50 г / 1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите крутое тесто из муки, яйца, воды и соли и дайте отдохнуть 30 минут.", "duration": 35 },
+          { "step": 2, "instruction": "Обжарьте фарш с луком до золотистого и сухого состояния, около 15 минут.", "duration": 15 },
+          { "step": 3, "instruction": "Раскатайте тесто тонко и нарежьте на квадраты 4-5 см.", "duration": 18 },
+          { "step": 4, "instruction": "Отварите квадраты в подсолённой воде 5-6 минут и слейте.", "duration": 7 },
+          { "step": 5, "instruction": "Выложите тесто слоями с мясом и чесночным йогуртом.", "duration": 5 },
+          { "step": 6, "instruction": "Прогрейте масло с сушёной мятой и полейте перед подачей.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Hingel (Etli Hamur Kareleri)",
+        "description": "Elle açılan geniş hamur kareleri kavrulmuş kıymayla harmanlanır, üzerine sarımsaklı yoğurt ve naneli tereyağı gezdirilir. Soğuk ayların çok rahatlatıcı bir yemeğidir.",
+        "ingredients": [
+          { "name": "Un", "amount": "350 g" },
+          { "name": "Yumurta ve su", "amount": "1 / 120 ml" },
+          { "name": "Kuzu kıyma", "amount": "400 g" },
+          { "name": "Soğan, doğranmış", "amount": "2 adet" },
+          { "name": "Sarımsaklı yoğurt", "amount": "300 g" },
+          { "name": "Tereyağı ve kuru nane", "amount": "50 g / 1 tatlı kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, yumurta, su ve tuzdan sıkı hamur yoğurup 30 dakika dinlendirin.", "duration": 35 },
+          { "step": 2, "instruction": "Kıymayı soğanla 15 dakika altın rengi ve kuru olana dek kavurun.", "duration": 15 },
+          { "step": 3, "instruction": "Hamuru ince açıp 4-5 cm karelere kesin.", "duration": 18 },
+          { "step": 4, "instruction": "Kareleri tuzlu suda 5-6 dakika haşlayıp süzün.", "duration": 7 },
+          { "step": 5, "instruction": "Hamuru et ve sarımsaklı yoğurtla katmanlayın.", "duration": 5 },
+          { "step": 6, "instruction": "Yağı kuru naneyle kızdırıp servisten önce üzerine dökün.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Tandır Çörəyi",
+    "translations": {
+      "en": {
+        "title": "Tandır Çörəyi (Clay Oven Bread)",
+        "description": "Round leavened bread slapped onto the wall of a blazing clay tandir oven, baking into a smoky, blistered loaf with a crisp crust and pillowy crumb. The soul of every village table.",
+        "ingredients": [
+          { "name": "Bread flour", "amount": "600 g" },
+          { "name": "Water, warm", "amount": "360 ml" },
+          { "name": "Fresh yeast", "amount": "15 g" },
+          { "name": "Salt", "amount": "10 g" },
+          { "name": "Sugar", "amount": "1 tsp" },
+          { "name": "Sesame or nigella seeds", "amount": "2 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Dissolve yeast and sugar in warm water and let it foam for 10 minutes.", "duration": 10 },
+          { "step": 2, "instruction": "Knead flour, salt and the yeast water into a smooth elastic dough for 10 minutes.", "duration": 12 },
+          { "step": 3, "instruction": "Cover and prove in a warm place until doubled, about 60 minutes.", "duration": 60 },
+          { "step": 4, "instruction": "Shape into round loaves, dimple the centre and brush with water, then scatter seeds.", "duration": 10 },
+          { "step": 5, "instruction": "Slap onto the hot tandir wall (or bake on a stone at 250°C) for 12-15 minutes until deep golden and blistered.", "duration": 15 },
+          { "step": 6, "instruction": "Cool slightly on a cloth so the crust stays crisp before serving.", "duration": 10 }
+        ]
+      },
+      "az": {
+        "title": "Təndir Çörəyi",
+        "description": "Mayalı yumru çörək közərən təndirin divarına yapışdırılıb tüstülü, qabarmış, xırtıldayan qabıqlı və yumşaq içli çörəyə çevrilir. Hər kənd süfrəsinin ruhudur.",
+        "ingredients": [
+          { "name": "Çörək unu", "amount": "600 q" },
+          { "name": "İsti su", "amount": "360 ml" },
+          { "name": "Təzə maya", "amount": "15 q" },
+          { "name": "Duz", "amount": "10 q" },
+          { "name": "Şəkər", "amount": "1 ç.q." },
+          { "name": "Küncüt və ya çörək otu", "amount": "2 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Maya və şəkəri isti suda həll edib 10 dəqiqə köpükləndirin.", "duration": 10 },
+          { "step": 2, "instruction": "Un, duz və mayalı suyu 10 dəqiqə hamar elastik xəmir kimi yoğurun.", "duration": 12 },
+          { "step": 3, "instruction": "Örtüb isti yerdə iki qat olana qədər 60 dəqiqə mayalandırın.", "duration": 60 },
+          { "step": 4, "instruction": "Yumru çörək formalayıb ortasını basın, su sürtüb toxum səpin.", "duration": 10 },
+          { "step": 5, "instruction": "İsti təndir divarına yapışdırın (və ya 250°C daşda) 12-15 dəqiqə bişirin.", "duration": 15 },
+          { "step": 6, "instruction": "Qabıq xırtıldayan qalsın deyə dəsmalda bir az soyudun.", "duration": 10 }
+        ]
+      },
+      "ru": {
+        "title": "Тандыр чёряйи (хлеб из тандыра)",
+        "description": "Круглый дрожжевой хлеб прилепляют к стенке раскалённого глиняного тандыра, и он печётся в дымную пузырчатую лепёшку с хрустящей коркой и воздушным мякишем. Душа любого деревенского стола.",
+        "ingredients": [
+          { "name": "Хлебная мука", "amount": "600 г" },
+          { "name": "Тёплая вода", "amount": "360 мл" },
+          { "name": "Свежие дрожжи", "amount": "15 г" },
+          { "name": "Соль", "amount": "10 г" },
+          { "name": "Сахар", "amount": "1 ч.л." },
+          { "name": "Кунжут или чернушка", "amount": "2 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Растворите дрожжи и сахар в тёплой воде и дайте вспениться 10 минут.", "duration": 10 },
+          { "step": 2, "instruction": "Замесите гладкое эластичное тесто из муки, соли и опары 10 минут.", "duration": 12 },
+          { "step": 3, "instruction": "Накройте и расстаивайте в тепле до увеличения вдвое, около 60 минут.", "duration": 60 },
+          { "step": 4, "instruction": "Сформуйте круглые лепёшки, продавите центр, смажьте водой и посыпьте семенами.", "duration": 10 },
+          { "step": 5, "instruction": "Прилепите к стенке тандыра (или пеките на камне при 250°C) 12-15 минут.", "duration": 15 },
+          { "step": 6, "instruction": "Слегка остудите на полотенце, чтобы корка осталась хрустящей.", "duration": 10 }
+        ]
+      },
+      "tr": {
+        "title": "Tandır Ekmeği",
+        "description": "Mayalı yuvarlak ekmek, kor halindeki tandırın duvarına yapıştırılarak dumanlı, kabarcıklı, çıtır kabuklu ve yumuşak içli bir somuna dönüşür. Her köy sofrasının ruhudur.",
+        "ingredients": [
+          { "name": "Ekmeklik un", "amount": "600 g" },
+          { "name": "Ilık su", "amount": "360 ml" },
+          { "name": "Taze maya", "amount": "15 g" },
+          { "name": "Tuz", "amount": "10 g" },
+          { "name": "Şeker", "amount": "1 tatlı kaşığı" },
+          { "name": "Susam veya çörek otu", "amount": "2 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Maya ve şekeri ılık suda eritip 10 dakika köpürtün.", "duration": 10 },
+          { "step": 2, "instruction": "Un, tuz ve mayalı suyu 10 dakika pürüzsüz elastik hamur olana dek yoğurun.", "duration": 12 },
+          { "step": 3, "instruction": "Örtüp ılık yerde iki katına çıkana dek 60 dakika mayalandırın.", "duration": 60 },
+          { "step": 4, "instruction": "Yuvarlak somunlar şekillendirip ortasını bastırın, su sürüp tohum serpin.", "duration": 10 },
+          { "step": 5, "instruction": "Sıcak tandır duvarına yapıştırın (veya 250°C taşta) 12-15 dakika pişirin.", "duration": 15 },
+          { "step": 6, "instruction": "Kabuk çıtır kalsın diye bez üzerinde biraz soğutun.", "duration": 10 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Lavaş",
+    "translations": {
+      "en": {
+        "title": "Lavaş (Thin Flatbread)",
+        "description": "Paper-thin unleavened flatbread rolled out large and baked in seconds against a hot surface. Soft and pliable when fresh, it wraps kebabs, cheese and herbs at every meal.",
+        "ingredients": [
+          { "name": "Flour", "amount": "500 g" },
+          { "name": "Water, warm", "amount": "280 ml" },
+          { "name": "Salt", "amount": "8 g" },
+          { "name": "Oil (optional)", "amount": "1 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Knead flour, water and salt into a smooth firm dough and rest, covered, for 40 minutes.", "duration": 45 },
+          { "step": 2, "instruction": "Divide into small balls and dust with flour.", "duration": 8 },
+          { "step": 3, "instruction": "Roll each ball out as thinly as possible into a large, even sheet.", "duration": 20 },
+          { "step": 4, "instruction": "Heat a large dry pan or saj until very hot.", "duration": 5 },
+          { "step": 5, "instruction": "Bake each sheet for 30-60 seconds per side until bubbles form and light brown spots appear.", "duration": 10 },
+          { "step": 6, "instruction": "Stack under a cloth to keep them soft and pliable.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Lavaş",
+        "description": "Kağız kimi nazik mayasız çörək böyük açılıb qızğın səthdə saniyələrlə bişirilir. Təzə ikən yumşaq və elastik olub, hər yeməkdə kabab, pendir və göyərti bükür.",
+        "ingredients": [
+          { "name": "Un", "amount": "500 q" },
+          { "name": "İsti su", "amount": "280 ml" },
+          { "name": "Duz", "amount": "8 q" },
+          { "name": "Yağ (istəyə görə)", "amount": "1 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, su və duzu hamar bərk xəmir kimi yoğurub örtülü 40 dəqiqə dincəldin.", "duration": 45 },
+          { "step": 2, "instruction": "Kiçik kürələrə bölüb un səpin.", "duration": 8 },
+          { "step": 3, "instruction": "Hər kürəni mümkün qədər nazik böyük vərəq kimi açın.", "duration": 20 },
+          { "step": 4, "instruction": "Böyük quru tavanı və ya sacı çox qızdırın.", "duration": 5 },
+          { "step": 5, "instruction": "Hər vərəqi hər tərəfdən 30-60 saniyə qabarcıq və ləkələr çıxana qədər bişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Yumşaq qalsın deyə dəsmal altında üst-üstə yığın.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Лаваш (тонкий лаваш)",
+        "description": "Тончайший пресный лаваш раскатывают большим листом и пекут за секунды на горячей поверхности. Свежий — мягкий и эластичный, он заворачивает кебабы, сыр и зелень за каждой трапезой.",
+        "ingredients": [
+          { "name": "Мука", "amount": "500 г" },
+          { "name": "Тёплая вода", "amount": "280 мл" },
+          { "name": "Соль", "amount": "8 г" },
+          { "name": "Масло (по желанию)", "amount": "1 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите гладкое крутое тесто из муки, воды и соли и дайте отдохнуть под крышкой 40 минут.", "duration": 45 },
+          { "step": 2, "instruction": "Разделите на маленькие шарики и присыпьте мукой.", "duration": 8 },
+          { "step": 3, "instruction": "Раскатайте каждый шарик как можно тоньше в большой ровный лист.", "duration": 20 },
+          { "step": 4, "instruction": "Разогрейте большую сухую сковороду или садж до сильного жара.", "duration": 5 },
+          { "step": 5, "instruction": "Пеките каждый лист по 30-60 секунд с каждой стороны до пузырьков и подпалин.", "duration": 10 },
+          { "step": 6, "instruction": "Складывайте под полотенцем, чтобы оставались мягкими.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Lavaş",
+        "description": "Kâğıt inceliğindeki mayasız ekmek büyükçe açılıp sıcak bir yüzeyde saniyeler içinde pişirilir. Tazeyken yumuşak ve esnektir; her öğünde kebap, peynir ve otları sarar.",
+        "ingredients": [
+          { "name": "Un", "amount": "500 g" },
+          { "name": "Ilık su", "amount": "280 ml" },
+          { "name": "Tuz", "amount": "8 g" },
+          { "name": "Yağ (isteğe bağlı)", "amount": "1 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, su ve tuzu pürüzsüz sıkı hamur yapıp örtülü 40 dakika dinlendirin.", "duration": 45 },
+          { "step": 2, "instruction": "Küçük toplara bölüp un serpin.", "duration": 8 },
+          { "step": 3, "instruction": "Her topu olabildiğince ince büyük bir yaprak halinde açın.", "duration": 20 },
+          { "step": 4, "instruction": "Büyük kuru tava veya sacı iyice kızdırın.", "duration": 5 },
+          { "step": 5, "instruction": "Her yaprağı her yüzünde 30-60 saniye kabarcık ve hafif kahve lekeleri çıkana dek pişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Yumuşak kalmaları için bez altında üst üste dizin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Shor Qoğal",
+    "translations": {
+      "en": {
+        "title": "Shor Qoğal (Spiced Savoury Bun)",
+        "description": "A layered Novruz pastry with a buttery, flaky dough hiding a fragrant filling of turmeric, fennel, caraway and salt. Golden and aromatic, it is a centrepiece of the holiday tray.",
+        "ingredients": [
+          { "name": "Flour", "amount": "500 g" },
+          { "name": "Butter, softened", "amount": "150 g" },
+          { "name": "Milk and yeast", "amount": "200 ml / 10 g" },
+          { "name": "Turmeric, fennel, caraway", "amount": "1 tbsp each" },
+          { "name": "Salt", "amount": "1.5 tsp" },
+          { "name": "Egg yolk for glazing", "amount": "1" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Make a soft yeast dough with flour, warm milk, yeast and a little butter; prove for 60 minutes.", "duration": 70 },
+          { "step": 2, "instruction": "Toast the turmeric, fennel and caraway, then mix with salt and softened butter into a paste.", "duration": 8 },
+          { "step": 3, "instruction": "Roll the dough thin, brush with butter and roll up, then roll thin again to build flaky layers.", "duration": 15 },
+          { "step": 4, "instruction": "Cut into pieces, flatten each, place a spoon of spice filling in the centre and seal into buns.", "duration": 20 },
+          { "step": 5, "instruction": "Brush with egg yolk and prove for 20 minutes.", "duration": 20 },
+          { "step": 6, "instruction": "Bake at 180°C for 25-30 minutes until deep golden and fragrant.", "duration": 30 }
+        ]
+      },
+      "az": {
+        "title": "Şor Qoğal",
+        "description": "Yağlı, qat-qat xəmiri içində sarıkök, razyana, zirə və duzdan ibarət ətirli içi gizlədən Novruz qoğalı. Qızılı və ətirli olub, bayram süfrəsinin baş yeməyidir.",
+        "ingredients": [
+          { "name": "Un", "amount": "500 q" },
+          { "name": "Yumşaq kərə yağı", "amount": "150 q" },
+          { "name": "Süd və maya", "amount": "200 ml / 10 q" },
+          { "name": "Sarıkök, razyana, zirə", "amount": "hər biri 1 x.q." },
+          { "name": "Duz", "amount": "1.5 ç.q." },
+          { "name": "Yağlamaq üçün yumurta sarısı", "amount": "1 ədəd" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, isti süd, maya və azca yağdan yumşaq mayalı xəmir yoğurub 60 dəqiqə mayalandırın.", "duration": 70 },
+          { "step": 2, "instruction": "Sarıkök, razyana və zirəni qovurub duz və yumşaq yağla pasta edin.", "duration": 8 },
+          { "step": 3, "instruction": "Xəmiri nazik açıb yağ sürtüb bükün, sonra yenidən açaraq qatlar yaradın.", "duration": 15 },
+          { "step": 4, "instruction": "Hissələrə kəsib yastılayın, ortasına ədviyyat içi qoyub qoğal kimi bağlayın.", "duration": 20 },
+          { "step": 5, "instruction": "Yumurta sarısı sürtüb 20 dəqiqə mayalandırın.", "duration": 20 },
+          { "step": 6, "instruction": "180°C-də 25-30 dəqiqə qızılı və ətirli olana qədər bişirin.", "duration": 30 }
+        ]
+      },
+      "ru": {
+        "title": "Шор-гогал (пряная солёная булочка)",
+        "description": "Слоёная новрузовская выпечка из маслянистого теста с ароматной начинкой из куркумы, фенхеля, тмина и соли. Золотистая и душистая, она — украшение праздничного подноса.",
+        "ingredients": [
+          { "name": "Мука", "amount": "500 г" },
+          { "name": "Масло размягчённое", "amount": "150 г" },
+          { "name": "Молоко и дрожжи", "amount": "200 мл / 10 г" },
+          { "name": "Куркума, фенхель, тмин", "amount": "по 1 ст.л." },
+          { "name": "Соль", "amount": "1.5 ч.л." },
+          { "name": "Желток для смазывания", "amount": "1 шт" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Замесите мягкое дрожжевое тесто из муки, тёплого молока, дрожжей и масла; расстаивайте 60 минут.", "duration": 70 },
+          { "step": 2, "instruction": "Поджарьте куркуму, фенхель и тмин, смешайте с солью и мягким маслом в пасту.", "duration": 8 },
+          { "step": 3, "instruction": "Раскатайте тесто тонко, смажьте маслом и сверните, затем снова раскатайте для слоёв.", "duration": 15 },
+          { "step": 4, "instruction": "Нарежьте на кусочки, расплющите, положите начинку и слепите булочки.", "duration": 20 },
+          { "step": 5, "instruction": "Смажьте желтком и расстаивайте 20 минут.", "duration": 20 },
+          { "step": 6, "instruction": "Выпекайте при 180°C 25-30 минут до золотистости и аромата.", "duration": 30 }
+        ]
+      },
+      "tr": {
+        "title": "Şor Gogal (Baharatlı Tuzlu Çörek)",
+        "description": "Tereyağlı, katmer hamurunun içinde zerdeçal, rezene, kimyon ve tuzdan oluşan aromatik bir harç saklayan bir Nevruz çöreğidir. Altın rengi ve mis kokulu olup bayram tepsisinin baş tacıdır.",
+        "ingredients": [
+          { "name": "Un", "amount": "500 g" },
+          { "name": "Yumuşamış tereyağı", "amount": "150 g" },
+          { "name": "Süt ve maya", "amount": "200 ml / 10 g" },
+          { "name": "Zerdeçal, rezene, kimyon", "amount": "her biri 1 yemek kaşığı" },
+          { "name": "Tuz", "amount": "1.5 tatlı kaşığı" },
+          { "name": "Yağlamak için yumurta sarısı", "amount": "1 adet" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Un, ılık süt, maya ve biraz yağla yumuşak mayalı hamur yoğurup 60 dakika mayalandırın.", "duration": 70 },
+          { "step": 2, "instruction": "Zerdeçal, rezene ve kimyonu kavurup tuz ve yumuşak yağla macun yapın.", "duration": 8 },
+          { "step": 3, "instruction": "Hamuru ince açıp yağ sürüp rulo yapın, sonra tekrar açarak katmanlar oluşturun.", "duration": 15 },
+          { "step": 4, "instruction": "Parçalara kesip yassıltın, ortasına baharat harcı koyup çörek gibi kapatın.", "duration": 20 },
+          { "step": 5, "instruction": "Yumurta sarısı sürüp 20 dakika mayalandırın.", "duration": 20 },
+          { "step": 6, "instruction": "180°C'de 25-30 dakika altın rengi ve mis kokulu olana dek pişirin.", "duration": 30 }
+        ]
+      }
+    }
+  }
+]

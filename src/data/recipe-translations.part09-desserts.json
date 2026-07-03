@@ -1,0 +1,575 @@
+[
+  {
+    "title": "Paklava",
+    "translations": {
+      "en": {
+        "title": "Paklava (Azerbaijani Diamond Baklava)",
+        "description": "Layers of paper-thin phyllo pastry brushed with clarified butter, packed with a generously seasoned walnut and cardamom filling, baked to a deep amber and drenched in a light honey-saffron syrup. Azerbaijani paklava is traditionally cut into elongated diamond shapes, making it a ceremonial confection for Novruz (New Year) and weddings. Each family guards its own layering ratio, but the hallmarks are crunch, richness and the delicate floral finish of saffron.",
+        "ingredients": [
+          { "name": "Phyllo (yufka) pastry sheets", "amount": "500 g (about 20 sheets)" },
+          { "name": "Walnuts, finely ground", "amount": "3 cups" },
+          { "name": "Powdered sugar", "amount": "1 cup" },
+          { "name": "Cardamom, ground", "amount": "1 tsp" },
+          { "name": "Clarified butter (ghee) or unsalted butter, melted", "amount": "250 g" },
+          { "name": "Egg yolk (for brushing)", "amount": "1" },
+          { "name": "Whole walnut halves (for decoration)", "amount": "40" },
+          { "name": "Water", "amount": "1.5 cups" },
+          { "name": "Sugar", "amount": "1.5 cups" },
+          { "name": "Honey", "amount": "2 tbsp" },
+          { "name": "Saffron, bloomed in 2 tbsp hot water", "amount": "0.5 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Make the syrup first so it has time to cool. Combine the water and sugar in a saucepan and bring to a boil, stirring to dissolve. Simmer 10 minutes, then stir in honey and saffron water. Remove from heat and cool completely — the syrup must be cold when it meets the hot baklava.", "duration": 15 },
+          { "step": 2, "instruction": "Prepare the walnut filling: combine the finely ground walnuts, powdered sugar and cardamom in a bowl and mix thoroughly. Taste — the filling should be sweet and fragrant.", "duration": 5 },
+          { "step": 3, "instruction": "Generously butter the base and sides of a 30 x 40 cm (or similar) baking tray.", "duration": 3 },
+          { "step": 4, "instruction": "Layer 8-10 phyllo sheets in the tray, brushing each sheet generously with melted butter before adding the next. The sheets should overhang the edges.", "duration": 10 },
+          { "step": 5, "instruction": "Spread the walnut filling evenly over the buttered phyllo base in an even layer.", "duration": 5 },
+          { "step": 6, "instruction": "Layer the remaining 10-12 phyllo sheets on top, again brushing each one with butter. Fold in the overhanging edges and brush those too.", "duration": 10 },
+          { "step": 7, "instruction": "With a sharp knife, cut the paklava into elongated diamond shapes without cutting all the way through to the base — score only halfway through. Place a walnut half in the centre of each diamond.", "duration": 10 },
+          { "step": 8, "instruction": "Brush the surface with beaten egg yolk mixed with a teaspoon of saffron water for the characteristic golden sheen.", "duration": 3 },
+          { "step": 9, "instruction": "Bake in a preheated oven at 180°C (350°F) for 35-40 minutes until deeply golden and crisp. The surface should be a rich amber colour.", "duration": 40 },
+          { "step": 10, "instruction": "Remove from the oven and immediately pour the cold syrup evenly over the hot paklava — this is the key moment: hot pastry + cold syrup creates the characteristic crunch. Let it absorb for at least 2 hours before serving.", "duration": 5 },
+          { "step": 11, "instruction": "Complete the cuts through to the base, separate the diamonds and arrange on a platter. Paklava improves with resting — it is best made the day before serving.", "duration": 10 }
+        ]
+      },
+      "az": {
+        "title": "Paklava",
+        "description": "Ərimiş yağla sıvanmış incə yufka laylari, qoz-fındıq və hil ilə dolu, dərin amber rənginə qədər bişirilmiş, yüngül bal-zəfəran şərbəti ilə isladılmış şirniyyat. Azərbaycan paklavası ənənəvi olaraq uzadılmış romb şəklinde kəsilir, Novruz və toylar üçün hazırlanır.",
+        "ingredients": [
+          { "name": "Yufka (filo xəmiri)", "amount": "500 q (≈20 vərəq)" },
+          { "name": "Qoz, narın üyüdülmüş", "amount": "3 stəkan" },
+          { "name": "Şəkər tozu", "amount": "1 stəkan" },
+          { "name": "Hil, üyüdülmüş", "amount": "1 ç.q." },
+          { "name": "Sərqərmiş yağ (ghee) ya da kərə yağı, əridilmiş", "amount": "250 q" },
+          { "name": "Yumurta sarısı (sürtmək üçün)", "amount": "1 ədəd" },
+          { "name": "Tam qoz yarımları (bəzək üçün)", "amount": "40 ədəd" },
+          { "name": "Su", "amount": "1,5 stəkan" },
+          { "name": "Şəkər (şərbət üçün)", "amount": "1,5 stəkan" },
+          { "name": "Bal", "amount": "2 x.q." },
+          { "name": "Zəfəran (2 x.q. isti suda həll edilmiş)", "amount": "0,5 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Əvvəlcə şərbəti hazırlayın ki soyusun. Su və şəkəri qazana tökün, qaynayınca qədər qarışdıra-qarışdıra qızdırın, 10 dəqiqə dəmləyin, bal və zəfəran suyunu əlavə edin. Oddan götürün, tamamilə soyudun — şərbət soyuq, paklava isti olmalıdır.", "duration": 15 },
+          { "step": 2, "instruction": "Doldurma hazırlayın: narın üyüdülmüş qoz, şəkər tozu, hilini qarışdırın. Dadına baxın — şirin, ətirli olmalıdır.", "duration": 5 },
+          { "step": 3, "instruction": "30 x 40 sm fırın qabının dibini və kənarlarını yaxşıca yağlayın.", "duration": 3 },
+          { "step": 4, "instruction": "8-10 yufka vərəqini qabda üst-üstə düzün, hər birini əridimiş yağla sıvayın. Kənarları qab kənarından çıxsın.", "duration": 10 },
+          { "step": 5, "instruction": "Qoz doldurmani yufka üzərinə bərabər yayın.", "duration": 5 },
+          { "step": 6, "instruction": "Qalan 10-12 vərəqi yenidən hər birini yağlayaraq üstə düzün. Çıxan kənarları içəriyə qatlayın, onları da yağlayın.", "duration": 10 },
+          { "step": 7, "instruction": "İti bıçaqla paklavanı uzun romb şəklinde kəsin, amma dibə kimi kəsməyin — yarıya qədər. Hər rombun mərkəzinə qoz yarımı qoyun.", "duration": 10 },
+          { "step": 8, "instruction": "Üzünü yumurta sarısı + zəfəran suyu qarışımıyla sıvayın ki xarakterik qızılı rəng alınsın.", "duration": 3 },
+          { "step": 9, "instruction": "180°C-də qızdırılmış sobada 35-40 dəqiqə dərin qızılı-amber rənginə qədər bişirin.", "duration": 40 },
+          { "step": 10, "instruction": "Sobadan çıxarın, dərhal soyuq şərbəti isti paklavanın üzərinə bərabər töküm. Ən az 2 saat şərbət çəksinə qoyun.", "duration": 5 },
+          { "step": 11, "instruction": "Kəsişləri dibə qədər tamamlayın, romblara bölün, nimçəyə düzün. Bir gün əvvəldən hazırlanmış paklava daha ləzzətlidir.", "duration": 10 }
+        ]
+      },
+      "ru": {
+        "title": "Пахлава Азербайджанская",
+        "description": "Тончайшие листы фило, смазанные топлёным маслом, с щедрой начинкой из орехов и кардамона, запечённые до глубокого янтаря и залитые ароматным мёдо-шафрановым сиропом. Азербайджанская пахлава традиционно нарезается вытянутыми ромбами — это праздничное лакомство к Новрузу и свадьбам.",
+        "ingredients": [
+          { "name": "Листы фило (юфка)", "amount": "500 г (около 20 листов)" },
+          { "name": "Грецкие орехи, мелко молотые", "amount": "3 стакана" },
+          { "name": "Сахарная пудра", "amount": "1 стакан" },
+          { "name": "Кардамон молотый", "amount": "1 ч.л." },
+          { "name": "Топлёное масло (или сливочное), растопленное", "amount": "250 г" },
+          { "name": "Желток яйца (для смазки)", "amount": "1" },
+          { "name": "Половинки грецких орехов (для украшения)", "amount": "40 шт." },
+          { "name": "Вода", "amount": "1,5 стакана" },
+          { "name": "Сахар (для сиропа)", "amount": "1,5 стакана" },
+          { "name": "Мёд", "amount": "2 ст.л." },
+          { "name": "Шафран (настоянный на 2 ст.л. горячей воды)", "amount": "0,5 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Сначала приготовьте сироп — он должен полностью остыть. Доведите воду и сахар до кипения, помешивая, варите 10 минут, добавьте мёд и шафранную воду. Охладите полностью — холодный сироп + горячая пахлава = хрустящая текстура.", "duration": 15 },
+          { "step": 2, "instruction": "Смешайте молотые орехи, сахарную пудру и кардамон для начинки.", "duration": 5 },
+          { "step": 3, "instruction": "Щедро смажьте маслом дно и стенки формы 30 х 40 см.", "duration": 3 },
+          { "step": 4, "instruction": "Выложите 8-10 листов фило, каждый щедро смазывая маслом. Листы должны свисать за края.", "duration": 10 },
+          { "step": 5, "instruction": "Ровно распределите начинку по фило.", "duration": 5 },
+          { "step": 6, "instruction": "Накройте оставшимися 10-12 листами, каждый смазывая маслом. Подогните края и смажьте их.", "duration": 10 },
+          { "step": 7, "instruction": "Острым ножом надрежьте пахлаву вытянутыми ромбами наполовину, не дорезая до дна. В центр каждого ромба положите половинку ореха.", "duration": 10 },
+          { "step": 8, "instruction": "Смажьте поверхность смесью желтка и шафранной воды для золотистого блеска.", "duration": 3 },
+          { "step": 9, "instruction": "Выпекайте при 180°C 35-40 минут до глубокого янтарного цвета.", "duration": 40 },
+          { "step": 10, "instruction": "Сразу из духовки равномерно полейте холодным сиропом горячую пахлаву. Оставьте впитываться не менее 2 часов.", "duration": 5 },
+          { "step": 11, "instruction": "Дорежьте до дна, разделите на ромбы, выложите на блюдо. Лучше готовить накануне.", "duration": 10 }
+        ]
+      },
+      "tr": {
+        "title": "Azerbaycan Baklavası (Paklava)",
+        "description": "Eritilmiş tereyağıyla sürülmüş ince yufkalar, ceviz ve kakule dolgusuyla katkatlanıp derin kehribar rengine kadar fırınlandıktan sonra soğuk bal-safran şerbetiyle ıslatılan geleneksel bir tatlı. Azerbaycan baklavası Nevruz ve düğünler için uzun eşkenar dörtgen biçiminde kesilir.",
+        "ingredients": [
+          { "name": "Yufka (filo hamuru)", "amount": "500 g (yaklaşık 20 yaprak)" },
+          { "name": "Ceviz, ince öğütülmüş", "amount": "3 su bardağı" },
+          { "name": "Pudra şekeri", "amount": "1 su bardağı" },
+          { "name": "Kakule, öğütülmüş", "amount": "1 çay kaşığı" },
+          { "name": "Arıtılmış tereyağı (ghee) ya da sade tereyağı, eritilmiş", "amount": "250 g" },
+          { "name": "Yumurta sarısı (yüzey için)", "amount": "1 adet" },
+          { "name": "Bütün ceviz yarımları (süsleme)", "amount": "40 adet" },
+          { "name": "Su", "amount": "1,5 su bardağı" },
+          { "name": "Şeker (şerbet için)", "amount": "1,5 su bardağı" },
+          { "name": "Bal", "amount": "2 yemek kaşığı" },
+          { "name": "Safran (2 yemek kaşığı sıcak suda bekletilmiş)", "amount": "0,5 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Önce şerbeti yapın ki soğusun. Su ve şekeri kaynatın, 10 dakika pişirin, bal ve safran suyunu ekleyin. Tamamen soğutun — soğuk şerbet + sıcak baklava = çıtır doku.", "duration": 15 },
+          { "step": 2, "instruction": "İnce öğütülmüş ceviz, pudra şekeri ve kakulei karıştırın.", "duration": 5 },
+          { "step": 3, "instruction": "30 x 40 cm tepsinin taban ve kenarlarını bol tereyağıyla yağlayın.", "duration": 3 },
+          { "step": 4, "instruction": "8-10 yufkayı tepsiye, her birini bol tereyağıyla sürerek dizeyin. Kenarlar taşsın.", "duration": 10 },
+          { "step": 5, "instruction": "Ceviz dolguyu yufkanın üzerine eşit yayın.", "duration": 5 },
+          { "step": 6, "instruction": "Kalan 10-12 yufkayı her birini yağlayarak üstüne ekleyin. Taşan kenarları içe katlayıp yağlayın.", "duration": 10 },
+          { "step": 7, "instruction": "Keskin bıçakla uzun eşkenar dörtgen biçiminde yarıya kadar kesin. Her dilimin ortasına ceviz yarımı koyun.", "duration": 10 },
+          { "step": 8, "instruction": "Yüzeyi yumurta sarısı + safran suyu karışımıyla sürerek altın parlaklığını verin.", "duration": 3 },
+          { "step": 9, "instruction": "180°C fırında 35-40 dakika derin amber rengine gelene dek pişirin.", "duration": 40 },
+          { "step": 10, "instruction": "Fırından çıkar çıkmaz soğuk şerbeti sıcak baklavanın üzerine eşit dökün. En az 2 saat şerbet çekmesini bekleyin.", "duration": 5 },
+          { "step": 11, "instruction": "Diplere kadar kesin, dilimlere ayırın, tabağa dizin. Bir gün önceden yapılan baklava daha lezzetlidir.", "duration": 10 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Şəkərbura",
+    "translations": {
+      "en": {
+        "title": "Şəkərbura (Crescent Moon Pastry with Walnut Filling)",
+        "description": "Delicate crescent-shaped pastries made from a tender, lightly yeast-enriched dough, pinched along the curved edge with an intricate rope pattern and filled with a sweetly fragrant walnut, sugar and cardamom mixture. Şəkərbura (literally 'sugar bura') are one of the three sacred sweets of Novruz alongside Paklava and Badambura, each representing a celestial symbol. The crescent represents the moon.",
+        "ingredients": [
+          { "name": "All-purpose flour", "amount": "4 cups" },
+          { "name": "Butter, softened", "amount": "200 g" },
+          { "name": "Egg yolks", "amount": "3" },
+          { "name": "Warm milk", "amount": "0.5 cup" },
+          { "name": "Dry yeast", "amount": "1 tsp" },
+          { "name": "Powdered sugar (for dough)", "amount": "2 tbsp" },
+          { "name": "Walnuts or almonds, finely ground", "amount": "2 cups" },
+          { "name": "Powdered sugar (for filling)", "amount": "1 cup" },
+          { "name": "Cardamom, ground", "amount": "1 tsp" },
+          { "name": "Egg yolk + saffron water (for glaze)", "amount": "1 yolk + 1 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Dissolve the yeast in warm milk with the 2 tbsp powdered sugar. Let stand 5-10 minutes until frothy — this activates the yeast.", "duration": 10 },
+          { "step": 2, "instruction": "Sift the flour into a large bowl. Rub in the softened butter until the mixture resembles fine breadcrumbs.", "duration": 8 },
+          { "step": 3, "instruction": "Add the egg yolks and the yeast mixture to the flour. Knead into a soft, non-sticky dough, adding a little more flour if needed. The dough should be pliable and smooth.", "duration": 10 },
+          { "step": 4, "instruction": "Cover and rest the dough for 30 minutes at room temperature.", "duration": 30 },
+          { "step": 5, "instruction": "Prepare the filling: combine the ground walnuts, powdered sugar and cardamom. Mix thoroughly — taste for sweetness and spice.", "duration": 5 },
+          { "step": 6, "instruction": "Pinch off walnut-sized balls of dough. Roll each ball into a small circle about 7-8 cm in diameter, rolling the edges slightly thinner than the centre.", "duration": 15 },
+          { "step": 7, "instruction": "Place a heaped teaspoon of filling in the centre of each circle. Fold the dough over to form a half-moon shape and press the edges firmly together to seal.", "duration": 15 },
+          { "step": 8, "instruction": "Create the traditional decorative rope edge: using your thumb and forefinger, pinch the curved edge into a tight, continuous twisted rope pattern — maəjma. This is the signature look of şəkərbura.", "duration": 20 },
+          { "step": 9, "instruction": "Place on a parchment-lined baking tray. Brush lightly with the egg yolk and saffron water glaze.", "duration": 5 },
+          { "step": 10, "instruction": "Bake in a preheated oven at 175°C (350°F) for 20-22 minutes until pale golden. Şəkərbura should be very lightly coloured — do not let it brown deeply.", "duration": 22 },
+          { "step": 11, "instruction": "Cool on a rack, then dust generously with powdered sugar. Arrange on a platter. They keep at room temperature for up to 10 days in an airtight container.", "duration": 8 }
+        ]
+      },
+      "az": {
+        "title": "Şəkərbura",
+        "description": "Zərif hilal formasında, incə maya xəmirindən hazırlanan, kənarları mürəkkəb ip naxışı ilə bezedilmiş, qoz-fındıq, şəkər və hil ilə doldurulmuş şirniyyat. Şəkərbura Novruzun üç müqəddəs şirniyyatından biridir — ay simvolunu təmsil edir.",
+        "ingredients": [
+          { "name": "Un", "amount": "4 stəkan" },
+          { "name": "Kərə yağı, yumşaldılmış", "amount": "200 q" },
+          { "name": "Yumurta sarısı", "amount": "3 ədəd" },
+          { "name": "İlıq süd", "amount": "0,5 stəkan" },
+          { "name": "Quru maya", "amount": "1 ç.q." },
+          { "name": "Şəkər tozu (xəmir üçün)", "amount": "2 x.q." },
+          { "name": "Qoz ya da badam, narın üyüdülmüş", "amount": "2 stəkan" },
+          { "name": "Şəkər tozu (doldurmaq üçün)", "amount": "1 stəkan" },
+          { "name": "Hil, üyüdülmüş", "amount": "1 ç.q." },
+          { "name": "Yumurta sarısı + zəfəran suyu (sürtmək üçün)", "amount": "1 sarı + 1 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Mayanı ılıq süd + şəkər tozunda həll edin, 5-10 dəqiqə köpüklanana qədər saxlayın.", "duration": 10 },
+          { "step": 2, "instruction": "Unu qaba ələyin. Yumşaldılmış yağı içinə ovuşdurub xırda qırıntıya çevirin.", "duration": 8 },
+          { "step": 3, "instruction": "Yumurta sarıları və maya qarışımını əlavə edin. Yumşaq, yapışmayan xəmir yoğurun.", "duration": 10 },
+          { "step": 4, "instruction": "Örtün, otaq temperaturunda 30 dəqiqə istirahət etdirin.", "duration": 30 },
+          { "step": 5, "instruction": "Doldurmayı hazırlayın: üyüdülmüş qoz, şəkər tozu, hilini qarışdırın.", "duration": 5 },
+          { "step": 6, "instruction": "Xəmirdən qoz böyüklüyündə kürəciklər kəsin. Hər birini 7-8 sm dairəyə açın, kənarlarını mərkəzdən bir az nazik açın.", "duration": 15 },
+          { "step": 7, "instruction": "Hər dairənin mərkəzinə dolu bir ç.q. doldurmaq qoyun, qatlayıb yarım ay şəklinda kənarlarını möhkəmcə yapışdırın.", "duration": 15 },
+          { "step": 8, "instruction": "Əncirəli ənənəvi ip naxışını hazırlayın: baş barmaq ve işarə barmağınızla əyri kənarı sıx, ardıcıl bükümlü ip naxışı şəklinde qıstırın — bu şəkərburanın imzasıdır.", "duration": 20 },
+          { "step": 9, "instruction": "Kağızla örtülmüş tepsiye düzün. Yumurta sarısı + zəfəran suyu ilə yüngülcə sürtün.", "duration": 5 },
+          { "step": 10, "instruction": "175°C-də 20-22 dəqiqə açıq sarı rəng alana qədər bişirin. Çox qızardmayın.", "duration": 22 },
+          { "step": 11, "instruction": "Soyudun, üzərinə şəkər tozu səpin. Hava keçirməz qabda otaq temperaturunda 10 günə qədər saxlanır.", "duration": 8 }
+        ]
+      },
+      "ru": {
+        "title": "Шекербура (Полумесяц с Ореховой Начинкой)",
+        "description": "Нежные полумесяцы из мягкого дрожжевого теста с витым узором по краю, наполненные смесью молотых орехов, сахара и кардамона. Шекербура — один из трёх священных сладостей Новруза; полумесяц символизирует луну.",
+        "ingredients": [
+          { "name": "Мука", "amount": "4 стакана" },
+          { "name": "Сливочное масло, размягчённое", "amount": "200 г" },
+          { "name": "Желтки яиц", "amount": "3 шт." },
+          { "name": "Тёплое молоко", "amount": "0,5 стакана" },
+          { "name": "Сухие дрожжи", "amount": "1 ч.л." },
+          { "name": "Сахарная пудра (в тесто)", "amount": "2 ст.л." },
+          { "name": "Грецкие орехи или миндаль, молотые", "amount": "2 стакана" },
+          { "name": "Сахарная пудра (для начинки)", "amount": "1 стакан" },
+          { "name": "Кардамон молотый", "amount": "1 ч.л." },
+          { "name": "Желток + шафранная вода (для смазки)", "amount": "1 желток + 1 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Растворите дрожжи в тёплом молоке с сахарной пудрой, оставьте на 5-10 минут до образования пены.", "duration": 10 },
+          { "step": 2, "instruction": "Просейте муку в миску. Втирайте мягкое масло до мелкой крошки.", "duration": 8 },
+          { "step": 3, "instruction": "Добавьте желтки и дрожжевую смесь. Замесите мягкое не липкое тесто.", "duration": 10 },
+          { "step": 4, "instruction": "Накройте и дайте отдохнуть 30 минут при комнатной температуре.", "duration": 30 },
+          { "step": 5, "instruction": "Смешайте молотые орехи, сахарную пудру и кардамон.", "duration": 5 },
+          { "step": 6, "instruction": "Отщипывайте кусочки теста размером с грецкий орех, раскатывайте в кружки 7-8 см.", "duration": 15 },
+          { "step": 7, "instruction": "В центр кладите по чайной ложке начинки, складывайте в полумесяц и плотно защипывайте края.", "duration": 15 },
+          { "step": 8, "instruction": "Создайте традиционный витой узор по изогнутому краю, защипывая большим и указательным пальцами — это фирменный знак шекербуры.", "duration": 20 },
+          { "step": 9, "instruction": "Выложите на пергамент, смажьте смесью желтка и шафранной воды.", "duration": 5 },
+          { "step": 10, "instruction": "Выпекайте при 175°C 20-22 минуты до светло-золотистого цвета — не передерживайте.", "duration": 22 },
+          { "step": 11, "instruction": "Остудите, обильно посыпьте сахарной пудрой. Хранится в герметичном контейнере до 10 дней.", "duration": 8 }
+        ]
+      },
+      "tr": {
+        "title": "Şekerbura (Hilal Şekilli Cevizli Tatlı)",
+        "description": "Yumuşak hafif mayalı hamurdan şekillendirilen, kenarları geleneksel ip motifiyle baskılanan, öğütülmüş ceviz, şeker ve kakule ile doldurulan hilal biçimli tatlılar. Şekerbura, Nevruz'un üç kutsal tatlısından biridir; hilal ayı simgeler.",
+        "ingredients": [
+          { "name": "Un", "amount": "4 su bardağı" },
+          { "name": "Tereyağı, yumuşatılmış", "amount": "200 g" },
+          { "name": "Yumurta sarısı", "amount": "3 adet" },
+          { "name": "Ilık süt", "amount": "0,5 su bardağı" },
+          { "name": "Kuru maya", "amount": "1 çay kaşığı" },
+          { "name": "Pudra şekeri (hamur için)", "amount": "2 yemek kaşığı" },
+          { "name": "Ceviz veya badem, ince öğütülmüş", "amount": "2 su bardağı" },
+          { "name": "Pudra şekeri (iç için)", "amount": "1 su bardağı" },
+          { "name": "Kakule, öğütülmüş", "amount": "1 çay kaşığı" },
+          { "name": "Yumurta sarısı + safran suyu (yüzey için)", "amount": "1 sarı + 1 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Mayayı ılık süt + pudra şekerinde eritin, 5-10 dakika köpüklenene dek bekletin.", "duration": 10 },
+          { "step": 2, "instruction": "Unu eleyip kasıya alın. Yumuşatılmış tereyağını ova ova ince kırıntıya dönüştürün.", "duration": 8 },
+          { "step": 3, "instruction": "Yumurta sarıları ve maya karışımını ekleyin; yumuşak, yapışmayan hamur yoğurun.", "duration": 10 },
+          { "step": 4, "instruction": "Örtün, oda sıcaklığında 30 dakika dinlendirin.", "duration": 30 },
+          { "step": 5, "instruction": "Öğütülmüş ceviz, pudra şekeri ve kakulei karıştırın.", "duration": 5 },
+          { "step": 6, "instruction": "Hamurdan ceviz büyüklüğünde parçalar koparın; her birini 7-8 cm çapa açın, kenarlarını ortadan ince açın.", "duration": 15 },
+          { "step": 7, "instruction": "Ortaya dolu bir çay kaşığı iç koyun, ikiye katladıktan sonra hilal biçiminde kenarları sıkıca kapatın.", "duration": 15 },
+          { "step": 8, "instruction": "Geleneksel ip motifini oluşturun: başparmak ve işaret parmağıyla kıvrımlı kenarı sıkıştırın — şekerburanın imzası budur.", "duration": 20 },
+          { "step": 9, "instruction": "Yağlı kağıt serili tepsiye dizin, yumurta sarısı + safran suyu karışımıyla hafifçe sürün.", "duration": 5 },
+          { "step": 10, "instruction": "175°C'de 20-22 dakika açık altın sarısı renk alana kadar pişirin. Fazla kızartmayın.", "duration": 22 },
+          { "step": 11, "instruction": "Soğutun, bol pudra şekeri serpin. Hava geçirmez kapta oda sıcaklığında 10 gün dayanır.", "duration": 8 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Badambura",
+    "translations": {
+      "en": {
+        "title": "Badambura (Almond Spiral Pastry)",
+        "description": "Flaky, layered pastries rolled into coils or spirals, filled with sweetened ground almonds and cardamom, baked to a pale golden hue and showered with powdered sugar. Badambura (literally 'almond bura') is the third sacred Novruz confection, symbolising the sun. Made with the same basic dough as şəkərbura but coiled into a round shape to mirror the sun disc, it is prized for its buttery, meltingly tender layers.",
+        "ingredients": [
+          { "name": "All-purpose flour", "amount": "3.5 cups" },
+          { "name": "Butter, softened", "amount": "180 g" },
+          { "name": "Egg yolks", "amount": "2" },
+          { "name": "Warm milk", "amount": "0.5 cup" },
+          { "name": "Dry yeast", "amount": "0.75 tsp" },
+          { "name": "Powdered sugar (for dough)", "amount": "2 tbsp" },
+          { "name": "Almonds, blanched and finely ground", "amount": "2 cups" },
+          { "name": "Powdered sugar (for filling)", "amount": "1 cup" },
+          { "name": "Cardamom, ground", "amount": "1 tsp" },
+          { "name": "Egg yolk + milk (for glaze)", "amount": "1 yolk + 1 tbsp" },
+          { "name": "Powdered sugar (for dusting after baking)", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Activate the yeast in warm milk with the powdered sugar for 5-10 minutes until frothy.", "duration": 10 },
+          { "step": 2, "instruction": "Sift the flour into a bowl. Work the softened butter into the flour with your fingertips until the mixture is crumbly.", "duration": 8 },
+          { "step": 3, "instruction": "Add the egg yolks and yeast mixture and knead into a smooth, soft, pliable dough.", "duration": 10 },
+          { "step": 4, "instruction": "Rest the dough covered for 30 minutes.", "duration": 30 },
+          { "step": 5, "instruction": "Mix the ground almonds with the powdered sugar and cardamom for the filling.", "duration": 4 },
+          { "step": 6, "instruction": "Roll the dough out very thinly — about 2-3 mm — on a lightly floured surface into a large rectangle.", "duration": 10 },
+          { "step": 7, "instruction": "Spread the almond filling evenly over the entire surface of the rolled dough.", "duration": 5 },
+          { "step": 8, "instruction": "Roll the dough tightly from one long edge, like a Swiss roll, to create a compact log. The filling should be snugly enclosed.", "duration": 5 },
+          { "step": 9, "instruction": "Cut the log into slices about 2-3 cm thick. Place each slice cut-side up on a parchment-lined tray — this reveals the spiral pattern.", "duration": 10 },
+          { "step": 10, "instruction": "Brush each badambura with the egg yolk and milk glaze.", "duration": 3 },
+          { "step": 11, "instruction": "Bake at 175°C for 20-25 minutes until very light golden — badambura should remain pale. Cool on a rack and dust generously with powdered sugar.", "duration": 25 }
+        ]
+      },
+      "az": {
+        "title": "Badambura",
+        "description": "Yüngül qalxan xəmirdən sarıma ya da spiral formasında bükülmüş, şirin badam tozu ve hil ilə doldurulmuş, açıq qızılı rəngə bişirilmiş, şəkər tozu ilə örtülmüş şirniyyat. Novruzun üçüncü müqəddəs şirniyyatı olan badambura günəşi simvolizə edir.",
+        "ingredients": [
+          { "name": "Un", "amount": "3,5 stəkan" },
+          { "name": "Kərə yağı, yumşaldılmış", "amount": "180 q" },
+          { "name": "Yumurta sarısı", "amount": "2 ədəd" },
+          { "name": "İlıq süd", "amount": "0,5 stəkan" },
+          { "name": "Quru maya", "amount": "0,75 ç.q." },
+          { "name": "Şəkər tozu (xəmir üçün)", "amount": "2 x.q." },
+          { "name": "Badam, ağardılmış, narın üyüdülmüş", "amount": "2 stəkan" },
+          { "name": "Şəkər tozu (doldurmaq üçün)", "amount": "1 stəkan" },
+          { "name": "Hil, üyüdülmüş", "amount": "1 ç.q." },
+          { "name": "Yumurta sarısı + süd (sürtmək üçün)", "amount": "1 sarı + 1 x.q." },
+          { "name": "Şəkər tozu (üzərinə)", "amount": "dada görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Mayanı ılıq süd + şəkər tozunda 5-10 dəqiqə köpüklənənə qədər həll edin.", "duration": 10 },
+          { "step": 2, "instruction": "Unu qaba ələyin. Yumşaldılmış yağı ovuşdurub xırda qırıntıya çevirin.", "duration": 8 },
+          { "step": 3, "instruction": "Yumurta sarıları və maya qarışımını əlavə edib hamar yumşaq xəmir yoğurun.", "duration": 10 },
+          { "step": 4, "instruction": "Örtün, 30 dəqiqə dincləyin.", "duration": 30 },
+          { "step": 5, "instruction": "Üyüdülmüş badamı şəkər tozu və hil ilə qarışdırın.", "duration": 4 },
+          { "step": 6, "instruction": "Xəmiri yüngülcə unlanmış səthdə 2-3 mm qalınlığında böyük düzbucaqlı şəklinde açın.", "duration": 10 },
+          { "step": 7, "instruction": "Badam doldurmanu bütün xəmir səthinə bərabər yayın.", "duration": 5 },
+          { "step": 8, "instruction": "Xəmiri uzun kənardan sıxlıqla rulon şəklinde bürün.", "duration": 5 },
+          { "step": 9, "instruction": "Rulonu 2-3 sm dilimləre kəsin, kəsilmiş tərəfi yuxarı olmaqla kağızla örtülmüş tepsiyə düzün — spiral naxış görünsün.", "duration": 10 },
+          { "step": 10, "instruction": "Hər birini yumurta sarısı + süd qarışımıyla sıvayın.", "duration": 3 },
+          { "step": 11, "instruction": "175°C-də 20-25 dəqiqə açıq qızılı olana qədər bişirin. Soyudun, bol şəkər tozu ilə örtün.", "duration": 25 }
+        ]
+      },
+      "ru": {
+        "title": "Бадамбура (Миндальные Спиральные Пирожные)",
+        "description": "Слоистые спиральные пирожные из нежного теста с начинкой из молотого миндаля, сахара и кардамона, запечённые до светло-золотистого цвета и осыпанные сахарной пудрой. Бадамбура — третья священная новрузовская сладость, символизирующая солнце.",
+        "ingredients": [
+          { "name": "Мука", "amount": "3,5 стакана" },
+          { "name": "Сливочное масло, размягчённое", "amount": "180 г" },
+          { "name": "Желтки яиц", "amount": "2 шт." },
+          { "name": "Тёплое молоко", "amount": "0,5 стакана" },
+          { "name": "Сухие дрожжи", "amount": "0,75 ч.л." },
+          { "name": "Сахарная пудра (в тесто)", "amount": "2 ст.л." },
+          { "name": "Миндаль, бланшированный, мелко молотый", "amount": "2 стакана" },
+          { "name": "Сахарная пудра (для начинки)", "amount": "1 стакан" },
+          { "name": "Кардамон молотый", "amount": "1 ч.л." },
+          { "name": "Желток + молоко (для смазки)", "amount": "1 желток + 1 ст.л." },
+          { "name": "Сахарная пудра (для посыпки)", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Растворите дрожжи в тёплом молоке с сахарной пудрой, выдержите 5-10 минут.", "duration": 10 },
+          { "step": 2, "instruction": "Просейте муку. Втирайте мягкое масло до мелкой крошки.", "duration": 8 },
+          { "step": 3, "instruction": "Добавьте желтки и дрожжевую смесь, замесите мягкое гладкое тесто.", "duration": 10 },
+          { "step": 4, "instruction": "Накройте и дайте отдохнуть 30 минут.", "duration": 30 },
+          { "step": 5, "instruction": "Смешайте молотый миндаль, сахарную пудру и кардамон.", "duration": 4 },
+          { "step": 6, "instruction": "Раскатайте тесто в тонкий пласт (2-3 мм) в виде прямоугольника.", "duration": 10 },
+          { "step": 7, "instruction": "Равномерно распределите миндальную начинку по всей поверхности.", "duration": 5 },
+          { "step": 8, "instruction": "Туго сверните в рулет со стороны длинного края.", "duration": 5 },
+          { "step": 9, "instruction": "Нарежьте рулет кусочками по 2-3 см, выложите срезом вверх на пергамент — виден спиральный узор.", "duration": 10 },
+          { "step": 10, "instruction": "Смажьте смесью желтка и молока.", "duration": 3 },
+          { "step": 11, "instruction": "Выпекайте при 175°C 20-25 минут до светло-золотистого цвета. Остудите и щедро посыпьте сахарной пудрой.", "duration": 25 }
+        ]
+      },
+      "tr": {
+        "title": "Badambura (Bademli Spiral Tatlı)",
+        "description": "Pul pul açılan hamurdan sarmal biçiminde şekillendirilen, öğütülmüş badem, şeker ve kakuleyle doldurulan, açık altın rengi alana dek pişirilip pudra şekeriyle kaplanan tatlılar. Nevruz'un üçüncü kutsal tatlısı olan badambura güneşi simgeler.",
+        "ingredients": [
+          { "name": "Un", "amount": "3,5 su bardağı" },
+          { "name": "Tereyağı, yumuşatılmış", "amount": "180 g" },
+          { "name": "Yumurta sarısı", "amount": "2 adet" },
+          { "name": "Ilık süt", "amount": "0,5 su bardağı" },
+          { "name": "Kuru maya", "amount": "0,75 çay kaşığı" },
+          { "name": "Pudra şekeri (hamur için)", "amount": "2 yemek kaşığı" },
+          { "name": "Badem, haşlanmış kabuğu soyulmuş, ince öğütülmüş", "amount": "2 su bardağı" },
+          { "name": "Pudra şekeri (iç için)", "amount": "1 su bardağı" },
+          { "name": "Kakule, öğütülmüş", "amount": "1 çay kaşığı" },
+          { "name": "Yumurta sarısı + süt (yüzey için)", "amount": "1 sarı + 1 yemek kaşığı" },
+          { "name": "Pudra şekeri (üzerine)", "amount": "tadına göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Mayayı ılık süt + pudra şekerinde 5-10 dakika köpüklenene dek eritin.", "duration": 10 },
+          { "step": 2, "instruction": "Unu eleyip kasıya alın. Yumuşatılmış tereyağını ova ova ince kırıntıya dönüştürün.", "duration": 8 },
+          { "step": 3, "instruction": "Yumurta sarıları ve maya karışımını ekleyin; yumuşak, pürüzsüz hamur yoğurun.", "duration": 10 },
+          { "step": 4, "instruction": "Örtün, 30 dakika dinlendirin.", "duration": 30 },
+          { "step": 5, "instruction": "Öğütülmüş bademi pudra şekeri ve kakuleyle karıştırın.", "duration": 4 },
+          { "step": 6, "instruction": "Hamuru hafifçe unlanmış yüzeyde 2-3 mm inceliğinde büyük dikdörtgen açın.", "duration": 10 },
+          { "step": 7, "instruction": "Badem içini tüm hamur yüzeyine eşit yayın.", "duration": 5 },
+          { "step": 8, "instruction": "Uzun kenardan sıkıca rulo şeklinde sarın.", "duration": 5 },
+          { "step": 9, "instruction": "Ruloyu 2-3 cm dilimlerine kesin, kesik yüzü yukarı gelecek şekilde yağlı kağıt serili tepsiye dizin — spiral motif görünsün.", "duration": 10 },
+          { "step": 10, "instruction": "Her birini yumurta sarısı + süt karışımıyla sürün.", "duration": 3 },
+          { "step": 11, "instruction": "175°C'de 20-25 dakika açık altın rengi alana kadar pişirin. Soğutup bol pudra şekeri serpin.", "duration": 25 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Halva",
+    "translations": {
+      "en": {
+        "title": "Halva (Azerbaijani Wheat or Flour Halva)",
+        "description": "Flour roasted slowly in generous clarified butter until it turns fragrant and light brown, then enriched with sugar syrup and saffron to form a meltingly soft, butterscotch-scented confection. Azerbaijani halva bears little resemblance to the crumbly tahini-based version familiar in other parts of the Middle East — it is a warm, porridge-like pudding that sets as it cools, cut into squares and garnished with crushed almonds. Made for gatherings, funerals and religious occasions.",
+        "ingredients": [
+          { "name": "All-purpose flour", "amount": "2 cups" },
+          { "name": "Clarified butter (ghee) or unsalted butter", "amount": "150 g" },
+          { "name": "Water", "amount": "1.5 cups" },
+          { "name": "Sugar", "amount": "1 cup" },
+          { "name": "Saffron, bloomed in 3 tbsp hot water", "amount": "0.5 tsp" },
+          { "name": "Crushed almonds or walnuts (to garnish)", "amount": "0.5 cup" },
+          { "name": "Cardamom, ground (optional)", "amount": "0.25 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Make the syrup: combine water and sugar in a small saucepan and bring to a boil, stirring to dissolve. Add the saffron water and remove from the heat. Set aside — the syrup should be warm when added to the flour.", "duration": 8 },
+          { "step": 2, "instruction": "In a large heavy-bottomed pan or wok, melt the clarified butter over medium-low heat until liquid and shimmering.", "duration": 3 },
+          { "step": 3, "instruction": "Add the flour all at once and stir constantly with a wooden spoon or heatproof spatula. The flour must be kept in constant motion to prevent burning.", "duration": 3 },
+          { "step": 4, "instruction": "Continue cooking and stirring over medium-low heat for 15-20 minutes. The flour will gradually change from raw white to light beige to a deeper golden tan colour. The moment you smell a toasted, nutty, almost caramel-like fragrance and the mixture looks dry and sandy, it is done.", "duration": 20 },
+          { "step": 5, "instruction": "Reduce the heat to its lowest setting. Carefully and gradually pour the warm saffron syrup into the roasted flour, stirring vigorously — it will sputter and steam. Keep stirring to break up lumps.", "duration": 5 },
+          { "step": 6, "instruction": "Continue stirring on low heat until all the syrup is absorbed and the halva pulls away from the sides of the pan in a smooth, cohesive mass.", "duration": 5 },
+          { "step": 7, "instruction": "If using, stir in the cardamom. Remove from the heat.", "duration": 2 },
+          { "step": 8, "instruction": "Spoon the hot halva onto a lightly greased plate or tray. Smooth the surface with a dampened spoon or spatula and garnish with crushed almonds or walnuts.", "duration": 5 },
+          { "step": 9, "instruction": "Let the halva cool and set for at least 30 minutes. Once set, cut into squares or diamond shapes and serve at room temperature. Halva is best eaten the day it is made.", "duration": 30 }
+        ]
+      },
+      "az": {
+        "title": "Halva",
+        "description": "Un bol sərqərmiş yağda yavaş-yavaş qızardılır, şəkər şərbəti ve zəfəranla zənginləşdirilir, əriyən yumşaq, karamel qoxulu bir konfeksiona çevrilir. Azərbaycan halvası isti topluluqlar, dini mərasimlər üçün hazırlanır.",
+        "ingredients": [
+          { "name": "Un", "amount": "2 stəkan" },
+          { "name": "Sərqərmiş yağ (ghee) ya da kərə yağı", "amount": "150 q" },
+          { "name": "Su", "amount": "1,5 stəkan" },
+          { "name": "Şəkər", "amount": "1 stəkan" },
+          { "name": "Zəfəran (3 x.q. isti suda həll edilmiş)", "amount": "0,5 ç.q." },
+          { "name": "Xırdalanmış badam ya da qoz (bəzək üçün)", "amount": "0,5 stəkan" },
+          { "name": "Hil, üyüdülmüş (isteğe bağlı)", "amount": "0,25 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Şərbəti hazırlayın: su + şəkəri qaynədın, həll edin. Zəfəran suyunu əlavə edin, oddan götürün. İsti saxlayın.", "duration": 8 },
+          { "step": 2, "instruction": "Böyük ağır dibli tavada ya da qazanda sərqərmiş yağı orta-aşağı istilikdə əridin.", "duration": 3 },
+          { "step": 3, "instruction": "Unu birdən əlavə edin, taxta qaşıqla daim qarışdırın — yanmasın deyə hərəkəti dayandırmayın.", "duration": 3 },
+          { "step": 4, "instruction": "Orta-aşağı istilikdə 15-20 dəqiqə qarışdıra-qarışdıra bişirin. Un tədricən açıq sarı, sonra qızılı-qaramel rəngini alacaq. Qovurulmuş, fındıqlı, karamel qoxusu gəlincə hazırdır.", "duration": 20 },
+          { "step": 5, "instruction": "Istiliyi ən aşağı səviyyəyə endir. İsti zəfəran şərbətini tədricən əlavə edərək güclü qarışdırın — çatlayıb buxar çıxacaq. Topakları qırın.", "duration": 5 },
+          { "step": 6, "instruction": "Bütün şərbət sorulana qədər aşağı istilikdə qarışdırmağa davam edin — halva tavanın kənarlarından ayrılmalıdır.", "duration": 5 },
+          { "step": 7, "instruction": "İstəsəniz hil əlavə edin. Oddan götürün.", "duration": 2 },
+          { "step": 8, "instruction": "İsti halvanı yüngülcə yağlanmış nimçəyə ya da tepsiyə tökün. Nəmləndirilmiş qaşıqla hamarlandırın. Xırdalanmış badam ilə bəzəyin.", "duration": 5 },
+          { "step": 9, "instruction": "Ən az 30 dəqiqə soyuyub bərkisinə qoyun. Sonra kare ya da romb şəklinde kəsin, otaq temperaturunda verin.", "duration": 30 }
+        ]
+      },
+      "ru": {
+        "title": "Халва Азербайджанская (Мучная Халва)",
+        "description": "Мука, медленно обжаренная в топлёном масле до коричневатого оттенка, обогащённая сахарным сиропом и шафраном до состояния тающей, ароматной конфеты. Азербайджанская халва делается для собраний, религиозных поводов и траурных церемоний.",
+        "ingredients": [
+          { "name": "Мука", "amount": "2 стакана" },
+          { "name": "Топлёное масло (или сливочное)", "amount": "150 г" },
+          { "name": "Вода", "amount": "1,5 стакана" },
+          { "name": "Сахар", "amount": "1 стакан" },
+          { "name": "Шафран (настоянный на 3 ст.л. горячей воды)", "amount": "0,5 ч.л." },
+          { "name": "Дроблёный миндаль или грецкие орехи", "amount": "0,5 стакана" },
+          { "name": "Кардамон молотый (по желанию)", "amount": "0,25 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Сварите сироп: вскипятите воду с сахаром, помешивая, добавьте шафранную воду. Снимите с огня, держите тёплым.", "duration": 8 },
+          { "step": 2, "instruction": "Растопите топлёное масло в большой тяжёлой сковороде на среднем огне.", "duration": 3 },
+          { "step": 3, "instruction": "Всыпьте муку и сразу начните непрерывно помешивать деревянной ложкой.", "duration": 3 },
+          { "step": 4, "instruction": "Жарьте 15-20 минут, постоянно помешивая, пока мука не станет светло-золотистой и не появится запах поджаренного ореха или карамели.", "duration": 20 },
+          { "step": 5, "instruction": "Убавьте огонь до минимума. Медленно вливайте тёплый сироп, интенсивно помешивая — будет шипеть и брызгать. Разбивайте комочки.", "duration": 5 },
+          { "step": 6, "instruction": "Продолжайте помешивать на слабом огне до полного впитывания сиропа; масса должна отставать от стенок.", "duration": 5 },
+          { "step": 7, "instruction": "Добавьте кардамон, если используете. Снимите с огня.", "duration": 2 },
+          { "step": 8, "instruction": "Выложите горячую халву на смазанное блюдо, разровняйте влажной ложкой. Украсьте дроблёными орехами.", "duration": 5 },
+          { "step": 9, "instruction": "Дайте остыть и застыть не менее 30 минут. Нарежьте квадратами или ромбами. Подавайте при комнатной температуре.", "duration": 30 }
+        ]
+      },
+      "tr": {
+        "title": "Helva (Azerbaycan Un Helvası)",
+        "description": "Un, bol arıtılmış tereyağında yavaşça kızartılıp şeker şerbeti ve safranla zenginleştirilerek ağızda eriyen, karamel kokulu bir tatlıya dönüşür. Azerbaycan helvası toplantılarda ve dini törenlerde yapılır.",
+        "ingredients": [
+          { "name": "Un", "amount": "2 su bardağı" },
+          { "name": "Arıtılmış tereyağı (ghee) ya da sade tereyağı", "amount": "150 g" },
+          { "name": "Su", "amount": "1,5 su bardağı" },
+          { "name": "Şeker", "amount": "1 su bardağı" },
+          { "name": "Safran (3 yemek kaşığı sıcak suda bekletilmiş)", "amount": "0,5 çay kaşığı" },
+          { "name": "Kıyılmış badem veya ceviz (süsleme)", "amount": "0,5 su bardağı" },
+          { "name": "Kakule, öğütülmüş (isteğe bağlı)", "amount": "0,25 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Şerbeti yapın: su ve şekeri kaynatın, safran suyunu ekleyin. Ateşten alın, ılık tutun.", "duration": 8 },
+          { "step": 2, "instruction": "Büyük kalın dipli tavada arıtılmış tereyağını orta-kısık ateşte eritin.", "duration": 3 },
+          { "step": 3, "instruction": "Unu bir anda ekleyin, tahta kaşıkla sürekli karıştırmaya başlayın.", "duration": 3 },
+          { "step": 4, "instruction": "Orta-kısık ateşte 15-20 dakika sürekli karıştırarak kızartın. Un açık sarıdan altın-karamel rengine dönüşünce ve kavrulmuş fındık/karamel kokusu gelince hazırdır.", "duration": 20 },
+          { "step": 5, "instruction": "Ateşi en kısık hale getirin. Ilık şerbeti yavaşça döküp güçlü karıştırın — çıtırtı ve buhar çıkar. Topakları kırın.", "duration": 5 },
+          { "step": 6, "instruction": "Tüm şerbet emilene ve helva tava kenarından ayrılana dek kısık ateşte karıştırmayı sürdürün.", "duration": 5 },
+          { "step": 7, "instruction": "İsteğe bağlı kakulei ekleyin. Ateşten alın.", "duration": 2 },
+          { "step": 8, "instruction": "Sıcak helvayı hafifçe yağlanmış tabağa ya da tepsiye aktarın. Islak kaşıkla düzeltin. Kıyılmış bademi serpin.", "duration": 5 },
+          { "step": 9, "instruction": "En az 30 dakika soğuyup katılaşmasını bekleyin. Kare veya eşkenar dörtgen şeklinde kesin, oda sıcaklığında servis yapın.", "duration": 30 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Firni",
+    "translations": {
+      "en": {
+        "title": "Firni (Creamy Rice Flour Pudding)",
+        "description": "A smooth, silky pudding made from rice flour cooked with whole milk until thick and creamy, sweetened with sugar and perfumed with rosewater and cardamom. Firni is the Azerbaijani and Persian rice pudding, lighter and more delicate than rice-grain kheer, with a clean ivory colour and an elegant floral fragrance. It is traditionally poured into individual bowls and served cold, garnished with crushed pistachios and sometimes a pinch of saffron for colour.",
+        "ingredients": [
+          { "name": "Rice flour", "amount": "0.5 cup" },
+          { "name": "Whole milk", "amount": "4 cups" },
+          { "name": "Sugar", "amount": "0.5 cup" },
+          { "name": "Rosewater", "amount": "2 tbsp" },
+          { "name": "Cardamom, ground", "amount": "0.25 tsp" },
+          { "name": "Saffron, bloomed in 1 tbsp hot water (optional)", "amount": "pinch" },
+          { "name": "Pistachios, crushed (to garnish)", "amount": "3 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "If using saffron, bloom it in 1 tablespoon of hot water. Set aside.", "duration": 5 },
+          { "step": 2, "instruction": "Measure the rice flour into a large heavy-bottomed saucepan. Gradually whisk in about 1 cup of the cold milk, a little at a time, until the flour is fully dissolved and lump-free. Then whisk in the remaining 3 cups of milk.", "duration": 6 },
+          { "step": 3, "instruction": "Place the saucepan over medium heat and cook, stirring constantly with a whisk or wooden spoon. The mixture must be stirred at all times to prevent the flour from settling and scorching on the bottom.", "duration": 5 },
+          { "step": 4, "instruction": "As the milk heats, it will begin to thicken. Continue cooking and stirring for 12-15 minutes until the pudding is thick enough to coat the back of a spoon and has lost its raw starchy taste.", "duration": 15 },
+          { "step": 5, "instruction": "Add the sugar and stir until completely dissolved. The firni will thicken a little more as the sugar incorporates.", "duration": 3 },
+          { "step": 6, "instruction": "Remove from the heat. Stir in the rosewater, cardamom and saffron water if using.", "duration": 2 },
+          { "step": 7, "instruction": "Pour immediately into individual serving bowls or a large serving dish — the firni will continue to set as it cools.", "duration": 3 },
+          { "step": 8, "instruction": "Garnish with crushed pistachios. Allow to cool to room temperature, then refrigerate for at least 2 hours until chilled and fully set.", "duration": 5 },
+          { "step": 9, "instruction": "Serve cold, directly from the bowls. Firni keeps refrigerated for 2-3 days, covered.", "duration": 2 }
+        ]
+      },
+      "az": {
+        "title": "Firni",
+        "description": "Düyü unundan süd ilə hazırlanan hamar, ipəksi pudinq; şəkər, gül suyu və hil ilə dadlandırılır. Firni Azərbaycan mətbəxinin zərif südlü desertidir — fərdi qablara tökülür, soyuq verilir, püstə ilə bəzədirlir.",
+        "ingredients": [
+          { "name": "Düyü unu", "amount": "0,5 stəkan" },
+          { "name": "Tam yağlı süd", "amount": "4 stəkan" },
+          { "name": "Şəkər", "amount": "0,5 stəkan" },
+          { "name": "Gül suyu", "amount": "2 x.q." },
+          { "name": "Hil, üyüdülmüş", "amount": "0,25 ç.q." },
+          { "name": "Zəfəran (1 x.q. isti suda həll edilmiş, isteğe bağlı)", "amount": "bir çərtmə" },
+          { "name": "Püstə, xırdalanmış (bəzək üçün)", "amount": "3 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "İstəsəniz zəfəranı 1 x.q. isti suda həll edin, kənara qoyun.", "duration": 5 },
+          { "step": 2, "instruction": "Düyü ununu böyük ağır dibli qazana töküm, 1 stəkan soyuq südü tədricən əlavə edərək topaksız məhlul alın. Sonra qalan 3 stəkan südü əlavə edin.", "duration": 6 },
+          { "step": 3, "instruction": "Orta istilikdə daim qarışdırararaq qızdırın — alt tarafı yanmaması üçün hərəkəti dayandırmayın.", "duration": 5 },
+          { "step": 4, "instruction": "12-15 dəqiqə qarışdıra-qarışdıra bişirin — qaşığın arxasını örtəcəklüyündə hazırdır.", "duration": 15 },
+          { "step": 5, "instruction": "Şəkər əlavə edin, tamamilə həll oluna qədər qarışdırın.", "duration": 3 },
+          { "step": 6, "instruction": "Oddan götürün. Gül suyu, hil ve istəsəniz zəfəran suyunu əlavə edin.", "duration": 2 },
+          { "step": 7, "instruction": "Dərhal fərdi qablara ya da böyük nimçəyə tökün — firni soyudaçan qatılaşır.", "duration": 3 },
+          { "step": 8, "instruction": "Xırdalanmış püstə ilə bəzəyin. Otaq temperaturuna soyudun, sonra ən az 2 saat soyuducuya qoyun.", "duration": 5 },
+          { "step": 9, "instruction": "Soyuq verin. Örtülü soyuducuda 2-3 gün saxlanır.", "duration": 2 }
+        ]
+      },
+      "ru": {
+        "title": "Фирни (Рисовый Пудинг)",
+        "description": "Гладкий шелковистый пудинг из рисовой муки, сваренный на цельном молоке до кремовой густоты, подслащённый сахаром и ароматизированный розовой водой и кардамоном. Фирни — изысканный молочный десерт Азербайджана, подаётся холодным с украшением из фисташек.",
+        "ingredients": [
+          { "name": "Рисовая мука", "amount": "0,5 стакана" },
+          { "name": "Цельное молоко", "amount": "4 стакана" },
+          { "name": "Сахар", "amount": "0,5 стакана" },
+          { "name": "Розовая вода", "amount": "2 ст.л." },
+          { "name": "Кардамон молотый", "amount": "0,25 ч.л." },
+          { "name": "Шафран (настоянный на 1 ст.л. горячей воды, по желанию)", "amount": "щепотка" },
+          { "name": "Фисташки, дроблёные (для подачи)", "amount": "3 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Если используете шафран, настойте его в 1 ст.л. горячей воды.", "duration": 5 },
+          { "step": 2, "instruction": "Всыпьте рисовую муку в кастрюлю с толстым дном. Постепенно вливайте 1 стакан холодного молока, разбивая комочки. Добавьте остальные 3 стакана молока.", "duration": 6 },
+          { "step": 3, "instruction": "Нагревайте на среднем огне, непрерывно помешивая — иначе мука осядет и пригорит.", "duration": 5 },
+          { "step": 4, "instruction": "Варите 12-15 минут, помешивая, пока пудинг не загустеет и не покроет ложку.", "duration": 15 },
+          { "step": 5, "instruction": "Добавьте сахар и мешайте до растворения.", "duration": 3 },
+          { "step": 6, "instruction": "Снимите с огня. Добавьте розовую воду, кардамон и шафранную воду.", "duration": 2 },
+          { "step": 7, "instruction": "Немедленно разлейте по порционным мискам или в большое блюдо — фирни загустеет при охлаждении.", "duration": 3 },
+          { "step": 8, "instruction": "Украсьте дроблёными фисташками. Охладите до комнатной температуры, затем уберите в холодильник минимум на 2 часа.", "duration": 5 },
+          { "step": 9, "instruction": "Подавайте холодным. Хранится в холодильнике 2-3 дня под крышкой.", "duration": 2 }
+        ]
+      },
+      "tr": {
+        "title": "Firni (Kremsi Pirinç Unu Muhallebisi)",
+        "description": "Pirinç ununun tam yağlı sütle pişirilmesiyle elde edilen pürüzsüz, ipeksi puding; şeker, gülsuyu ve kakuleyle tatlandırılır. Firni, Azerbaycan mutfağının zarif sütlü tatlısıdır; tek kişilik kaselere dökülüp soğuk, fıstık serpilerek servis edilir.",
+        "ingredients": [
+          { "name": "Pirinç unu", "amount": "0,5 su bardağı" },
+          { "name": "Tam yağlı süt", "amount": "4 su bardağı" },
+          { "name": "Şeker", "amount": "0,5 su bardağı" },
+          { "name": "Gülsuyu", "amount": "2 yemek kaşığı" },
+          { "name": "Kakule, öğütülmüş", "amount": "0,25 çay kaşığı" },
+          { "name": "Safran (1 yemek kaşığı sıcak suda bekletilmiş, isteğe bağlı)", "amount": "bir tutam" },
+          { "name": "Fıstık, kıyılmış (süsleme)", "amount": "3 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "İsteğe bağlı safrancı 1 yemek kaşığı sıcak suda 5 dakika bekletin.", "duration": 5 },
+          { "step": 2, "instruction": "Pirinç ununu kalın dipli tencereye alın. 1 bardak soğuk sütü yavaşça ekleyip topaklık kalmayana dek çırpın. Kalan 3 bardak sütü ekleyin.", "duration": 6 },
+          { "step": 3, "instruction": "Orta ateşte sürekli karıştırarak ısıtın — durursanız un dibe çöküp yanar.", "duration": 5 },
+          { "step": 4, "instruction": "12-15 dakika karıştırarak pişirin; kaşığın arkasını kaplayacak kıvama gelince hazırdır.", "duration": 15 },
+          { "step": 5, "instruction": "Şekeri ekleyin, tamamen eriyene dek karıştırın.", "duration": 3 },
+          { "step": 6, "instruction": "Ateşten alın. Gülsuyu, kakule ve isteğe bağlı safran suyunu ekleyin.", "duration": 2 },
+          { "step": 7, "instruction": "Hemen tek kişilik kaselere ya da büyük tatlı tabağına dökün — soğudukça katılaşır.", "duration": 3 },
+          { "step": 8, "instruction": "Kıyılmış fıstık serpin. Oda sıcaklığında soğutun, ardından en az 2 saat buzdolabında bekletin.", "duration": 5 },
+          { "step": 9, "instruction": "Soğuk servis yapın. Kapalı buzdolabında 2-3 gün dayanır.", "duration": 2 }
+        ]
+      }
+    }
+  }
+]

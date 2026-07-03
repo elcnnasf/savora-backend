@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.log
+
+.vs/
+scripts/
+
+# local test scripts contain account credentials
+test.ps1
+test-features.ps1

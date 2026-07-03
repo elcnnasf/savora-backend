@@ -1,0 +1,628 @@
+[
+  {
+    "title": "Qovurma",
+    "translations": {
+      "en": {
+        "title": "Qovurma (Azerbaijani Preserved Lamb)",
+        "description": "A cornerstone of Azerbaijani cooking, qovurma is lamb slow-cooked in its own rendered fat until meltingly tender and deeply savory. Traditionally prepared in autumn and stored under a seal of fat in clay vessels to preserve the meat through winter. When reheated, the richly flavored meat is used as a topping for plov, stuffed into qutab or eaten simply with bread.",
+        "ingredients": [
+          { "name": "Lamb shoulder, cubed", "amount": "1 kg" },
+          { "name": "Lamb tail fat, cubed", "amount": "200 g" },
+          { "name": "Onions, finely sliced", "amount": "2 large" },
+          { "name": "Salt", "amount": "2 tsp" },
+          { "name": "Black pepper", "amount": "1 tsp" },
+          { "name": "Saffron, dissolved in 1 tbsp warm water", "amount": "0.25 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Place the cubed lamb tail fat in a heavy-bottomed pot over low heat and render slowly for 15-20 minutes, stirring occasionally, until all the fat has melted and the solids are golden cracklings.", "duration": 20 },
+          { "step": 2, "instruction": "Remove the cracklings with a slotted spoon and set aside. Increase the heat to medium-high and add the lamb cubes in a single layer, searing without stirring until deeply browned on all sides — about 10-12 minutes.", "duration": 12 },
+          { "step": 3, "instruction": "Add the sliced onions to the browned lamb and stir to coat in the fat. Cook for 8-10 minutes until the onions are golden and soft.", "duration": 10 },
+          { "step": 4, "instruction": "Season generously with salt and black pepper, add the saffron water and stir to combine.", "duration": 2 },
+          { "step": 5, "instruction": "Reduce the heat to very low, cover the pot tightly and braise for 80-90 minutes, stirring every 20 minutes, until the lamb is completely tender and the liquid has largely evaporated.", "duration": 90 },
+          { "step": 6, "instruction": "Uncover and cook for a further 10 minutes, allowing any remaining liquid to cook off so the meat fries gently in the rendered fat.", "duration": 10 },
+          { "step": 7, "instruction": "Taste and adjust seasoning. The qovurma is ready when the meat is very tender, richly brown and surrounded by clear rendered fat.", "duration": 3 },
+          { "step": 8, "instruction": "Serve hot over saffron plov, or cool completely and store submerged under the rendered fat in an airtight jar in the refrigerator for up to 2 weeks.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Qovurma",
+        "description": "Azərbaycan mətbəxinin özəyi olan qovurma, quzunun öz yağında yavaş-yavaş bişirilməsiylə hazırlanır. Ənənəvi olaraq payızda hazırlanıb qışı saxlamaq üçün kil qablarda yağ örtüyü altında saxlanılır. Isidıldıqda zəngin dadlı ət plovun üstünə qoyulur, qutabın içinə doldurulur ya da sadəcə çörəklə yeyilir.",
+        "ingredients": [
+          { "name": "Quzu kürəyi, doğranmış", "amount": "1 kq" },
+          { "name": "Quyruq yağı, doğranmış", "amount": "200 q" },
+          { "name": "Soğan, nazik dilimlənmiş", "amount": "2 iri" },
+          { "name": "Duz", "amount": "2 ç.q." },
+          { "name": "Qara biber", "amount": "1 ç.q." },
+          { "name": "Zəfəran (1 x.q. isti suda həll olunmuş)", "amount": "0,25 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Doğranmış quyruq yağını ağır dibli qazana qoyun, aşağı istilikdə tez-tez qarışdıraraq 15-20 dəqiqə yağı süzün, qızılı qabarıqlara çevrilənə qədər qızardın.", "duration": 20 },
+          { "step": 2, "instruction": "Qabarıqları çıxarın. İstiyi ortadan yuxarıya qaldırın, quzu parçalarını bir qatda yerləşdirin, qarışdırmadan hər tərəfi tünd qonur rəng alana qədər 10-12 dəqiqə qızardın.", "duration": 12 },
+          { "step": 3, "instruction": "Soğanı əlavə edin, yağla örtülənə qədər qarışdırın. 8-10 dəqiqə qızılı və yumşaq olana qədər bişirin.", "duration": 10 },
+          { "step": 4, "instruction": "Duz, biber əlavə edin, zəfəran suyu tökün, qarışdırın.", "duration": 2 },
+          { "step": 5, "instruction": "İstiliyi çox azaldın, qazanı möhkəm örtün, hər 20 dəqiqədə bir qarışdıraraq 80-90 dəqiqə bişirin — ət tamamilə yumşalmalı, maye demək olar ki buxarlanmalıdır.", "duration": 90 },
+          { "step": 6, "instruction": "Qapağı açın, qalan mayeni buxarlandırmaq üçün daha 10 dəqiqə bişirin — ət yavaş-yavaş yağda qızarmalıdır.", "duration": 10 },
+          { "step": 7, "instruction": "Dadına baxın, lazım olsa ədviyyat əlavə edin. Ət çox yumşaq, tünd qonur rəngdə, aydın yağla əhatə olunmalıdır.", "duration": 3 },
+          { "step": 8, "instruction": "İsti zəfəranlı plovun üzərinə verin, ya da tamamilə soyudub yağ örtüyü altında 2 həftəyə qədər saxlayın.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Говурма (Азербайджанская Тушёная Баранина)",
+        "description": "Основа азербайджанской кухни — говурма — это баранина, медленно тушёная в собственном жире до состояния мягкой, насыщенной вкусом массы. Традиционно готовится осенью и хранится под слоем жира в глиняных сосудах на зиму. В разогретом виде подаётся поверх шафранового плова, используется как начинка для кутаба или просто с хлебом.",
+        "ingredients": [
+          { "name": "Баранья лопатка, кубиками", "amount": "1 кг" },
+          { "name": "Курдючный жир, кубиками", "amount": "200 г" },
+          { "name": "Лук, тонко нарезанный", "amount": "2 крупных" },
+          { "name": "Соль", "amount": "2 ч.л." },
+          { "name": "Чёрный перец", "amount": "1 ч.л." },
+          { "name": "Шафран (растворённый в 1 ст.л. тёплой воды)", "amount": "0,25 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Положите кубики курдючного жира в тяжёлую кастрюлю на слабый огонь и вытапливайте 15-20 минут, помешивая, пока жир не растает и шкварки не подрумянятся.", "duration": 20 },
+          { "step": 2, "instruction": "Уберите шкварки. Увеличьте огонь до средне-высокого, выложите баранину в один слой и жарьте без помешивания до тёмной румяной корочки со всех сторон, 10-12 минут.", "duration": 12 },
+          { "step": 3, "instruction": "Добавьте лук, перемешайте с жиром. Готовьте 8-10 минут до мягкости и золотистости.", "duration": 10 },
+          { "step": 4, "instruction": "Обильно посолите и поперчите, добавьте шафрановую воду, перемешайте.", "duration": 2 },
+          { "step": 5, "instruction": "Убавьте огонь до минимума, плотно накройте и тушите 80-90 минут, помешивая каждые 20 минут, пока мясо не станет мягким, а жидкость не выпарится.", "duration": 90 },
+          { "step": 6, "instruction": "Откройте крышку и готовьте ещё 10 минут — оставшаяся жидкость должна выпариться, мясо начнёт слегка жариться в жире.", "duration": 10 },
+          { "step": 7, "instruction": "Попробуйте и откорректируйте вкус. Говурма готова, когда мясо очень мягкое, тёмно-коричневое и окружено прозрачным жиром.", "duration": 3 },
+          { "step": 8, "instruction": "Подавайте горячим поверх шафранового плова или полностью охладите и храните под жиром в герметичной банке до 2 недель.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Qovurma (Azerbaycan Usulü Kuzu Kavurma)",
+        "description": "Azerbaycan mutfağının temel taşı olan qovurma; kuzunun kendi yağında yavaş pişirilerek çok yumuşak ve lezzetli bir hâle getirilmesiyle hazırlanır. Geleneksel olarak sonbaharda yapılır ve kış boyunca saklamak için kil kaplarda yağ altında muhafaza edilir. Isıtıldığında safran plovunun üzerine konulur, qutaba doldurulur ya da sadece ekmekle yenir.",
+        "ingredients": [
+          { "name": "Kuzu omuz, küp doğranmış", "amount": "1 kg" },
+          { "name": "Kuyruk yağı, küp doğranmış", "amount": "200 g" },
+          { "name": "Soğan, ince dilimlenmiş", "amount": "2 büyük" },
+          { "name": "Tuz", "amount": "2 çay kaşığı" },
+          { "name": "Karabiber", "amount": "1 çay kaşığı" },
+          { "name": "Safran (1 yemek kaşığı ılık suda eritilmiş)", "amount": "0,25 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Küp doğranmış kuyruk yağını ağır dipli bir tencereye koyun, kısık ateşte ara sıra karıştırarak 15-20 dakika yağı eritin; katı parçalar altın rengi kızarana dek bekleyin.", "duration": 20 },
+          { "step": 2, "instruction": "Kızarmış parçaları alın. Ateşi orta-yüksek yapın, kuzu parçalarını tek kat döşeyin, karıştırmadan her yüzü koyu kahverengi olana dek 10-12 dakika kavurun.", "duration": 12 },
+          { "step": 3, "instruction": "Soğanı ekleyin, yağla kaplanacak şekilde karıştırın. 8-10 dakika altın rengi ve yumuşak olana dek pişirin.", "duration": 10 },
+          { "step": 4, "instruction": "Bol tuz ve karabiber ekleyin, safran suyunu ilave edip karıştırın.", "duration": 2 },
+          { "step": 5, "instruction": "Ateşi kısın, tencereyi sıkıca kapatın; her 20 dakikada karıştırarak 80-90 dakika pişirin — et tamamen yumuşamalı, sıvı büyük ölçüde buharlaşmalıdır.", "duration": 90 },
+          { "step": 6, "instruction": "Kapağı açın, kalan sıvıyı buharlaştırmak için 10 dakika daha pişirin — et yavaşça yağda kızarmaya başlar.", "duration": 10 },
+          { "step": 7, "instruction": "Tadına bakın, gerekirse çeşni ekleyin. Et çok yumuşak, koyu kahverengi ve saydam yağla çevriliyse hazırdır.", "duration": 3 },
+          { "step": 8, "instruction": "Sıcak olarak safran plovunun üzerine koyup servis yapın ya da tamamen soğutup yağ içinde hava geçirmez bir kavanozda 2 haftaya kadar saklayın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Küftə",
+    "translations": {
+      "en": {
+        "title": "Küftə (Azerbaijani Lamb Meatballs)",
+        "description": "Tender, aromatic lamb meatballs mixed with rice, grated onion and fresh herbs, simmered in a light tomato and herb sauce until cooked through. A beloved everyday dish across Azerbaijan, küftə is comforting, filling and deeply flavored. The rice in the meatball mixture expands during cooking, keeping the meatballs moist and delicate.",
+        "ingredients": [
+          { "name": "Ground lamb", "amount": "600 g" },
+          { "name": "Short-grain rice, rinsed", "amount": "0.25 cup" },
+          { "name": "Onion, finely grated", "amount": "1 medium" },
+          { "name": "Fresh cilantro and parsley, finely chopped", "amount": "0.5 cup" },
+          { "name": "Egg", "amount": "1" },
+          { "name": "Salt, black pepper and turmeric", "amount": "to taste" },
+          { "name": "Tomatoes, chopped", "amount": "3" },
+          { "name": "Garlic, minced", "amount": "2 cloves" },
+          { "name": "Tomato paste", "amount": "1 tbsp" },
+          { "name": "Butter", "amount": "2 tbsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Combine the ground lamb, rinsed rice, grated onion, chopped herbs, egg, salt, pepper and turmeric in a bowl. Mix thoroughly with your hands for 5 minutes until the mixture becomes sticky and cohesive — this is essential for meatballs that hold together.", "duration": 8 },
+          { "step": 2, "instruction": "Cover the meatball mixture and refrigerate for 15 minutes to firm up, making shaping easier.", "duration": 15 },
+          { "step": 3, "instruction": "With wet hands, roll the mixture into smooth round balls, about 4-5 cm in diameter (roughly the size of a golf ball). Place on a plate.", "duration": 12 },
+          { "step": 4, "instruction": "Melt the butter in a wide pot over medium heat. Add the garlic and cook for 1 minute until fragrant. Add the tomato paste and stir for 1 minute.", "duration": 3 },
+          { "step": 5, "instruction": "Add the chopped tomatoes, season with salt and pepper and simmer for 8-10 minutes until the tomatoes break down into a sauce.", "duration": 10 },
+          { "step": 6, "instruction": "Add enough hot water to bring the sauce level up so the meatballs will be half submerged — about 1.5 cups.", "duration": 2 },
+          { "step": 7, "instruction": "Gently lower the meatballs one by one into the simmering sauce. Do not stir for the first 5 minutes or the meatballs may break apart.", "duration": 5 },
+          { "step": 8, "instruction": "Cover and simmer on low heat for 30-35 minutes, gently shaking the pot occasionally rather than stirring, until the meatballs are cooked through and the rice inside has expanded.", "duration": 35 },
+          { "step": 9, "instruction": "Taste the sauce and adjust seasoning. Scatter fresh herbs over the top and serve hot with bread or saffron rice.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Küftə",
+        "description": "Düyü, rəndələnmiş soğan və təzə otlarla qarışdırılmış nazik, ətirli quzu küftəsi tomat-ot sousunda bişirilir. Azərbaycanda sevimli gündəlik yemek olan küftə doyurucu və zəngin dadlıdır. Küftə içindəki düyü bişmə zamanı genişlənir, küftəni nəm və incə saxlayır.",
+        "ingredients": [
+          { "name": "Çəkilmiş quzu əti", "amount": "600 q" },
+          { "name": "Qısa taneli düyü, yuyulmuş", "amount": "0,25 stəkan" },
+          { "name": "Soğan, rəndələnmiş", "amount": "1 orta" },
+          { "name": "Kişniş və cəfəri, doğranmış", "amount": "0,5 stəkan" },
+          { "name": "Yumurta", "amount": "1 ədəd" },
+          { "name": "Duz, qara biber, sarıkök", "amount": "dada görə" },
+          { "name": "Pomidor, doğranmış", "amount": "3 ədəd" },
+          { "name": "Sarımsaq, doğranmış", "amount": "2 diş" },
+          { "name": "Tomat pastası", "amount": "1 x.q." },
+          { "name": "Kərə yağı", "amount": "2 x.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Qazı əti, düyü, soğan, otlar, yumurta, duz, biber və sarıköklü bir qabda qarışdırın. 5 dəqiqə əl ilə yaxşıca yoğurun — yapışqan kütlə olmalıdır.", "duration": 8 },
+          { "step": 2, "instruction": "Kütləni örtün, 15 dəqiqə soyuducuya qoyun ki, formalaşdırmaq asanlaşsın.", "duration": 15 },
+          { "step": 3, "instruction": "İsli əllərlə kütlədən 4-5 sm diametrli hamar yumru toplar düzəldin. Boşqabın üzərinə qoyun.", "duration": 12 },
+          { "step": 4, "instruction": "Geniş qazan da kərə yağını orta istilikdə əridin. Sarımsaq əlavə edin, 1 dəqiqə ətirlendiyin. Tomat pastası əlavə edin, 1 dəqiqə qarışdırın.", "duration": 3 },
+          { "step": 5, "instruction": "Doğranmış pomidoru əlavə edin, duz-biber vurun, 8-10 dəqiqə sous əmələ gələnə qədər bişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Küftələr yarı batacaq qədər isti su əlavə edin — təxminən 1,5 stəkan.", "duration": 2 },
+          { "step": 7, "instruction": "Küftələri bir-bir ehtiyatla qaynayan sousa endirin. İlk 5 dəqiqədə qarışdırmayın ki dağılmasın.", "duration": 5 },
+          { "step": 8, "instruction": "Örtüb aşağı istilikdə 30-35 dəqiqə bişirin, bəzən qazanı yüngülcə silkləyin — küftə hazır olur, içindəki düyü genişlənir.", "duration": 35 },
+          { "step": 9, "instruction": "Sousu dadın, çeşni tənzimləyin. Üzərinə otlar səpin, çörək və ya plov ilə isti verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Кюфта (Азербайджанские Фрикадельки)",
+        "description": "Нежные, ароматные фрикадельки из рубленой баранины с рисом, тёртым луком и свежей зеленью, тушёные в лёгком томатном соусе. Любимое будничное блюдо всей страны. Рис в составе фрикаделек разбухает при варке, сохраняя их сочными и воздушными.",
+        "ingredients": [
+          { "name": "Рубленая баранина", "amount": "600 г" },
+          { "name": "Круглозёрный рис, промытый", "amount": "0,25 стакана" },
+          { "name": "Лук, мелко натёртый", "amount": "1 средний" },
+          { "name": "Кинза и петрушка, рубленые", "amount": "0,5 стакана" },
+          { "name": "Яйцо", "amount": "1 шт." },
+          { "name": "Соль, чёрный перец, куркума", "amount": "по вкусу" },
+          { "name": "Помидоры, нарезанные", "amount": "3 шт." },
+          { "name": "Чеснок, измельчённый", "amount": "2 зубчика" },
+          { "name": "Томатная паста", "amount": "1 ст.л." },
+          { "name": "Сливочное масло", "amount": "2 ст.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Смешайте баранину, рис, лук, зелень, яйцо, соль, перец и куркуму в миске. Вымешивайте руками 5 минут до вязкой однородной массы.", "duration": 8 },
+          { "step": 2, "instruction": "Накройте и уберите в холодильник на 15 минут — так лепить будет легче.", "duration": 15 },
+          { "step": 3, "instruction": "Влажными руками скатайте ровные шарики диаметром 4-5 см. Выложите на тарелку.", "duration": 12 },
+          { "step": 4, "instruction": "Растопите масло в широкой кастрюле на среднем огне. Добавьте чеснок, жарьте 1 минуту. Добавьте томатную пасту, помешайте 1 минуту.", "duration": 3 },
+          { "step": 5, "instruction": "Положите нарезанные помидоры, посолите и поперчите, тушите 8-10 минут до соуса.", "duration": 10 },
+          { "step": 6, "instruction": "Добавьте горячую воду, чтобы соус наполовину покрывал фрикадельки — около 1,5 стакана.", "duration": 2 },
+          { "step": 7, "instruction": "Аккуратно опустите фрикадельки одну за другой в кипящий соус. Первые 5 минут не мешайте.", "duration": 5 },
+          { "step": 8, "instruction": "Накройте и тушите на слабом огне 30-35 минут, иногда поворачивая кастрюлю, до готовности (рис внутри разбухнет).", "duration": 35 },
+          { "step": 9, "instruction": "Попробуйте соус, отрегулируйте вкус. Посыпьте зеленью и подавайте горячим с хлебом или рисом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Küftə (Azerbaycan Usulü Köfte)",
+        "description": "Pirinç, rendelenmiş soğan ve taze otlarla karıştırılmış narin, kokulu kuzu köfteleri hafif domates ve ot sosunda pişirilir. Azerbaycan'ın sevilen gündelik yemeği olan küftə, doyurucu ve lezzetlidir. Köftenin içindeki pirinç pişerken şişerek köftelerin nemli ve yumuşak kalmasını sağlar.",
+        "ingredients": [
+          { "name": "Kıyılmış kuzu eti", "amount": "600 g" },
+          { "name": "Kısa taneli pirinç, yıkanmış", "amount": "0,25 su bardağı" },
+          { "name": "Soğan, ince rendelenmiş", "amount": "1 orta" },
+          { "name": "Kişniş ve maydanoz, kıyılmış", "amount": "0,5 su bardağı" },
+          { "name": "Yumurta", "amount": "1 adet" },
+          { "name": "Tuz, karabiber, zerdeçal", "amount": "tadına göre" },
+          { "name": "Domates, doğranmış", "amount": "3 adet" },
+          { "name": "Sarımsak, kıyılmış", "amount": "2 diş" },
+          { "name": "Domates salçası", "amount": "1 yemek kaşığı" },
+          { "name": "Tereyağı", "amount": "2 yemek kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kıyma, pirinç, soğan, otlar, yumurta, tuz, karabiber ve zerdeçalı kasede birleştirin. 5 dakika elle iyice yoğurun — yapışkan bir kıvam olmalıdır.", "duration": 8 },
+          { "step": 2, "instruction": "Karışımı örtün, 15 dakika buzdolabına koyun ki şekillendirmek kolaylaşsın.", "duration": 15 },
+          { "step": 3, "instruction": "Islak ellerle 4-5 cm çapında düzgün yuvarlak köfteler şekillendirin. Tabağa dizin.", "duration": 12 },
+          { "step": 4, "instruction": "Geniş bir tencerede orta ateşte tereyağını eritin. Sarımsağı 1 dakika kavurun. Domates salçasını ekleyip 1 dakika karıştırın.", "duration": 3 },
+          { "step": 5, "instruction": "Doğranmış domatesleri ekleyin, tuzlayıp biberleyin, 8-10 dakika sos oluşana dek pişirin.", "duration": 10 },
+          { "step": 6, "instruction": "Köfteler yarı batacak kadar sıcak su ekleyin — yaklaşık 1,5 su bardağı.", "duration": 2 },
+          { "step": 7, "instruction": "Köfteleri kaynayan sosa tek tek nazikçe bırakın. İlk 5 dakika karıştırmayın ki dağılmasın.", "duration": 5 },
+          { "step": 8, "instruction": "Kapağı kapatın, kısık ateşte 30-35 dakika pişirin; zaman zaman tencereyi hafifçe sallayın. Köfteler piştikçe içindeki pirinç şişer.", "duration": 35 },
+          { "step": 9, "instruction": "Sosu tadın, çeşniyi ayarlayın. Taze ot serpin, ekmek veya pilav ile sıcak servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Çığırtma",
+    "translations": {
+      "en": {
+        "title": "Çığırtma (Lamb and Egg Stew)",
+        "description": "A hearty Azerbaijani skillet dish of tender lamb braised with onions in a tomato sauce, finished by pouring beaten eggs over the top and letting them set into silky soft ribbons throughout the rich stew. The name comes from the sizzling sound the eggs make as they hit the hot pan. Simple ingredients, bold flavors and a satisfying texture that makes this a beloved family dinner.",
+        "ingredients": [
+          { "name": "Lamb, cubed", "amount": "500 g" },
+          { "name": "Onions, thinly sliced", "amount": "2 medium" },
+          { "name": "Ripe tomatoes, chopped", "amount": "3 medium" },
+          { "name": "Eggs", "amount": "4 large" },
+          { "name": "Butter", "amount": "3 tbsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Turmeric", "amount": "0.5 tsp" },
+          { "name": "Fresh parsley or cilantro for garnish", "amount": "0.25 cup" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Season the lamb cubes generously with salt, pepper and turmeric.", "duration": 3 },
+          { "step": 2, "instruction": "Melt the butter in a heavy skillet or cast iron pan over medium-high heat. Add the lamb in a single layer and sear without stirring for 4-5 minutes until deeply browned on one side, then turn and brown the other side.", "duration": 10 },
+          { "step": 3, "instruction": "Add the sliced onions to the browned lamb and stir to combine. Cook for 8 minutes, stirring occasionally, until the onions are soft and golden.", "duration": 8 },
+          { "step": 4, "instruction": "Add the chopped tomatoes, stir and season again. Reduce heat to medium-low, cover and braise for 20-25 minutes until the lamb is tender and the tomatoes have broken down into a thick sauce.", "duration": 25 },
+          { "step": 5, "instruction": "If the sauce looks too thick, add a few tablespoons of water. If too thin, uncover and simmer to reduce.", "duration": 3 },
+          { "step": 6, "instruction": "Beat the eggs lightly with a pinch of salt. Pour the beaten eggs evenly over the surface of the stew.", "duration": 3 },
+          { "step": 7, "instruction": "Do not stir. Cover the pan and cook on low heat for 4-5 minutes until the eggs are just set but still slightly wobbly in the centre — they should look creamy, not rubbery.", "duration": 5 },
+          { "step": 8, "instruction": "Remove from heat, scatter fresh herbs over the top and bring the pan directly to the table. Serve with warm bread to scoop up the sauce.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Çığırtma",
+        "description": "Soğanla tomat sousunda bişirilmiş yumşaq quzu əti üzərinə çırpılmış yumurta tökülüb yumurta ipəkvari lentlərə dönənə qədər bişirilir. Adı yumurtaların qızmış tavaya toxunanda çıxardığı cızıldama səsindən gəlir. Sadə inqrediyentlər, güclü dadlar — bu yemək sevilən bir ailə yeməyidir.",
+        "ingredients": [
+          { "name": "Quzu əti, doğranmış", "amount": "500 q" },
+          { "name": "Soğan, nazik dilimlənmiş", "amount": "2 orta" },
+          { "name": "Yetişkin pomidor, doğranmış", "amount": "3 orta" },
+          { "name": "Yumurta", "amount": "4 iri" },
+          { "name": "Kərə yağı", "amount": "3 x.q." },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Sarıkök", "amount": "0,5 ç.q." },
+          { "name": "Cəfəri və ya kişniş (süsleme)", "amount": "0,25 stəkan" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu parçalarını duz, biber və sarıkök ilə bol ədviyyelendirin.", "duration": 3 },
+          { "step": 2, "instruction": "Kərə yağını tavada orta-yüksək istilikdə əridin. Quzu parçalarını bir qatda qoyun, qarışdırmadan 4-5 dəqiqə bir tərəfi tünd qonarana qədər qızardın, sonra çevirin.", "duration": 10 },
+          { "step": 3, "instruction": "Soğanı qoyun, qarışdırın. 8 dəqiqə qızılı və yumşaq olana qədər bişirin.", "duration": 8 },
+          { "step": 4, "instruction": "Doğranmış pomidoru əlavə edin, çeşni tənzimləyin. İstiliyi azaldın, örtün, 20-25 dəqiqə ət yumşalana qədər bişirin.", "duration": 25 },
+          { "step": 5, "instruction": "Sous çox qalın olsa bir az su əlavə edin; çox maye olsa örtüyü açıb buxarlandırın.", "duration": 3 },
+          { "step": 6, "instruction": "Yumurtaları bir az duzla yüngülcə çırpın. Çırpılmış yumurtaları güveçin üzərinə bərabər şəkildə tökün.", "duration": 3 },
+          { "step": 7, "instruction": "Qarışdırmayın. Qapağı örtün, aşağı istilikdə 4-5 dəqiqə yumurta az-az bərkiyənə qədər bişirin — krem görünüşlü, kauçuk kimi deyil.", "duration": 5 },
+          { "step": 8, "instruction": "Oddan götürün, üzərinə otlar səpin, tavayı süfrəyə gətirin. İsti çörəklə sosuyla birlikdə verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Чыгыртма (Баранина с Яйцами)",
+        "description": "Сытное азербайджанское блюдо: нежная баранина, тушёная с луком в томатном соусе, и залитые поверх взбитые яйца, которые превращаются в шёлковые ленты в густом рагу. Название происходит от шипения, с которым яйца соприкасаются с горячей сковородой. Простые ингредиенты, насыщенный вкус — любимый семейный ужин.",
+        "ingredients": [
+          { "name": "Баранина, кубиками", "amount": "500 г" },
+          { "name": "Лук, тонко нарезанный", "amount": "2 средних" },
+          { "name": "Спелые помидоры, нарезанные", "amount": "3 средних" },
+          { "name": "Яйца", "amount": "4 крупных" },
+          { "name": "Сливочное масло", "amount": "3 ст.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Куркума", "amount": "0,5 ч.л." },
+          { "name": "Свежая петрушка или кинза для украшения", "amount": "0,25 стакана" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Обильно посолите и поперчите кубики баранины, добавьте куркуму.", "duration": 3 },
+          { "step": 2, "instruction": "Растопите масло в тяжёлой сковороде. Выложите баранину в один слой, не мешайте 4-5 минут, пока одна сторона не потемнеет, затем переверните.", "duration": 10 },
+          { "step": 3, "instruction": "Добавьте лук, перемешайте. Готовьте 8 минут до мягкости и золотистости.", "duration": 8 },
+          { "step": 4, "instruction": "Добавьте помидоры, посолите, поперчите. Уменьшите огонь, накройте и тушите 20-25 минут до мягкости мяса и густого соуса.", "duration": 25 },
+          { "step": 5, "instruction": "При необходимости добавьте немного воды (если соус слишком густой) или выпарите без крышки (если жидкий).", "duration": 3 },
+          { "step": 6, "instruction": "Слегка взбейте яйца с щепоткой соли. Равномерно вылейте их поверх рагу.", "duration": 3 },
+          { "step": 7, "instruction": "Не перемешивайте. Накройте и готовьте на слабом огне 4-5 минут до схватывания яиц — центр должен быть чуть влажным, не резиновым.", "duration": 5 },
+          { "step": 8, "instruction": "Снимите с огня, посыпьте зеленью и подавайте прямо в сковороде с тёплым хлебом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Çığırtma (Kuzu ve Yumurtalı Güveç)",
+        "description": "Soğanla domates sosunda pişirilen yumuşak kuzu üzerine çırpılmış yumurta dökülerek ipek şeritler hâline gelene dek pişirilen doyurucu bir Azerbaycan tavası. Adı, yumurtaların sıcak tavaya değdiğinde çıkardığı cızıltıdan gelir. Sade malzemeler, güçlü tatlar — sevilen bir aile yemeği.",
+        "ingredients": [
+          { "name": "Kuzu eti, küp doğranmış", "amount": "500 g" },
+          { "name": "Soğan, ince dilimlenmiş", "amount": "2 orta" },
+          { "name": "Olgun domates, doğranmış", "amount": "3 orta" },
+          { "name": "Yumurta", "amount": "4 büyük" },
+          { "name": "Tereyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Zerdeçal", "amount": "0,5 çay kaşığı" },
+          { "name": "Taze maydanoz veya kişniş (süsleme için)", "amount": "0,25 su bardağı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu parçalarını bol tuz, karabiber ve zerdeçalle çeşnileyin.", "duration": 3 },
+          { "step": 2, "instruction": "Ağır bir tavada orta-yüksek ateşte tereyağını eritin. Kuzu parçalarını tek kat döşeyin, 4-5 dakika karıştırmadan bir yüzü koyulana dek kavurun, çevirin.", "duration": 10 },
+          { "step": 3, "instruction": "Soğanı ekleyin, karıştırın. 8 dakika altın rengi ve yumuşak olana dek pişirin.", "duration": 8 },
+          { "step": 4, "instruction": "Domatesleri ekleyin, tatlandırın. Ateşi kısın, kapatın, et yumuşayana ve sos koyulaşana dek 20-25 dakika pişirin.", "duration": 25 },
+          { "step": 5, "instruction": "Gerekirse biraz su ekleyin (sos çok koyu ise) ya da açık pişirin (çok akışkan ise).", "duration": 3 },
+          { "step": 6, "instruction": "Yumurtaları bir tutam tuzla hafifçe çırpın. Güveçin üzerine eşit şekilde dökün.", "duration": 3 },
+          { "step": 7, "instruction": "Karıştırmayın. Kapağı kapatın, kısık ateşte 4-5 dakika pişirin — ortası hafif titrek olmalı, kauçuklaşmamalı.", "duration": 5 },
+          { "step": 8, "instruction": "Ateşten alın, taze ot serpin, tavayı sofraya getirin. Sosuyla birlikte sıcak ekmekle servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Levengi Toyuq",
+    "translations": {
+      "en": {
+        "title": "Levengi Toyuq (Walnut and Sour Plum Stuffed Chicken)",
+        "description": "A festive whole roasted chicken from the Talysh and Lankaran regions of southern Azerbaijan, stuffed with a tangy, richly textured paste of ground walnuts, caramelized onions and sour plum paste. The levengi filling is characteristic of the region — intensely flavored and distinct, balancing the richness of walnuts with the acidity of the plum. When roasted, the skin turns deep golden and the filling becomes magnificently aromatic.",
+        "ingredients": [
+          { "name": "Whole chicken", "amount": "1 (approx. 1.5 kg)" },
+          { "name": "Ground walnuts", "amount": "1.5 cups" },
+          { "name": "Onions, finely grated", "amount": "2 medium" },
+          { "name": "Sour plum paste (tkemali) or prune paste", "amount": "4 tbsp" },
+          { "name": "Butter, softened", "amount": "3 tbsp" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Turmeric", "amount": "0.5 tsp" },
+          { "name": "Fresh cilantro, finely chopped", "amount": "0.25 cup" },
+          { "name": "Saffron, dissolved in 1 tbsp warm water", "amount": "0.25 tsp" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Remove the chicken from the refrigerator 30 minutes before cooking to come to room temperature. Pat completely dry inside and out with paper towels.", "duration": 30 },
+          { "step": 2, "instruction": "Prepare the levengi filling: combine the ground walnuts, grated onion, sour plum paste, chopped cilantro, salt and pepper in a bowl. Mix until it forms a thick, cohesive paste. Taste and adjust — it should be tangy, nutty and well seasoned.", "duration": 8 },
+          { "step": 3, "instruction": "Season the inside of the chicken cavity generously with salt, pepper and turmeric. Fill the cavity with the walnut paste, packing it firmly without overfilling. Secure the legs with kitchen twine and truss the opening with toothpicks or twine to keep the filling in.", "duration": 10 },
+          { "step": 4, "instruction": "Mix the softened butter with the saffron water. Using your fingers, gently loosen the skin over the breast and thighs without tearing it, and spread half the saffron butter under the skin directly over the meat.", "duration": 8 },
+          { "step": 5, "instruction": "Rub the remaining saffron butter all over the exterior of the chicken. Season the outside generously with salt, pepper and turmeric.", "duration": 3 },
+          { "step": 6, "instruction": "Preheat the oven to 200°C (390°F). Place the chicken breast-side up in a roasting pan. Add a small amount of water or broth to the base of the pan to prevent the drippings from burning.", "duration": 10 },
+          { "step": 7, "instruction": "Roast in the preheated oven for 20 minutes until the skin starts to colour. Reduce the heat to 180°C and continue roasting for 50-60 minutes, basting with the pan juices every 20 minutes.", "duration": 70 },
+          { "step": 8, "instruction": "The chicken is done when a meat thermometer inserted into the thickest part of the thigh reads 75°C, or when the juices run clear when the thigh is pierced. The skin should be deeply golden-brown.", "duration": 5 },
+          { "step": 9, "instruction": "Remove from the oven and tent loosely with foil. Rest for 10-15 minutes — this is essential for the juices to redistribute and the chicken to be perfectly moist.", "duration": 12 },
+          { "step": 10, "instruction": "Carve the chicken and serve with the walnut stuffing spooned alongside. Accompany with saffron plov or flatbread.", "duration": 5 }
+        ]
+      },
+      "az": {
+        "title": "Levengi Toyuq",
+        "description": "Azərbaycanın cənub bölgəsi — Talış və Lənkərandan gələn şənlik yemeyi: bütöv toyuq üyüdülmüş qoz, karamelləşdirilmiş soğan və turş gavalı pastasından hazırlanmış tutumlu, ətirli levengi kütlesi ilə doldurulub qızarana qədər sobada bişirilir. Qozun zənginliyi ilə gavalının turşluğu arasındakı tarazlıq bu yeməyi fərqli edir. Bişdikdə dəri dərin qızılı rəng alır, doldurma isə inanılmaz dərəcədə ətirli olur.",
+        "ingredients": [
+          { "name": "Bütöv toyuq", "amount": "1 ədəd (≈1,5 kq)" },
+          { "name": "Üyüdülmüş qoz", "amount": "1,5 stəkan" },
+          { "name": "Soğan, rəndələnmiş", "amount": "2 orta" },
+          { "name": "Turş gavalı pastası (tkəmali)", "amount": "4 x.q." },
+          { "name": "Kərə yağı, yumşalmış", "amount": "3 x.q." },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Sarıkök", "amount": "0,5 ç.q." },
+          { "name": "Kişniş, xırda doğranmış", "amount": "0,25 stəkan" },
+          { "name": "Zəfəran (1 x.q. isti suda həll olunmuş)", "amount": "0,25 ç.q." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Toyuqu bişirməzdən 30 dəqiqə əvvəl soyuducudan çıxarın. İçini və çölünü kağız dəsmalla tamamilə qurudun.", "duration": 30 },
+          { "step": 2, "instruction": "Levengi doldurmayı hazırlayın: qoz, soğan, gavalı pastası, kişniş, duz, biberi qarışdırın — qalın yapışqan kütlə olmalıdır. Dadına baxın.", "duration": 8 },
+          { "step": 3, "instruction": "Toyuğun içini duz, biber, sarıkökle bol ədviyyəlendirin. Qoz kütlesini möhkəm basaraq doldurun, ayaqları ip ilə bağlayın, açılışı bağlayın.", "duration": 10 },
+          { "step": 4, "instruction": "Yumşalmış yağı zəfəran suyu ilə qarışdırın. Parmaqlıqla döş və but dərinin altına yağı sürtün.", "duration": 8 },
+          { "step": 5, "instruction": "Qalan yağı toyuğun xaricinə sürtün. Duz, biber, sarıkök ilə bol ədviyyelendirin.", "duration": 3 },
+          { "step": 6, "instruction": "Sobanı 200°C qızdırın. Toyuğu döş üstü bişirilmə qabına qoyun, dibə bir az su əlavə edin.", "duration": 10 },
+          { "step": 7, "instruction": "Qızdırılmış sobada 20 dəqiqə dəri rəng alana qədər bişirin. İstiliyi 180°C endirin, hər 20 dəqiqədə bir şirəsi ilə sulayaraq 50-60 dəqiqə daha bişirin.", "duration": 70 },
+          { "step": 8, "instruction": "But ən qalın yerinde 75°C-yə çatanda, ya da bənd yerini deşəndə şəffaf şirə axanda toyuq hazırdır. Dəri dərin qızılı olmalıdır.", "duration": 5 },
+          { "step": 9, "instruction": "Sobadan çıxarın, folqa ilə yüngülcə örtün. 10-15 dəqiqə dincəldin — şirəni yenidən bölüşdürmək üçün vacibdir.", "duration": 12 },
+          { "step": 10, "instruction": "Toyuğu kəsin, yanına qoz doldurmayı qoyun. Zəfəranlı plov və ya lavaşla verin.", "duration": 5 }
+        ]
+      },
+      "ru": {
+        "title": "Левенги Тойуг (Курица, Фаршированная Ореховой Пастой)",
+        "description": "Праздничная целая запечённая курица из Талышского и Ленкоранского регионов Азербайджана, фаршированная густой пастой из молотых грецких орехов, карамелизованного лука и кислого сливового соуса. Левенги-начинка — отличительная черта региона: насыщенный вкус грецкого ореха уравновешивается кислотой сливы. При запекании кожа становится тёмно-золотистой, а начинка — удивительно ароматной.",
+        "ingredients": [
+          { "name": "Целая курица", "amount": "1 шт. (≈1,5 кг)" },
+          { "name": "Молотые грецкие орехи", "amount": "1,5 стакана" },
+          { "name": "Лук, мелко натёртый", "amount": "2 средних" },
+          { "name": "Ткемали или сливовая паста", "amount": "4 ст.л." },
+          { "name": "Сливочное масло, мягкое", "amount": "3 ст.л." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Куркума", "amount": "0,5 ч.л." },
+          { "name": "Кинза свежая, нарубленная", "amount": "0,25 стакана" },
+          { "name": "Шафран (растворённый в 1 ст.л. тёплой воды)", "amount": "0,25 ч.л." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Достаньте курицу из холодильника за 30 минут до готовки. Тщательно обсушите внутри и снаружи бумажными полотенцами.", "duration": 30 },
+          { "step": 2, "instruction": "Приготовьте начинку левенги: смешайте орехи, лук, ткемали, кинзу, соль и перец до густой вязкой пасты. Попробуйте — должно быть кислым, ореховым, хорошо приправленным.", "duration": 8 },
+          { "step": 3, "instruction": "Обильно натрите полость курицы солью, перцем и куркумой. Плотно заполните начинкой, не переполняя. Свяжите ноги и скрепите отверстие.", "duration": 10 },
+          { "step": 4, "instruction": "Смешайте масло с шафрановой водой. Пальцами осторожно подденьте кожу над грудкой и бёдрами, не разрывая, и вотрите половину масла прямо в мясо.", "duration": 8 },
+          { "step": 5, "instruction": "Оставшимся маслом смажьте всю внешнюю поверхность курицы. Обильно посолите, поперчите и добавьте куркуму.", "duration": 3 },
+          { "step": 6, "instruction": "Разогрейте духовку до 200°C. Уложите курицу грудкой вверх в форму, налейте на дно немного воды.", "duration": 10 },
+          { "step": 7, "instruction": "Запекайте 20 минут до появления цвета, затем снизьте до 180°C и запекайте ещё 50-60 минут, поливая соками каждые 20 минут.", "duration": 70 },
+          { "step": 8, "instruction": "Курица готова, когда термометр показывает 75°C в бедре или сок при проколе течёт прозрачный. Кожа должна быть тёмно-золотистой.", "duration": 5 },
+          { "step": 9, "instruction": "Достаньте из духовки, накройте фольгой и дайте отдохнуть 10-15 минут.", "duration": 12 },
+          { "step": 10, "instruction": "Разделайте курицу, подайте с ореховой начинкой. Идеально с шафрановым пловом или лавашом.", "duration": 5 }
+        ]
+      },
+      "tr": {
+        "title": "Levengi Toyuq (Cevizli ve Ekşi Erikli Bütün Tavuk)",
+        "description": "Azerbaycan'ın güney bölgesi Talış ve Lenkoran'a özgü şölen yemeği: bütün bir tavuk, öğütülmüş ceviz, karamelize soğan ve ekşi erik ezmesinden hazırlanan yoğun, ekşili levengi harcıyla doldurulup derisi altın rengi kızarana dek fırında pişirilir. Cevizin zenginliği ile erikin asitliği arasındaki denge bu yemeği eşsiz kılar. Pişince iç harç inanılmaz derecede kokulu olur.",
+        "ingredients": [
+          { "name": "Bütün tavuk", "amount": "1 adet (≈1,5 kg)" },
+          { "name": "Çekilmiş ceviz", "amount": "1,5 su bardağı" },
+          { "name": "Soğan, ince rendelenmiş", "amount": "2 orta" },
+          { "name": "Ekşi erik ezmesi (tkemali)", "amount": "4 yemek kaşığı" },
+          { "name": "Tereyağı, yumuşatılmış", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Zerdeçal", "amount": "0,5 çay kaşığı" },
+          { "name": "Taze kişniş, ince kıyılmış", "amount": "0,25 su bardağı" },
+          { "name": "Safran (1 yemek kaşığı ılık suda eritilmiş)", "amount": "0,25 çay kaşığı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Tavuğu pişirmeden 30 dakika önce buzdolabından çıkarın. İçini ve dışını kağıt havluyla tamamen kurulayın.", "duration": 30 },
+          { "step": 2, "instruction": "Levengi harcını hazırlayın: ceviz, soğan, tkemali, kişniş, tuz ve biberi yoğun, yapışkan bir ezme oluşana dek karıştırın. Tadına bakın.", "duration": 8 },
+          { "step": 3, "instruction": "Tavuğun içini bol tuz, karabiber ve zerdeçalle ovun. Ceviz harcını sıkıca doldurun, bacakları bağlayın, açıklığı kürdan ya da iple kapatın.", "duration": 10 },
+          { "step": 4, "instruction": "Yumuşatılmış tereyağını safran suyuyla karıştırın. Parmakla göğüs ve but derisi altına hafifçe girerek deriye zarar vermeden yarısını sürtün.", "duration": 8 },
+          { "step": 5, "instruction": "Kalan tereyağını tavuğun dış yüzeyine tamamen sürün. Bol tuz, karabiber ve zerdeçal serpin.", "duration": 3 },
+          { "step": 6, "instruction": "Fırını 200°C'ye ısıtın. Tavuğu göğüs yüzü yukarı fırın kabına koyun, dibe biraz su ekleyin.", "duration": 10 },
+          { "step": 7, "instruction": "Önceden ısıtılmış fırında 20 dakika renk alana dek pişirin. 180°C'ye indirin, her 20 dakikada kap suyuyla sulayarak 50-60 dakika daha pişirin.", "duration": 70 },
+          { "step": 8, "instruction": "But kısmının en kalın yerine batırılan termometre 75°C gösterdiğinde ya da delindiğinde açık su akıyorsa tavuk hazırdır. Deri derin altın rengi olmalıdır.", "duration": 5 },
+          { "step": 9, "instruction": "Fırından çıkarın, üstünü gevşekçe folya ile örtün. 10-15 dakika dinlendirin.", "duration": 12 },
+          { "step": 10, "instruction": "Tavuğu dilimleyin, yanına ceviz harcını koyun. Safranlı pilav veya lavaşla servis yapın.", "duration": 5 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Südlü Quzu",
+    "translations": {
+      "en": {
+        "title": "Südlü Quzu (Milk-Braised Young Lamb)",
+        "description": "Young spring lamb slowly braised in whole milk with fresh herbs until exceptionally tender and delicately flavored. The milk creates a mild, creamy sauce that tames the gaminess of lamb and produces a dish of surprising delicacy. The gentle acidity of the milk slowly tenderizes the meat while the milk solids brown and add a subtle sweetness to the braise. A refined dish served for special occasions.",
+        "ingredients": [
+          { "name": "Young lamb shoulder, cubed", "amount": "700 g" },
+          { "name": "Whole milk", "amount": "3 cups" },
+          { "name": "Onion, halved", "amount": "1" },
+          { "name": "Butter", "amount": "3 tbsp" },
+          { "name": "Fresh dill, thyme and parsley", "amount": "0.5 cup" },
+          { "name": "Bay leaves", "amount": "2" },
+          { "name": "Salt and white pepper", "amount": "to taste" },
+          { "name": "Garlic cloves, whole", "amount": "3" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Season the lamb cubes generously with salt and white pepper.", "duration": 3 },
+          { "step": 2, "instruction": "Melt the butter in a heavy-bottomed pot over medium-high heat. When the foam subsides, sear the lamb in batches without crowding, turning to brown all sides — about 8 minutes per batch.", "duration": 16 },
+          { "step": 3, "instruction": "Remove the browned lamb and set aside. In the same pot, add the halved onion cut-side down and the whole garlic cloves. Cook for 4-5 minutes until lightly golden.", "duration": 5 },
+          { "step": 4, "instruction": "Return the lamb to the pot. Add the bay leaves and whole herb sprigs.", "duration": 2 },
+          { "step": 5, "instruction": "Pour the milk over the lamb — it should almost cover the meat. If not, add a little water. Bring to a gentle simmer over medium heat, stirring to prevent the milk from scorching on the bottom.", "duration": 8 },
+          { "step": 6, "instruction": "Reduce the heat to very low, partially cover and braise for 75-85 minutes, stirring gently every 20 minutes. The milk will slowly reduce and thicken. Monitor carefully — the milk must not boil vigorously or it will curdle.", "duration": 85 },
+          { "step": 7, "instruction": "The lamb is done when it is very tender and cuts easily with a fork. The sauce will look slightly curdled — this is normal and gives the dish its characteristic texture.", "duration": 5 },
+          { "step": 8, "instruction": "Remove the onion, bay leaves and herb sprigs. Stir in the freshly chopped herbs. Taste and adjust seasoning with salt and white pepper.", "duration": 4 },
+          { "step": 9, "instruction": "Serve the lamb with the milky sauce over saffron rice or with flatbread to mop up the delicate juices.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Südlü Quzu",
+        "description": "Gənc bahar quzusu bütöv süddə təzə otlarla birlikdə çox yumşalana qədər yavaş bişirilir. Süd qoyunun dadını yumşaldır, yüngül kremli sous yaradır. Südün zərif turşuluğu əti yavaş-yavaş ovundurar, südün bərk hissəcikləri isə qovurmaya zərif şirinlik verir. Xüsusi günlər üçün incə bir yemek.",
+        "ingredients": [
+          { "name": "Gənc quzu kürəyi, doğranmış", "amount": "700 q" },
+          { "name": "Tam yağlı süd", "amount": "3 stəkan" },
+          { "name": "Soğan, yarıya kəsilmiş", "amount": "1 ədəd" },
+          { "name": "Kərə yağı", "amount": "3 x.q." },
+          { "name": "Təzə şüyüd, kəklikotu, cəfəri", "amount": "0,5 stəkan" },
+          { "name": "Dəfnə yarpağı", "amount": "2 ədəd" },
+          { "name": "Duz və ağ biber", "amount": "dada görə" },
+          { "name": "Sarımsaq, bütöv", "amount": "3 diş" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu parçalarını duz və ağ biberlə bol ədviyyelendirin.", "duration": 3 },
+          { "step": 2, "instruction": "Ağır dibli qazanda kərə yağını orta-yüksək istilikdə əridin. Köpük çəkiləndə, quzu parçalarını hissə-hissə qızardın — hər tərəfi qonar, 8 dəqiqə.", "duration": 16 },
+          { "step": 3, "instruction": "Qızdırılmış quzunu çıxarın. Eyni qazanda soğanı kəsilmiş tərəfi aşağı, sarımsaqla 4-5 dəqiqə qızılı olana qədər qızardın.", "duration": 5 },
+          { "step": 4, "instruction": "Quzunu qazana qaytarın. Dəfnə yarpağı və otları əlavə edin.", "duration": 2 },
+          { "step": 5, "instruction": "Südü tökün — əti demək olar ki örtməlidir. Orta istilikdə yavaş qaynamaya gətirin, dibi yanmasın deyə qarışdırın.", "duration": 8 },
+          { "step": 6, "instruction": "İstiliyi çox azaldın, yarım örtün, hər 20 dəqiqədə yüngülcə qarışdıraraq 75-85 dəqiqə bişirin. Süd azalıb qatılaşacaq. Güclü qaynamasın — laxtalanır.", "duration": 85 },
+          { "step": 7, "instruction": "Quzu çox yumşalanda, çəngəllə asanlıqla qırılanda hazırdır. Sous qismən laxtalanmış görünə bilər — bu normaldır.", "duration": 5 },
+          { "step": 8, "instruction": "Soğan, dəfnə yarpağı, otları çıxarın. Təzə doğranmış otları əlavə edin. Çeşni tənzimləyin.", "duration": 4 },
+          { "step": 9, "instruction": "Quzunu südlü sousu ilə birlikdə zəfəranlı plovun üzərinə verin ya da çörəklə birlikdə süfrəyə gətirin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Сютлю Гузу (Молодой Ягнёнок, Тушёный в Молоке)",
+        "description": "Молодой весенний ягнёнок медленно тушится в цельном молоке со свежей зеленью до исключительной нежности. Молоко создаёт мягкий сливочный соус, смягчая специфический вкус баранины и придавая блюду тонкий характер. Нежная кислотность молока медленно размягчает мясо, а молочные твёрдые вещества при нагреве дают лёгкую сладость. Изысканное блюдо для особых случаев.",
+        "ingredients": [
+          { "name": "Молодая баранья лопатка, кубиками", "amount": "700 г" },
+          { "name": "Цельное молоко", "amount": "3 стакана" },
+          { "name": "Лук, разрезанный пополам", "amount": "1 шт." },
+          { "name": "Сливочное масло", "amount": "3 ст.л." },
+          { "name": "Укроп, тимьян, петрушка свежие", "amount": "0,5 стакана" },
+          { "name": "Лавровый лист", "amount": "2 шт." },
+          { "name": "Соль и белый перец", "amount": "по вкусу" },
+          { "name": "Чеснок, целые зубчики", "amount": "3 шт." }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Обильно посолите и поперчите белым перцем кубики баранины.", "duration": 3 },
+          { "step": 2, "instruction": "Растопите масло в тяжёлой кастрюле на среднем огне. Обжарьте баранину партиями, подрумянив со всех сторон — около 8 минут каждая.", "duration": 16 },
+          { "step": 3, "instruction": "Уберите мясо. В той же кастрюле подрумяньте лук срезом вниз и чеснок — 4-5 минут.", "duration": 5 },
+          { "step": 4, "instruction": "Верните баранину, добавьте лавровый лист и веточки трав.", "duration": 2 },
+          { "step": 5, "instruction": "Залейте молоком — оно должно почти покрывать мясо. Доведите до слабого кипения на среднем огне, помешивая, чтобы не пригорело.", "duration": 8 },
+          { "step": 6, "instruction": "Убавьте огонь до минимума, частично накройте и тушите 75-85 минут, аккуратно помешивая каждые 20 минут. Молоко загустеет. Не давайте бурно кипеть — свернётся.", "duration": 85 },
+          { "step": 7, "instruction": "Ягнёнок готов, когда он очень мягкий и легко протыкается вилкой. Соус может выглядеть слегка свернувшимся — это нормально.", "duration": 5 },
+          { "step": 8, "instruction": "Уберите лук, лавровый лист и травы. Добавьте свежую рубленую зелень. Откорректируйте вкус.", "duration": 4 },
+          { "step": 9, "instruction": "Подавайте ягнёнка с молочным соусом поверх шафранового риса или с лепёшкой.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Südlü Quzu (Sütlü Kuzu Yahnisi)",
+        "description": "Genç ilkbahar kuzusu, taze otlarla birlikte tam yağlı sütte çok yumuşayana dek yavaşça pişirilir. Süt, hafif kremli bir sos yaratarak kuzunun ağır tadını yumuşatır ve şaşırtıcı derecede narin bir yemek ortaya çıkarır. Sütün asidi eti yavaşça parçalarken, süt katıları hafif bir tatlılık katar. Özel günlere özgü zarif bir yemektir.",
+        "ingredients": [
+          { "name": "Genç kuzu omuz, küp doğranmış", "amount": "700 g" },
+          { "name": "Tam yağlı süt", "amount": "3 su bardağı" },
+          { "name": "Soğan, ikiye kesilmiş", "amount": "1 adet" },
+          { "name": "Tereyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Taze dereotu, kekik, maydanoz", "amount": "0,5 su bardağı" },
+          { "name": "Defne yaprağı", "amount": "2 adet" },
+          { "name": "Tuz ve beyaz biber", "amount": "tadına göre" },
+          { "name": "Sarımsak, bütün diş", "amount": "3 adet" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu parçalarını bol tuz ve beyaz biberle çeşnileyin.", "duration": 3 },
+          { "step": 2, "instruction": "Ağır dipli bir tencerede orta-yüksek ateşte tereyağını eritin. Köpük çekilince kuzu parçalarını partiler hâlinde her yüzü kızarana dek — yaklaşık 8 dakika — kavurun.", "duration": 16 },
+          { "step": 3, "instruction": "Kuzuyu alın. Aynı tencerede soğanı kesik yüzü aşağı ve bütün sarımsakları 4-5 dakika hafifçe kızartın.", "duration": 5 },
+          { "step": 4, "instruction": "Kuzuyu tencereye geri koyun. Defne yapraklarını ve ot demetlerini ekleyin.", "duration": 2 },
+          { "step": 5, "instruction": "Sütü dökün — eti neredeyse örtmeli. Orta ateşte yavaş kaynamaya getirin, dibi tutmasın diye karıştırın.", "duration": 8 },
+          { "step": 6, "instruction": "Ateşi kısın, yarı kapatın; her 20 dakikada nazikçe karıştırarak 75-85 dakika pişirin. Süt azalıp koyulaşacak. Güçlü kaynamasın — kesilir.", "duration": 85 },
+          { "step": 7, "instruction": "Kuzu çatal ile kolayca dağıldığında hazırdır. Sos hafif kesilmiş görünebilir — bu normaldir.", "duration": 5 },
+          { "step": 8, "instruction": "Soğan, defne yaprakları ve otları çıkarın. Taze kıyılmış otları ekleyin. Tadını ayarlayın.", "duration": 4 },
+          { "step": 9, "instruction": "Kuzuyu sütlü sosuyla safranlı pilav üzerine veya lavaşla birlikte servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Tava Eti",
+    "translations": {
+      "en": {
+        "title": "Tava Eti (Pan-Fried Lamb with Onions)",
+        "description": "A straightforward, deeply satisfying everyday Azerbaijani dish of lamb slices pan-fried with plenty of onions until the meat is browned and tender, and the onions have melted into a savory, caramelized base. Finished with tomato and a splash of water to make a light pan sauce, tava eti is the honest, hearty cooking of the Azerbaijani home kitchen.",
+        "ingredients": [
+          { "name": "Lamb leg or shoulder, thinly sliced", "amount": "600 g" },
+          { "name": "Onions, thinly sliced into half-moons", "amount": "3 large" },
+          { "name": "Butter", "amount": "3 tbsp" },
+          { "name": "Tomatoes, roughly chopped", "amount": "2" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Turmeric", "amount": "0.5 tsp" },
+          { "name": "Fresh parsley for garnish", "amount": "0.25 cup" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Season the lamb slices with salt, black pepper and turmeric, turning to coat all sides.", "duration": 4 },
+          { "step": 2, "instruction": "Heat the butter in a large heavy skillet over high heat until the foam subsides and the butter begins to brown slightly — this is the right temperature for searing.", "duration": 3 },
+          { "step": 3, "instruction": "Add the lamb slices in a single layer, pressing them flat. Sear without moving for 3-4 minutes until deeply browned and caramelized on the underside.", "duration": 4 },
+          { "step": 4, "instruction": "Turn the lamb and sear the other side for 2-3 minutes. Do not cook all the way through — the lamb will finish cooking with the onions.", "duration": 3 },
+          { "step": 5, "instruction": "Push the lamb to the edges of the pan and add the sliced onions to the centre. Cook the onions for 3 minutes without stirring to begin caramelizing.", "duration": 3 },
+          { "step": 6, "instruction": "Reduce the heat to medium and stir the lamb and onions together. Cook for 10-12 minutes, stirring occasionally, until the onions are deeply golden and soft and the lamb is cooked through.", "duration": 12 },
+          { "step": 7, "instruction": "Add the chopped tomatoes and stir to combine. Cook for a further 5 minutes until the tomatoes soften and release their juices, creating a light pan sauce.", "duration": 5 },
+          { "step": 8, "instruction": "Add a splash of warm water if the pan looks dry, scraping up any browned bits from the bottom for flavor. Simmer for 2-3 minutes.", "duration": 3 },
+          { "step": 9, "instruction": "Taste and adjust seasoning. Scatter with fresh parsley and serve hot directly from the pan with warm bread.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Tava Əti",
+        "description": "Nazik kəsilmiş quzu əti bol soğanla birlikdə tavada qızardılır — ət qonar, soğanlar isə karamelləşən dadlı bir kütleye çevrilir. Tomat əlavə olunaraq yüngül tava sousu hazırlanır. Tava əti Azərbaycan ev mətbəxinin saf, doyurucu yeməyidir.",
+        "ingredients": [
+          { "name": "Quzu but və ya kürəyi, nazik dilimlər", "amount": "600 q" },
+          { "name": "Soğan, nazik yarım-ay dilimlər", "amount": "3 iri" },
+          { "name": "Kərə yağı", "amount": "3 x.q." },
+          { "name": "Pomidor, qaba doğranmış", "amount": "2 ədəd" },
+          { "name": "Duz və qara biber", "amount": "dada görə" },
+          { "name": "Sarıkök", "amount": "0,5 ç.q." },
+          { "name": "Cəfəri (süsleme)", "amount": "0,25 stəkan" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu dilimlərini duz, qara biber və sarıkökle hər tərəfdən ədviyyelendirin.", "duration": 4 },
+          { "step": 2, "instruction": "Böyük ağır tavada kərə yağını yüksək istilikdə köpük keçənə qədər qızdırın — qovurma üçün doğru temperatur budur.", "duration": 3 },
+          { "step": 3, "instruction": "Quzu dilimlərini bir qatda yerləşdirin, basın. 3-4 dəqiqə alt tərəf tünd qonar, karamelizasiya olana qədər toxunmadan bişirin.", "duration": 4 },
+          { "step": 4, "instruction": "Çevirin, digər tərəfi 2-3 dəqiqə qızardın. Tamamilə bişirməyin — soğanla birlikdə bişməyə davam edəcək.", "duration": 3 },
+          { "step": 5, "instruction": "Quzunu kənarlara çəkin, soğanı ortaya əlavə edin. 3 dəqiqə qarışdırmadan karamelizasiya başlamasına icazə verin.", "duration": 3 },
+          { "step": 6, "instruction": "İstiliyi ortaya endirin, quzu və soğanı birlikdə qarışdırın. 10-12 dəqiqə soğanlar dərin qızılı və yumşaq, ət tamamilə bişənə qədər bişirin.", "duration": 12 },
+          { "step": 7, "instruction": "Doğranmış pomidoru əlavə edin, qarışdırın. 5 dəqiqə pomidor yumşalıb şirəsini buraxana qədər bişirin — yüngül tava sousu əmələ gəlir.", "duration": 5 },
+          { "step": 8, "instruction": "Lüzum olarsa bir az isti su əlavə edin, dibdəki qonur hissəcikləri qazıyın. 2-3 dəqiqə qaynayın.", "duration": 3 },
+          { "step": 9, "instruction": "Dadına baxın, çeşni tənzimləyin. Cəfəri səpin, isti çörəklə tavadan birbaşa süfrəyə verin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Тава Эти (Жареная Баранина с Луком на Сковороде)",
+        "description": "Простое, сытное будничное блюдо азербайджанской кухни: ломтики баранины обжариваются с большим количеством лука до румяной корочки и мягкости мяса, а лук тем временем превращается в золотистую ароматную подушку. Добавление помидора и воды создаёт лёгкий соус. Тава эти — честная, домашняя кулинария Азербайджана.",
+        "ingredients": [
+          { "name": "Баранья нога или лопатка, тонко нарезанная", "amount": "600 г" },
+          { "name": "Лук, тонко нарезанный полукольцами", "amount": "3 крупных" },
+          { "name": "Сливочное масло", "amount": "3 ст.л." },
+          { "name": "Помидоры, крупно нарезанные", "amount": "2 шт." },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Куркума", "amount": "0,5 ч.л." },
+          { "name": "Свежая петрушка для украшения", "amount": "0,25 стакана" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Приправьте ломтики баранины солью, перцем и куркумой со всех сторон.", "duration": 4 },
+          { "step": 2, "instruction": "Разогрейте масло на большой тяжёлой сковороде на сильном огне до лёгкого потемнения — это правильная температура для обжарки.", "duration": 3 },
+          { "step": 3, "instruction": "Выложите ломтики в один слой, прижмите. Жарьте 3-4 минуты без движения до тёмной карамелизированной корочки снизу.", "duration": 4 },
+          { "step": 4, "instruction": "Переверните и жарьте ещё 2-3 минуты. Не доводите до готовности — доготовится с луком.", "duration": 3 },
+          { "step": 5, "instruction": "Сдвиньте баранину к краям, в центр выложите лук. Не мешайте 3 минуты, чтобы лук начал карамелизироваться.", "duration": 3 },
+          { "step": 6, "instruction": "Уменьшите огонь до среднего, перемешайте баранину с луком. Готовьте 10-12 минут, периодически помешивая, до золотистости лука и готовности мяса.", "duration": 12 },
+          { "step": 7, "instruction": "Добавьте помидоры и перемешайте. Готовьте ещё 5 минут до мягкости помидоров и образования лёгкого соуса.", "duration": 5 },
+          { "step": 8, "instruction": "При необходимости добавьте немного воды, соскрёбывая подрумяненный осадок. Потушите 2-3 минуты.", "duration": 3 },
+          { "step": 9, "instruction": "Попробуйте, откорректируйте вкус. Посыпьте петрушкой и подавайте горячим прямо в сковороде с тёплым хлебом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Tava Əti (Tavada Kuzu ve Soğan Kavurması)",
+        "description": "İnce dilimlenmiş kuzu eti bol soğanla bir tavada eti kızarana ve yumuşayana, soğanlar ise lezzetli karamel bir tabana dönüşene dek kavurulur. Domates ve biraz su ile hafif bir tava sosu yapılır. Tava eti, Azerbaycan ev mutfağının sade ama doyurucu yemeğidir.",
+        "ingredients": [
+          { "name": "Kuzu but veya omuz, ince dilimlenmiş", "amount": "600 g" },
+          { "name": "Soğan, ince yarım ay dilimleri", "amount": "3 büyük" },
+          { "name": "Tereyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Domates, kaba doğranmış", "amount": "2 adet" },
+          { "name": "Tuz ve karabiber", "amount": "tadına göre" },
+          { "name": "Zerdeçal", "amount": "0,5 çay kaşığı" },
+          { "name": "Taze maydanoz (süsleme için)", "amount": "0,25 su bardağı" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu dilimlerini her tarafından tuz, karabiber ve zerdeçalle çeşnileyin.", "duration": 4 },
+          { "step": 2, "instruction": "Büyük ağır bir tavada yüksek ateşte tereyağını köpükler geçene ve hafifçe kararana dek kızdırın — kavurma için doğru sıcaklık budur.", "duration": 3 },
+          { "step": 3, "instruction": "Kuzu dilimlerini tek kat döşeyin, bastırın. 3-4 dakika alt tarafı koyu kahverengi ve karamelleşene dek dokunmadan kavurun.", "duration": 4 },
+          { "step": 4, "instruction": "Çevirin, öte yüzü 2-3 dakika kavurun. Tamamen pişirmeyin — soğanla birlikte tamamlanacak.", "duration": 3 },
+          { "step": 5, "instruction": "Kuzuyu kenarlara itin, ortaya soğanı ekleyin. Karamelizasyon başlasın diye 3 dakika karıştırmayın.", "duration": 3 },
+          { "step": 6, "instruction": "Ateşi ortaya alın, kuzu ve soğanı birleştirin. 10-12 dakika soğanlar derin altın rengi ve yumuşak, et tamamen pişene dek ara ara karıştırarak pişirin.", "duration": 12 },
+          { "step": 7, "instruction": "Domatesleri ekleyin, karıştırın. 5 dakika domates yumuşayıp suyunu bırakana dek pişirin — hafif bir tava sosu oluşur.", "duration": 5 },
+          { "step": 8, "instruction": "Gerekirse biraz ılık su ekleyin, dipteki kızarmış parçaları kazıyın. 2-3 dakika kaynatın.", "duration": 3 },
+          { "step": 9, "instruction": "Tadına bakın, çeşniyi ayarlayın. Maydanoz serpin, sıcak ekmekle tavadan direkt servis yapın.", "duration": 3 }
+        ]
+      }
+    }
+  }
+]

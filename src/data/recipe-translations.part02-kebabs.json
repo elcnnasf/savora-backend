@@ -1,0 +1,508 @@
+[
+  {
+    "title": "Lülə Kabab",
+    "translations": {
+      "en": {
+        "title": "Lülə Kabab (Minced Lamb Kebab)",
+        "description": "Hand-minced lamb kneaded with grated onion and spices until sticky, then moulded around flat skewers and grilled over charcoal. Juicy and smoky, it is served with grilled tomatoes, sumac onions and lavash.",
+        "ingredients": [
+          { "name": "Lamb, finely minced", "amount": "700 g" },
+          { "name": "Lamb tail fat, minced", "amount": "100 g" },
+          { "name": "Onion, grated and drained", "amount": "2 medium" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Sumac", "amount": "1 tbsp" },
+          { "name": "Lavash and herbs to serve", "amount": "as needed" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Combine the minced lamb, tail fat, grated onion, salt and pepper in a bowl.", "duration": 5 },
+          { "step": 2, "instruction": "Knead the mixture vigorously for 10 minutes until it becomes sticky and elastic, which keeps it on the skewer.", "duration": 10 },
+          { "step": 3, "instruction": "Rest the meat covered in the fridge for 30 minutes to firm up.", "duration": 30 },
+          { "step": 4, "instruction": "With wet hands, mould fistfuls of meat firmly around flat metal skewers into long sausages.", "duration": 12 },
+          { "step": 5, "instruction": "Grill over hot charcoal, turning frequently, for 10-12 minutes until evenly browned and cooked through.", "duration": 12 },
+          { "step": 6, "instruction": "Slide the kebabs onto warm lavash, scatter sumac onions and grilled tomatoes, and serve at once.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Lülə Kabab",
+        "description": "Rəndələnmiş soğan və ədviyyatla yapışqan olana qədər yoğrulmuş çəkilmiş quzu əti yastı şişlərə düzülüb kömürdə bişirilir. Sulu və tüstülü olub, pomidor, sumaqlı soğan və lavaşla verilir.",
+        "ingredients": [
+          { "name": "İncə çəkilmiş quzu əti", "amount": "700 q" },
+          { "name": "Quyruq yağı, çəkilmiş", "amount": "100 q" },
+          { "name": "Soğan, rəndələnmiş və suyu süzülmüş", "amount": "2 ədəd" },
+          { "name": "Duz və qara istiot", "amount": "dadına görə" },
+          { "name": "Sumaq", "amount": "1 x.q." },
+          { "name": "Lavaş və göyərti", "amount": "lazım olduğu qədər" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Çəkilmiş əti, quyruq yağını, rəndələnmiş soğanı, duz və istiotu qarışdırın.", "duration": 5 },
+          { "step": 2, "instruction": "Qarışığı 10 dəqiqə yapışqan və elastik olana qədər güclü yoğurun.", "duration": 10 },
+          { "step": 3, "instruction": "Əti örtüb soyuducuda 30 dəqiqə dincəldin.", "duration": 30 },
+          { "step": 4, "instruction": "Yaş əllə əti yastı şişlərə bərk-bərk uzun şəkildə sarıyın.", "duration": 12 },
+          { "step": 5, "instruction": "Qaynar kömürdə tez-tez çevirərək 10-12 dəqiqə bişirin.", "duration": 12 },
+          { "step": 6, "instruction": "Kababı isti lavaşa qoyun, sumaqlı soğan və pomidorla təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Люля-кебаб",
+        "description": "Рубленая баранина, вымешанная с тёртым луком и специями до вязкости, формуется на плоских шампурах и жарится на углях. Сочный и дымный, подаётся с жареными помидорами, луком с сумахом и лавашем.",
+        "ingredients": [
+          { "name": "Баранина, мелко рубленая", "amount": "700 г" },
+          { "name": "Курдючный жир, рубленый", "amount": "100 г" },
+          { "name": "Лук, натёртый и отжатый", "amount": "2 шт" },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Сумах", "amount": "1 ст.л." },
+          { "name": "Лаваш и зелень для подачи", "amount": "по необходимости" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Смешайте рубленую баранину, жир, тёртый лук, соль и перец.", "duration": 5 },
+          { "step": 2, "instruction": "Энергично вымешивайте 10 минут до вязкости и эластичности.", "duration": 10 },
+          { "step": 3, "instruction": "Уберите мясо под плёнкой в холодильник на 30 минут.", "duration": 30 },
+          { "step": 4, "instruction": "Мокрыми руками плотно формуйте мясо на плоских шампурах в длинные колбаски.", "duration": 12 },
+          { "step": 5, "instruction": "Жарьте на углях, часто переворачивая, 10-12 минут до румяной корочки.", "duration": 12 },
+          { "step": 6, "instruction": "Выложите кебаб на тёплый лаваш с луком и помидорами и подавайте.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Lüle Kebabı",
+        "description": "Rendelenmiş soğan ve baharatla yapışkan olana dek yoğrulan kıyma kuzu eti, yassı şişlere şekillendirilip kömürde pişirilir. Sulu ve dumanlıdır; közlenmiş domates, sumaklı soğan ve lavaşla servis edilir.",
+        "ingredients": [
+          { "name": "İnce kıyılmış kuzu eti", "amount": "700 g" },
+          { "name": "Kuyruk yağı, kıyılmış", "amount": "100 g" },
+          { "name": "Soğan, rendelenip suyu sıkılmış", "amount": "2 adet" },
+          { "name": "Tuz ve karabiber", "amount": "damak zevkine göre" },
+          { "name": "Sumak", "amount": "1 yemek kaşığı" },
+          { "name": "Lavaş ve yeşillik", "amount": "gerektiği kadar" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kıymayı, kuyruk yağını, rendelenmiş soğanı, tuz ve biberi karıştırın.", "duration": 5 },
+          { "step": 2, "instruction": "Karışımı 10 dakika yapışkan ve elastik olana dek güçlüce yoğurun.", "duration": 10 },
+          { "step": 3, "instruction": "Eti örtüp buzdolabında 30 dakika dinlendirin.", "duration": 30 },
+          { "step": 4, "instruction": "Islak elle eti yassı şişlere sıkıca uzun şekilde sarın.", "duration": 12 },
+          { "step": 5, "instruction": "Kızgın kömürde sık çevirerek 10-12 dakika pişirin.", "duration": 12 },
+          { "step": 6, "instruction": "Kebabı sıcak lavaşa alıp sumaklı soğan ve domatesle servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Tikə Kabab",
+    "translations": {
+      "en": {
+        "title": "Tikə Kabab (Lamb Cube Kebab)",
+        "description": "Chunks of lamb marinated in onion juice and spices, then skewered with tail fat and char-grilled to smoky tenderness. The simplest and most beloved Azerbaijani shish kebab.",
+        "ingredients": [
+          { "name": "Lamb leg, cut in cubes", "amount": "1 kg" },
+          { "name": "Onions, grated for juice", "amount": "3 large" },
+          { "name": "Lamb tail fat cubes", "amount": "150 g" },
+          { "name": "Salt and black pepper", "amount": "to taste" },
+          { "name": "Sumac and onions to serve", "amount": "as needed" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Toss the lamb cubes with grated onion juice, salt and pepper.", "duration": 8 },
+          { "step": 2, "instruction": "Marinate covered in the fridge for at least 3 hours, ideally overnight.", "duration": 180 },
+          { "step": 3, "instruction": "Thread the lamb onto skewers, alternating with cubes of tail fat for moisture.", "duration": 10 },
+          { "step": 4, "instruction": "Grill over hot charcoal, turning every couple of minutes, for 12-15 minutes until charred outside and juicy inside.", "duration": 15 },
+          { "step": 5, "instruction": "Rest the kebabs off the heat for 3 minutes so the juices settle.", "duration": 3 },
+          { "step": 6, "instruction": "Serve over lavash with sumac onions and grilled vegetables.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Tikə Kabab",
+        "description": "Soğan suyu və ədviyyatda marinad edilmiş quzu tikələri quyruq yağı ilə şişə düzülüb kömürdə bişirilir. Ən sadə və sevilən Azərbaycan kababıdır.",
+        "ingredients": [
+          { "name": "Quzu budu, tikələnmiş", "amount": "1 kq" },
+          { "name": "Soğan, suyu üçün rəndələnmiş", "amount": "3 ədəd" },
+          { "name": "Quyruq yağı tikələri", "amount": "150 q" },
+          { "name": "Duz və qara istiot", "amount": "dadına görə" },
+          { "name": "Sumaq və soğan", "amount": "lazım qədər" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu tikələrini soğan suyu, duz və istiotla qarışdırın.", "duration": 8 },
+          { "step": 2, "instruction": "Örtüb soyuducuda ən azı 3 saat, mümkünsə bir gecə marinad edin.", "duration": 180 },
+          { "step": 3, "instruction": "Quzunu şişə düzün, arasına quyruq yağı tikələri keçirin.", "duration": 10 },
+          { "step": 4, "instruction": "Qaynar kömürdə hər iki dəqiqədən bir çevirərək 12-15 dəqiqə bişirin.", "duration": 15 },
+          { "step": 5, "instruction": "Kababı oddan götürüb 3 dəqiqə dincəldin.", "duration": 3 },
+          { "step": 6, "instruction": "Lavaşın üstündə sumaqlı soğan və tərəvəzlə təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Тике-кебаб (шашлык из баранины)",
+        "description": "Кусочки баранины, маринованные в луковом соке со специями, нанизываются с курдючным жиром и жарятся на углях до дымной мягкости. Самый простой и любимый азербайджанский шашлык.",
+        "ingredients": [
+          { "name": "Баранья нога, кубиками", "amount": "1 кг" },
+          { "name": "Лук, натёртый для сока", "amount": "3 шт" },
+          { "name": "Кубики курдючного жира", "amount": "150 г" },
+          { "name": "Соль и чёрный перец", "amount": "по вкусу" },
+          { "name": "Сумах и лук для подачи", "amount": "по необходимости" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Перемешайте кубики баранины с луковым соком, солью и перцем.", "duration": 8 },
+          { "step": 2, "instruction": "Маринуйте под крышкой в холодильнике минимум 3 часа, лучше ночь.", "duration": 180 },
+          { "step": 3, "instruction": "Нанижите баранину на шампуры, чередуя с кубиками жира.", "duration": 10 },
+          { "step": 4, "instruction": "Жарьте на углях, переворачивая каждые пару минут, 12-15 минут.", "duration": 15 },
+          { "step": 5, "instruction": "Дайте кебабам отдохнуть 3 минуты, чтобы соки распределились.", "duration": 3 },
+          { "step": 6, "instruction": "Подавайте на лаваше с луком с сумахом и овощами.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Tike Kebabı (Kuşbaşı Kebap)",
+        "description": "Soğan suyu ve baharatta marine edilen kuzu kuşbaşıları kuyruk yağıyla şişe dizilip kömürde dumanlı bir yumuşaklığa dek pişirilir. En sade ve sevilen Azerbaycan şiş kebabıdır.",
+        "ingredients": [
+          { "name": "Kuzu but, kuşbaşı", "amount": "1 kg" },
+          { "name": "Soğan, suyu için rendelenmiş", "amount": "3 adet" },
+          { "name": "Kuyruk yağı küpleri", "amount": "150 g" },
+          { "name": "Tuz ve karabiber", "amount": "damak zevkine göre" },
+          { "name": "Sumak ve soğan", "amount": "gerektiği kadar" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu kuşbaşılarını soğan suyu, tuz ve biberle harmanlayın.", "duration": 8 },
+          { "step": 2, "instruction": "Örtüp buzdolabında en az 3 saat, mümkünse bir gece marine edin.", "duration": 180 },
+          { "step": 3, "instruction": "Kuzuyu şişe dizin, aralarına kuyruk yağı küpleri geçirin.", "duration": 10 },
+          { "step": 4, "instruction": "Kızgın kömürde birkaç dakikada bir çevirerek 12-15 dakika pişirin.", "duration": 15 },
+          { "step": 5, "instruction": "Kebabı ateşten alıp 3 dakika dinlendirin.", "duration": 3 },
+          { "step": 6, "instruction": "Lavaş üzerinde sumaklı soğan ve sebzelerle servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Cücə Kabab",
+    "translations": {
+      "en": {
+        "title": "Cücə Kabab (Chicken Kebab)",
+        "description": "Chicken pieces marinated in yogurt, saffron and onion, then grilled over charcoal until golden and tender. A lighter kebab beloved for its juicy, fragrant flesh.",
+        "ingredients": [
+          { "name": "Chicken thighs and breast, cubed", "amount": "1 kg" },
+          { "name": "Plain yogurt", "amount": "150 g" },
+          { "name": "Onion, grated", "amount": "2 medium" },
+          { "name": "Saffron water", "amount": "2 tbsp" },
+          { "name": "Salt and pepper", "amount": "to taste" },
+          { "name": "Butter for basting", "amount": "50 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Whisk yogurt, grated onion, saffron, salt and pepper into a marinade.", "duration": 5 },
+          { "step": 2, "instruction": "Coat the chicken cubes thoroughly and marinate for 2-3 hours.", "duration": 150 },
+          { "step": 3, "instruction": "Thread the chicken onto skewers without crowding the pieces.", "duration": 8 },
+          { "step": 4, "instruction": "Grill over medium charcoal for 12-14 minutes, turning and basting with saffron butter, until golden with light char.", "duration": 14 },
+          { "step": 5, "instruction": "Check that the juices run clear and the flesh is opaque throughout.", "duration": 2 },
+          { "step": 6, "instruction": "Serve with grilled tomatoes, fresh herbs and lavash.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Cücə Kabab",
+        "description": "Qatıq, zəfəran və soğanda marinad edilmiş toyuq tikələri kömürdə qızarana qədər bişirilir. Sulu və ətirli əti üçün sevilən yüngül kababdır.",
+        "ingredients": [
+          { "name": "Toyuq budu və döşü, tikələnmiş", "amount": "1 kq" },
+          { "name": "Qatıq", "amount": "150 q" },
+          { "name": "Soğan, rəndələnmiş", "amount": "2 ədəd" },
+          { "name": "Zəfəran suyu", "amount": "2 x.q." },
+          { "name": "Duz və istiot", "amount": "dadına görə" },
+          { "name": "Yağlamaq üçün kərə yağı", "amount": "50 q" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Qatıq, rəndələnmiş soğan, zəfəran, duz və istiotu qarışdırıb marinad hazırlayın.", "duration": 5 },
+          { "step": 2, "instruction": "Toyuğu yaxşıca bulayıb 2-3 saat marinad edin.", "duration": 150 },
+          { "step": 3, "instruction": "Toyuğu sıx olmadan şişə düzün.", "duration": 8 },
+          { "step": 4, "instruction": "Orta kömürdə 12-14 dəqiqə çevirərək və zəfəranlı yağla yağlayaraq bişirin.", "duration": 14 },
+          { "step": 5, "instruction": "Ət bişdiyini suyunun şəffaf olmasından yoxlayın.", "duration": 2 },
+          { "step": 6, "instruction": "Pomidor, göyərti və lavaşla təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Джудже-кебаб (куриный кебаб)",
+        "description": "Кусочки курицы, маринованные в йогурте, шафране и луке, жарятся на углях до золотистости и нежности. Лёгкий кебаб, любимый за сочное ароматное мясо.",
+        "ingredients": [
+          { "name": "Куриные бёдра и грудка, кубиками", "amount": "1 кг" },
+          { "name": "Натуральный йогурт", "amount": "150 г" },
+          { "name": "Лук, натёртый", "amount": "2 шт" },
+          { "name": "Шафрановая вода", "amount": "2 ст.л." },
+          { "name": "Соль и перец", "amount": "по вкусу" },
+          { "name": "Масло для смазывания", "amount": "50 г" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Взбейте йогурт, тёртый лук, шафран, соль и перец в маринад.", "duration": 5 },
+          { "step": 2, "instruction": "Тщательно обмажьте курицу и маринуйте 2-3 часа.", "duration": 150 },
+          { "step": 3, "instruction": "Нанижите курицу на шампуры, не сдавливая кусочки.", "duration": 8 },
+          { "step": 4, "instruction": "Жарьте на углях 12-14 минут, переворачивая и смазывая шафрановым маслом.", "duration": 14 },
+          { "step": 5, "instruction": "Проверьте, что сок прозрачный, а мясо непрозрачное внутри.", "duration": 2 },
+          { "step": 6, "instruction": "Подавайте с помидорами, зеленью и лавашем.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Piliç Kebabı",
+        "description": "Yoğurt, safran ve soğanda marine edilen tavuk parçaları kömürde altın rengi olana dek pişirilir. Sulu ve aromatik etiyle sevilen hafif bir kebaptır.",
+        "ingredients": [
+          { "name": "Tavuk but ve göğüs, kuşbaşı", "amount": "1 kg" },
+          { "name": "Sade yoğurt", "amount": "150 g" },
+          { "name": "Soğan, rendelenmiş", "amount": "2 adet" },
+          { "name": "Safran suyu", "amount": "2 yemek kaşığı" },
+          { "name": "Tuz ve biber", "amount": "damak zevkine göre" },
+          { "name": "Yağlamak için tereyağı", "amount": "50 g" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Yoğurt, rendelenmiş soğan, safran, tuz ve biberi çırpıp marine hazırlayın.", "duration": 5 },
+          { "step": 2, "instruction": "Tavuğu iyice bulayıp 2-3 saat marine edin.", "duration": 150 },
+          { "step": 3, "instruction": "Tavuğu sıkıştırmadan şişe dizin.", "duration": 8 },
+          { "step": 4, "instruction": "Orta kömürde 12-14 dakika çevirip safranlı yağla yağlayarak pişirin.", "duration": 14 },
+          { "step": 5, "instruction": "Suyunun berrak ve etin tamamen pişmiş olduğunu kontrol edin.", "duration": 2 },
+          { "step": 6, "instruction": "Domates, yeşillik ve lavaşla servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Balıq Kabab",
+    "translations": {
+      "en": {
+        "title": "Balıq Kabab (Fish Kebab)",
+        "description": "Firm fish such as sturgeon or salmon marinated with lemon, onion and herbs, then grilled on skewers until lightly charred. Often served with tangy narsharab pomegranate sauce.",
+        "ingredients": [
+          { "name": "Firm fish fillet, cubed", "amount": "800 g" },
+          { "name": "Lemon juice", "amount": "3 tbsp" },
+          { "name": "Onion, sliced", "amount": "2 medium" },
+          { "name": "Olive oil", "amount": "3 tbsp" },
+          { "name": "Narsharab to serve", "amount": "3 tbsp" },
+          { "name": "Salt and pepper", "amount": "to taste" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Mix lemon juice, sliced onion, oil, salt and pepper in a bowl.", "duration": 4 },
+          { "step": 2, "instruction": "Gently coat the fish cubes and marinate for 30-40 minutes; do not over-marinate or the acid will toughen it.", "duration": 40 },
+          { "step": 3, "instruction": "Thread the fish onto skewers, alternating with onion or bay leaves.", "duration": 8 },
+          { "step": 4, "instruction": "Grill over medium charcoal for 8-10 minutes, turning carefully, until the flesh flakes easily.", "duration": 10 },
+          { "step": 5, "instruction": "Brush with a little oil at the end to keep the surface glossy.", "duration": 1 },
+          { "step": 6, "instruction": "Serve drizzled with narsharab and fresh herbs.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Balıq Kabab",
+        "description": "Nərə və ya qızıl balıq kimi bərk balıq limon, soğan və göyərti ilə marinad edilib şişdə bişirilir. Çox vaxt turş narşərabla verilir.",
+        "ingredients": [
+          { "name": "Bərk balıq filesi, tikələnmiş", "amount": "800 q" },
+          { "name": "Limon suyu", "amount": "3 x.q." },
+          { "name": "Soğan, dilimlənmiş", "amount": "2 ədəd" },
+          { "name": "Zeytun yağı", "amount": "3 x.q." },
+          { "name": "Narşərab", "amount": "3 x.q." },
+          { "name": "Duz və istiot", "amount": "dadına görə" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Limon suyu, soğan, yağ, duz və istiotu qarışdırın.", "duration": 4 },
+          { "step": 2, "instruction": "Balığı ehmalca bulayıb 30-40 dəqiqə marinad edin; çox saxlamayın.", "duration": 40 },
+          { "step": 3, "instruction": "Balığı şişə düzün, arasına soğan və ya dəfnə yarpağı keçirin.", "duration": 8 },
+          { "step": 4, "instruction": "Orta kömürdə diqqətlə çevirərək 8-10 dəqiqə bişirin.", "duration": 10 },
+          { "step": 5, "instruction": "Sonda bir az yağ sürtün ki, üzü parlaq qalsın.", "duration": 1 },
+          { "step": 6, "instruction": "Narşərab və göyərti ilə təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Балык-кебаб (рыбный кебаб)",
+        "description": "Плотная рыба, например осетрина или лосось, маринуется с лимоном, луком и зеленью и жарится на шампурах до лёгкой корочки. Часто подаётся с кислым гранатовым соусом наршараб.",
+        "ingredients": [
+          { "name": "Плотное филе рыбы, кубиками", "amount": "800 г" },
+          { "name": "Лимонный сок", "amount": "3 ст.л." },
+          { "name": "Лук, нарезанный", "amount": "2 шт" },
+          { "name": "Оливковое масло", "amount": "3 ст.л." },
+          { "name": "Наршараб для подачи", "amount": "3 ст.л." },
+          { "name": "Соль и перец", "amount": "по вкусу" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Смешайте лимонный сок, лук, масло, соль и перец.", "duration": 4 },
+          { "step": 2, "instruction": "Аккуратно обмажьте рыбу и маринуйте 30-40 минут, не дольше.", "duration": 40 },
+          { "step": 3, "instruction": "Нанижите рыбу на шампуры, чередуя с луком или лавром.", "duration": 8 },
+          { "step": 4, "instruction": "Жарьте на углях 8-10 минут, осторожно переворачивая, пока мясо не начнёт расслаиваться.", "duration": 10 },
+          { "step": 5, "instruction": "В конце смажьте маслом для глянца.", "duration": 1 },
+          { "step": 6, "instruction": "Подавайте с наршарабом и свежей зеленью.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Balık Kebabı",
+        "description": "Mersin balığı veya somon gibi sıkı balıklar limon, soğan ve otlarla marine edilip şişte hafif kızarana dek pişirilir. Çoğunlukla ekşi nar ekşisi sosuyla servis edilir.",
+        "ingredients": [
+          { "name": "Sıkı balık fileto, kuşbaşı", "amount": "800 g" },
+          { "name": "Limon suyu", "amount": "3 yemek kaşığı" },
+          { "name": "Soğan, dilimlenmiş", "amount": "2 adet" },
+          { "name": "Zeytinyağı", "amount": "3 yemek kaşığı" },
+          { "name": "Servis için narşarab", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve biber", "amount": "damak zevkine göre" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Limon suyu, soğan, yağ, tuz ve biberi karıştırın.", "duration": 4 },
+          { "step": 2, "instruction": "Balığı nazikçe bulayıp 30-40 dakika marine edin; fazla bekletmeyin.", "duration": 40 },
+          { "step": 3, "instruction": "Balığı şişe dizin, aralarına soğan veya defne yaprağı geçirin.", "duration": 8 },
+          { "step": 4, "instruction": "Orta kömürde dikkatlice çevirerek 8-10 dakika pişirin.", "duration": 10 },
+          { "step": 5, "instruction": "Sonunda parlaklık için biraz yağ sürün.", "duration": 1 },
+          { "step": 6, "instruction": "Narşarab ve taze otlarla servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Soğan Kabab",
+    "translations": {
+      "en": {
+        "title": "Soğan Kabab (Onion Kebab)",
+        "description": "A rustic kebab where whole onions are grilled alongside lamb until soft and caramelised, then dressed with pomegranate sauce. The sweet smoky onions are as prized as the meat.",
+        "ingredients": [
+          { "name": "Lamb cubes", "amount": "700 g" },
+          { "name": "Whole small onions", "amount": "8 pieces" },
+          { "name": "Lamb tail fat", "amount": "120 g" },
+          { "name": "Narsharab", "amount": "3 tbsp" },
+          { "name": "Salt and pepper", "amount": "to taste" },
+          { "name": "Fresh herbs to serve", "amount": "as needed" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Season the lamb cubes with salt and pepper and rest for 30 minutes.", "duration": 30 },
+          { "step": 2, "instruction": "Peel the onions and thread them whole onto separate skewers.", "duration": 8 },
+          { "step": 3, "instruction": "Thread the lamb with tail fat onto other skewers.", "duration": 8 },
+          { "step": 4, "instruction": "Grill the onions over charcoal for 18-20 minutes until soft and blackened in spots.", "duration": 20 },
+          { "step": 5, "instruction": "Grill the lamb for 12-15 minutes until charred and juicy.", "duration": 15 },
+          { "step": 6, "instruction": "Slide everything onto a platter, drizzle with narsharab and serve hot.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Soğan Kabab",
+        "description": "Bütöv soğanların quzu ilə birlikdə yumşalıb karamelləşənə qədər bişirildiyi kənd kababıdır, üstünə narşərab tökülür. Şirin tüstülü soğan ət qədər qiymətlidir.",
+        "ingredients": [
+          { "name": "Quzu tikələri", "amount": "700 q" },
+          { "name": "Bütöv kiçik soğan", "amount": "8 ədəd" },
+          { "name": "Quyruq yağı", "amount": "120 q" },
+          { "name": "Narşərab", "amount": "3 x.q." },
+          { "name": "Duz və istiot", "amount": "dadına görə" },
+          { "name": "Göyərti", "amount": "lazım qədər" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzu tikələrini duz və istiotla ədviyyatlayıb 30 dəqiqə saxlayın.", "duration": 30 },
+          { "step": 2, "instruction": "Soğanı təmizləyib bütöv halda ayrı şişlərə düzün.", "duration": 8 },
+          { "step": 3, "instruction": "Quzunu quyruq yağı ilə başqa şişlərə düzün.", "duration": 8 },
+          { "step": 4, "instruction": "Soğanı kömürdə 18-20 dəqiqə yumşalana qədər bişirin.", "duration": 20 },
+          { "step": 5, "instruction": "Quzunu 12-15 dəqiqə sulu və qızarana qədər bişirin.", "duration": 15 },
+          { "step": 6, "instruction": "Hamısını boşqaba yığıb narşərab tökərək isti təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Соган-кебаб (луковый кебаб)",
+        "description": "Деревенский кебаб, где целые луковицы жарятся рядом с бараниной до мягкости и карамелизации, а затем поливаются гранатовым соусом. Сладкий дымный лук ценится не меньше мяса.",
+        "ingredients": [
+          { "name": "Кубики баранины", "amount": "700 г" },
+          { "name": "Целые мелкие луковицы", "amount": "8 шт" },
+          { "name": "Курдючный жир", "amount": "120 г" },
+          { "name": "Наршараб", "amount": "3 ст.л." },
+          { "name": "Соль и перец", "amount": "по вкусу" },
+          { "name": "Зелень для подачи", "amount": "по необходимости" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Приправьте баранину солью и перцем и дайте постоять 30 минут.", "duration": 30 },
+          { "step": 2, "instruction": "Очистите лук и нанижите целиком на отдельные шампуры.", "duration": 8 },
+          { "step": 3, "instruction": "Нанижите баранину с жиром на другие шампуры.", "duration": 8 },
+          { "step": 4, "instruction": "Жарьте лук на углях 18-20 минут до мягкости и подпалин.", "duration": 20 },
+          { "step": 5, "instruction": "Жарьте баранину 12-15 минут до румяной корочки.", "duration": 15 },
+          { "step": 6, "instruction": "Выложите всё на блюдо, полейте наршарабом и подавайте горячим.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Soğan Kebabı",
+        "description": "Bütün soğanların kuzu etiyle birlikte yumuşayıp karamelize olana dek kızartıldığı köy usulü bir kebaptır; üzerine nar ekşisi gezdirilir. Tatlı dumanlı soğanlar et kadar makbuldür.",
+        "ingredients": [
+          { "name": "Kuzu kuşbaşı", "amount": "700 g" },
+          { "name": "Bütün küçük soğan", "amount": "8 adet" },
+          { "name": "Kuyruk yağı", "amount": "120 g" },
+          { "name": "Narşarab", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz ve biber", "amount": "damak zevkine göre" },
+          { "name": "Servis için yeşillik", "amount": "gerektiği kadar" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzu kuşbaşılarını tuz ve biberle baharatlayıp 30 dakika dinlendirin.", "duration": 30 },
+          { "step": 2, "instruction": "Soğanları soyup bütün halde ayrı şişlere dizin.", "duration": 8 },
+          { "step": 3, "instruction": "Kuzuyu kuyruk yağıyla başka şişlere dizin.", "duration": 8 },
+          { "step": 4, "instruction": "Soğanları kömürde 18-20 dakika yumuşayana dek pişirin.", "duration": 20 },
+          { "step": 5, "instruction": "Kuzuyu 12-15 dakika sulu ve kızarana dek pişirin.", "duration": 15 },
+          { "step": 6, "instruction": "Hepsini tabağa alıp narşarab gezdirerek sıcak servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  },
+  {
+    "title": "Tava Kabab",
+    "translations": {
+      "en": {
+        "title": "Tava Kabab (Pan Kebab)",
+        "description": "When charcoal is not at hand, lamb patties or cubes are seared in a heavy pan with onions and tomatoes into a saucy skillet kebab. Quick, homely and deeply flavoured.",
+        "ingredients": [
+          { "name": "Minced or cubed lamb", "amount": "700 g" },
+          { "name": "Onions, sliced", "amount": "2 medium" },
+          { "name": "Tomatoes, chopped", "amount": "3 medium" },
+          { "name": "Butter or oil", "amount": "3 tbsp" },
+          { "name": "Salt, pepper, paprika", "amount": "to taste" },
+          { "name": "Fresh herbs", "amount": "to garnish" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Shape the lamb into small patties or keep as cubes and season well.", "duration": 6 },
+          { "step": 2, "instruction": "Sear the meat in a hot heavy pan with butter until browned, about 8 minutes.", "duration": 8 },
+          { "step": 3, "instruction": "Add the sliced onions and cook until soft and golden.", "duration": 6 },
+          { "step": 4, "instruction": "Stir in chopped tomatoes and spices and let them collapse into a sauce.", "duration": 8 },
+          { "step": 5, "instruction": "Cover and simmer on low heat for 15 minutes until the meat is tender and the sauce thickens.", "duration": 15 },
+          { "step": 6, "instruction": "Scatter fresh herbs and serve straight from the pan with bread.", "duration": 3 }
+        ]
+      },
+      "az": {
+        "title": "Tava Kabab",
+        "description": "Kömür olmayanda quzu kütləsi və ya tikələri soğan və pomidorla ağır tavada qovrulub souslu kabab olur. Tez, ev tipli və zəngin dadlıdır.",
+        "ingredients": [
+          { "name": "Çəkilmiş və ya tikələnmiş quzu", "amount": "700 q" },
+          { "name": "Soğan, dilimlənmiş", "amount": "2 ədəd" },
+          { "name": "Pomidor, doğranmış", "amount": "3 ədəd" },
+          { "name": "Kərə yağı və ya yağ", "amount": "3 x.q." },
+          { "name": "Duz, istiot, qırmızı bibər", "amount": "dadına görə" },
+          { "name": "Göyərti", "amount": "bəzək üçün" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Quzunu kiçik kotlet edin və ya tikə saxlayıb yaxşı ədviyyatlayın.", "duration": 6 },
+          { "step": 2, "instruction": "Əti isti ağır tavada yağla 8 dəqiqə qızardın.", "duration": 8 },
+          { "step": 3, "instruction": "Soğanı əlavə edib yumşalana qədər qovurun.", "duration": 6 },
+          { "step": 4, "instruction": "Pomidor və ədviyyatı qatıb sous əmələ gələnə qədər bişirin.", "duration": 8 },
+          { "step": 5, "instruction": "Üstünü örtüb zəif odda 15 dəqiqə bişirin.", "duration": 15 },
+          { "step": 6, "instruction": "Göyərti səpib çörəklə tavadan təqdim edin.", "duration": 3 }
+        ]
+      },
+      "ru": {
+        "title": "Тава-кебаб (кебаб на сковороде)",
+        "description": "Когда углей нет под рукой, котлетки или кусочки баранины обжаривают в тяжёлой сковороде с луком и помидорами в соусный кебаб. Быстро, по-домашнему и насыщенно.",
+        "ingredients": [
+          { "name": "Баранина рубленая или кубиками", "amount": "700 г" },
+          { "name": "Лук, нарезанный", "amount": "2 шт" },
+          { "name": "Помидоры, нарезанные", "amount": "3 шт" },
+          { "name": "Масло сливочное или растительное", "amount": "3 ст.л." },
+          { "name": "Соль, перец, паприка", "amount": "по вкусу" },
+          { "name": "Свежая зелень", "amount": "для подачи" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Сформуйте из баранины котлетки или оставьте кубиками и приправьте.", "duration": 6 },
+          { "step": 2, "instruction": "Обжарьте мясо в горячей тяжёлой сковороде на масле 8 минут.", "duration": 8 },
+          { "step": 3, "instruction": "Добавьте лук и обжарьте до мягкости и золотистости.", "duration": 6 },
+          { "step": 4, "instruction": "Вмешайте помидоры и специи и дайте им превратиться в соус.", "duration": 8 },
+          { "step": 5, "instruction": "Накройте и тушите на слабом огне 15 минут до мягкости мяса.", "duration": 15 },
+          { "step": 6, "instruction": "Посыпьте зеленью и подавайте прямо со сковороды с хлебом.", "duration": 3 }
+        ]
+      },
+      "tr": {
+        "title": "Tava Kebabı",
+        "description": "Kömür yokken kuzu köfteleri veya kuşbaşıları soğan ve domatesle ağır bir tavada soslu bir kebaba dönüştürülür. Hızlı, ev usulü ve yoğun lezzetlidir.",
+        "ingredients": [
+          { "name": "Kıyma veya kuşbaşı kuzu", "amount": "700 g" },
+          { "name": "Soğan, dilimlenmiş", "amount": "2 adet" },
+          { "name": "Domates, doğranmış", "amount": "3 adet" },
+          { "name": "Tereyağı veya sıvı yağ", "amount": "3 yemek kaşığı" },
+          { "name": "Tuz, biber, pul biber", "amount": "damak zevkine göre" },
+          { "name": "Taze yeşillik", "amount": "süslemek için" }
+        ],
+        "steps": [
+          { "step": 1, "instruction": "Kuzuyu küçük köfteler yapın veya kuşbaşı bırakıp iyice baharatlayın.", "duration": 6 },
+          { "step": 2, "instruction": "Eti kızgın ağır tavada yağla 8 dakika kızartın.", "duration": 8 },
+          { "step": 3, "instruction": "Soğanı ekleyip yumuşayana dek kavurun.", "duration": 6 },
+          { "step": 4, "instruction": "Domates ve baharatları ekleyip sosa dönüşene dek pişirin.", "duration": 8 },
+          { "step": 5, "instruction": "Kapağını kapatıp kısık ateşte 15 dakika pişirin.", "duration": 15 },
+          { "step": 6, "instruction": "Yeşillik serpip ekmekle tavadan servis edin.", "duration": 3 }
+        ]
+      }
+    }
+  }
+]
