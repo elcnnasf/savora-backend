@@ -36,5 +36,12 @@ export const env = {
   pexelsApiKey: process.env.PEXELS_API_KEY ?? '',
   serperApiKey: process.env.SERPER_API_KEY ?? '',
 
+  // RevenueCat (subscriptions). When secretKey is set, /auth/subscribe verifies
+  // entitlements against the RevenueCat API instead of trusting the client.
+  revenuecat: {
+    secretKey: process.env.REVENUECAT_SECRET_KEY ?? '',
+    webhookAuth: process.env.REVENUECAT_WEBHOOK_AUTH ?? '',
+  },
+
   allowedOrigins: (process.env.ALLOWED_ORIGINS ?? 'http://localhost:8081').split(','),
 } as const;

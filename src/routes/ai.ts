@@ -3,7 +3,7 @@ import { requireAuth } from '../middleware/auth';
 import { validate } from '../middleware/validate';
 import { AuthRequest } from '../types';
 import { generateRecipeSchema } from '../schemas/recipe';
-import { chatSchema, mealPlanSchema, scanIngredientsSchema, suggestRecipesSchema } from '../schemas/ai';
+import { chatSchema, mealPlanSchema, scanIngredientsSchema, suggestRecipesSchema, analyzeCaloriesSchema } from '../schemas/ai';
 import * as aiService from '../services/aiService';
 
 const router = Router();
@@ -112,6 +112,30 @@ router.post(
   async (req: AuthRequest, res: Response, next: NextFunction) => {
     try {
       const result = await aiService.scanIngredients(req.body.image_base64);
+      res.json({ success: true, data: result });
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+/**
+ * POST /ai/analyze-calories  (Premium/Pro only)
+ * Body: { image_base64?: string, food_name?: string, portion?: string, language?: string }
+ * Returns: CalorieAnalysis
+ */
+router.post(
+  '/analyze-calories',
+  validate(analyzeCaloriesSchema),
+  async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+      const result = await aiService.analyzeCalories(
+        req.body,
+        req.user!.id,
+        req.user!.is_premium,
+        req.user!.is_admin,
+        req.user!.is_pro,
+      );
       res.json({ success: true, data: result });
     } catch (err) {
       next(err);

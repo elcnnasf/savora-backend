@@ -79,6 +79,15 @@ export async function clearChecked(userId: string) {
   if (error) throw new AppError(500, error.message);
 }
 
+export async function clearAll(userId: string) {
+  const { error } = await supabaseAdmin
+    .from('shopping_list_items')
+    .delete()
+    .eq('user_id', userId);
+
+  if (error) throw new AppError(500, error.message);
+}
+
 export async function toggleAll(userId: string, checked: boolean) {
   const { data, error } = await supabaseAdmin
     .from('shopping_list_items')

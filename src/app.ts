@@ -9,7 +9,9 @@ import recipesRouter      from './routes/recipes';
 import aiRouter           from './routes/ai';
 import shoppingListRouter from './routes/shoppingList';
 import mealPlannerRouter  from './routes/mealPlanner';
+import collectionsRouter  from './routes/collections';
 import adminRouter        from './routes/admin';
+import webhooksRouter     from './routes/webhooks';
 
 const app = express();
 
@@ -61,7 +63,9 @@ app.use('/ai',      aiRouter);
 
 app.use('/shopping-list', shoppingListRouter);
 app.use('/meal-plans',    mealPlannerRouter);
+app.use('/collections',   collectionsRouter);
 app.use('/admin',         adminRouter);
+app.use('/webhooks',      webhooksRouter);
 
 // Placeholder routes — coming soon
 app.use('/profile', (_req, res) => res.json({ success: true, message: 'Profile API — coming soon' }));

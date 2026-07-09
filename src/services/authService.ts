@@ -247,3 +247,55 @@ export async function getMe(userId: string) {
     },
   };
 }
+
+/** Update editable profile fields (display name, preset avatar id). */
+export async function updateProfile(
+  userId: string,
+  patch: { name?: string; avatar_url?: string | null },
+) {
+  const update: Record<string, any> = { updated_at: new Date().toISOString() };
+  if (patch.name       !== undefined) update.name       = patch.name;
+  if (patch.avatar_url !== undefined) update.avatar_url = patch.avatar_url;
+
+  const { data, error } = await supabaseAdmin
+    .from('profiles')
+    .update(update)
+    .eq('id', userId)
+    .select('id, name, avatar_url, is_premium, is_pro, member_since')
+    .single();
+  if (error || !data) throw new AppError(500, error?.message ?? 'Could not update profile');
+  return data;
+}
+
+/** Permanently delete the account. Cascades to all owned rows via FK ON DELETE CASCADE. */
+export async function deleteAccount(userId: string) {
+  const { error } = await supabaseAdmin.auth.admin.deleteUser(userId);
+  if (error) throw new AppError(500, `Could not delete account: ${error.message}`);
+}
+
+// ─── Taste preferences sync ─────────────────────────────────────────────────
+// Stores the full Taste Preferences wizard answers per account so they follow
+// the user across devices and reinstalls (requires the taste_prefs migration).
+
+export async function getTastePrefs(userId: string): Promise<unknown | null> {
+  const { data, error } = await supabaseAdmin
+    .from('user_preferences')
+    .select('taste_prefs')
+    .eq('user_id', userId)
+    .maybeSingle();
+
+  // Missing column (migration not run yet) or no row — behave as "nothing saved"
+  if (error) return null;
+  return data?.taste_prefs ?? null;
+}
+
+export async function saveTastePrefs(userId: string, prefs: unknown): Promise<void> {
+  const { error } = await supabaseAdmin
+    .from('user_preferences')
+    .upsert(
+      { user_id: userId, taste_prefs: prefs, updated_at: new Date().toISOString() },
+      { onConflict: 'user_id' },
+    );
+
+  if (error) throw new AppError(500, error.message);
+}

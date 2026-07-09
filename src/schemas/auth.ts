@@ -37,6 +37,15 @@ export const resetPasswordSchema = z.object({
     .regex(/[0-9]/, 'Password must contain at least one number'),
 });
 
+export const updateProfileSchema = z.object({
+  name:       z.string().min(1).max(60).optional(),
+  // Preset avatar id (e.g. "preset:av3") — never a raw uploaded image.
+  avatar_url: z.string().max(120).nullable().optional(),
+}).refine((d) => d.name !== undefined || d.avatar_url !== undefined, {
+  message: 'Nothing to update',
+});
+
+export type UpdateProfileInput = z.infer<typeof updateProfileSchema>;
 export type RegisterInput = z.infer<typeof registerSchema>;
 export type LoginInput = z.infer<typeof loginSchema>;
 export type RefreshInput = z.infer<typeof refreshSchema>;

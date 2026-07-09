@@ -1,10 +1,12 @@
 import { env } from './env';
 
 // Smart routing tiers:
-//   heavy → gemini-2.5-flash      (~250 req/day free)  — recipe generation, meal plans
-//   light → gemini-2.5-flash-lite (~1000 req/day free) — chat, suggestions, dish research, scan
-export const GEMINI_HEAVY_MODEL = 'gemini-2.5-flash';
-export const GEMINI_LIGHT_MODEL = 'gemini-2.5-flash-lite';
+//   heavy → flash      — recipe generation, meal plans
+//   light → flash-lite — chat, suggestions, dish research, scan, calorie analysis
+// "-latest" aliases track the newest available model: pinned versions get retired
+// (gemini-2.5-flash-lite started returning 404 in July 2026) but aliases keep working.
+export const GEMINI_HEAVY_MODEL = 'gemini-flash-latest';
+export const GEMINI_LIGHT_MODEL = 'gemini-flash-lite-latest';
 
 const BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
 

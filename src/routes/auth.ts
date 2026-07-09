@@ -3,9 +3,12 @@ import { validate } from '../middleware/validate';
 import { requireAuth } from '../middleware/auth';
 import {
   registerSchema, loginSchema, refreshSchema, googleSchema,
-  forgotPasswordSchema, resetPasswordSchema,
+  forgotPasswordSchema, resetPasswordSchema, updateProfileSchema,
 } from '../schemas/auth';
 import * as authService from '../services/authService';
+import * as subscriptionService from '../services/subscriptionService';
+import { env } from '../config/env';
+import { AppError } from '../middleware/errorHandler';
 import { AuthRequest } from '../types';
 
 const router = Router();
@@ -148,17 +151,106 @@ router.get(
 );
 
 /**
+ * PATCH /auth/me — update display name and/or preset avatar
+ * Body: { name?, avatar_url? }
+ */
+router.patch(
+  '/me',
+  requireAuth,
+  validate(updateProfileSchema),
+  async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+      const profile = await authService.updateProfile(req.user!.id, req.body);
+      res.json({ success: true, data: { ...profile, email: req.user!.email } });
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+/**
+ * DELETE /auth/me — permanently delete the account and all its data
+ */
+router.delete(
+  '/me',
+  requireAuth,
+  async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+      await authService.deleteAccount(req.user!.id);
+      res.json({ success: true, message: 'Account deleted' });
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+/**
  * POST /auth/subscribe
- * Body: { plan: 'premium' | 'pro' | 'free' }
+ * Body: { plan: 'premium' | 'pro' | 'free' }  (advisory only — see below)
  * Header: Authorization: Bearer <token>
+ *
+ * With RevenueCat configured, the requested plan is IGNORED: entitlements are
+ * verified against the RevenueCat API and mirrored into the profile, so the
+ * client can never grant itself a plan. Without RevenueCat the old trusting
+ * behavior remains as a dev-only simulator and is refused in production.
  */
 router.post(
   '/subscribe',
   requireAuth,
   async (req: AuthRequest, res: Response, next: NextFunction) => {
     try {
+      if (subscriptionService.isRevenueCatEnabled()) {
+        const result = await subscriptionService.syncSubscription(req.user!.id);
+        res.json({ success: true, data: result });
+        return;
+      }
+      if (!env.isDev) {
+        throw new AppError(503, 'Payments are not configured on this server');
+      }
       const result = await authService.updateSubscription(req.user!.id, req.body.plan);
       res.json({ success: true, data: result });
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+/**
+ * GET /auth/preferences — the account's saved Taste Preferences (or null)
+ */
+router.get(
+  '/preferences',
+  requireAuth,
+  async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+      const taste_prefs = await authService.getTastePrefs(req.user!.id);
+      res.json({ success: true, data: { taste_prefs } });
+    } catch (err) {
+      next(err);
+    }
+  },
+);
+
+/**
+ * PUT /auth/preferences
+ * Body: { taste_prefs: { ...full wizard answers } }
+ */
+router.put(
+  '/preferences',
+  requireAuth,
+  async (req: AuthRequest, res: Response, next: NextFunction) => {
+    try {
+      const prefs = req.body?.taste_prefs;
+      if (!prefs || typeof prefs !== 'object' || Array.isArray(prefs)) {
+        res.status(400).json({ success: false, error: 'taste_prefs object required' });
+        return;
+      }
+      if (JSON.stringify(prefs).length > 20_000) {
+        res.status(400).json({ success: false, error: 'taste_prefs too large' });
+        return;
+      }
+      await authService.saveTastePrefs(req.user!.id, prefs);
+      res.json({ success: true });
     } catch (err) {
       next(err);
     }

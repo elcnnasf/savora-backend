@@ -56,6 +56,14 @@ router.delete('/checked', async (req: AuthRequest, res: Response, next: NextFunc
   } catch (err) { next(err); }
 });
 
+/** DELETE /shopping-list/all — bütün itemləri sil */
+router.delete('/all', async (req: AuthRequest, res: Response, next: NextFunction) => {
+  try {
+    await svc.clearAll(req.user!.id);
+    res.json({ success: true, message: 'All items cleared' });
+  } catch (err) { next(err); }
+});
+
 /** PATCH /shopping-list/toggle-all */
 router.patch('/toggle-all', async (req: AuthRequest, res: Response, next: NextFunction) => {
   try {

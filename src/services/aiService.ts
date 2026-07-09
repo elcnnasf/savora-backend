@@ -8,9 +8,10 @@ import {
 import { supabaseAdmin } from '../config/supabase';
 import { AppError } from '../middleware/errorHandler';
 import { GenerateRecipeInput } from '../schemas/recipe';
-import { ChatInput, MealPlanInput, SuggestRecipesInput } from '../schemas/ai';
+import { ChatInput, MealPlanInput, SuggestRecipesInput, AnalyzeCaloriesInput } from '../schemas/ai';
 import { createRecipe, updateRecipeTranslations } from './recipeService';
 import { env } from '../config/env';
+import Jimp from 'jimp';
 
 async function groqComplete(params: Parameters<typeof groq.chat.completions.create>[0]): Promise<string> {
   try {
@@ -70,7 +71,7 @@ export async function aiComplete(
   return groqComplete(params);
 }
 
-type UsageField = 'recipes_count' | 'scans_count' | 'ai_chat_count' | 'suggestions_count' | 'meal_plans_count';
+type UsageField = 'recipes_count' | 'scans_count' | 'ai_chat_count' | 'suggestions_count' | 'meal_plans_count' | 'calories_count';
 
 // Cost estimate per request (Groq paid tier):
 //   recipe: ~4000 tok → ~$0.004 | suggestion: ~2500 tok → $0.002 | chat: ~500 tok → $0.0004
@@ -84,6 +85,8 @@ const DAILY_LIMITS: Record<UsageField, { free: number; premium: number; pro: num
   scans_count:       { free: 3,  premium: 10, pro: 20 },
   ai_chat_count:     { free: 10, premium: 50, pro: 100 },
   meal_plans_count:  { free: 1,  premium: 3,  pro: 5  },
+  // Premium/Pro-only feature (free users are rejected before the quota check)
+  calories_count:    { free: 0,  premium: 15, pro: 40 },
 };
 
 // Keyword-to-photo mapping for accurate food images
@@ -297,6 +300,59 @@ export async function fetchPexelsImage(query: string): Promise<string | null> {
   }
 }
 
+// Google Images (via Serper) knows specific and local dishes by their real name
+// ("Piti", "Dolma", "Chicken Alfredo") far better than stock-photo sites, so this
+// is the most relevant source for a generated recipe's photo.
+export async function fetchSerperImage(query: string): Promise<string | null> {
+  if (!env.serperApiKey) return null;
+  const cacheKey = query.trim().toLowerCase();
+  const cached = serperImageCache.get(cacheKey);
+  if (cached !== undefined) return cached;
+  try {
+    const res = await fetch('https://google.serper.dev/images', {
+      method: 'POST',
+      headers: { 'X-API-KEY': env.serperApiKey, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ q: query, num: 12 }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json() as any;
+    const images: any[] = data.images ?? [];
+    if (images.length === 0) return null;
+
+    // Skip pinterest/lookaside (hotlink-blocked or login-walled) and tiny images;
+    // prefer a direct jpg/png/webp of reasonable size.
+    const BAD_HOSTS = /(pinterest|lookaside|fbsbx|instagram|\.gif)/i;
+    const isDirect = (u: string) => /\.(jpe?g|png|webp)(\?|$)/i.test(u);
+    const good = images.find((im) => {
+      const u = im.imageUrl ?? '';
+      return u && isDirect(u) && !BAD_HOSTS.test(u) && (im.imageWidth ?? 0) >= 400;
+    });
+    const picked = (good ?? images.find((im) => im.imageUrl && !BAD_HOSTS.test(im.imageUrl)) ?? images[0])?.imageUrl ?? null;
+    serperImageCache.set(cacheKey, picked);
+    return picked;
+  } catch {
+    return null;
+  }
+}
+
+// Persistent (cross-restart) reuse: if the same dish was generated before and we
+// already resolved+stored an image for it, reuse that instead of paying for a new
+// Serper/Pexels lookup. Case-insensitive exact title match keeps it safe.
+async function findExistingImageByTitle(title: string): Promise<string | null> {
+  try {
+    const { data } = await supabaseAdmin
+      .from('recipes')
+      .select('image_url')
+      .ilike('title', title)
+      .not('image_url', 'is', null)
+      .limit(1)
+      .maybeSingle();
+    return (data as any)?.image_url ?? null;
+  } catch {
+    return null;
+  }
+}
+
 // Wikimedia blocks generic HTTP clients (RN's okhttp gets 403), so wiki images
 // must be re-hosted in Supabase Storage instead of hotlinked
 export const RECIPE_IMAGES_BUCKET = 'recipe-images';
@@ -309,13 +365,29 @@ export async function rehostImage(url: string): Promise<string | null> {
     if (!res.ok) return null;
     const contentType = res.headers.get('content-type') ?? 'image/jpeg';
     if (!contentType.startsWith('image/')) return null;
-    const buf = Buffer.from(await res.arrayBuffer());
-    const ext = contentType.includes('png') ? 'png' : 'jpg';
-    const path = `wiki/${crypto.randomUUID()}.${ext}`;
+    const rawBuf = Buffer.from(await res.arrayBuffer());
 
+    // Downscale + recompress before storing so a full-res Google/Wikipedia image
+    // (often 1–3MB) doesn't bloat Supabase Storage and slow down loads. Falls
+    // back to the original bytes if the format can't be decoded (e.g. some webp).
+    let buf = rawBuf;
+    let ext = contentType.includes('png') ? 'png' : contentType.includes('webp') ? 'webp' : 'jpg';
+    let outType = contentType;
+    try {
+      const img = await Jimp.read(rawBuf);
+      if (img.getWidth() > 900) img.resize(900, Jimp.AUTO);
+      img.quality(78);
+      const jpg = Buffer.from(await img.getBufferAsync(Jimp.MIME_JPEG));
+      // only keep the recompressed copy if it actually helped
+      if (jpg.length < rawBuf.length) { buf = jpg; ext = 'jpg'; outType = 'image/jpeg'; }
+    } catch {
+      // keep original
+    }
+
+    const path = `wiki/${crypto.randomUUID()}.${ext}`;
     const { error } = await supabaseAdmin.storage
       .from(RECIPE_IMAGES_BUCKET)
-      .upload(path, buf, { contentType, upsert: true });
+      .upload(path, buf, { contentType: outType, upsert: true });
     if (error) return null;
 
     return supabaseAdmin.storage.from(RECIPE_IMAGES_BUCKET).getPublicUrl(path).data.publicUrl;
@@ -416,8 +488,37 @@ async function getAndIncrementUsage(
 
 // ─── Web search helpers ────────────────────────────────────────────────────
 
+// Simple in-memory TTL cache. Serper is billed per query, so caching identical
+// dish research / image lookups (many users generate the same popular dishes)
+// meaningfully cuts cost. Per-process; survives within a running instance.
+function makeTTLCache<T>(ttlMs: number, max = 500) {
+  const map = new Map<string, { value: T; expires: number }>();
+  return {
+    get(key: string): T | undefined {
+      const e = map.get(key);
+      if (!e) return undefined;
+      if (Date.now() > e.expires) { map.delete(key); return undefined; }
+      return e.value;
+    },
+    set(key: string, value: T): void {
+      if (map.size >= max) {
+        const oldest = map.keys().next().value;
+        if (oldest !== undefined) map.delete(oldest);
+      }
+      map.set(key, { value, expires: Date.now() + ttlMs });
+    },
+  };
+}
+
+const DAY_MS = 24 * 60 * 60 * 1000;
+const researchCache = makeTTLCache<string>(DAY_MS);
+const serperImageCache = makeTTLCache<string | null>(DAY_MS);
+
 async function serperSearch(query: string): Promise<string> {
   if (!env.serperApiKey) return '';
+  const key = query.trim().toLowerCase();
+  const cached = researchCache.get(key);
+  if (cached !== undefined) return cached;
   try {
     const res = await fetch('https://google.serper.dev/search', {
       method: 'POST',
@@ -430,7 +531,9 @@ async function serperSearch(query: string): Promise<string> {
     for (const r of (data.organic ?? []).slice(0, 5)) {
       if (r.snippet) snippets.push(`${r.title}: ${r.snippet}`);
     }
-    return snippets.join('\n');
+    const result = snippets.join('\n');
+    researchCache.set(key, result);
+    return result;
   } catch { return ''; }
 }
 
@@ -527,11 +630,38 @@ export async function generateRecipe(
 
   const { description: inputDescription, ingredients, preferences } = input;
 
+  const notes = input.notes?.trim();
+  const notesBlock = notes
+    ? `\nUSER NOTES (HIGHEST PRIORITY — follow these exactly, e.g. ingredient swaps or dislikes like "use beef instead of chicken", "no ketchup", "extra spicy"): ${notes}\n`
+    : '';
+
   const restrictions = preferences?.dietary_restrictions?.join(', ') || 'none';
   const cuisine      = preferences?.cuisine || 'any';
   const maxTime      = preferences?.max_cook_time || 60;
   const servings     = preferences?.servings || 2;
   const difficulty   = preferences?.difficulty || 'easy';
+
+  // Extra taste-profile constraints from the user's saved preferences
+  const prefLines = [
+    preferences?.allergies?.length
+      ? `- ALLERGIES (STRICT — the recipe MUST NOT contain these in any form): ${preferences.allergies.join(', ')}`
+      : '',
+    preferences?.disliked_ingredients?.length
+      ? `- Disliked ingredients (avoid; if essential to the dish, offer a substitution): ${preferences.disliked_ingredients.join(', ')}`
+      : '',
+    preferences?.spice_level
+      ? `- Spice level: ${preferences.spice_level} (adjust chili/pepper amounts accordingly)`
+      : '',
+    preferences?.favorite_proteins?.length
+      ? `- Preferred proteins (favor when a choice exists): ${preferences.favorite_proteins.join(', ')}`
+      : '',
+    preferences?.health_goal
+      ? `- Health goal: ${preferences.health_goal} (tune portions and macros toward it)`
+      : '',
+    preferences?.max_calories_per_meal
+      ? `- Keep calories per serving under ~${preferences.max_calories_per_meal} kcal if realistically possible`
+      : '',
+  ].filter(Boolean).join('\n');
 
   // Full content only for English + the requesting user's language (cuts output ~3x);
   // every other language gets a title-only stub so lists and search work in all
@@ -580,7 +710,7 @@ Additional requirements:
 - Dietary restrictions: ${restrictions}
 - Max cooking time: ${maxTime} minutes
 - Servings: ${servings}
-
+${prefLines ? prefLines + '\n' : ''}${notesBlock}
 Rules:
 - NEVER substitute a different dish — if user asked for X, give X
 - Use the proper culinary name (e.g. "piti" → "Piti (Azerbaijani Clay Pot Soup)", "qrənki" → "Azerbaijani Beer Mezesi (Qrənki)")
@@ -627,7 +757,7 @@ Requirements:
 - Dietary restrictions: ${restrictions}
 - Max cooking time: ${maxTime} minutes
 - Servings: ${servings}
-- Use the proper culinary name
+${prefLines ? prefLines + '\n' : ''}${notesBlock}- Use the proper culinary name
 - Minimum 6 detailed steps — each with technique, visual cue, and realistic duration
 - Include practical cooking tips and ingredient substitutions
 - difficulty must be exactly "easy", "medium", or "hard" (lowercase only)
@@ -750,14 +880,33 @@ RULES:
     ? (rawDiff as 'easy' | 'medium' | 'hard')
     : 'medium';
 
-  // Image source chain: Wikipedia (real photos of named local dishes, re-hosted
-  // in Supabase Storage) → Pexels with the AI's visual description →
-  // Pexels with the dish title → keyword map
+  // Image source chain (most → least relevant), re-hosted in Supabase Storage
+  // so RN can always load it:
+  //   1. Wikipedia — real photos of named local dishes
+  //   2. Google Images (Serper) by dish name — knows specific & local dishes
+  //   3. Google Images (Serper) by the AI's visual description
+  //   4. Pexels (visual description, then title) → keyword map (last resort)
+  const cleanTitle = title.split('(')[0].trim();
   let imageUrl: string | null = null;
-  const wikiUrl = await fetchWikipediaImage(title);
-  if (wikiUrl) imageUrl = await rehostImage(wikiUrl);
+
+  // Reuse an already-resolved image for the same dish (free, persistent).
+  imageUrl = await findExistingImageByTitle(title);
+
+  if (!imageUrl) {
+    const wikiUrl = await fetchWikipediaImage(title);
+    if (wikiUrl) imageUrl = await rehostImage(wikiUrl);
+  }
+
+  if (!imageUrl) {
+    const g = await fetchSerperImage(`${cleanTitle} recipe dish food`);
+    if (g) imageUrl = await rehostImage(g);
+  }
+  if (!imageUrl && parsed.imageSearchQuery) {
+    const g = await fetchSerperImage(`${parsed.imageSearchQuery} dish`);
+    if (g) imageUrl = await rehostImage(g);
+  }
   if (!imageUrl && parsed.imageSearchQuery) imageUrl = await fetchPexelsImage(parsed.imageSearchQuery);
-  if (!imageUrl) imageUrl = await fetchPexelsImage(`${title.split('(')[0].trim()} food dish`);
+  if (!imageUrl) imageUrl = await fetchPexelsImage(`${cleanTitle} food dish`);
   if (!imageUrl) imageUrl = pickImage(parsed.cuisine ?? '', title);
 
   const saved = await createRecipe({
@@ -869,6 +1018,88 @@ Return valid JSON only with EXACTLY the same structure and array lengths as the 
   return { ...recipe, translations: merged };
 }
 
+interface PlanCandidate {
+  id: string;
+  title: string;
+  localizedTitle: string;
+  calories: number | null;
+}
+
+// Ingredient keywords per app allergy label (recipes store no allergen tags)
+const PLAN_ALLERGY_MAP: Record<string, { keywords: string[] }> = {
+  'Peanuts':        { keywords: ['peanut'] },
+  'Tree Nuts':      { keywords: ['walnut', 'almond', 'hazelnut', 'cashew', 'pistachio'] },
+  'Shellfish':      { keywords: ['shrimp', 'prawn', 'crab', 'lobster', 'mussel'] },
+  'Fish':           { keywords: ['fish', 'salmon', 'tuna', 'anchov', 'trout'] },
+  'Eggs':           { keywords: ['egg'] },
+  'Soy':            { keywords: ['soy', 'tofu'] },
+  'Wheat / Gluten': { keywords: ['flour', 'wheat', 'bulgur', 'pasta'] },
+  'Milk / Dairy':   { keywords: ['milk', 'butter', 'cheese', 'cream', 'yogurt'] },
+  'Sesame':         { keywords: ['sesame', 'tahini'] },
+  'Mustard':        { keywords: ['mustard'] },
+};
+
+const PLAN_PROTEIN_KEYWORDS: Record<string, string[]> = {
+  'Chicken': ['chicken'], 'Beef': ['beef', 'veal'], 'Lamb': ['lamb', 'mutton'],
+  'Fish': ['fish', 'salmon', 'tuna', 'trout'], 'Seafood': ['shrimp', 'prawn', 'squid', 'mussel'],
+  'Eggs': ['egg'], 'Legumes': ['lentil', 'chickpea', 'bean'], 'Tofu': ['tofu'],
+};
+
+/**
+ * Pull DB recipes that fit the user's taste profile so the meal-plan AI can
+ * schedule real, openable recipes instead of inventing everything.
+ */
+async function fetchPlanCandidates(input: MealPlanInput, langKey: string): Promise<PlanCandidate[]> {
+  // NOTE: recipes has no allergens column — allergy filtering relies on
+  // ingredient-name keywords below
+  const { data, error } = await supabaseAdmin
+    .from('recipes')
+    .select('id, title, calories, cuisine, tags, ingredients, translations')
+    .limit(200);
+  if (error || !data) return [];
+
+  const cuisines = (input.cuisine_preference ?? '').toLowerCase().split(',').map((s) => s.trim()).filter(Boolean);
+  const dietary  = (input.dietary_preferences ?? []).map((d) => d.toLowerCase().replace(/[^a-z]/g, ''));
+
+  const scored = data
+    .filter((r) => {
+      const names = ((r.ingredients ?? []) as { name?: string }[]).map((i) => i.name ?? '').join(' ').toLowerCase();
+      for (const allergy of input.allergies ?? []) {
+        const rule = PLAN_ALLERGY_MAP[allergy];
+        if (!rule) continue;
+        if (rule.keywords.some((k) => names.includes(k))) return false;
+      }
+      for (const disliked of input.disliked_ingredients ?? []) {
+        const d = disliked.trim().toLowerCase();
+        if (d.length >= 3 && names.includes(d)) return false;
+      }
+      return true;
+    })
+    .map((r) => {
+      const tags = ((r.tags ?? []) as string[]).map((t) => t.toLowerCase().replace(/[^a-z]/g, ''));
+      const names = ((r.ingredients ?? []) as { name?: string }[]).map((i) => i.name ?? '').join(' ').toLowerCase();
+      let score = 0;
+      if (r.cuisine && cuisines.some((c) => r.cuisine.toLowerCase().includes(c))) score += 3;
+      for (const d of dietary) if (tags.some((t) => t.includes(d))) score += 2;
+      for (const p of input.favorite_proteins ?? []) {
+        if ((PLAN_PROTEIN_KEYWORDS[p] ?? []).some((k) => names.includes(k))) { score += 2; break; }
+      }
+      if (input.health_goal === 'Gain Muscle' && tags.includes('highprotein')) score += 1;
+      if (input.health_goal === 'Lose Weight' && r.calories != null && r.calories <= 500) score += 1;
+      return {
+        id: r.id,
+        title: r.title as string,
+        localizedTitle: ((r.translations as any)?.[langKey]?.title as string) ?? (r.title as string),
+        calories: r.calories ?? null,
+        score,
+      };
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 45);
+
+  return scored;
+}
+
 export async function generateMealPlan(
   input: MealPlanInput,
   userId: string,
@@ -895,6 +1126,40 @@ export async function generateMealPlan(
     : budget === 'premium' ? 'high-quality and premium ingredients'
     : 'moderately priced ingredients';
 
+  const allergies   = input.allergies;
+  const dislikedIng = input.disliked_ingredients;
+  const favProteins = input.favorite_proteins;
+  const mealsPerDay = input.meals_per_day;
+  const healthGoal  = input.health_goal;
+
+  const extraPrefLines = [
+    allergies?.length   ? `\n- ALLERGIES (STRICT — no meal may contain these in any form): ${allergies.join(', ')}` : '',
+    dislikedIng?.length ? `\n- Disliked ingredients (avoid across the whole plan): ${dislikedIng.join(', ')}` : '',
+    favProteins?.length ? `\n- Preferred proteins (feature these often): ${favProteins.join(', ')}` : '',
+    healthGoal          ? `\n- Health goal: ${healthGoal} (tune meal choices and macros toward it)` : '',
+  ].join('');
+
+  const mealsLine = mealsPerDay && mealsPerDay >= 4
+    ? `- Include breakfast, lunch, dinner and ${mealsPerDay - 3 > 1 ? `${mealsPerDay - 3} snacks` : 'a snack'} for each day (${mealsPerDay} meals/day)`
+    : mealsPerDay === 2
+    ? '- Include lunch and dinner for each day (2 meals/day)'
+    : '- Include breakfast, lunch, and dinner for each day';
+
+  // Real recipes from our DB, pre-filtered by allergies/dislikes and ranked by
+  // taste preferences — the plan should be built from these wherever possible
+  const langKey = langKeyFromName(input.language);
+  const candidates = await fetchPlanCandidates(input, langKey).catch(() => [] as PlanCandidate[]);
+  const candidatesBlock = candidates.length > 0
+    ? `\n\nAVAILABLE RECIPES FROM THE APP DATABASE (title | approx. kcal per serving):
+${candidates.map((c) => `- ${c.localizedTitle}${c.calories ? ` | ${c.calories} kcal` : ''}`).join('\n')}
+
+DATABASE RULES:
+- STRONGLY PREFER meals from this list — the user can open these recipes in the app with photos and step-by-step instructions
+- For lunch and dinner, pick from the list whenever a dish fits the requirements (aim for most of them)
+- Copy the title EXACTLY as written above (do not translate, rephrase or decorate it)
+- Only invent a meal when nothing in the list fits the slot (e.g. simple breakfasts or snacks)`
+    : '';
+
   const prompt = `You are a professional nutritionist and meal planner AI. Generate a complete 7-day meal plan.
 
 REQUIREMENTS:
@@ -903,10 +1168,10 @@ REQUIREMENTS:
 - Daily calorie goal: ~${calorieGoal} kcal total (spread across meals)
 - Dietary preferences: ${dietary}
 - Spice level preference: ${spice}
-- Cuisine preference: ${cuisinePref}
-- Include breakfast, lunch, and dinner for each day
+- Cuisine preference: ${cuisinePref}${extraPrefLines}
+${mealsLine}
 - Vary the meals so there's no repetition across the week
-- Calories should be realistic and sum close to ${calorieGoal} per day${mealLangNote}${futureDaysNote}
+- Calories should be realistic and sum close to ${calorieGoal} per day${mealLangNote}${futureDaysNote}${candidatesBlock}
 
 Return ONLY valid JSON with this exact structure:
 {
@@ -936,7 +1201,9 @@ Return ONLY valid JSON with this exact structure:
         { role: 'user', content: prompt },
       ],
       temperature: 0.7,
-      max_tokens: 2000,
+      // 7 days × up to 6 meals with non-English titles can exceed a low cap —
+      // truncated output surfaces as "AI returned invalid JSON"
+      max_tokens: 6000,
       response_format: { type: 'json_object' },
     } as any);
   } catch (err: any) {
@@ -947,21 +1214,42 @@ Return ONLY valid JSON with this exact structure:
   try {
     parsed = JSON.parse(raw);
   } catch {
-    throw new AppError(500, 'AI returned invalid JSON');
+    const match = raw.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (match) {
+      try {
+        parsed = JSON.parse(match[1]);
+      } catch {
+        throw new AppError(500, 'AI returned invalid JSON');
+      }
+    } else {
+      throw new AppError(500, 'AI returned invalid JSON');
+    }
   }
 
   const weekPlan: any[] = parsed.week_plan ?? [];
   const items: any[] = [];
 
+  // Link generated meals back to real DB recipes (by en or localized title)
+  // so the app can open them directly from the plan. az locale lowercasing
+  // keeps İ/ı from breaking the comparison.
+  const normTitle = (s: string) => s.normalize('NFC').trim().toLocaleLowerCase('az');
+  const byTitle = new Map<string, PlanCandidate>();
+  for (const c of candidates) {
+    byTitle.set(normTitle(c.title), c);
+    byTitle.set(normTitle(c.localizedTitle), c);
+  }
+
   for (const dayPlan of weekPlan) {
     const dayOfWeek = Number(dayPlan.day);
     if (dayOfWeek < todayDay) continue; // Skip past days
     for (const meal of dayPlan.meals ?? []) {
+      const match = byTitle.get(normTitle(String(meal.title ?? '')));
       items.push({
         day_of_week:  dayOfWeek,
         meal_type:    meal.meal_type,
         recipe_title: meal.title,
-        calories:     meal.calories ?? null,
+        recipe_id:    match?.id ?? null,
+        calories:     meal.calories ?? match?.calories ?? null,
       });
     }
   }
@@ -1097,6 +1385,198 @@ STRICT RULES:
   }
 }
 
+// ─── Calorie Counter (Premium/Pro only) ─────────────────────────────────────
+
+export interface CalorieAnalysis {
+  food_detected: boolean;
+  dish_name?: string;
+  portion?: string;
+  items?: { name: string; amount: string; calories: number; protein: number; carbs: number; fat: number }[];
+  total?: { calories: number; protein: number; carbs: number; fat: number; fiber: number; sugar: number; sodium: number };
+  confidence?: 'high' | 'medium' | 'low';
+  note?: string;
+}
+
+function calorieJsonSpec(langName: string): string {
+  return `Return ONLY a JSON object with this exact structure (no markdown, no explanation):
+{
+  "food_detected": true or false,
+  "dish_name": "short dish name in ${langName}",
+  "portion": "the portion you analyzed, in ${langName} (e.g. '1 plate (~350 g)')",
+  "items": [
+    {"name": "component name in ${langName}", "amount": "~150 g", "calories": 240, "protein": 8, "carbs": 30, "fat": 9}
+  ],
+  "total": {"calories": 520, "protein": 28, "carbs": 45, "fat": 22, "fiber": 6, "sugar": 8, "sodium": 750},
+  "confidence": "high" | "medium" | "low",
+  "note": "one short helpful sentence in ${langName} (assumptions made, or a nutrition remark)"
+}
+
+ESTIMATION METHOD — follow these steps exactly, in order:
+1. Identify every distinct food component (max 8). Do not skip cooking fat: fried/sautéed dishes absorb oil or butter — include it as its own item.
+2. Estimate each component's weight in GRAMS from the stated portion or visual cues (plate diameter ~26 cm, spoon ~15 ml, palm-size meat ~100 g, 1 cup cooked rice ~160 g).
+3. For each component, recall its standard per-100 g values from nutrition databases (USDA / national food tables) and scale linearly to the estimated weight. Use COOKED values for cooked food (cooked rice ~130 kcal/100 g, not dry ~360).
+4. For each item verify: calories ≈ 4×protein + 4×carbs + 9×fat (within 10%). If not, fix the item before answering.
+5. "total" must be the exact sum of the items (fiber/sugar/sodium estimated across the whole dish).
+
+RULES:
+- All macro values are grams; sodium is milligrams; calories are kcal. Numbers only, no units inside numbers.
+- Estimates must reflect the ACTUAL portion size, not a generic 100 g reference.
+- Traditional dishes (plov, dolma, borsch, kebab…): use their authentic recipe composition.
+- If no real food: {"food_detected": false} and nothing else is required.`;
+}
+
+export async function analyzeCalories(
+  input: AnalyzeCaloriesInput,
+  userId: string,
+  isPremium: boolean,
+  isAdmin = false,
+  isPro = false,
+): Promise<CalorieAnalysis> {
+  if (!isAdmin && !isPremium && !isPro) {
+    throw new AppError(403, 'Calorie Counter is a Premium feature. Upgrade to unlock it.');
+  }
+  await getAndIncrementUsage(userId, 'calories_count', isPremium, isAdmin, isPro);
+
+  const codeMap: Record<string, string> = { en: 'English', az: 'Azerbaijani', ru: 'Russian', tr: 'Turkish' };
+  const langName = codeMap[input.language ?? 'en'] ?? input.language ?? 'English';
+
+  let raw: string | null = null;
+
+  if (input.image_base64) {
+    const prompt = `You are a nutritionist analyzing a photo of food for a calorie-counter app.
+
+STEP 1 — Decide: does this image actually contain real, physical food or drink?
+- Photos of electronics, screens, furniture, people, documents, pets etc. contain NO food.
+- A photo of a screen SHOWING food is NOT real food — reject it.
+- Empty plates or appliances with no visible food = NO food.
+
+STEP 2 — Only if real food is visible: identify the dish and estimate the portion size from visual cues (plate size, utensils, packaging), then estimate its nutrition.
+
+${calorieJsonSpec(langName)}`;
+
+    // Heavy model for accuracy (portion + nutrition estimation is harder than
+    // ingredient listing); Groq llama-4-scout is the fallback
+    if (env.gemini.apiKey) {
+      try {
+        raw = await geminiVision({
+          model: GEMINI_HEAVY_MODEL,
+          imageBase64: input.image_base64,
+          prompt,
+          temperature: 0.1,
+          maxTokens: 1536,
+          json: true,
+        });
+      } catch (err: any) {
+        console.warn(`[ai] Gemini vision failed (${err.message}) — falling back to Groq`);
+      }
+    }
+
+    if (raw === null) {
+      const completion = await groq.chat.completions.create({
+        model: VISION_MODEL,
+        messages: [
+          {
+            role: 'user',
+            content: [
+              { type: 'image_url', image_url: { url: `data:image/jpeg;base64,${input.image_base64}` } },
+              { type: 'text', text: prompt },
+            ],
+          },
+        ],
+        temperature: 0.1,
+        max_tokens: 1536,
+        response_format: { type: 'json_object' },
+      } as any);
+      raw = completion.choices[0].message.content ?? '{}';
+    }
+  } else {
+    const portion = input.portion?.trim()
+      ? `Portion: ${input.portion.trim()}`
+      : 'Portion: not specified — assume one standard serving and say so in "portion".';
+    const prompt = `You are a nutritionist for a calorie-counter app. Estimate the nutrition of this food:
+
+Food: ${input.food_name}
+${portion}
+
+The food name may be in Azerbaijani, Turkish, Russian or English.
+If the text is not actually a food or drink, return {"food_detected": false}.
+
+${calorieJsonSpec(langName)}`;
+
+    raw = await aiComplete('heavy', {
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.1,
+      max_tokens: 1536,
+      response_format: { type: 'json_object' },
+    } as any);
+  }
+
+  try {
+    const parsed = JSON.parse(raw);
+    if (parsed.food_detected === false) return { food_detected: false };
+
+    const num = (v: any) => (typeof v === 'number' && isFinite(v) && v >= 0 ? Math.round(v) : 0);
+    const items = (Array.isArray(parsed.items) ? parsed.items : [])
+      .filter((i: any) => i && typeof i.name === 'string')
+      .slice(0, 8)
+      .map((i: any) => ({
+        name: String(i.name),
+        amount: typeof i.amount === 'string' ? i.amount : '',
+        calories: num(i.calories),
+        protein: num(i.protein),
+        carbs: num(i.carbs),
+        fat: num(i.fat),
+      }));
+
+    // Deterministic consistency pass — LLM arithmetic is its weakest link.
+    // Per item: calories must match Atwater (4P + 4C + 9F); correct it if >20% off.
+    for (const i of items) {
+      const atwater = 4 * i.protein + 4 * i.carbs + 9 * i.fat;
+      if (atwater > 0 && (i.calories === 0 || Math.abs(i.calories - atwater) / atwater > 0.2)) {
+        i.calories = Math.round(atwater);
+      }
+    }
+
+    const t = parsed.total ?? {};
+    const total = {
+      calories: num(t.calories),
+      protein:  num(t.protein),
+      carbs:    num(t.carbs),
+      fat:      num(t.fat),
+      fiber:    num(t.fiber),
+      sugar:    num(t.sugar),
+      sodium:   num(t.sodium),
+    };
+
+    // Totals: trust the (corrected) item sums over the model's own addition
+    if (items.length > 0) {
+      const sum = (k: 'calories' | 'protein' | 'carbs' | 'fat') =>
+        items.reduce((a: number, i: any) => a + i[k], 0);
+      total.calories = sum('calories');
+      total.protein  = sum('protein');
+      total.carbs    = sum('carbs');
+      total.fat      = sum('fat');
+    } else {
+      const atwater = 4 * total.protein + 4 * total.carbs + 9 * total.fat;
+      if (atwater > 0 && (total.calories === 0 || Math.abs(total.calories - atwater) / atwater > 0.2)) {
+        total.calories = Math.round(atwater);
+      }
+    }
+
+    return {
+      food_detected: true,
+      dish_name: typeof parsed.dish_name === 'string' ? parsed.dish_name : input.food_name ?? '',
+      portion: typeof parsed.portion === 'string' ? parsed.portion : input.portion ?? '',
+      items,
+      total,
+      confidence: ['high', 'medium', 'low'].includes(parsed.confidence) ? parsed.confidence : 'medium',
+      note: typeof parsed.note === 'string' ? parsed.note : undefined,
+    };
+  } catch {
+    throw new AppError(503, 'Calorie analysis failed — invalid AI response. Please try again.');
+  }
+}
+
 export async function chatWithAI(
   input: ChatInput,
   userId: string,
@@ -1111,7 +1591,20 @@ export async function chatWithAI(
   const chatLanguage = codeMap[rawChatLang] ?? rawChatLang;
   const langNote = chatLanguage !== 'English' ? ` Always respond in ${chatLanguage}.` : '';
 
-  const systemPrompt = `You are Savora AI, a friendly and knowledgeable cooking assistant built into the Savora recipe app.${langNote}
+  const cookingContext = (input.context ?? '').trim();
+
+  const systemPrompt = cookingContext
+    ? `You are Savora AI, a calm and expert cooking assistant helping someone who is cooking RIGHT NOW, step by step.${langNote}
+
+Live context:
+${cookingContext}
+
+Rules:
+- Answer their question for THIS specific recipe and THIS step. Be concrete and actionable.
+- Keep it very short: 1-3 sentences, no lists unless truly needed. They are at the stove and need a quick answer.
+- Be reassuring — cooking mistakes are usually fixable. Tell them exactly what to do next.
+- Do NOT tell them to use other app features or generate a new recipe. Just help them finish this dish.`
+    : `You are Savora AI, a friendly and knowledgeable cooking assistant built into the Savora recipe app.${langNote}
 You help users with:
 - Recipe ideas and cooking techniques
 - Ingredient substitutions
